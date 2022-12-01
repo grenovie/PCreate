@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_motherboard.dart';
-import 'package:test1/details_system_motherboard/details_motherboard.dart';
-
-import '../../details_system_motherboard/itemcard_motherboard.dart';
+import 'package:test1/details_su_builder/details_system_motherboard/details_motherboard.dart';
+import 'package:test1/details_su_builder/details_system_motherboard/itemcard_motherboard.dart';
 
 class Motherboard extends StatelessWidget {
   const Motherboard({Key? key}) : super(key: key);

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_gpu.dart';
-import 'package:test1/details_system_gpu/details_power_graphics.dart';
-
-import '../../details_system_gpu/itemcard_graphics.dart';
+import 'package:test1/details_su_builder/details_system_gpu/details_power_graphics.dart';
+import 'package:test1/details_su_builder/details_system_gpu/itemcard_graphics.dart';
 
 class GrapchicsCard extends StatelessWidget {
   const GrapchicsCard({Key? key}) : super(key: key);

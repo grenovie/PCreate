@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_psu.dart';
-import 'package:test1/details_system_psu/details_power_supply.dart';
-
-import '../../details_system_psu/itemcard_power_supply.dart';
+import 'package:test1/details_su_builder/details_system_psu/details_power_supply.dart';
+import 'package:test1/details_su_builder/details_system_psu/itemcard_power_supply.dart';
 
 class PowerSupply extends StatelessWidget {
   const PowerSupply({Key? key}) : super(key: key);

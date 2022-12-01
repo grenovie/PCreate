@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_storage.dart';
+import 'package:test1/data/list_motherboard.dart';
+import 'package:test1/require_parts_comparison2/details_system_motherboard/case_title_with_motherboard.dart';
 
-import 'case_title_with_storage.dart';
+class BodySystemMobo extends StatelessWidget {
+  final ListMotherboard systemMotherboard;
 
-class BodyStorage extends StatelessWidget {
-  final ListStorage systemStorage;
-
-  const BodyStorage({Key? key, required this.systemStorage}) : super(key: key);
+  const BodySystemMobo({Key? key, required this.systemMotherboard})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,13 +35,13 @@ class BodyStorage extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemStorage.name,
+                      systemMotherboard.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWithStorage(systemStorage: systemStorage),
+              CaseTitleWithMobo(systemMotherboard: systemMotherboard),
             ],
           ),
         )

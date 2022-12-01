@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test1/data/list_psu.dart';
-
-import 'body_system_power_supply.dart';
+import 'package:test1/require_parts_comparison2/details_system_psu/body_system_power_supply.dart';
 
 class DetailPowerSupply extends StatefulWidget {
   final ListPowerSupply systemPowerSupply;
@@ -26,12 +25,15 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysPsu(
-              widget.systemPowerSupply.name, widget.systemPowerSupply.image2D);
+              widget.systemPowerSupply.name, widget.systemPowerSupply.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop(true)
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -49,7 +51,7 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
 
   Future<void> setSysPsu(caseValue, imageValue) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('psu', caseValue);
-    pref.setString('psu_image', imageValue);
+    pref.setString('compare_psu_name2', caseValue);
+    pref.setString('compare_pcImage_part2', imageValue);
   }
 }

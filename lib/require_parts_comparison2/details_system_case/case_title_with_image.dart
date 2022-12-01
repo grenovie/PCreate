@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../data/list_system_case.dart';
+import 'package:test1/data/list_system_case.dart';
 
 class CaseTitleWithImage extends StatelessWidget {
   const CaseTitleWithImage({

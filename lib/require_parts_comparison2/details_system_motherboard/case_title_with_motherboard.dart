@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../data/list_motherboard.dart';
+import 'package:test1/data/list_motherboard.dart';
 
 class CaseTitleWithMobo extends StatelessWidget {
   const CaseTitleWithMobo({

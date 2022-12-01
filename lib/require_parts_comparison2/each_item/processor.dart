@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_cpu.dart';
-import 'package:test1/details_su_builder/details_system_cpu/details_processor.dart';
-import 'package:test1/details_su_builder/details_system_cpu/itemcard_processor.dart';
+import 'package:test1/require_parts_comparison2/details_system_cpu/details_processor.dart';
+import 'package:test1/require_parts_comparison2/details_system_cpu/itemcard_processor.dart';
 
 class Processor extends StatelessWidget {
   const Processor({Key? key}) : super(key: key);
@@ -16,10 +16,11 @@ class Processor extends StatelessWidget {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("assets/BGgrey.jpg"),
-              fit: BoxFit.fitHeight,
-              opacity: 1),
+          color: Color.fromARGB(255, 34, 34, 34),
+          // image: DecorationImage(
+          //     image: AssetImage("assets/BGgrey.jpg"),
+          //     fit: BoxFit.fitHeight,
+          //     opacity: 1),
         ),
         child: Column(
           children: [

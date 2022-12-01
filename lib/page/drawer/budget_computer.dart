@@ -1,20 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:test1/data/list_budget.dart';
+import 'package:test1/details_budgetcomp/build_details.dart';
+import 'package:test1/details_budgetcomp/itemcard_bgtcomputer.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:test1/widget/drawer_menu_widget.dart';
 
-class BudgetComputer extends StatelessWidget {
+class BudgetComputer extends StatefulWidget {
   final VoidCallback openDrawer;
 
   const BudgetComputer({
     Key? key,
     required this.openDrawer,
   }) : super(key: key);
+
+  @override
+  State<BudgetComputer> createState() => _BudgetComputerState();
+}
+
+class _BudgetComputerState extends State<BudgetComputer> {
   @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           leading: DrawerMenuWidget(
-            onClicked: openDrawer,
+            onClicked: widget.openDrawer,
           ),
           backgroundColor: Theme.of(context).primaryColorLight,
           title: const Text(''),
@@ -25,7 +34,7 @@ class BudgetComputer extends StatelessWidget {
             image: DecorationImage(
                 image: AssetImage("assets/BGbcomp.jpg"),
                 fit: BoxFit.cover,
-                opacity: .4),
+                opacity: .2),
           ),
           child: Column(
               // mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -62,10 +71,28 @@ class BudgetComputer extends StatelessWidget {
                   ),
                 ),
                 Expanded(
-                    child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 50),
-                  child: Container(color: Colors.white),
-                ))
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 50),
+                    child: GridView.builder(
+                      itemCount: budgetcomputer.length,
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 1,
+                              childAspectRatio: 1,
+                              mainAxisSpacing: 50,
+                              crossAxisSpacing: 50),
+                      itemBuilder: (context, index) => BgtComputer(
+                        bgcomputer: budgetcomputer[index],
+                        press: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => BudgetDetails(
+                                      bdgtcomputer: budgetcomputer[index],
+                                    ))),
+                      ),
+                    ),
+                  ),
+                )
               ]),
         ),
       );

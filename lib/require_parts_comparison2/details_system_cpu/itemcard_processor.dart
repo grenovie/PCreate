@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:test1/data/list_cpu.dart';
 
-import '../data/list_system_case.dart';
-
-class ItemCard extends StatefulWidget {
-  final ListSystemCase systemCase;
+class ProcessorItemCard extends StatefulWidget {
+  final ListProcessor systemProcessor;
   final VoidCallback press;
-  const ItemCard({
+  const ProcessorItemCard({
     Key? key,
-    required this.systemCase,
+    required this.systemProcessor,
     required this.press,
   }) : super(key: key);
 
   @override
-  State<ItemCard> createState() => _ItemCardState();
+  State<ProcessorItemCard> createState() => _ItemCardState();
 }
 
-class _ItemCardState extends State<ItemCard> {
+class _ItemCardState extends State<ProcessorItemCard> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -30,57 +29,42 @@ class _ItemCardState extends State<ItemCard> {
                   padding: const EdgeInsets.all(20),
                   height: 180,
                   width: 180,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 247, 247, 247),
-                    borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/animated/ItemCardBG2.jpg"),
+                        fit: BoxFit.none,
+                        scale: 10),
+                    // color: const Color.fromARGB(255, 247, 247, 247),
+                    borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(16),
                         topRight: Radius.circular(16)),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color.fromARGB(255, 15, 15, 15)
-                            .withOpacity(0.8),
-                        offset: const Offset(10, 10),
-                        blurRadius: 8,
-                        spreadRadius: 2,
-                      )
-                    ],
                   ),
                   child: Image.asset(
-                    widget.systemCase.image,
+                    widget.systemProcessor.image,
                   ),
                 ),
                 Container(
                   height: 50,
                   width: 180,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 255, 255),
-                    borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                    color: Color.fromARGB(255, 121, 121, 121),
+                    borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(16),
                       bottomRight: Radius.circular(16),
                     ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color.fromARGB(255, 15, 15, 15)
-                            .withOpacity(0.8),
-                        offset: const Offset(10, 10),
-                        blurRadius: 8,
-                        spreadRadius: 2,
-                      )
-                    ],
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
-                        widget.systemCase.name,
+                        widget.systemProcessor.name,
                         style: const TextStyle(
-                            overflow: TextOverflow.ellipsis,
-                            fontSize: 15,
+                            fontSize: 13,
                             fontWeight: FontWeight.bold,
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemCase.price}",
+                        "\u20B1${widget.systemProcessor.price}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],

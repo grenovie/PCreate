@@ -66,19 +66,19 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     getSysCase();
     // --> animation Controllers
     caseController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     cpuController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     moboController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     ramController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     romController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     psuController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     gpuController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 900));
+        vsync: this, duration: const Duration(milliseconds: 600));
     sndcontroller = TransformationController();
     animationController = AnimationController(
       vsync: this,

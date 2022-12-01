@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_system_case.dart';
+import 'package:test1/data/list_cpu.dart';
+import 'package:test1/require_parts_comparison2/details_system_cpu/case_title_with_procesor.dart';
 
-import 'case_title_with_image.dart';
+class BodyProcessor extends StatelessWidget {
+  final ListProcessor systemProcessor;
 
-class BodySystemCase extends StatelessWidget {
-  final ListSystemCase systemcase;
-
-  const BodySystemCase({Key? key, required this.systemcase}) : super(key: key);
+  const BodyProcessor({Key? key, required this.systemProcessor})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,13 +35,13 @@ class BodySystemCase extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemcase.name,
+                      systemProcessor.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWithImage(systemcase: systemcase),
+              CaseTitleWitProcessor(systemProcessor: systemProcessor),
             ],
           ),
         )

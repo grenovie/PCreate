@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_storage.dart';
-import 'package:test1/details_system_storage/details_storage.dart';
-
-import '../../details_system_storage/itemcard_storage.dart';
+import 'package:test1/details_su_builder/details_system_storage/details_storage.dart';
+import 'package:test1/details_su_builder/details_system_storage/itemcard_storage.dart';
 
 class Storage extends StatelessWidget {
   const Storage({Key? key}) : super(key: key);

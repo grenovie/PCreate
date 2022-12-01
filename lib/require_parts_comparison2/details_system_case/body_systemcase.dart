@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_psu.dart';
+import 'package:test1/data/list_system_case.dart';
+import 'package:test1/require_parts_comparison2/details_system_case/case_title_with_image.dart';
 
-import 'case_title_with_power_supply.dart';
+class BodySystemCase extends StatelessWidget {
+  final ListSystemCase systemcase;
 
-class BodyPowerSupply extends StatelessWidget {
-  final ListPowerSupply systemPowerSupply;
-
-  const BodyPowerSupply({Key? key, required this.systemPowerSupply})
-      : super(key: key);
+  const BodySystemCase({Key? key, required this.systemcase}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,13 +34,13 @@ class BodyPowerSupply extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemPowerSupply.name,
+                      systemcase.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWithPowerSupply(systemPowerSupply: systemPowerSupply),
+              CaseTitleWithImage(systemcase: systemcase),
             ],
           ),
         )

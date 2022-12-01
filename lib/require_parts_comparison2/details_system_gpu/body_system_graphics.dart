@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_cpu.dart';
-import 'package:test1/details_system_cpu/case_title_with_procesor.dart';
+import 'package:test1/data/list_gpu.dart';
+import 'package:test1/require_parts_comparison2/details_system_gpu/case_title_with_graphics.dart';
 
-class BodyProcessor extends StatelessWidget {
-  final ListProcessor systemProcessor;
+class BodyGraphics extends StatelessWidget {
+  final ListGraphicsCard systemGraphics;
 
-  const BodyProcessor({Key? key, required this.systemProcessor})
+  const BodyGraphics({Key? key, required this.systemGraphics})
       : super(key: key);
 
   @override
@@ -35,13 +35,13 @@ class BodyProcessor extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemProcessor.name,
+                      systemGraphics.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWitProcessor(systemProcessor: systemProcessor),
+              CaseTitleWithGraphics(systemGraphics: systemGraphics),
             ],
           ),
         )

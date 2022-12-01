@@ -17,7 +17,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 1,
-    image: "assets/system_case/Corsair 4000D Airflow.jpg",
+    image: "assets/system_case/Corsair 4000D Airflow.png",
     name: "Corsair 4000D Airflow",
     type: "ATX Mid Tower",
     color: "Black",
@@ -27,7 +27,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 2,
-    image: "assets/system_case/NZXT H510 Flow.jpg",
+    image: "assets/system_case/NZXT H510 Flow.png",
     name: "NZXT H510 Flow",
     type: "ATX Mid Tower",
     color: "Black",
@@ -37,7 +37,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
     id: 3,
-    image: "assets/system_case/NZXT H510.jpg",
+    image: "assets/system_case/NZXT H510.png",
     name: "NZXT H510",
     type: "ATX Mid Tower",
     color: "White",
@@ -47,7 +47,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 4,
-    image: "assets/system_case/Lian Li O11 Dynamic EVO.jpg",
+    image: "assets/system_case/Lian Li O11 Dynamic EVO.png",
     name: "Lian Li O11 Dynamic EVO",
     type: "ATX Mid Tower",
     color: "White/\nGray",
@@ -57,7 +57,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 5,
-    image: "assets/system_case/Corsair 4000D Airflow white.jpg",
+    image: "assets/system_case/Corsair 4000D Airflow white.png",
     name: "Corsair 4000D Airflow	",
     type: "ATX Mid Tower",
     color: "White",
@@ -67,7 +67,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 6,
-    image: "assets/system_case/Corsair iCUE 4000X RGB.jpg",
+    image: "assets/system_case/Corsair iCUE 4000X RGB.png",
     name: "Corsair iCUE 4000X RGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -77,7 +77,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 7,
-    image: "assets/system_case/Lian Li O11 Dynamic EVO Black.jpg",
+    image: "assets/system_case/Lian Li O11 Dynamic EVO Black.png",
     name: "Lian Li O11 Dynamic EVO",
     type: "ATX Mid Tower",
     color: "Black",
@@ -87,7 +87,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 8,
-    image: "assets/system_case/Lian Li PC-O11 Dynamic.jpg",
+    image: "assets/system_case/Lian Li PC-O11 Dynamic.png",
     name: "Lian Li PC-O11 Dynamic",
     type: "ATX Full Tower",
     color: "Black",
@@ -97,7 +97,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 9,
-    image: "assets/system_case/NZXT H510 Flow White.jpg",
+    image: "assets/system_case/NZXT H510 Flow White.png",
     name: "NZXT H510 Flow",
     type: "ATX Mid Tower",
     color: "White",
@@ -107,7 +107,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 10,
-    image: "assets/system_case/Phanteks Eclipse G360A.jpg",
+    image: "assets/system_case/Phanteks Eclipse G360A.png",
     name: "Phanteks Eclipse",
     type: "ATX Mid Tower",
     color: "Blackr",
@@ -117,7 +117,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 11,
-    image: "assets/system_case/Corsair 5000D AIRFLOW.jpg",
+    image: "assets/system_case/Corsair 5000D AIRFLOW.png",
     name: "Corsair 5000D AIRFLOW",
     type: "ATX Mid Tower",
     color: "Black",
@@ -127,7 +127,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 12,
-    image: "assets/system_case/Corsair 7000D AIRFLOW.jpg",
+    image: "assets/system_case/Corsair 7000D AIRFLOW.png",
     name: "Corsair 7000D AIRFLOW",
     type: "ATX Full Tower",
     color: "Black",
@@ -137,7 +137,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 13,
-    image: "assets/system_case/Lian Li O11 Dynamic Mini Snow Edition.jpg",
+    image: "assets/system_case/Lian Li O11 Dynamic Mini Snow Edition.png",
     name: "Lian Li O11 Dynamic Mini Snow Edition",
     type: "ATX Mid Tower",
     color: "White",
@@ -147,7 +147,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 14,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black",
@@ -157,7 +157,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 15,
-    image: "assets/system_case/NZXT H7 Flow.jpg",
+    image: "assets/system_case/NZXT H7 Flow.png",
     name: "NZXT H7 Flow",
     type: "ATX Mid Tower",
     color: "Black",
@@ -167,7 +167,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 16,
-    image: "assets/system_case/Lian Li O11 Air Mini.jpg",
+    image: "assets/system_case/Lian Li O11 Air Mini.png",
     name: "Lian Li O11 Air Mini",
     type: "ATX Mid Tower",
     color: "Black",
@@ -177,7 +177,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 17,
-    image: "assets/system_case/Corsair iCUE 4000X RGB White.jpg",
+    image: "assets/system_case/Corsair iCUE 4000X RGB White.png",
     name: "Corsair iCUE 4000X RGB",
     type: "ATX Mid Tower",
     color: "White",
@@ -187,7 +187,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 18,
-    image: "assets/system_case/Lian Li PC-O11 Dynamic White.jpg",
+    image: "assets/system_case/Lian Li PC-O11 Dynamic White.png",
     name: "Lian Li PC-O11 Dynamic",
     type: "ATX Full Tower",
     color: "White",
@@ -197,7 +197,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 19,
-    image: "assets/system_case/HYTE Y60.jpg",
+    image: "assets/system_case/HYTE Y60.png",
     name: "HYTE Y60",
     type: "ATX Mid Tower",
     color: "White/\nBlack",
@@ -207,7 +207,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 20,
-    image: "assets/system_case/Zalman S2.jpg",
+    image: "assets/system_case/Zalman S2.png",
     name: "Zalman S2",
     type: "ATX Mid Tower",
     color: "Black",
@@ -217,7 +217,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 21,
-    image: "assets/system_case/be quiet! Pure Base 500DX.jpg",
+    image: "assets/system_case/be quiet! Pure Base 500DX.png",
     name: "be quiet! Pure Base 500DX",
     type: "ATX Mid Tower",
     color: "Black",
@@ -227,7 +227,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 22,
-    image: "assets/system_case/Corsair iCUE 5000X RGB.jpg",
+    image: "assets/system_case/Corsair iCUE 5000X RGB.png",
     name: "Corsair iCUE 5000X RGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -237,7 +237,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 23,
-    image: "assets/system_case/Lian Li O11 Dynamic Mini.jpg",
+    image: "assets/system_case/Lian Li O11 Dynamic Mini.png",
     name: "Lian Li O11 Dynamic Mini",
     type: "ATX Mid Tower",
     color: "Black",
@@ -247,7 +247,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 24,
-    image: "assets/system_case/Fractal Design Meshify 2.jpg",
+    image: "assets/system_case/Fractal Design Meshify 2.png",
     name: "Fractal Design Meshify 2",
     type: "ATX Mid Tower",
     color: "Black",
@@ -257,7 +257,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 25,
-    image: "assets/system_case/NZXT H510 Elite.jpg",
+    image: "assets/system_case/NZXT H510 Elite.png",
     name: "NZXT H510 Elite",
     type: "ATX Mid Tower",
     color: "White/\nBlack",
@@ -267,7 +267,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 26,
-    image: "assets/system_case/Lian Li LANCOOL 215.jpg",
+    image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
     type: "ATX Mid Tower",
     color: "Black",
@@ -277,7 +277,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 27,
-    image: "assets/system_case/Phanteks Eclipse G360A White.jpg",
+    image: "assets/system_case/Phanteks Eclipse G360A White.png",
     name: "Phanteks Eclipse G360A",
     type: "ATX Mid Tower",
     color: "White",
@@ -287,7 +287,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 28,
-    image: "assets/system_case/HYTE Y60 Black.jpg",
+    image: "assets/system_case/HYTE Y60 Black.png",
     name: "HYTE Y60",
     type: "ATX Mid Tower",
     color: "Black",
@@ -297,7 +297,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 29,
-    image: "assets/system_case/Asus ROG Strix Helios.jpg",
+    image: "assets/system_case/Asus ROG Strix Helios.png",
     name: "Asus ROG Strix Helios",
     type: "ATX Full Tower",
     color: "Black",
@@ -307,7 +307,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 30,
-    image: "assets/system_case/Asus TUF Gaming GT301.jpg",
+    image: "assets/system_case/Asus TUF Gaming GT301.png",
     name: "Asus TUF Gaming GT301",
     type: "ATX Mid Tower",
     color: "Black",
@@ -317,7 +317,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 31,
-    image: "assets/system_case/Corsair iCUE 7000X RGB.jpg",
+    image: "assets/system_case/Corsair iCUE 7000X RGB.png",
     name: "Corsair iCUE 7000X RGB",
     type: "ATX Full Tower",
     color: "Black",
@@ -327,7 +327,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 32,
-    image: "assets/system_case/Lian Li O11D XL-X.jpg",
+    image: "assets/system_case/Lian Li O11D XL-X.png",
     name: "Lian Li XL-X",
     type: "ATX Full Tower",
     color: "Black",
@@ -337,7 +337,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 33,
-    image: "assets/system_case/Corsair iCUE 7000X RGB.jpg",
+    image: "assets/system_case/Corsair iCUE 7000X RGB.png",
     name: "Corsair iCUE 7000X RGB",
     type: "ATX Full Tower",
     color: "Black",
@@ -347,7 +347,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 34,
-    image: "assets/system_case/NZXT H510 Elite.jpg",
+    image: "assets/system_case/NZXT H510 Elite.png",
     name: "NZXT H510 Elite",
     type: "ATX Mid Tower",
     color: "Black",
@@ -357,7 +357,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 35,
-    image: "assets/system_case/be quiet! Pure Base 500DX.jpg",
+    image: "assets/system_case/be quiet! Pure Base 500DX.png",
     name: "be quiet! Pure Base 500DX",
     type: "ATX Mid Tower",
     color: "Black",
@@ -367,7 +367,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 36,
-    image: "assets/system_case/Fractal Design Pop Air.jpg",
+    image: "assets/system_case/Fractal Design Pop Air.png",
     name: "Fractal Design Pop Air",
     type: "ATX Mid Tower",
     color: "Black",
@@ -377,7 +377,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 37,
-    image: "assets/system_case/Corsair Obsidian Series 1000D.jpg",
+    image: "assets/system_case/Corsair Obsidian Series 1000D.png",
     name: "Corsair Obsidian Series 1000D",
     type: "ATX Full Tower",
     color: "Black",
@@ -387,7 +387,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 38,
-    image: "assets/system_case/Phanteks Eclipse P500A D-RGB.jpg",
+    image: "assets/system_case/Phanteks Eclipse P500A D-RGB.png",
     name: "Phanteks Eclipse P500A D-RGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -397,7 +397,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 39,
-    image: "assets/system_case/Fractal Design Torrent.jpg",
+    image: "assets/system_case/Fractal Design Torrent.png",
     name: "Fractal Design Torrent",
     type: "ATX Mid Tower",
     color: "Black",
@@ -407,7 +407,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 40,
-    image: "assets/system_case/Lian Li O11 Air Mini.jpg",
+    image: "assets/system_case/Lian Li O11 Air Mini.png",
     name: "Lian Li O11 Air Mini",
     type: "ATX Mid Tower",
     color: "White",
@@ -417,7 +417,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 41,
-    image: "assets/system_case/NZXT H510i.jpg",
+    image: "assets/system_case/NZXT H510i.png",
     name: "NZXT H510i",
     type: "ATX Mid Tower",
     color: "Black",
@@ -428,7 +428,7 @@ List<ListSystemCase> systemcase = [
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 42,
     image:
-        "assets/system_case/Cooler Master MasterBox TD500 Mesh with Controller.jpg",
+        "assets/system_case/Cooler Master MasterBox TD500 Mesh with Controller.png",
     name: "Cooler Master MasterBox TD500",
     type: "ATX Mid Tower",
     color: "Black",
@@ -438,7 +438,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 43,
-    image: "assets/system_case/Deepcool CG560.jpg",
+    image: "assets/system_case/Deepcool CG560.png",
     name: "Deepcool CG560",
     type: "ATX Mid Tower",
     color: "Black",
@@ -448,7 +448,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 44,
-    image: "assets/system_case/Corsair 5000D AIRFLOW.jpg",
+    image: "assets/system_case/Corsair 5000D AIRFLOW.png",
     name: "Corsair 5000D AIRFLOW",
     type: "ATX Mid Tower",
     color: "White/\nGray",
@@ -458,7 +458,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 45,
-    image: "assets/system_case/Lian Li Lancool II Mesh.jpg",
+    image: "assets/system_case/Lian Li Lancool II Mesh.png",
     name: "Lian Li Lancool II Mesh",
     type: "ATX Mid Tower",
     color: "Black",
@@ -468,7 +468,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 46,
-    image: "assets/system_case/Fractal Design Torrent.jpg",
+    image: "assets/system_case/Fractal Design Torrent.png",
     name: "Fractal Design Torrent",
     type: "ATX Mid Tower",
     color: "Black",
@@ -478,7 +478,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 47,
-    image: "assets/system_case/Montech X3 Mesh.jpg",
+    image: "assets/system_case/Montech X3 Mesh.png",
     name: "Montech X3 Mesh",
     type: "ATX Mid Tower",
     color: "Black",
@@ -488,7 +488,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 48,
-    image: "assets/system_case/Lian Li O11D XL-W.jpg",
+    image: "assets/system_case/Lian Li O11D XL-W.png",
     name: "Lian Li O11D XL-W",
     type: "ATX Full Tower",
     color: "White/\nBlack",
@@ -499,7 +499,7 @@ List<ListSystemCase> systemcase = [
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 49,
     image:
-        "assets/system_case/Cooler Master MasterBox TD500 Mesh White with Controller.jpg",
+        "assets/system_case/Cooler Master MasterBox TD500 Mesh White with Controller.png",
     name: "Cooler Master MasterBox TD500 Mesh White w/ Controller",
     type: "ATX Mid Tower",
     color: "Black",
@@ -509,7 +509,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 50,
-    image: "assets/system_case/be quiet! Pure Base 500 FX.jpg",
+    image: "assets/system_case/be quiet! Pure Base 500 FX.png",
     name: "be quiet! Pure Base 500 FX",
     type: "ATX Mid Tower",
     color: "Black",
@@ -519,7 +519,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 51,
-    image: "assets/system_case/Fractal Design Torrent RGB.jpg",
+    image: "assets/system_case/Fractal Design Torrent RGB.png",
     name: "Fractal Design Torrent RGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -529,7 +529,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 52,
-    image: "assets/system_case/MSI MPG GUNGNIR 110R.jpg",
+    image: "assets/system_case/MSI MPG GUNGNIR 110R.png",
     name: "MSI MPG GUNGNIR 110R",
     type: "ATX Mid Tower",
     color: "Black",
@@ -539,7 +539,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 53,
-    image: "assets/system_case/Phanteks Enthoo Elite.jpg",
+    image: "assets/system_case/Phanteks Enthoo Elite.png",
     name: "Phanteks Enthoo Elite",
     type: "ATX Full Tower",
     color: "Black",
@@ -549,7 +549,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 54,
-    image: "assets/system_case/Phanteks Eclipse P400A Digital.jpg",
+    image: "assets/system_case/Phanteks Eclipse P400A Digital.png",
     name: "Phanteks Eclipse P400A Digital",
     type: "ATX Mid Tower",
     color: "Black",
@@ -559,7 +559,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 55,
-    image: "assets/system_case/Fractal Design Define R5.jpg",
+    image: "assets/system_case/Fractal Design Define R5.png",
     name: "Fractal Design Define R5",
     type: "ATX Mid Tower",
     color: "Black",
@@ -569,7 +569,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 56,
-    image: "assets/system_case/Corsair iCUE 5000X RGB.jpg",
+    image: "assets/system_case/Corsair iCUE 5000X RGB.png",
     name: "Corsair iCUE 5000X RGB",
     type: "ATX Mid Tower",
     color: "White/\nGray",
@@ -579,7 +579,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 57,
-    image: "assets/system_case/Phanteks Enthoo Pro.jpg",
+    image: "assets/system_case/Phanteks Enthoo Pro.png",
     name: "Phanteks Enthoo Pro",
     type: "ATX Full Tower",
     color: "Black",
@@ -589,7 +589,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 58,
-    image: "assets/system_case/Fractal Design Torrent Compact.jpg",
+    image: "assets/system_case/Fractal Design Torrent Compact.png",
     name: "Fractal Design Torrent Compact",
     type: "ATX Mid Tower",
     color: "Black",
@@ -599,7 +599,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 59,
-    image: "assets/system_case/Zalman T6.jpg",
+    image: "assets/system_case/Zalman T6.png",
     name: "Zalman T6",
     type: "ATX Mid Tower",
     color: "Black",
@@ -609,7 +609,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 60,
-    image: "assets/system_case/Lian Li LANCOOL 215.jpg",
+    image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
     type: "ATX Mid Tower",
     color: "White",
@@ -619,7 +619,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 61,
-    image: "assets/system_case/Lian Li PC-O11 Dynamic Razer.jpg",
+    image: "assets/system_case/Lian Li PC-O11 Dynamic Razer.png",
     name: "Lian Li PC-O11 Dynamic Razer",
     type: "ATX Full Tower",
     color: "Black",
@@ -629,7 +629,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 62,
-    image: "assets/system_case/Lian Li LANCOOL 215.jpg",
+    image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
     type: "ATX Mid Tower",
     color: " --- ",
@@ -639,7 +639,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 63,
-    image: "assets/system_case/Lian Li Lancool II Mesh C Performance.jpg",
+    image: "assets/system_case/Lian Li Lancool II Mesh C Performance.png",
     name: "Lian Li Lancool II Mesh C Performance",
     type: "ATX Mid Tower",
     color: "Black",
@@ -649,7 +649,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 64,
-    image: "assets/system_case/Cooler Master MasterBox MB511 ARGB.jpg",
+    image: "assets/system_case/Cooler Master MasterBox MB511 ARGB.png",
     name: "Cooler Master MasterBox MB511 ARGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -659,7 +659,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 65,
-    image: "assets/system_case/Cooler Master MasterBox NR600 (without ODD).jpg",
+    image: "assets/system_case/Cooler Master MasterBox NR600 (without ODD).png",
     name: "Cooler Master MasterBox NR600",
     type: "ATX Mid Tower",
     color: "Black",
@@ -669,7 +669,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 66,
-    image: "assets/system_case/Lian Li LANCOOL 215.jpg",
+    image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
     type: "ATX Mid Tower",
     color: "White",
@@ -679,7 +679,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 67,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black/\nWhite",
@@ -689,7 +689,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 68,
-    image: "assets/system_case/Fractal Design Define 7.jpg",
+    image: "assets/system_case/Fractal Design Define 7.png",
     name: "Fractal Design Define 7",
     type: "ATX Mid Tower",
     color: "Black",
@@ -699,7 +699,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 69,
-    image: "assets/system_case/Fractal Design Meshify 2 XL.jpg",
+    image: "assets/system_case/Fractal Design Meshify 2 XL.png",
     name: "Fractal Design Meshify 2 XL",
     type: "ATX Full Tower",
     color: "Black",
@@ -709,7 +709,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 70,
-    image: "assets/system_case/Phanteks Eclipse P400A.jpg",
+    image: "assets/system_case/Phanteks Eclipse P400A.png",
     name: "Phanteks Eclipse P400A",
     type: "ATX Mid Tower",
     color: "Black",
@@ -719,7 +719,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 71,
-    image: "assets/system_case/Phanteks Eclipse P500A.jpg",
+    image: "assets/system_case/Phanteks Eclipse P500A.png",
     name: "Phanteks Eclipse P500A",
     type: "ATX Mid Tower",
     color: "Black",
@@ -729,7 +729,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 72,
-    image: "assets/system_case/Fractal Design Torrent.jpg",
+    image: "assets/system_case/Fractal Design Torrent.png",
     name: "Fractal Design Torrent",
     type: "ATX Mid Tower",
     color: "White",
@@ -739,7 +739,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 73,
-    image: "assets/system_case/Cooler Master MasterBox NR400 (without ODD).jpg",
+    image: "assets/system_case/Cooler Master MasterBox NR400 (without ODD).png",
     name: "Cooler Master MasterBox NR400",
     type: "MicroATX Mid Tower",
     color: "Black",
@@ -749,7 +749,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 74,
-    image: "assets/system_case/be quiet! Pure Base 500DX.jpg",
+    image: "assets/system_case/be quiet! Pure Base 500DX.png",
     name: "be quiet! Pure Base 500DX",
     type: "ATX Mid Tower",
     color: "White",
@@ -759,7 +759,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 75,
-    image: "assets/system_case/Corsair iCUE 5000X RGB QL Edition.jpg",
+    image: "assets/system_case/Corsair iCUE 5000X RGB QL Edition.png",
     name: "Corsair iCUE 5000X RGB QL Edition",
     type: "ATX Mid Tower",
     color: "White",
@@ -769,7 +769,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 76,
-    image: "assets/system_case/Lian Li LANCOOL III RGB.jpg",
+    image: "assets/system_case/Lian Li LANCOOL III RGB.png",
     name: "Lian Li LANCOOL III RGB",
     type: "ATX Mid Tower",
     color: "White",
@@ -779,7 +779,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 77,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black",
@@ -789,7 +789,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 78,
-    image: "assets/system_case/Zalman S3.jpg",
+    image: "assets/system_case/Zalman S3.png",
     name: "Zalman S3",
     type: "ATX Mid Tower",
     color: "Black",
@@ -799,7 +799,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 79,
-    image: "assets/system_case/Corsair 275R Airflow.jpg",
+    image: "assets/system_case/Corsair 275R Airflow.png",
     name: "Corsair 275R Airflow",
     type: "ATX Mid Tower",
     color: "White/\nBlack",
@@ -809,7 +809,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 80,
-    image: "assets/system_case/Fractal Design Meshify 2 Mini.jpg",
+    image: "assets/system_case/Fractal Design Meshify 2 Mini.png",
     name: "Fractal Design Meshify 2 Mini",
     type: "MicroATX Mid Tower",
     color: "Black",
@@ -819,7 +819,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 81,
-    image: "assets/system_case/Antec DF700 FLUX.jpg",
+    image: "assets/system_case/Antec DF700 FLUX.png",
     name: "Antec DF700 FLUX",
     type: "ATX Mid Tower",
     color: "Black",
@@ -830,7 +830,7 @@ List<ListSystemCase> systemcase = [
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 82,
     image:
-        "assets/system_case/Fractal Design Meshify 2 Compact TG Dark Tint.jpg",
+        "assets/system_case/Fractal Design Meshify 2 Compact TG Dark Tint.png",
     name: "Fractal Design Meshify 2 Compact TG Dark Tint",
     type: "ATX Mid Tower",
     color: "Black",
@@ -840,7 +840,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 83,
-    image: "assets/system_case/Antec NX410.jpg",
+    image: "assets/system_case/Antec NX410.png",
     name: "Antec NX410",
     type: "ATX Mid Tower",
     color: "Black",
@@ -850,7 +850,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 84,
-    image: "assets/system_case/Corsair 7000D AIRFLOW.jpg",
+    image: "assets/system_case/Corsair 7000D AIRFLOW.png",
     name: "Corsair 7000D AIRFLOW",
     type: "ATX Full Tower",
     color: "White/\nBlack",
@@ -860,7 +860,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 85,
-    image: "assets/system_case/Asus TUF Gaming GT501.jpg",
+    image: "assets/system_case/Asus TUF Gaming GT501.png",
     name: "Asus TUF Gaming GT501",
     type: "ATX Mid Tower",
     color: "Black/\nGray",
@@ -870,7 +870,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 86,
-    image: "assets/system_case/Lian Li O11 Dynamic Mini.jpg",
+    image: "assets/system_case/Lian Li O11 Dynamic Mini.png",
     name: "Lian Li O11 Dynamic Mini",
     type: "ATX Mid Tower",
     color: "Black",
@@ -880,7 +880,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 87,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "White/\nBlack",
@@ -890,7 +890,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 88,
-    image: "assets/system_case/Antec NX200M.jpg",
+    image: "assets/system_case/Antec NX200M.png",
     name: "Antec NX200M",
     type: "MicroATX Mid Tower",
     color: "Black",
@@ -900,7 +900,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 89,
-    image: "assets/system_case/NZXT H710.jpg",
+    image: "assets/system_case/NZXT H710.png",
     name: "NZXT H710",
     type: "ATX Mid Tower",
     color: "White",
@@ -910,7 +910,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 90,
-    image: "assets/system_case/Corsair 4000D.jpg",
+    image: "assets/system_case/Corsair 4000D.png",
     name: "Corsair 4000D",
     type: "ATX Mid Tower",
     color: "White",
@@ -920,7 +920,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 91,
-    image: "assets/system_case/Lian Li LANCOOL 205M.jpg",
+    image: "assets/system_case/Lian Li LANCOOL 205M.png",
     name: "Lian Li LANCOOL 205M",
     type: "MicroATX Mid Tower",
     color: "Black",
@@ -930,7 +930,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 92,
-    image: "assets/system_case/be quiet! Silent Base 802.jpg",
+    image: "assets/system_case/be quiet! Silent Base 802.png",
     name: "be quiet! Silent Base 802",
     type: "ATX Mid Tower",
     color: "Black",
@@ -940,7 +940,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 93,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black",
@@ -950,7 +950,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 95,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black",
@@ -960,7 +960,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 96,
-    image: "assets/system_case/Montech AIR 100 ARGB.jpg",
+    image: "assets/system_case/Montech AIR 100 ARGB.png",
     name: "Montech AIR 100 ARGB",
     type: "MicroATX Mid Tower",
     color: "Black",
@@ -970,7 +970,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 97,
-    image: "assets/system_case/Phanteks Enthoo Pro 2.jpg",
+    image: "assets/system_case/Phanteks Enthoo Pro 2.png",
     name: "Phanteks Enthoo Pro 2",
     type: "ATX Full Tower",
     color: "Black",
@@ -980,7 +980,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 98,
-    image: "assets/system_case/Fractal Design Meshify C.jpg",
+    image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
     type: "ATX Mid Tower",
     color: "Black",
@@ -990,7 +990,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 99,
-    image: "assets/system_case/Corsair 275R Airflow.jpg",
+    image: "assets/system_case/Corsair 275R Airflow.png",
     name: "Corsair 275R Airflow",
     type: "ATX Mid Tower",
     color: "Black",
@@ -1001,7 +1001,7 @@ List<ListSystemCase> systemcase = [
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 100,
     image:
-        "assets/system_case/Fractal Design Meshify 2 Compact TG Light Tint.jpg",
+        "assets/system_case/Fractal Design Meshify 2 Compact TG Light Tint.png",
     name: "Fractal Design Meshify 2 Compact TG Light Tint",
     type: "ATX Mid Tower",
     color: "Black",
@@ -1011,7 +1011,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 101,
-    image: "assets/system_case/Cooler Master MasterCase H500 ARGB.jpg",
+    image: "assets/system_case/Cooler Master MasterCase H500 ARGB.png",
     name: "Cooler Master MasterCase H500 ARGB",
     type: "ATX Mid Tower",
     color: "Black",
@@ -1021,7 +1021,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 102,
-    image: "assets/system_case/Phanteks Eclipse P500A D-RGB.jpg",
+    image: "assets/system_case/Phanteks Eclipse P500A D-RGB.png",
     name: "Phanteks Eclipse P500A D-RGB",
     type: "ATX Mid Tower",
     color: "White/\nBlack",
@@ -1031,7 +1031,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 103,
-    image: "assets/system_case/DIYPC J180.jpg",
+    image: "assets/system_case/DIYPC J180.png",
     name: "DIYPC J180",
     type: "ATX Mid Tower",
     color: "Black",
@@ -1041,7 +1041,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 104,
-    image: "assets/system_case/Fractal Design Define 7 XL.jpg",
+    image: "assets/system_case/Fractal Design Define 7 XL.png",
     name: "Fractal Design Define 7 XL",
     type: "ATX Full Tower",
     color: "Black",
@@ -1051,7 +1051,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 105,
-    image: "assets/system_case/Fractal Design Pop Air White.jpg",
+    image: "assets/system_case/Fractal Design Pop Air White.png",
     name: "Fractal Design Pop Air",
     type: "ATX Mid Tower",
     color: "White",
@@ -1061,7 +1061,7 @@ List<ListSystemCase> systemcase = [
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 106,
-    image: "assets/system_case/Aerocool AirHawk Duo.jpg",
+    image: "assets/system_case/Aerocool AirHawk Duo.png",
     name: "Aerocool AirHawk Duo",
     type: "ATX Mid Tower",
     color: "Black",

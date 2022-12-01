@@ -1,36 +1,37 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_system_case.dart';
-import 'package:test1/details_system_case/body_systemcase.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:test1/data/list_memory.dart';
+import 'package:test1/require_parts_comparison2/details_system_ram/body_system_memory.dart';
 
-class DetailsSystemCase extends StatefulWidget {
-  final ListSystemCase systemcase;
+class DetailsMemory extends StatefulWidget {
+  final ListMemory systemMemory;
 
-  const DetailsSystemCase({Key? key, required this.systemcase})
-      : super(key: key);
+  const DetailsMemory({Key? key, required this.systemMemory}) : super(key: key);
 
   @override
-  State<DetailsSystemCase> createState() => _DetailsSystemCaseState();
+  State<DetailsMemory> createState() => _DetailsSystemCaseState();
 }
 
-class _DetailsSystemCaseState extends State<DetailsSystemCase> {
+class _DetailsSystemCaseState extends State<DetailsMemory> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
       appBar: appBar(context),
-      body: BodySystemCase(
-        systemcase: widget.systemcase,
+      body: BodyMemory(
+        systemMemory: widget.systemMemory,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysCase(widget.systemcase.name, widget.systemcase.image2D,
-              widget.systemcase.image, widget.systemcase.name);
+          setSysRam(widget.systemMemory.name, widget.systemMemory.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop(true)
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -42,15 +43,13 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
   AppBar appBar(BuildContext context) {
     return AppBar(
       backgroundColor: Theme.of(context).primaryColorLight,
-      title: Text(widget.systemcase.name),
+      title: Text(widget.systemMemory.name),
     );
   }
 
-  Future<void> setSysCase(caseValue, imageValue, imageOrig, name) async {
+  Future<void> setSysRam(caseValue, imageValue) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('sysCase', caseValue);
-    pref.setString('image', imageValue);
-    pref.setString('imageOrig', imageOrig);
-    pref.setString('sysCaseName', name);
+    pref.setString('compare_ram_name2', caseValue);
+    pref.setString('compare_pcImage_part2', imageValue);
   }
 }

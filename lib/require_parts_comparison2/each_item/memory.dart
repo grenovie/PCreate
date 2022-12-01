@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_cpu.dart';
-import 'package:test1/details_su_builder/details_system_cpu/details_processor.dart';
-import 'package:test1/details_su_builder/details_system_cpu/itemcard_processor.dart';
+import 'package:test1/data/list_memory.dart';
+import 'package:test1/require_parts_comparison2/details_system_ram/details_memory.dart';
+import 'package:test1/require_parts_comparison2/details_system_ram/itemcard_memory.dart';
 
-class Processor extends StatelessWidget {
-  const Processor({Key? key}) : super(key: key);
+class Memory extends StatelessWidget {
+  const Memory({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class Processor extends StatelessWidget {
       backgroundColor: Colors.transparent,
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColorLight,
-        title: const Text("Processors"),
+        title: const Text("Memory RAM"),
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -27,19 +27,19 @@ class Processor extends StatelessWidget {
                 child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: GridView.builder(
-                itemCount: processor.length,
+                itemCount: memory.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     childAspectRatio: 0.75,
                     mainAxisSpacing: 35,
                     crossAxisSpacing: 20),
-                itemBuilder: (context, index) => ProcessorItemCard(
-                  systemProcessor: processor[index],
+                itemBuilder: (context, index) => MemoryItemCard(
+                  systemMemory: memory[index],
                   press: () => Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => DetailsProcessor(
-                                systemProcessor: processor[index],
+                          builder: (context) => DetailsMemory(
+                                systemMemory: memory[index],
                               ))),
                 ),
               ),

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_motherboard.dart';
-import 'package:test1/details_system_motherboard/case_title_with_motherboard.dart';
+import 'package:test1/data/list_psu.dart';
+import 'package:test1/require_parts_comparison2/details_system_psu/case_title_with_power_supply.dart';
 
-class BodySystemMobo extends StatelessWidget {
-  final ListMotherboard systemMotherboard;
+class BodyPowerSupply extends StatelessWidget {
+  final ListPowerSupply systemPowerSupply;
 
-  const BodySystemMobo({Key? key, required this.systemMotherboard})
+  const BodyPowerSupply({Key? key, required this.systemPowerSupply})
       : super(key: key);
 
   @override
@@ -35,13 +35,13 @@ class BodySystemMobo extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemMotherboard.name,
+                      systemPowerSupply.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWithMobo(systemMotherboard: systemMotherboard),
+              CaseTitleWithPowerSupply(systemPowerSupply: systemPowerSupply),
             ],
           ),
         )

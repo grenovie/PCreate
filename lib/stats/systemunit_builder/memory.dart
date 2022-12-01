@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_memory.dart';
-
-import '../../details_system_ram/details_memory.dart';
-import '../../details_system_ram/itemcard_memory.dart';
+import 'package:test1/details_su_builder/details_system_ram/details_memory.dart';
+import 'package:test1/details_su_builder/details_system_ram/itemcard_memory.dart';
 
 class Memory extends StatelessWidget {
   const Memory({Key? key}) : super(key: key);

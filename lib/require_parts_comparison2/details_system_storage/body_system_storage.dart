@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_gpu.dart';
+import 'package:test1/data/list_storage.dart';
+import 'package:test1/require_parts_comparison2/details_system_storage/case_title_with_storage.dart';
 
-import 'case_title_with_graphics.dart';
+class BodyStorage extends StatelessWidget {
+  final ListStorage systemStorage;
 
-class BodyGraphics extends StatelessWidget {
-  final ListGraphicsCard systemGraphics;
-
-  const BodyGraphics({Key? key, required this.systemGraphics})
-      : super(key: key);
+  const BodyStorage({Key? key, required this.systemStorage}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,13 +34,13 @@ class BodyGraphics extends StatelessWidget {
                     SystemCaseDescription(),
                     //SystemCase Description
                     Text(
-                      systemGraphics.name,
+                      systemStorage.name,
                       style: const TextStyle(color: Colors.black, height: 1.5),
                     ),
                   ],
                 ),
               ),
-              CaseTitleWithGraphics(systemGraphics: systemGraphics),
+              CaseTitleWithStorage(systemStorage: systemStorage),
             ],
           ),
         )

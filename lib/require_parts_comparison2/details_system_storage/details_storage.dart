@@ -1,39 +1,38 @@
 import 'package:flutter/material.dart';
-import 'package:test1/data/list_cpu.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:test1/details_system_cpu/body_system_processor.dart';
+import 'package:test1/data/list_storage.dart';
+import 'package:test1/require_parts_comparison2/details_system_storage/body_system_storage.dart';
 
-class DetailsProcessor extends StatefulWidget {
-  final ListProcessor systemProcessor;
+class DetailStorage extends StatefulWidget {
+  final ListStorage systemStorage;
 
-  const DetailsProcessor({Key? key, required this.systemProcessor})
+  const DetailStorage({Key? key, required this.systemStorage})
       : super(key: key);
 
   @override
-  State<DetailsProcessor> createState() => _DetailsSystemCaseState();
+  State<DetailStorage> createState() => _DetailsSystemCaseState();
 }
 
-class _DetailsSystemCaseState extends State<DetailsProcessor> {
+class _DetailsSystemCaseState extends State<DetailStorage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
       appBar: appBar(context),
-      body: BodyProcessor(
-        systemProcessor: widget.systemProcessor,
+      body: BodyStorage(
+        systemStorage: widget.systemStorage,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysProcessor(
-              widget.systemProcessor.name,
-              widget.systemProcessor.image2D,
-              widget.systemProcessor.x1,
-              widget.systemProcessor.x2);
+          setSysRom(widget.systemStorage.name, widget.systemStorage.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop(true)
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -45,15 +44,13 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
   AppBar appBar(BuildContext context) {
     return AppBar(
       backgroundColor: Theme.of(context).primaryColorLight,
-      title: Text(widget.systemProcessor.name),
+      title: Text(widget.systemStorage.name),
     );
   }
 
-  Future<void> setSysProcessor(caseValue, imageValue, x1, x2) async {
+  Future<void> setSysRom(caseValue, imageValue) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('cpu', caseValue);
-    pref.setString('cpu_image', imageValue);
-    pref.setDouble('cpu_x1', x1);
-    pref.setDouble('cpu_x2', x2);
+    pref.setString('compare_rom_name2', caseValue);
+    pref.setString('compare_pcImage_part2', imageValue);
   }
 }

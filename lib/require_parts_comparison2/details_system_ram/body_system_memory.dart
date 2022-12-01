@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_memory.dart';
-
-import 'case_title_with_memory.dart';
+import 'package:test1/require_parts_comparison2/details_system_ram/case_title_with_memory.dart';
 
 class BodyMemory extends StatelessWidget {
   final ListMemory systemMemory;

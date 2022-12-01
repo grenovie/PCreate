@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_system_case.dart';
-import 'package:test1/details_su_builder/details_system_case/details_system_case.dart';
-import 'package:test1/details_su_builder/details_system_case/itemcard_system_case.dart';
+import 'package:test1/require_parts_comparison2/details_system_case/details_system_case.dart';
+import 'package:test1/require_parts_comparison2/details_system_case/itemcard_system_case.dart';
 
 class SystemCase extends StatefulWidget {
   const SystemCase({Key? key}) : super(key: key);
@@ -20,10 +20,11 @@ class _SystemCaseState extends State<SystemCase> {
           title: const Text("System Case")),
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("assets/BGgrey.jpg"),
-              fit: BoxFit.fitHeight,
-              opacity: 1),
+          color: Color.fromARGB(255, 34, 34, 34),
+          // image: DecorationImage(
+          //     image: AssetImage("assets/BGgrey.jpg"),
+          //     fit: BoxFit.fitHeight,
+          //     opacity: 1),
         ),
         child: Column(
           children: [

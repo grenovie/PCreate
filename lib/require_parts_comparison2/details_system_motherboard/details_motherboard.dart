@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/data/list_motherboard.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:test1/details_system_motherboard/body_system_motherboard.dart';
+import 'package:test1/require_parts_comparison2/details_system_motherboard/body_system_motherboard.dart';
 
 class DetailsSystemMotherboard extends StatefulWidget {
   final ListMotherboard systemMotherboard;
@@ -26,12 +26,15 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
         onPressed: () {
           //! This area for getting the image for the image_transition
           setSysMobo(
-              widget.systemMotherboard.name, widget.systemMotherboard.image2D);
+              widget.systemMotherboard.name, widget.systemMotherboard.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop(true)
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -49,7 +52,7 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
 
   Future<void> setSysMobo(caseValue, imageValue) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('mobo', caseValue);
-    pref.setString('mobo_image', imageValue);
+    pref.setString('comapare_mobo_part2', caseValue);
+    pref.setString('compare_pcImage_part2', imageValue);
   }
 }
