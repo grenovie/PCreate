@@ -26,7 +26,13 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysCase(widget.systemcase.name, widget.systemcase.image);
+          setSysCase(
+              widget.systemcase.name,
+              widget.systemcase.image,
+              widget.systemcase.type,
+              widget.systemcase.color,
+              widget.systemcase.sidepannel,
+              widget.systemcase.price);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400], content: const Text('Done'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
@@ -52,9 +58,17 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
   Future<void> setSysCase(
     caseName,
     imageValue,
+    typeOf,
+    colorOf,
+    sidepannel,
+    price,
   ) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('compare_systemcase_name2', caseName);
+    pref.setString('compare_info1P2', "Name: $caseName");
     pref.setString('compare_pcImage_part2', imageValue);
+    pref.setString('compare_info2P2', "Type: $typeOf");
+    pref.setString('compare_info3P2', "Color: $colorOf");
+    pref.setString('compare_info4P2', "SidePannel: $sidepannel");
+    pref.setString('compare_info5P2', "Price: \u20B1$price");
   }
 }

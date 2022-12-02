@@ -25,7 +25,15 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysProcessor(
-              widget.systemProcessor.name, widget.systemProcessor.image);
+            widget.systemProcessor.name,
+            widget.systemProcessor.image,
+            widget.systemProcessor.socket,
+            widget.systemProcessor.coreCount,
+            widget.systemProcessor.coreClock,
+            widget.systemProcessor.tdp,
+            widget.systemProcessor.integrateGraphics,
+            widget.systemProcessor.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -49,9 +57,16 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
     );
   }
 
-  Future<void> setSysProcessor(caseName, imageValue) async {
+  Future<void> setSysProcessor(caseName, imageValue, socketOF, coreCount,
+      coreClock, tdp, integGraphics, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString("compare_processor_name", caseName);
-    pref.setString("compare_pcImage_part1", imageValue);
+    pref.setString("compare_info1P2", "Name: $caseName");
+    pref.setString("compare_pcImage_part2", imageValue);
+    pref.setString("compare_info2P2", "Socket: $socketOF");
+    pref.setString("compare_info3P2", "Core Count: $socketOF");
+    pref.setString("compare_info4P2", "Core Clock: $socketOF");
+    pref.setString("compare_info5P2", "TDP: $socketOF");
+    pref.setString("compare_info6P2", "Graphics: $socketOF");
+    pref.setString("compare_info7P2", "Price: \u20B1$socketOF");
   }
 }

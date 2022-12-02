@@ -20,14 +20,29 @@ class _PartsComparisonState extends State<PartsComparison> {
   String? compareImage;
   String? compareImage2;
   //infoStrings
-  String? infoP1 = "";
+  String? info1P1 = ".";
+  String? info2P1 = ".";
+  String? info3P1 = ".";
+  String? info4P1 = ".";
+  String? info5P1 = ".";
+  String? info6P1 = ".";
+  String? info7P1 = ".";
+  String? info8P1 = ".";
+  String? info9P1 = ".";
+  //infoStringsPart2
+  String? info1P2 = ".";
+  String? info2P2 = ".";
+  String? info3P2 = ".";
+  String? info4P2 = ".";
+  String? info5P2 = ".";
+  String? info6P2 = ".";
+  String? info7P2 = ".";
+  String? info8P2 = ".";
+  String? info9P2 = ".";
 
   @override
   void initState() {
-    getThingsOnStartup().then((value) {
-      getSysImage();
-    });
-
+    removeStore();
     super.initState();
   }
 
@@ -57,7 +72,7 @@ class _PartsComparisonState extends State<PartsComparison> {
                           MaterialPageRoute(
                               builder: (context) =>
                                   const TypesOfItemsCompare())).then((value) {
-                        if (value[0] == true) {
+                        if (value == true) {
                           getSysImage();
                         }
                       });
@@ -157,7 +172,17 @@ class _PartsComparisonState extends State<PartsComparison> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: 17,
                                     backgroundColor: Colors.white12),
-                                children: [TextSpan(text: infoP1)],
+                                children: [
+                                  TextSpan(text: "$info1P1\n\n"),
+                                  TextSpan(text: "$info2P1\n\n"),
+                                  TextSpan(text: "$info3P1\n\n"),
+                                  TextSpan(text: "$info4P1\n\n"),
+                                  TextSpan(text: "$info5P1\n\n"),
+                                  TextSpan(text: "$info6P1\n\n"),
+                                  TextSpan(text: "$info7P1\n\n"),
+                                  TextSpan(text: "$info8P1\n\n"),
+                                  TextSpan(text: "$info9P1\n\n"),
+                                ],
                               )),
                         ),
                       ),
@@ -172,6 +197,26 @@ class _PartsComparisonState extends State<PartsComparison> {
                             ),
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(20))),
+                        child: RichText(
+                            textAlign: TextAlign.center,
+                            text: TextSpan(
+                              text: "PC Part 2\n\n",
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 17,
+                                  backgroundColor: Colors.white12),
+                              children: [
+                                TextSpan(text: "$info1P2\n\n"),
+                                TextSpan(text: "$info2P2\n\n"),
+                                TextSpan(text: "$info3P2\n\n"),
+                                TextSpan(text: "$info4P2\n\n"),
+                                TextSpan(text: "$info5P2\n\n"),
+                                TextSpan(text: "$info6P2\n\n"),
+                                TextSpan(text: "$info7P2\n\n"),
+                                TextSpan(text: "$info8P2\n\n"),
+                                TextSpan(text: "$info9P2\n\n"),
+                              ],
+                            )),
                       ),
                     ],
                   ),
@@ -233,13 +278,54 @@ class _PartsComparisonState extends State<PartsComparison> {
   void getSysImage() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     compareImage = pref.getString('compare_pcImage_part1');
-    infoP1 = pref.getString('compare_systemcase_name');
+    info1P1 = pref.getString('compare_info1P1');
+    info2P1 = pref.getString('compare_info2P1');
+    info3P1 = pref.getString('compare_info3P1');
+    info4P1 = pref.getString('compare_info4P1');
+    info5P1 = pref.getString('compare_info5P1');
+    info6P1 = pref.getString('compare_info6P1');
+    info7P1 = pref.getString('compare_info7P1');
+    info8P1 = pref.getString('compare_info8P1');
+    info9P1 = pref.getString('compare_info9P1');
     setState(() {});
   }
 
   void getSysImage2() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     compareImage2 = pref.getString('compare_pcImage_part2');
+    info1P2 = pref.getString('compare_info1P2');
+    info2P2 = pref.getString('compare_info2P2');
+    info3P2 = pref.getString('compare_info3P2');
+    info4P2 = pref.getString('compare_info4P2');
+    info5P2 = pref.getString('compare_info5P2');
+    info6P2 = pref.getString('compare_info6P2');
+    info7P2 = pref.getString('compare_info7P2');
+    info8P2 = pref.getString('compare_info8P2');
+    info9P2 = pref.getString('compare_info9P2');
     setState(() {});
+  }
+
+  void removeStore() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.remove('compare_pcImage_part1');
+    pref.remove('compare_pcImage_part2');
+    pref.remove('compare_info1P1');
+    pref.remove('compare_info2P1');
+    pref.remove('compare_info3P1');
+    pref.remove('compare_info4P1');
+    pref.remove('compare_info5P1');
+    pref.remove('compare_info6P1');
+    pref.remove('compare_info7P1');
+    pref.remove('compare_info8P1');
+    pref.remove('compare_info9P1');
+    pref.remove('compare_info1P2');
+    pref.remove('compare_info2P2');
+    pref.remove('compare_info3P2');
+    pref.remove('compare_info4P2');
+    pref.remove('compare_info5P2');
+    pref.remove('compare_info6P2');
+    pref.remove('compare_info7P2');
+    pref.remove('compare_info8P2');
+    pref.remove('compare_info9P2');
   }
 }

@@ -26,7 +26,14 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
         onPressed: () {
           //! This area for getting the image for the image_transition
           setSysMobo(
-              widget.systemMotherboard.name, widget.systemMotherboard.image);
+            widget.systemMotherboard.name,
+            widget.systemMotherboard.image,
+            widget.systemMotherboard.socket,
+            widget.systemMotherboard.form,
+            widget.systemMotherboard.maxMemory,
+            widget.systemMotherboard.memorySlot,
+            widget.systemMotherboard.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -50,9 +57,15 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
     );
   }
 
-  Future<void> setSysMobo(caseValue, imageValue) async {
+  Future<void> setSysMobo(caseValue, imageValue, socket, formOf, maxMemory,
+      memorySlot, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('comapare_mobo_part1', caseValue);
+    pref.setString('comapare_info1P1', "Name: $caseValue");
     pref.setString('compare_pcImage_part1', imageValue);
+    pref.setString('comapare_info2P1', "Socket: $socket");
+    pref.setString('comapare_info3P1', "Form: $formOf");
+    pref.setString('comapare_info4P1', "MaxMemory: $maxMemory");
+    pref.setString('comapare_info5P1', "Memory Slot: $memorySlot");
+    pref.setString('comapare_info6P1', "Price: \u20B1$price");
   }
 }

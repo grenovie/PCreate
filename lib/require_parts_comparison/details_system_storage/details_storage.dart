@@ -24,7 +24,14 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysRom(widget.systemStorage.name, widget.systemStorage.image);
+          setSysRom(
+            widget.systemStorage.name,
+            widget.systemStorage.image,
+            widget.systemStorage.capacity,
+            widget.systemStorage.type,
+            widget.systemStorage.formFactor,
+            widget.systemStorage.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -48,9 +55,14 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
     );
   }
 
-  Future<void> setSysRom(caseValue, imageValue) async {
+  Future<void> setSysRom(
+      caseValue, imageValue, capacity, typeOf, formFactor, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('compare_rom_name', caseValue);
+    pref.setString('compare_info1P1', "Name: $caseValue");
     pref.setString('compare_pcImage_part1', imageValue);
+    pref.setString('compare_info2P1', "Capacity: $capacity");
+    pref.setString('compare_info3P1', "Type: $typeOf");
+    pref.setString('compare_info4P1', "FormFactor: $formFactor");
+    pref.setString('compare_info5P1', "Price: \u20B1$price");
   }
 }

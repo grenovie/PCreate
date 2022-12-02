@@ -24,7 +24,17 @@ class _DetailsSystemCaseState extends State<DetailGraphics> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysGpu(widget.systemGraphics.name, widget.systemGraphics.image);
+          setSysGpu(
+            widget.systemGraphics.name,
+            widget.systemGraphics.image,
+            widget.systemGraphics.chipset,
+            widget.systemGraphics.memory,
+            widget.systemGraphics.coreClock,
+            widget.systemGraphics.boostClock,
+            widget.systemGraphics.color,
+            widget.systemGraphics.length,
+            widget.systemGraphics.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -48,9 +58,17 @@ class _DetailsSystemCaseState extends State<DetailGraphics> {
     );
   }
 
-  Future<void> setSysGpu(caseValue, imageValue) async {
+  Future<void> setSysGpu(caseValue, imageValue, chipset, memory, coreClock,
+      boostClock, color, length, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('compare_gpu_name2', caseValue);
+    pref.setString('compare_info1P2', "Name: $caseValue");
     pref.setString('compare_pcImage_part2', imageValue);
+    pref.setString('compare_info2P2', "Chipset: $chipset");
+    pref.setString('compare_info3P2', "Memory: $memory");
+    pref.setString('compare_info4P2', "CoreClock: $coreClock");
+    pref.setString('compare_info5P2', "BoostClock: $boostClock");
+    pref.setString('compare_info6P2', "Color: $color");
+    pref.setString('compare_info7P2', "Length: $length");
+    pref.setString('compare_info8P2', "Price: \u20B1$price");
   }
 }

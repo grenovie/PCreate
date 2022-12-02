@@ -25,7 +25,15 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysPsu(
-              widget.systemPowerSupply.name, widget.systemPowerSupply.image);
+            widget.systemPowerSupply.name,
+            widget.systemPowerSupply.image,
+            widget.systemPowerSupply.type,
+            widget.systemPowerSupply.rating,
+            widget.systemPowerSupply.wattage,
+            widget.systemPowerSupply.modular,
+            widget.systemPowerSupply.color,
+            widget.systemPowerSupply.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -49,9 +57,16 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
     );
   }
 
-  Future<void> setSysPsu(caseValue, imageValue) async {
+  Future<void> setSysPsu(caseValue, imageValue, typeOf, rating, wattage,
+      modular, color, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('compare_psu_name', caseValue);
+    pref.setString('compare_info1P1', "Name: $caseValue");
     pref.setString('compare_pcImage_part1', imageValue);
+    pref.setString('compare_info2P1', "Type: $typeOf");
+    pref.setString('compare_info3P1', "Rating: $rating");
+    pref.setString('compare_info4P1', "Wattage: $wattage");
+    pref.setString('compare_info5P1', "Modular: $modular");
+    pref.setString('compare_info6P1', "Color: $color");
+    pref.setString('compare_info7P1', "Price: \u20B1$price");
   }
 }

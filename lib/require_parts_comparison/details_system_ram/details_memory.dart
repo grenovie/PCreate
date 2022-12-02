@@ -23,7 +23,14 @@ class _DetailsSystemCaseState extends State<DetailsMemory> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysRam(widget.systemMemory.name, widget.systemMemory.image);
+          setSysRam(
+            widget.systemMemory.name,
+            widget.systemMemory.image,
+            widget.systemMemory.speed,
+            widget.systemMemory.firstWordLatency,
+            widget.systemMemory.casLatency,
+            widget.systemMemory.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -47,9 +54,14 @@ class _DetailsSystemCaseState extends State<DetailsMemory> {
     );
   }
 
-  Future<void> setSysRam(caseValue, imageValue) async {
+  Future<void> setSysRam(
+      caseValue, imageValue, speed, latency, casLatency, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('compare_ram_name', caseValue);
+    pref.setString('compare_info1P1', "Name: $caseValue");
     pref.setString('compare_pcImage_part1', imageValue);
+    pref.setString('compare_info2P1', "Speed: $speed");
+    pref.setString('compare_info3P1', "FirstWordLatency: $latency");
+    pref.setString('compare_info4P1', "CasLatency: $casLatency");
+    pref.setString('compare_info5P1', "Price: \u20B1$price");
   }
 }

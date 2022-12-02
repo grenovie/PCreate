@@ -19,12 +19,13 @@ class _SystemCaseState extends State<SystemCase> {
           backgroundColor: Theme.of(context).primaryColorLight,
           title: const Text("System Case")),
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("assets/BGgrey.jpg"),
-              fit: BoxFit.fitHeight,
-              opacity: 1),
-        ),
+        // decoration: const BoxDecoration(
+        //   image: DecorationImage(
+        //       image: AssetImage("assets/BGgrey.jpg"),
+        //       fit: BoxFit.fitHeight,
+        //       opacity: 1),
+        // ),
+        color: const Color.fromARGB(255, 31, 31, 31),
         child: Column(
           children: [
             Expanded(
