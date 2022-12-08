@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test1/stats/items_options/item_types.dart';
 import 'package:test1/widget/drawer_menu_widget.dart';
@@ -17,6 +18,8 @@ class SystemUnitBuilder extends StatefulWidget {
   State<SystemUnitBuilder> createState() => _SystemUnitBuilderState();
 }
 
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
+
 class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     with TickerProviderStateMixin {
   late final AnimationController caseController,
@@ -28,6 +31,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
       gpuController;
   late final TransformationController sndcontroller;
   late final AnimationController animationController;
+
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   Animation<Matrix4>? animation;
   //all DATA that can be update in this AREA only
@@ -38,7 +42,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   Color color4 = Colors.white;
   Color color5 = Colors.white;
   Color color6 = Colors.white;
-
+  Color finalBtn = Colors.red;
   String? sysImg;
   String? sysProcessor;
   String? sysMemory;
@@ -55,6 +59,18 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   String? infoGPU = "";
   String? infoRAM = "";
 
+  double? priceSyscase;
+  double? priceMobo;
+  double? priceCpu;
+  double? priceRam;
+  double? priceRom;
+  double? pricePsu;
+  double? priceGpu;
+
+  double? p1;
+  double? p2;
+
+  String? totalT = "";
   //! different vars below
   double? cpuX1 = 0;
   double? cpuX2 = 0;
@@ -63,6 +79,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   @override
   void initState() {
     super.initState();
+    resetAll();
     getSysCase();
     // --> animation Controllers
     caseController = AnimationController(
@@ -180,6 +197,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                           },
                           onLongPress: () {
                             moboController.reverse();
+
                             setState(() {
                               color2 = Colors.white;
                             });
@@ -212,6 +230,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             // --> button and function for updating cpu
                             getSysProcessor();
                             cpuController.forward();
+
                             setState(() {
                               color1 = Colors.greenAccent;
                             });
@@ -249,6 +268,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             // --> button and function for updating Memory / RAM
                             getSysRam();
                             ramController.forward();
+
                             setState(() {
                               color3 = Colors.greenAccent;
                             });
@@ -286,6 +306,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             // --> button and function for updating Storage / ROM
                             getSysRom();
                             romController.forward();
+
                             setState(() {
                               color4 = Colors.greenAccent;
                             });
@@ -323,6 +344,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             // --> button and function for updating Power Supply / PSU
                             getSysPsu();
                             psuController.forward();
+                            finalBtn = Colors.green;
                             setState(() {
                               color5 = Colors.greenAccent;
                             });
@@ -330,6 +352,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                           onLongPress: () {
                             psuController.reverse();
                             setState(() {
+                              finalBtn = Colors.red;
                               color5 = Colors.white;
                             });
                           },
@@ -360,6 +383,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             // --> button and function for updating Graphics Card / GPU
                             getSysGpu();
                             gpuController.forward();
+
                             setState(() {
                               color6 = Colors.greenAccent;
                             });
@@ -672,7 +696,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                       Icons.shopping_cart,
                     ),
                     label: const Text(
-                      "Inventory",
+                      "Reset",
                       style:
                           TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                     ),
@@ -685,9 +709,9 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                 decoration: const BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(
-                          "assets/BGinfo.jpg",
+                          "assets/animated/BlueInfo.jpg",
                         ),
-                        opacity: .8,
+                        opacity: 1,
                         fit: BoxFit.cover),
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
@@ -712,84 +736,133 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                               fontWeight: FontWeight.bold),
                         ),
                       ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "System Unit Case: "),
-                            TextSpan(
-                              text: systemUnitCase,
-                            ),
-                          ],
+                      Padding(
+                        padding: const EdgeInsets.only(left: 20, top: 10),
+                        child: Container(
+                          child: RichText(
+                              textAlign: TextAlign.left,
+                              text: TextSpan(
+                                children: [
+                                  TextSpan(
+                                      text: "System Unit Case: ",
+                                      children: [
+                                        TextSpan(
+                                          text: "$systemUnitCase\n",
+                                          style: const TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 17,
+                                              backgroundColor: Colors.white12),
+                                        )
+                                      ]),
+                                  TextSpan(text: "Motherboard: ", children: [
+                                    TextSpan(
+                                      text: "$infoMotherboard\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                  TextSpan(text: "Processor: ", children: [
+                                    TextSpan(
+                                      text: "$infoProcessor\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                  TextSpan(text: "Memory: ", children: [
+                                    TextSpan(
+                                      text: "$infoRAM\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                  TextSpan(text: "Storage: ", children: [
+                                    TextSpan(
+                                      text: "$infoStorage\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                  TextSpan(text: "Power Supply: ", children: [
+                                    TextSpan(
+                                      text: "$infoPSU\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                  TextSpan(text: "Graphics Card: ", children: [
+                                    TextSpan(
+                                      text: "$infoGPU\n",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          backgroundColor: Colors.white12),
+                                    )
+                                  ]),
+                                ],
+                              )),
                         ),
                       ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Motherboard: "),
-                            TextSpan(
-                              text: infoMotherboard,
-                            ),
-                          ],
+                      Center(
+                        child: RichText(
+                          text: TextSpan(
+                            children: [
+                              const TextSpan(
+                                text: "Build Price: \u20B1",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 17,
+                                    backgroundColor: Colors.white12),
+                              ),
+                              TextSpan(
+                                text: "$totalT",
+                                style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 17,
+                                    backgroundColor: Colors.white12),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Processor: "),
-                            TextSpan(
-                              text: infoProcessor,
-                            ),
-                          ],
-                        ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Memory/RAM: "),
-                            TextSpan(
-                              text: infoRAM,
-                            ),
-                          ],
-                        ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Storage: "),
-                            TextSpan(
-                              text: infoStorage,
-                            ),
-                          ],
-                        ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Power Supply Unit: "),
-                            TextSpan(
-                              text: infoPSU,
-                            ),
-                          ],
-                        ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          children: [
-                            const TextSpan(text: "Graphics Card: "),
-                            TextSpan(
-                              text: infoGPU,
-                            ),
-                          ],
-                        ),
-                      ),
-                      RichText(
-                        text: const TextSpan(
-                          children: [
-                            TextSpan(text: "Build Price: \u20B1"),
-                            TextSpan(
-                              text: "__",
-                            ),
-                          ],
+                      Center(
+                        child: InkWell(
+                          onTap: () {
+                            if (color6 == Colors.greenAccent) {
+                              totalPrice();
+                            } else {
+                              return;
+                            }
+                          },
+                          child: Container(
+                              width: 150,
+                              height: 50,
+                              decoration: BoxDecoration(
+                                  color: finalBtn,
+                                  border: Border.all(
+                                    width: 2,
+                                    color:
+                                        const Color.fromARGB(255, 15, 37, 38),
+                                  ),
+                                  borderRadius: const BorderRadius.all(
+                                      Radius.circular(20))),
+                              child: const Center(
+                                  child: Text(
+                                "View Price",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 17,
+                                    backgroundColor: Colors.white12),
+                              ))),
                         ),
                       ),
                     ],
@@ -807,6 +880,32 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
           ),
         ),
       );
+  void resetAll() {
+    setState(() {
+      priceSyscase = 0.0;
+      priceMobo = 0.0;
+    });
+  }
+
+  void totalPrice() {
+    List<double> list = [
+      priceSyscase!,
+      priceMobo!,
+      priceCpu!,
+      priceRam!,
+      priceRom!,
+      pricePsu!,
+      priceGpu!
+    ];
+    double total = 0.0;
+
+    for (var item in list) {
+      total = total + item;
+    }
+    setState(() {
+      totalT = total.toStringAsFixed(2);
+    });
+  }
 
   // --> get functions here!!
   //--> Processor getShrPref
@@ -814,6 +913,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysImg = pref.getString('image');
     systemUnitCase = pref.getString('sysCaseName');
+    priceSyscase = pref.getDouble('sysCase_price');
     setState(() {});
   }
 
@@ -824,6 +924,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     cpuX1 = pref.getDouble('cpu_x1');
     cpuX2 = pref.getDouble('cpu_x2');
     infoProcessor = pref.getString('cpu');
+    priceCpu = pref.getDouble('sysCpu_price');
     setState(() {});
   }
 
@@ -832,7 +933,9 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysGpu = pref.getString('gpu_image');
     infoGPU = pref.getString('gpu');
-    setState(() {});
+    setState(() {
+      priceGpu = pref.getDouble('sysGpu_price');
+    });
   }
 
   //--> Main Board getShrPref
@@ -840,7 +943,10 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysMotherboard = pref.getString('mobo_image');
     infoMotherboard = pref.getString('mobo');
-    setState(() {});
+
+    setState(() {
+      priceMobo = pref.getDouble('sysMobo_price');
+    });
   }
 
   //--> Power Supply getShrPref
@@ -848,6 +954,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysPsu = pref.getString('psu_image');
     infoPSU = pref.getString('psu');
+    pricePsu = pref.getDouble('sysPsu_price');
     setState(() {});
   }
 
@@ -856,6 +963,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysMemory = pref.getString('ram_image');
     infoRAM = pref.getString('ram');
+    priceRam = pref.getDouble('sysRam_price');
     setState(() {});
   }
 
@@ -864,6 +972,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     final SharedPreferences pref = await SharedPreferences.getInstance();
     sysStorage = pref.getString('rom_image');
     infoStorage = pref.getString('rom');
+    priceRom = pref.getDouble('sysRom_price');
     setState(() {});
   }
 

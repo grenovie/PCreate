@@ -26,12 +26,19 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
         onPressed: () {
           //! This area for getting the image for the image_transition
           setSysMobo(
-              widget.systemMotherboard.name, widget.systemMotherboard.image2D);
+            widget.systemMotherboard.name,
+            widget.systemMotherboard.image2D,
+            widget.systemMotherboard.price,
+            widget.systemMotherboard.socket,
+            widget.systemMotherboard.ddr,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop()
+            ..pop();
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -47,9 +54,13 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
     );
   }
 
-  Future<void> setSysMobo(caseValue, imageValue) async {
+  Future<void> setSysMobo(caseValue, imageValue, price, socket, ddr) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('mobo', caseValue);
     pref.setString('mobo_image', imageValue);
+    pref.setString('compatible_socket', socket);
+    pref.setString('compatible_ddr', ddr);
+    pref.setDouble('sysMobo_price',
+        price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
   }
 }

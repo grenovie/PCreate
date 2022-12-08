@@ -25,7 +25,7 @@ List<ListSystemCase> systemcase = [
     price: "6114.41",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_blackwhite.png",
     id: 2,
     image: "assets/system_case/NZXT H510 Flow.png",
     name: "NZXT H510 Flow",
@@ -45,7 +45,7 @@ List<ListSystemCase> systemcase = [
     price: "5240.84",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 4,
     image: "assets/system_case/Lian Li O11 Dynamic EVO.png",
     name: "Lian Li O11 Dynamic EVO",
@@ -55,7 +55,7 @@ List<ListSystemCase> systemcase = [
     price: "10768.21",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 5,
     image: "assets/system_case/Corsair 4000D Airflow white.png",
     name: "Corsair 4000D Airflow	",
@@ -95,7 +95,7 @@ List<ListSystemCase> systemcase = [
     price: "8735.12",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 9,
     image: "assets/system_case/NZXT H510 Flow White.png",
     name: "NZXT H510 Flow",
@@ -135,7 +135,7 @@ List<ListSystemCase> systemcase = [
     price: "13394.16",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 13,
     image: "assets/system_case/Lian Li O11 Dynamic Mini Snow Edition.png",
     name: "Lian Li O11 Dynamic Mini Snow Edition",
@@ -175,7 +175,7 @@ List<ListSystemCase> systemcase = [
     price: "6987.98",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 17,
     image: "assets/system_case/Corsair iCUE 4000X RGB White.png",
     name: "Corsair iCUE 4000X RGB",
@@ -185,7 +185,7 @@ List<ListSystemCase> systemcase = [
     price: "8441.60",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 18,
     image: "assets/system_case/Lian Li PC-O11 Dynamic White.png",
     name: "Lian Li PC-O11 Dynamic",
@@ -194,16 +194,16 @@ List<ListSystemCase> systemcase = [
     sidepannel: "Tempered Glass",
     price: "8735.12",
   ),
-  ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
-    id: 19,
-    image: "assets/system_case/HYTE Y60.png",
-    name: "HYTE Y60",
-    type: "ATX Mid Tower",
-    color: "White/\nBlack",
-    sidepannel: "Tempered Glass",
-    price: "11647.02",
-  ),
+  // ListSystemCase(
+  //   image2D: "assets/animated/SystemCase_White1.png",
+  //   id: 19,
+  //   image: "assets/system_case/HYTE Y60.png",
+  //   name: "HYTE Y60",
+  //   type: "ATX Mid Tower",
+  //   color: "White/\nBlack",
+  //   sidepannel: "Tempered Glass",
+  //   price: "11647.02",
+  // ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 20,
@@ -255,7 +255,7 @@ List<ListSystemCase> systemcase = [
     price: "9317.50",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 25,
     image: "assets/system_case/NZXT H510 Elite.png",
     name: "NZXT H510 Elite",
@@ -275,7 +275,7 @@ List<ListSystemCase> systemcase = [
     price: "6694.46",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 27,
     image: "assets/system_case/Phanteks Eclipse G360A White.png",
     name: "Phanteks Eclipse G360A",
@@ -405,7 +405,7 @@ List<ListSystemCase> systemcase = [
     price: "9782.82",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 40,
     image: "assets/system_case/Lian Li O11 Air Mini.png",
     name: "Lian Li O11 Air Mini",
@@ -446,7 +446,7 @@ List<ListSystemCase> systemcase = [
     price: "4657.88",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 44,
     image: "assets/system_case/Corsair 5000D AIRFLOW.png",
     name: "Corsair 5000D AIRFLOW",
@@ -486,7 +486,7 @@ List<ListSystemCase> systemcase = [
     price: "3493.70",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 48,
     image: "assets/system_case/Lian Li O11D XL-W.png",
     name: "Lian Li O11D XL-W",
@@ -567,7 +567,7 @@ List<ListSystemCase> systemcase = [
     price: "8150.41",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 56,
     image: "assets/system_case/Corsair iCUE 5000X RGB.png",
     name: "Corsair iCUE 5000X RGB",
@@ -607,7 +607,7 @@ List<ListSystemCase> systemcase = [
     price: "2794.84",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 60,
     image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
@@ -667,7 +667,7 @@ List<ListSystemCase> systemcase = [
     price: "5183.18",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 66,
     image: "assets/system_case/Lian Li LANCOOL 215.png",
     name: "Lian Li LANCOOL 215",
@@ -727,7 +727,7 @@ List<ListSystemCase> systemcase = [
     price: "8735.12",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 72,
     image: "assets/system_case/Fractal Design Torrent.png",
     name: "Fractal Design Torrent",
@@ -747,7 +747,7 @@ List<ListSystemCase> systemcase = [
     price: "4356.20",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 74,
     image: "assets/system_case/be quiet! Pure Base 500DX.png",
     name: "be quiet! Pure Base 500DX",
@@ -757,7 +757,7 @@ List<ListSystemCase> systemcase = [
     price: "6400.36",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 75,
     image: "assets/system_case/Corsair iCUE 5000X RGB QL Edition.png",
     name: "Corsair iCUE 5000X RGB QL Edition",
@@ -767,7 +767,7 @@ List<ListSystemCase> systemcase = [
     price: "17325.81",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 76,
     image: "assets/system_case/Lian Li LANCOOL III RGB.png",
     name: "Lian Li LANCOOL III RGB",
@@ -797,7 +797,7 @@ List<ListSystemCase> systemcase = [
     price: "3202.51",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 79,
     image: "assets/system_case/Corsair 275R Airflow.png",
     name: "Corsair 275R Airflow",
@@ -848,7 +848,7 @@ List<ListSystemCase> systemcase = [
     price: "4367.27",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 84,
     image: "assets/system_case/Corsair 7000D AIRFLOW.png",
     name: "Corsair 7000D AIRFLOW",
@@ -878,7 +878,7 @@ List<ListSystemCase> systemcase = [
     price: "5706.16",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 87,
     image: "assets/system_case/Fractal Design Meshify C.png",
     name: "Fractal Design Meshify C",
@@ -898,7 +898,7 @@ List<ListSystemCase> systemcase = [
     price: "3493.70",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 89,
     image: "assets/system_case/NZXT H710.png",
     name: "NZXT H710",
@@ -908,7 +908,7 @@ List<ListSystemCase> systemcase = [
     price: "169.99",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 90,
     image: "assets/system_case/Corsair 4000D.png",
     name: "Corsair 4000D",
@@ -1019,7 +1019,7 @@ List<ListSystemCase> systemcase = [
     price: "7220.35	",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 102,
     image: "assets/system_case/Phanteks Eclipse P500A D-RGB.png",
     name: "Phanteks Eclipse P500A D-RGB",
@@ -1049,7 +1049,7 @@ List<ListSystemCase> systemcase = [
     price: "12228.82",
   ),
   ListSystemCase(
-    image2D: "assets/animated/SystemCase_Black3.png",
+    image2D: "assets/animated/SystemCase_White1.png",
     id: 105,
     image: "assets/system_case/Fractal Design Pop Air White.png",
     name: "Fractal Design Pop Air",

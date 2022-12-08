@@ -17,7 +17,7 @@ class CaseTitleWithStorage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           const Text(
-            "System Unit Case",
+            "Storage",
             style: TextStyle(color: Colors.white),
           ),
           Text(
@@ -29,22 +29,30 @@ class CaseTitleWithStorage extends StatelessWidget {
           ),
           Row(
             children: [
-              RichText(
-                text: TextSpan(
-                  children: [
-                    const TextSpan(text: "Price\n"),
-                    TextSpan(
-                        text: "\u20B1${systemStorage.price}",
-                        style: Theme.of(context).textTheme.headline4?.copyWith(
-                            color: Colors.white, fontWeight: FontWeight.bold))
-                  ],
-                ),
-              ),
-              Expanded(
-                  child: Image.asset(
-                systemStorage.image,
-                fit: BoxFit.fill,
-              ))
+              SizedBox(
+                  width: 350,
+                  height: 250,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        bottom: -10,
+                        left: 20,
+                        child: Image.asset(
+                          "assets/animated/Platform1.png",
+                          scale: 8,
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Center(
+                          child: Image.asset(
+                            systemStorage.image,
+                            scale: 1.2,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ))
             ],
           )
         ],

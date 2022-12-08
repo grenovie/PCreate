@@ -25,10 +25,12 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysProcessor(
-              widget.systemProcessor.name,
-              widget.systemProcessor.image2D,
-              widget.systemProcessor.x1,
-              widget.systemProcessor.x2);
+            widget.systemProcessor.name,
+            widget.systemProcessor.image2D,
+            widget.systemProcessor.x1,
+            widget.systemProcessor.x2,
+            widget.systemProcessor.price,
+          );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
@@ -49,11 +51,13 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
     );
   }
 
-  Future<void> setSysProcessor(caseValue, imageValue, x1, x2) async {
+  Future<void> setSysProcessor(caseValue, imageValue, x1, x2, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('cpu', caseValue);
     pref.setString('cpu_image', imageValue);
     pref.setDouble('cpu_x1', x1);
     pref.setDouble('cpu_x2', x2);
+    pref.setDouble('sysCpu_price',
+        price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
   }
 }

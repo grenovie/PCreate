@@ -55,6 +55,10 @@ class HomePage extends StatelessWidget {
                     width: 180,
                     height: 180,
                     decoration: BoxDecoration(
+                      image: const DecorationImage(
+                          image: AssetImage("assets/images/bacia.jpg"),
+                          scale: 2,
+                          fit: BoxFit.cover),
                       color: const Color.fromRGBO(95, 111, 148, .5),
                       border: Border.all(
                           color: const Color.fromRGBO(151, 210, 236, 1),
@@ -64,24 +68,19 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     // --> child: "image child here"
-                    child: Column(children: [
-                      Expanded(
-                        child: Center(
-                            child: Image.asset(
-                          "assets/dev_img.png",
-                          color: Colors.white,
-                          scale: 0.1,
-                        )),
+                    child: Center(
+                      child: Container(
+                        padding: const EdgeInsets.only(top: 130),
+                        child: const Text(
+                          "Bacia, Cyril Joseph A.\njosephcyrilbacia@gmail.com",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 13),
+                        ),
                       ),
-                      const Text(
-                        "Bacia, Cyril Joseph A.",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.w500,
-                            fontSize: 15),
-                      )
-                    ]),
+                    ),
                   ),
                 ),
                 Center(
@@ -89,6 +88,10 @@ class HomePage extends StatelessWidget {
                     width: 180,
                     height: 180,
                     decoration: BoxDecoration(
+                      image: const DecorationImage(
+                          image: AssetImage("assets/images/elumir.jpg"),
+                          scale: 2,
+                          fit: BoxFit.cover),
                       color: const Color.fromRGBO(95, 111, 148, .5),
                       border: Border.all(
                           color: const Color.fromRGBO(151, 210, 236, 1),
@@ -98,24 +101,19 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     // --> child: "image child here"
-                    child: Column(children: [
-                      Expanded(
-                        child: Center(
-                            child: Image.asset(
-                          "assets/dev_img.png",
-                          color: Colors.white,
-                          scale: 0.1,
-                        )),
+                    child: Center(
+                      child: Container(
+                        padding: const EdgeInsets.only(top: 130),
+                        child: const Text(
+                          "Elumir, Grenovie C.\ngrenoviemagi15@gmail.com",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 13),
+                        ),
                       ),
-                      const Text(
-                        "Elumir, Grenovie C.",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.w500,
-                            fontSize: 15),
-                      )
-                    ]),
+                    ),
                   ),
                 ),
                 Center(
@@ -123,6 +121,10 @@ class HomePage extends StatelessWidget {
                     width: 180,
                     height: 180,
                     decoration: BoxDecoration(
+                      image: const DecorationImage(
+                          image: AssetImage("assets/images/linezo.jpg"),
+                          scale: 2,
+                          fit: BoxFit.cover),
                       color: const Color.fromRGBO(95, 111, 148, .5),
                       border: Border.all(
                           color: const Color.fromRGBO(151, 210, 236, 1),
@@ -132,24 +134,19 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     // --> child: "image child here"
-                    child: Column(children: [
-                      Expanded(
-                        child: Center(
-                            child: Image.asset(
-                          "assets/dev_img.png",
-                          color: Colors.white,
-                          scale: 0.1,
-                        )),
+                    child: Center(
+                      child: Container(
+                        padding: const EdgeInsets.only(top: 130),
+                        child: const Text(
+                          "Linezo, Rance Christian\nchristianlinezo27@gmail.com",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 13),
+                        ),
                       ),
-                      const Text(
-                        "Linezo, Rance Christian",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.w500,
-                            fontSize: 15),
-                      )
-                    ]),
+                    ),
                   ),
                 ),
                 Center(
@@ -157,6 +154,10 @@ class HomePage extends StatelessWidget {
                     width: 180,
                     height: 180,
                     decoration: BoxDecoration(
+                      image: const DecorationImage(
+                          image: AssetImage("assets/images/ordanza.jpg"),
+                          scale: 2,
+                          fit: BoxFit.cover),
                       color: const Color.fromRGBO(95, 111, 148, .5),
                       border: Border.all(
                           color: const Color.fromRGBO(151, 210, 236, 1),
@@ -166,24 +167,19 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     // --> child: "image child here"
-                    child: Column(children: [
-                      Expanded(
-                        child: Center(
-                            child: Image.asset(
-                          "assets/dev_img.png",
-                          color: Colors.white,
-                          scale: 0.4,
-                        )),
+                    child: Center(
+                      child: Container(
+                        padding: const EdgeInsets.only(top: 130),
+                        child: const Text(
+                          "Ordanza, Earl Cedric\nordanza.cedric@gmail.com",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 13),
+                        ),
                       ),
-                      const Text(
-                        "Ordanza, Earl Cedric",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.w500,
-                            fontSize: 15),
-                      )
-                    ]),
+                    ),
                   ),
                 ),
               ],

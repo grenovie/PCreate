@@ -17,7 +17,7 @@ class CaseTitleWithMemory extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           const Text(
-            "System Unit Case",
+            "Memory",
             style: TextStyle(color: Colors.white),
           ),
           Text(
@@ -29,22 +29,30 @@ class CaseTitleWithMemory extends StatelessWidget {
           ),
           Row(
             children: [
-              RichText(
-                text: TextSpan(
-                  children: [
-                    const TextSpan(text: "Price\n"),
-                    TextSpan(
-                        text: "\u20B1${systemMemory.price}",
-                        style: Theme.of(context).textTheme.headline4?.copyWith(
-                            color: Colors.white, fontWeight: FontWeight.bold))
-                  ],
-                ),
-              ),
-              Expanded(
-                  child: Image.asset(
-                systemMemory.image,
-                fit: BoxFit.fill,
-              ))
+              SizedBox(
+                  width: 350,
+                  height: 250,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        bottom: -10,
+                        left: 20,
+                        child: Image.asset(
+                          "assets/animated/Platform1.png",
+                          scale: 8,
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Center(
+                          child: Image.asset(
+                            systemMemory.image,
+                            scale: 1.2,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ))
             ],
           )
         ],

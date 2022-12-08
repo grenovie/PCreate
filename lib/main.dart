@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
             scaffoldBackgroundColor: Colors.white,
             // ignore: prefer_const_constructors
-            primaryColor: Color.fromRGBO(45, 53, 61, 1), //change color here
+            primaryColor: Color.fromARGB(255, 18, 21, 24), //change color here
             // ignore: prefer_const_constructors
             primaryColorLight: Color.fromRGBO(25, 29, 32, 1)),
         home: const MainPage(),

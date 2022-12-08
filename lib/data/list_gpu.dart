@@ -29,7 +29,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 1,
-      image: "assets/gpu/MSI GeForce RTX 3060 Ventus 2X 12G.jpg",
+      image: "assets/gpu/MSI GeForce RTX 3060 Ventus 2X 12G.png",
       name: "MSI GeForce RTX 3060 Ventus 2X 12G",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -41,7 +41,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 2,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -53,7 +53,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 3,
-      image: "assets/gpu/MSI GeForce RTX 3060 Gaming X12G.jpg",
+      image: "assets/gpu/MSI GeForce RTX 3060 Gaming X12G.png",
       name: "MSI GeForce RTX 3060 Gaming X12G",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -65,7 +65,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 4,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "	GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -77,7 +77,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 5,
-      image: "assets/gpu/NVIDIA Founders Edition.jpg",
+      image: "assets/gpu/NVIDIA Founders Edition.png",
       name: "NVIDIA Founders Edition",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -89,7 +89,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 6,
-      image: "assets/gpu/EVGA XC GAMING.jpg",
+      image: "assets/gpu/EVGA XC GAMING.png",
       name: "EVGA XC GAMING",
       chipset: "	GeForce RTX 3060",
       memory: "12GB",
@@ -101,7 +101,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 7,
-      image: "assets/gpu/EVGA KO ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA KO ULTRA GAMING.png",
       name: "EVGA KO ULTRA GAMING",
       chipset: "	GeForce RTX 2060",
       memory: "6GB",
@@ -113,7 +113,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 8,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.png",
       name: "Asus ROG STRIX GAMING OC",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -125,7 +125,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 9,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -137,7 +137,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 10,
-      image: "assets/gpu/MSI GAMING X TRIO.jpg",
+      image: "assets/gpu/MSI GAMING X TRIO.png",
       name: "MSI GAMING X TRIO",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -149,7 +149,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 11,
-      image: "assets/gpu/XFX Speedster SWFT 210.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 210.png",
       name: "XFX Speedster SWFT 210",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -161,7 +161,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 12,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING 3080 12GB LHR.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING 3080 12GB LHR.png",
       name: "EVGA FTW3 ULTRA GAMING LHR",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -173,7 +173,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 13,
-      image: "assets/gpu/EVGA SC ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA SC ULTRA GAMING.png",
       name: "EVGA SC ULTRA GAMING",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -185,7 +185,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 14,
-      image: "assets/gpu/EVGA XC GAMING.jpg",
+      image: "assets/gpu/EVGA XC GAMING.png",
       name: "EVGA XC GAMING",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -197,7 +197,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 15,
-      image: "assets/gpu/MSI Radeon RX 6600 MECH 2X 8G.jpg",
+      image: "assets/gpu/MSI Radeon RX 6600 MECH 2X 8G.png",
       name: "MSI Radeon RX 6600 MECH 2X 8G",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -209,7 +209,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 16,
-      image: "assets/gpu/ASRock Radeon RX6700XT CLD 12G.jpg",
+      image: "assets/gpu/ASRock Radeon RX6700XT CLD 12G.png",
       name: "ASRock Radeon RX6700XT CLD 12G",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -221,7 +221,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 17,
-      image: "assets/gpu/Gigabyte EAGLE.jpg",
+      image: "assets/gpu/Gigabyte EAGLE.png",
       name: "Gigabyte EAGLE",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -233,7 +233,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 18,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -245,7 +245,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 19,
-      image: "assets/gpu/MSI GeForce RTX 3090 TI GAMING X TRIO 24G.jpg",
+      image: "assets/gpu/MSI GeForce RTX 3090 TI GAMING X TRIO 24G.png",
       name: "MSI GeForce RTX 3090 TI GAMING X TRIO 24G",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -257,7 +257,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 20,
-      image: "assets/gpu/MSI RTX 3060 Ventus 3X 12G OC.jpg",
+      image: "assets/gpu/MSI RTX 3060 Ventus 3X 12G OC.png",
       name: "MSI RTX 3060 Ventus 3X 12G OC",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -269,7 +269,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 21,
-      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.png",
       name: "Gigabyte GAMING OC Rev 2.0",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -281,7 +281,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 22,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -293,7 +293,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 23,
-      image: "assets/gpu/MSI VENTUS 2X OC.jpg",
+      image: "assets/gpu/MSI VENTUS 2X OC.png",
       name: "MSI VENTUS 2X OC",
       chipset: "GeForce RTX 3050 8GB",
       memory: "8GB",
@@ -305,7 +305,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 24,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC 3070",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -317,7 +317,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 25,
-      image: "assets/gpu/MSI VENTUS 2X V1.jpg",
+      image: "assets/gpu/MSI VENTUS 2X V1.png",
       name: "MSI VENTUS 2X OCV1",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -329,7 +329,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 26,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC.png",
       name: "Asus ROG STRIX GAMING OC 3080",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -341,7 +341,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 27,
-      image: "assets/gpu/MSI RX 6600 XT MECH 2X 8G OC.jpg",
+      image: "assets/gpu/MSI RX 6600 XT MECH 2X 8G OC.png",
       name: "MSI RX 6600 XT MECH 2X 8G OC",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -353,7 +353,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 28,
-      image: "assets/gpu/MSI GTX 1050 Ti 4GT OC.jpg",
+      image: "assets/gpu/MSI GTX 1050 Ti 4GT OC.png",
       name: "MSI GTX 1050 Ti 4GT OC",
       chipset: "GeForce GTX 1050 Ti",
       memory: "4GB",
@@ -365,7 +365,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 29,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC 3080Ti",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -377,7 +377,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 30,
-      image: "assets/gpu/MSI GeForce RTX 3090 Ti SUPRIM 24G.jpg",
+      image: "assets/gpu/MSI GeForce RTX 3090 Ti SUPRIM 24G.png",
       name: "MSI GeForce RTX 3090 TI SUPRIM X 24G",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -389,7 +389,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 31,
-      image: "assets/gpu/MSI GAMING Z TRIO.jpg",
+      image: "assets/gpu/MSI GAMING Z TRIO.png",
       name: "MSI GAMING Z TRIO",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -401,7 +401,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 32,
-      image: "assets/gpu/Zotac GAMING Trinity OC.jpg",
+      image: "assets/gpu/Zotac GAMING Trinity OC.png",
       name: "Zotac GAMING Trinity OC",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -413,7 +413,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 33,
-      image: "assets/gpu/Asus ROG STRIX WHITE OC.jpg",
+      image: "assets/gpu/Asus ROG STRIX WHITE OC.png",
       name: "Asus ROG STRIX WHITE OC",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -425,7 +425,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 34,
-      image: "assets/gpu/Zotac GAMING Twin Edge OC.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Edge OC.png",
       name: "Zotac GAMING Twin Edge OC",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -437,7 +437,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 35,
-      image: "assets/gpu/MSI Radeon RX 6900 XT GAMING X TRIO 16G.jpg",
+      image: "assets/gpu/MSI Radeon RX 6900 XT GAMING X TRIO 16G.png",
       name: "MSI Radeon RX 6900 XT GAMING X TRIO 16G",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -449,7 +449,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 36,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC 3070",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -461,7 +461,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 37,
-      image: "assets/gpu/EVGA XC3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA XC3 ULTRA GAMING.png",
       name: "EVGA XC3 ULTRA GAMING",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -473,7 +473,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 38,
-      image: "assets/gpu/MSI GAMING Z TRIO 3080 10GB LHR.jpg",
+      image: "assets/gpu/MSI GAMING Z TRIO 3080 10GB LHR.png",
       name: "MSI GAMING Z TRIO 3080",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -485,7 +485,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 39,
-      image: "assets/gpu/Gigabyte GV-R68XTGAMING OC-16GD.jpg",
+      image: "assets/gpu/Gigabyte GV-R68XTGAMING OC-16GD.png",
       name: "Gigabyte GV-R68XTGAMING OC-16GD",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -497,7 +497,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 40,
-      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.png",
       name: "Gigabyte GAMING OC Rev 2.0",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -509,7 +509,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 41,
-      image: "assets/gpu/MSI MECH 2X.jpg",
+      image: "assets/gpu/MSI MECH 2X.png",
       name: "MSI MECH 2X",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -521,7 +521,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 42,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING LE iCX3.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING LE iCX3.png",
       name: "EVGA FTW3 ULTRA GAMING LE iCX3",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -533,7 +533,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 43,
-      image: "assets/gpu/NVIDIA Founders Edition.jpg",
+      image: "assets/gpu/NVIDIA Founders Edition.png",
       name: "NVIDIA Founders Edition",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -545,7 +545,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 44,
-      image: "assets/gpu/MSI VENTUS XS OC.jpg",
+      image: "assets/gpu/MSI VENTUS XS OC.png",
       name: "MSI VENTUS XS OC",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -557,7 +557,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 45,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -569,7 +569,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 46,
-      image: "assets/gpu/MSI VENTUS 3X OC.jpg",
+      image: "assets/gpu/MSI VENTUS 3X OC.png",
       name: "MSI VENTUS 3X OC",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -581,7 +581,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 47,
-      image: "assets/gpu/Asus TUF-RX6800XT-O16G-GAMING.jpg",
+      image: "assets/gpu/Asus TUF-RX6800XT-O16G-GAMING.png",
       name: "Asus TUF-RX6800XT-O16G-GAMING",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -593,7 +593,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 48,
-      image: "assets/gpu/ASRock Phantom Gaming D OC.jpg",
+      image: "assets/gpu/ASRock Phantom Gaming D OC.png",
       name: "ASRock Phantom Gaming D OC",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -605,7 +605,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 49,
-      image: "assets/gpu/Gigabyte EAGLE.jpg",
+      image: "assets/gpu/Gigabyte EAGLE.png",
       name: "Gigabyte EAGLE",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -617,7 +617,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 50,
-      image: "assets/gpu/ASRock Phantom Gaming D OC 6900XT.jpg",
+      image: "assets/gpu/ASRock Phantom Gaming D OC 6900XT.png",
       name: "ASRock Phantom Gaming D OC 6900 XT",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -629,7 +629,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 51,
-      image: "assets/gpu/NVIDIA Founders Edition 3080.jpg",
+      image: "assets/gpu/NVIDIA Founders Edition 3080.png",
       name: "NVIDIA Founders Edition 3080 10GB",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -641,7 +641,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 52,
-      image: "assets/gpu/MSI MECH 2X OC.jpg",
+      image: "assets/gpu/MSI MECH 2X OC.png",
       name: "MSI MECH 2X OC",
       chipset: "Radeon RX 6500 XT",
       memory: "4GB",
@@ -653,7 +653,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 53,
-      image: "assets/gpu/MSI GAMING Z TRIO.jpg",
+      image: "assets/gpu/MSI GAMING Z TRIO.png",
       name: "MSI GAMING Z TRIO",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -665,7 +665,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 54,
-      image: "assets/gpu/XFX Speedster SWFT 309.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 309.png",
       name: "XFX Speedster SWFT 309",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -677,7 +677,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 55,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -689,7 +689,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 56,
-      image: "assets/gpu/Zotac GAMING Twin Edge OC.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Edge OC.png",
       name: "Zotac GAMING Twin Edge OC",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -701,7 +701,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 57,
-      image: "assets/gpu/Gigabyte VISION OC Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte VISION OC Rev 2.0.png",
       name: "Gigabyte VISION OC Rev 2.0",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -713,7 +713,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 58,
-      image: "assets/gpu/Asus DUAL EVO OC.jpg",
+      image: "assets/gpu/Asus DUAL EVO OC.png",
       name: "Asus DUAL EVO OC",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -725,7 +725,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 59,
-      image: "assets/gpu/MSI GAMING X TRIO.jpg",
+      image: "assets/gpu/MSI GAMING X TRIO.png",
       name: "MSI GAMING X TRIO",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -737,7 +737,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 60,
-      image: "assets/gpu/Sapphire PULSE.jpg",
+      image: "assets/gpu/Sapphire PULSE.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -749,7 +749,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 61,
-      image: "assets/gpu/Asus STRIX GAMING OC.jpg",
+      image: "assets/gpu/Asus STRIX GAMING OC.png",
       name: "Asus STRIX GAMING OCE",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -761,7 +761,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 62,
-      image: "assets/gpu/PowerColor Red Devil.jpg",
+      image: "assets/gpu/PowerColor Red Devil.png",
       name: "PowerColor Red Devil",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -773,7 +773,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 63,
-      image: "assets/gpu/Zotac GAMING Trinity OC.jpg",
+      image: "assets/gpu/Zotac GAMING Trinity OC.png",
       name: "Zotac GAMING Trinity OC",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -785,7 +785,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 64,
-      image: "assets/gpu/EVGA SC ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA SC ULTRA GAMING.png",
       name: "EVGA SC ULTRA GAMING",
       chipset: "GeForce GTX 1660",
       memory: "6GB",
@@ -797,7 +797,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 65,
-      image: "assets/gpu/Gigabyte Vision OC.jpg",
+      image: "assets/gpu/Gigabyte Vision OC.png",
       name: "Gigabyte Vision OC",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -809,7 +809,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 66,
-      image: "assets/gpu/Asus TUF GAMING OC 6900 XT.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC 6900 XT.png",
       name: "Asus TUF GAMING OC 6900 XT",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -821,7 +821,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 67,
-      image: "assets/gpu/EVGA SC GAMING.jpg",
+      image: "assets/gpu/EVGA SC GAMING.png",
       name: "EVGA SC GAMING",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -833,7 +833,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 68,
-      image: "assets/gpu/Gigabyte Vision OC 3060 Ti.jpg",
+      image: "assets/gpu/Gigabyte Vision OC 3060 Ti.png",
       name: "Gigabyte Vision OC 3060 Ti",
       chipset: "GeForce RTX 3060 Ti",
       memory: "8GB",
@@ -845,7 +845,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 68,
-      image: "assets/gpu/MSI GeForce RTX 2060 VENTUS GP OC.jpg",
+      image: "assets/gpu/MSI GeForce RTX 2060 VENTUS GP OC.png",
       name: "MSI GeForce RTX 2060 VENTUS GP OC",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -857,7 +857,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 69,
-      image: "assets/gpu/MSI GAMING Z TRIO 3080 10GB LHR.jpg",
+      image: "assets/gpu/MSI GAMING Z TRIO 3080 10GB LHR.png",
       name: "MSI GAMING Z TRIO",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -869,7 +869,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 70,
-      image: "assets/gpu/Sapphire PULSE 6800.jpg",
+      image: "assets/gpu/Sapphire PULSE 6800.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6800",
       memory: "16GB",
@@ -881,7 +881,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 71,
-      image: "assets/gpu/Asus TUF GAMING OC V2.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC V2.png",
       name: "Asus TUF GAMING OC V2",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -893,7 +893,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 72,
-      image: "assets/gpu/Asus TUF GAMING OC V2 3060 Ti LHR.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC V2 3060 Ti LHR.png",
       name: "Asus TUF GAMING OC V2 3060 Ti LHR",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -905,7 +905,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 73,
-      image: "assets/gpu/PowerColor Red Devil 6700 XT.jpg",
+      image: "assets/gpu/PowerColor Red Devil 6700 XT.png",
       name: "PowerColor Red Devil 6700 XT",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -917,7 +917,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 74,
-      image: "assets/gpu/Asus Dual GeForce RTX 3060 V2 OC Edition.jpg",
+      image: "assets/gpu/Asus Dual GeForce RTX 3060 V2 OC Edition.png",
       name: "Asus Dual GeForce RTX 3060 V2 OC Edition",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -929,7 +929,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 75,
-      image: "assets/gpu/MSI SUPRIM LIQUID X.jpg",
+      image: "assets/gpu/MSI SUPRIM LIQUID X.png",
       name: "MSI SUPRIM LIQUID X",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -941,7 +941,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 76,
-      image: "assets/gpu/Gigabyte EAGLE OC.jpg",
+      image: "assets/gpu/Gigabyte EAGLE OC.png",
       name: "Gigabyte EAGLE OC",
       chipset: "GeForce RTX 3050 8GB",
       memory: "8GB",
@@ -953,7 +953,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 77,
-      image: "assets/gpu/EVGA SC ULTRA GAMING RTX 4090.jpg",
+      image: "assets/gpu/EVGA SC ULTRA GAMING RTX 4090.png",
       name: "EVGA SC ULTRA GAMING RTX 4090",
       chipset: "GeForce GTX 1650 SUPER",
       memory: "4GB",
@@ -965,7 +965,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 78,
-      image: "assets/gpu/Gigabyte GAMING OC RTX 4090.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC RTX 4090.png",
       name: "Gigabyte GAMING OC RTX 4090",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -977,7 +977,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 79,
-      image: "assets/gpu/PNY VCQRTX8000-PB.jpg",
+      image: "assets/gpu/PNY VCQRTX8000-PB.png",
       name: "PNY VCQRTX8000-PB",
       chipset: "Quadro RTX 8000",
       memory: "48GB",
@@ -989,7 +989,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 80,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING iCX3.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING iCX3.png",
       name: "EVGA FTW3 ULTRA GAMING iCX3",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1001,7 +1001,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 81,
-      image: "assets/gpu/PowerColor Fighter.jpg",
+      image: "assets/gpu/PowerColor Fighter.png",
       name: "PowerColor Fighter",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -1013,7 +1013,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 82,
-      image: "assets/gpu/Zotac GAMING AMP.jpg",
+      image: "assets/gpu/Zotac GAMING AMP.png",
       name: "Zotac GAMING AMP",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1025,7 +1025,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 83,
-      image: "assets/gpu/XFX Speedster MERC 319 CORE.jpg",
+      image: "assets/gpu/XFX Speedster MERC 319 CORE.png",
       name: "XFX Speedster MERC 319 CORE",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -1037,7 +1037,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 84,
-      image: "assets/gpu/Zotac GAMING OC.jpg",
+      image: "assets/gpu/Zotac GAMING OC.png",
       name: "Zotac GAMING OC",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -1049,7 +1049,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 85,
-      image: "assets/gpu/Gigabyte AORUS ELITE.jpg",
+      image: "assets/gpu/Gigabyte AORUS ELITE.png",
       name: "Gigabyte AORUS ELITE",
       chipset: "GeForce RTX 3060 Ti",
       memory: "8GB",
@@ -1061,7 +1061,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 86,
-      image: "assets/gpu/ASRock Challenger D OC.jpg",
+      image: "assets/gpu/ASRock Challenger D OC.png",
       name: "ASRock Challenger D OC",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -1073,7 +1073,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 87,
-      image: "assets/gpu/Zotac AMP Extreme Core Holo.jpg",
+      image: "assets/gpu/Zotac AMP Extreme Core Holo.png",
       name: "Zotac AMP Extreme Core Holo",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -1085,7 +1085,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 88,
-      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0 3060.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0 3060.png",
       name: "Gigabyte GAMING OC Rev 2.0 3060",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1097,7 +1097,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 89,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -1109,7 +1109,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 90,
-      image: "assets/gpu/XFX Speedster SWFT 210.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 210.png",
       name: "XFX Speedster SWFT 210",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -1121,7 +1121,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 91,
-      image: "assets/gpu/Asus TUF GAMING OC 3080 12GB LHR.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC 3080 12GB LHR.png",
       name: "Asus TUF GAMING OC 3080 12GB LHR",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -1133,7 +1133,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 92,
-      image: "assets/gpu/MSI VENTUS GP OC.jpg",
+      image: "assets/gpu/MSI VENTUS GP OC.png",
       name: "MSI VENTUS GP OC",
       chipset: "GeForce RTX 2060 SUPER",
       memory: "8GB",
@@ -1145,7 +1145,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 93,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING 3080 12GB LHR.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING 3080 12GB LHR.png",
       name: "EVGA FTW3 ULTRA GAMING 3080 12GB LHR",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -1157,7 +1157,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 94,
-      image: "assets/gpu/Zotac GAMING Trinity OC RTX 4090.jpg",
+      image: "assets/gpu/Zotac GAMING Trinity OC RTX 4090.png",
       name: "Zotac GAMING Trinity OC RTX 4090",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -1169,7 +1169,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 95,
-      image: "assets/gpu/MSI VENTUS 3X PLUS OC.jpg",
+      image: "assets/gpu/MSI VENTUS 3X PLUS OC.png",
       name: "MSI VENTUS 3X PLUS OC",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -1181,7 +1181,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 96,
-      image: "assets/gpu/XFX Speedster MERC 319 Black.jpg",
+      image: "assets/gpu/XFX Speedster MERC 319 Black.png",
       name: "XFX Speedster MERC 319 Black",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -1193,7 +1193,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 97,
-      image: "assets/gpu/MSI GAMING X TRIO 6950 XT.jpg",
+      image: "assets/gpu/MSI GAMING X TRIO 6950 XT.png",
       name: "MSI GAMING X TRIO 6950 XT",
       chipset: "Radeon RX 6950 XT",
       memory: "16GB",
@@ -1205,7 +1205,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 98,
-      image: "assets/gpu/XFX Speedster SWFT 319.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 319.png",
       name: "XFX Speedster SWFT 319",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -1217,7 +1217,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 99,
-      image: "assets/gpu/Gigabyte GAMING OC 3050 8GB.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC 3050 8GB.png",
       name: "Gigabyte GAMING OC 3050 8GB",
       chipset: "GeForce RTX 3050 8GB",
       memory: "8GB",
@@ -1229,7 +1229,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 100,
-      image: "assets/gpu/Gigabyte EAGLE OC Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte EAGLE OC Rev 2.0.png",
       name: "Gigabyte EAGLE OC Rev 2.0",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1241,7 +1241,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 101,
-      image: "assets/gpu/PowerColor Red Devil OC.jpg",
+      image: "assets/gpu/PowerColor Red Devil OC.png",
       name: "PowerColor Red Devil OC",
       chipset: "Radeon RX 6950 XT",
       memory: "16GB",
@@ -1253,7 +1253,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 102,
-      image: "assets/gpu/Zotac GAMING Twin Fan.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Fan.png",
       name: "Zotac GAMING Twin Fan",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -1265,7 +1265,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 103,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -1277,7 +1277,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 104,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -1289,7 +1289,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 105,
-      image: "assets/gpu/MSI VENTUS 3X OC.jpg",
+      image: "assets/gpu/MSI VENTUS 3X OC.png",
       name: "MSI VENTUS 3X OC",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -1301,7 +1301,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 106,
-      image: "assets/gpu/PowerColor Red Dragon OC.jpg",
+      image: "assets/gpu/PowerColor Red Dragon OC.png",
       name: "PowerColor Red Dragon OC",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -1314,7 +1314,7 @@ List<ListGraphicsCard> graphicsCard = [
       image2D: "assets/animated/GpuD1.png",
       id: 107,
       image:
-          "assets/gpu/XFX XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 Video Card RX-65XT4DBDQ.jpg",
+          "assets/gpu/XFX XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 Video Card RX-65XT4DBDQ.png",
       name:
           "XFX XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 Video Card RX-65XT4DBDQ",
       chipset: "Radeon RX 6500 XT",
@@ -1327,7 +1327,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 108,
-      image: "assets/gpu/Gigabyte OC.jpg",
+      image: "assets/gpu/Gigabyte OC.png",
       name: "Gigabyte OC",
       chipset: "GeForce GTX 1660 Ti",
       memory: "6GB",
@@ -1339,7 +1339,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 109,
-      image: "assets/gpu/XFX Speedster QICK 319 BLACK.jpg",
+      image: "assets/gpu/XFX Speedster QICK 319 BLACK.png",
       name: "XFX Speedster QICK 319 BLACK",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -1351,7 +1351,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 109,
-      image: "assets/gpu/MSI VENTUS 3X OC.jpg",
+      image: "assets/gpu/MSI VENTUS 3X OC.png",
       name: "MSI VENTUS 3X OC",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -1363,7 +1363,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 110,
-      image: "assets/gpu/Sapphire PULSE.jpg",
+      image: "assets/gpu/Sapphire PULSE.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -1375,7 +1375,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 111,
-      image: "assets/gpu/Gigabyte GV-N3080VISION OC-10GD.jpg",
+      image: "assets/gpu/Gigabyte GV-N3080VISION OC-10GD.png",
       name: "Gigabyte GV-N3080VISION OC-10GD",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -1387,7 +1387,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 112,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -1399,7 +1399,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 113,
-      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC Rev 2.0.png",
       name: "Gigabyte GAMING OC Rev 2.0",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -1411,7 +1411,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 114,
-      image: "assets/gpu/Zotac GAMING Twin Edge OC.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Edge OC.png",
       name: "Zotac GAMING Twin Edge OC",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1423,7 +1423,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 115,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.png",
       name: "Asus ROG STRIX GAMING OC V2",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -1435,7 +1435,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 116,
-      image: "assets/gpu/Gigabyte AORUS MASTER.jpg",
+      image: "assets/gpu/Gigabyte AORUS MASTER.png",
       name: "Gigabyte AORUS MASTER",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -1447,7 +1447,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 117,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -1459,7 +1459,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 118,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -1471,7 +1471,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 119,
-      image: "assets/gpu/EVGA XC3 ULTRA GAMING iCX3.jpg",
+      image: "assets/gpu/EVGA XC3 ULTRA GAMING iCX3.png",
       name: "EVGA XC3 ULTRA GAMING iCX3",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -1483,7 +1483,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 120,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.png",
       name: "Asus ROG STRIX GAMING OC V2",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1495,7 +1495,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 121,
-      image: "assets/gpu/Asus TUF GAMING.jpg",
+      image: "assets/gpu/Asus TUF GAMING.png",
       name: "Asus TUF GAMING",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -1507,7 +1507,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 122,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6750 XT",
       memory: "12GB",
@@ -1519,7 +1519,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 123,
-      image: "assets/gpu/MSI GAMING TRIO.jpg",
+      image: "assets/gpu/MSI GAMING TRIO.png",
       name: "MSI GAMING TRIO",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -1531,7 +1531,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 124,
-      image: "assets/gpu/MSI VENTUS XS OC.jpg",
+      image: "assets/gpu/MSI VENTUS XS OC.png",
       name: "MSI VENTUS XS OC",
       chipset: "GeForce GTX 1650 G5",
       memory: "4GB",
@@ -1543,7 +1543,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 125,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.png",
       name: "Asus ROG STRIX GAMING OC",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -1555,7 +1555,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 126,
-      image: "assets/gpu/Asus TUF GAMING OC V2.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC V2.png",
       name: "Asus TUF GAMING OC V2",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1567,7 +1567,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 127,
-      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.jpg",
+      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.png",
       name: "PNY XLR8 Gaming REVEL EPIC-X RGB",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -1579,7 +1579,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 128,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6500 XT",
       memory: "4GB",
@@ -1591,7 +1591,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 129,
-      image: "assets/gpu/EVGA XC3 ULTRA GAMING iCX3.jpg",
+      image: "assets/gpu/EVGA XC3 ULTRA GAMING iCX3.png",
       name: "EVGA XC3 ULTRA GAMING iCX3",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1603,7 +1603,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 130,
-      image: "assets/gpu/Asus ROG STRIX WHITE OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX WHITE OC V2.png",
       name: "Asus ROG STRIX WHITE OC V2",
       chipset: "GeForce RTX 3080 10GB LHR",
       memory: "10GB",
@@ -1615,7 +1615,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 131,
-      image: "assets/gpu/Asus TUF GAMING OC V2.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC V2.png",
       name: "Asus TUF GAMING OC V2",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1627,7 +1627,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 132,
-      image: "assets/gpu/EVGA XC3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA XC3 ULTRA GAMING.png",
       name: "EVGA XC3 ULTRA GAMING",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -1639,7 +1639,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 133,
-      image: "assets/gpu/MSI GT 710 1GD3H LP.jpg",
+      image: "assets/gpu/MSI GT 710 1GD3H LP.png",
       name: "MSI GT 710 1GD3H LP",
       chipset: "GeForce GT 710",
       memory: "1GB",
@@ -1651,7 +1651,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 134,
-      image: "assets/gpu/Zotac GAMING Twin Edge OC.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Edge OC.png",
       name: "Zotac GAMING Twin Edge",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1663,7 +1663,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 135,
-      image: "assets/gpu/MSI SUPRIM X.jpg",
+      image: "assets/gpu/MSI SUPRIM X.png",
       name: "MSI SUPRIM X",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -1675,7 +1675,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 136,
-      image: "assets/gpu/EVGA 02G-P3-3733-KR.jpg",
+      image: "assets/gpu/EVGA 02G-P3-3733-KR.png",
       name: "EVGA 02G-P3-3733-KR",
       chipset: "GeForce GT 730",
       memory: "2GB",
@@ -1687,7 +1687,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 137,
-      image: "assets/gpu/Sapphire NITRO+ SE.jpg",
+      image: "assets/gpu/Sapphire NITRO+ SE.png",
       name: "Sapphire NITRO+ SE",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -1699,7 +1699,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 138,
-      image: "assets/gpu/XFX Speedster SWFT 319.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 319.png",
       name: "MSI SUPRIM X",
       chipset: "XFX Speedster SWFT 319",
       memory: "16GB",
@@ -1711,7 +1711,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 139,
-      image: "assets/gpu/Asus Phoenix GeForce RTX 3060 V2.jpg",
+      image: "assets/gpu/Asus Phoenix GeForce RTX 3060 V2.png",
       name: "Asus Phoenix GeForce RTX 3060 V2",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1723,7 +1723,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 140,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -1735,7 +1735,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 141,
-      image: "assets/gpu/Zotac GAMING Trinity OC.jpg",
+      image: "assets/gpu/Zotac GAMING Trinity OC.png",
       name: "Zotac GAMING Trinity OC",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -1747,7 +1747,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 142,
-      image: "assets/gpu/Gigabyte OC.jpg",
+      image: "assets/gpu/Gigabyte OC.png",
       name: "Gigabyte OC",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -1759,7 +1759,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 143,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "Radeon RX 6800",
       memory: "16GB",
@@ -1771,7 +1771,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 144,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "GeForce RTX 3090 Ti",
       memory: "24GB",
@@ -1783,7 +1783,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 145,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -1795,7 +1795,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 146,
-      image: "assets/gpu/Zotac GAMING AMP Extreme AIRO.jpg",
+      image: "assets/gpu/Zotac GAMING AMP Extreme AIRO.png",
       name: "Zotac GAMING AMP Extreme AIRO",
       chipset: "GeForce RTX 4090",
       memory: "24GB",
@@ -1807,7 +1807,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 147,
-      image: "assets/gpu/Asus Phoenix Fan OC.jpg",
+      image: "assets/gpu/Asus Phoenix Fan OC.png",
       name: "Asus Phoenix Fan OC",
       chipset: "GeForce GT 1030",
       memory: "2GB",
@@ -1819,7 +1819,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 148,
-      image: "assets/gpu/XFX Speedster SWFT 210 Core.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 210 Core.png",
       name: "XFX Speedster SWFT 210 Core",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -1831,7 +1831,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 149,
-      image: "assets/gpu/MSI RTX 3090 SUPRIM X 24G.jpg",
+      image: "assets/gpu/MSI RTX 3090 SUPRIM X 24G.png",
       name: "MSI RTX 3090 SUPRIM X 24G",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -1843,7 +1843,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 150,
-      image: "assets/gpu/Zotac GAMING AMP.jpg",
+      image: "assets/gpu/Zotac GAMING AMP.png",
       name: "Zotac GAMING AMP",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -1855,7 +1855,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 151,
-      image: "assets/gpu/EVGA XC GAMING.jpg",
+      image: "assets/gpu/EVGA XC GAMING.png",
       name: "EVGA XC GAMING",
       chipset: "GeForce RTX 3050 8GB",
       memory: "8GB",
@@ -1867,7 +1867,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 152,
-      image: "assets/gpu/PowerColor Hellhound Spectral White.jpg",
+      image: "assets/gpu/PowerColor Hellhound Spectral White.png",
       name: "PowerColor Hellhound Spectral White",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -1879,7 +1879,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 153,
-      image: "assets/gpu/EVGA KO GAMING.jpg",
+      image: "assets/gpu/EVGA KO GAMING.png",
       name: "EVGA KO GAMING",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -1891,7 +1891,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 154,
-      image: "assets/gpu/Sapphire NITRO+.jpg",
+      image: "assets/gpu/Sapphire NITRO+.png",
       name: "Sapphire NITRO+",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -1903,7 +1903,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 155,
-      image: "assets/gpu/Gigabyte AORUS MASTER Rev 2.0.jpg",
+      image: "assets/gpu/Gigabyte AORUS MASTER Rev 2.0.png",
       name: "Gigabyte AORUS MASTER Rev 2.0",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1915,7 +1915,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 156,
-      image: "assets/gpu/Zotac GAMING AMP Holo.jpg",
+      image: "assets/gpu/Zotac GAMING AMP Holo.png",
       name: "Zotac GAMING AMP Holo",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -1927,7 +1927,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 157,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -1939,7 +1939,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 158,
-      image: "assets/gpu/XFX Speedster SWFT 309.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 309.png",
       name: "XFX Speedster SWFT 309",
       chipset: "Radeon RX 6700",
       memory: "10GB",
@@ -1951,7 +1951,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 159,
-      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.jpg",
+      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.png",
       name: "PNY XLR8 Gaming REVEL EPIC-X RGB",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -1963,7 +1963,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 160,
-      image: "assets/gpu/Sapphire PULSE.jpg",
+      image: "assets/gpu/Sapphire PULSE.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6700",
       memory: "10GB",
@@ -1975,7 +1975,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 161,
-      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.jpg",
+      image: "assets/gpu/PNY XLR8 Gaming REVEL EPIC-X RGB.png",
       name: "PNY XLR8 Gaming REVEL EPIC-X RGB",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1987,7 +1987,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 162,
-      image: "assets/gpu/Asus ROG STRIX WHITE OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX WHITE OC V2.png",
       name: "Asus ROG STRIX WHITE OC V2",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -1999,7 +1999,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 163,
-      image: "assets/gpu/XFX Speedster SWFT 105.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 105.png",
       name: "XFX Speedster SWFT 105",
       chipset: "Radeon RX 6400",
       memory: "4GB",
@@ -2011,7 +2011,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 164,
-      image: "assets/gpu/MSI GeForce RTX 3070 Ventus 3X 8G OC LHR.jpg",
+      image: "assets/gpu/MSI GeForce RTX 3070 Ventus 3X 8G OC LHR.png",
       name: "MSI GeForce RTX 3070 Ventus 3X 8G OC LHR",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -2023,7 +2023,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 165,
-      image: "assets/gpu/EVGA XC BLACK GAMING.jpg",
+      image: "assets/gpu/EVGA XC BLACK GAMING.png",
       name: "EVGA XC BLACK GAMING",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -2035,7 +2035,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 166,
-      image: "assets/gpu/EVGA SC ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA SC ULTRA GAMING.png",
       name: "EVGA SC ULTRA GAMING",
       chipset: "GeForce GTX 1650 G5",
       memory: "4GB",
@@ -2047,7 +2047,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 167,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "GeForce GTX 1050 Ti",
       memory: "4GB",
@@ -2059,7 +2059,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 168,
-      image: "assets/gpu/Asus Phoenix.jpg",
+      image: "assets/gpu/Asus Phoenix.png",
       name: "Asus Phoenix",
       chipset: "GeForce GTX 1050 Ti",
       memory: "4GB",
@@ -2071,7 +2071,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 169,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -2083,7 +2083,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 170,
-      image: "assets/gpu/ASRock Challenger Pro OC.jpg",
+      image: "assets/gpu/ASRock Challenger Pro OC.png",
       name: "ASRock Challenger Pro OC",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -2095,7 +2095,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 171,
-      image: "assets/gpu/XFX Speedster QICK 308 ULTRA.jpg",
+      image: "assets/gpu/XFX Speedster QICK 308 ULTRA.png",
       name: "XFX Speedster QICK 308 ULTRA",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -2107,7 +2107,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 172,
-      image: "assets/gpu/ASRock OC Formula.jpg",
+      image: "assets/gpu/ASRock OC Formula.png",
       name: "ASRock OC Formula",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -2119,7 +2119,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 173,
-      image: "assets/gpu/EVGA XC GAMING.jpg",
+      image: "assets/gpu/EVGA XC GAMING.png",
       name: "EVGA XC GAMING",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -2131,7 +2131,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 174,
-      image: "assets/gpu/Zotac GAMING AMP Holo.jpg",
+      image: "assets/gpu/Zotac GAMING AMP Holo.png",
       name: "Zotac GAMING AMP Holo",
       chipset: "GeForce RTX 3070 Ti",
       memory: "8GB",
@@ -2143,7 +2143,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 175,
-      image: "assets/gpu/Gigabyte Vision OC.jpg",
+      image: "assets/gpu/Gigabyte Vision OC.png",
       name: "Gigabyte Vision OC",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2155,7 +2155,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 176,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "GeForce RTX 3080 12GB LHR",
       memory: "12GB",
@@ -2167,7 +2167,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 177,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -2179,7 +2179,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 178,
-      image: "assets/gpu/MSI RTX 3070 GAMING X TRIO.jpg",
+      image: "assets/gpu/MSI RTX 3070 GAMING X TRIO.png",
       name: "MSI RTX 3070 GAMING X TRIO",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2191,7 +2191,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 179,
-      image: "assets/gpu/Asus TUF OC.jpg",
+      image: "assets/gpu/Asus TUF OC.png",
       name: "Asus TUF OC",
       chipset: "GeForce GTX 1660 Ti",
       memory: "6GB",
@@ -2203,7 +2203,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 180,
-      image: "assets/gpu/Gigabyte EAGLE OC.jpg",
+      image: "assets/gpu/Gigabyte EAGLE OC.png",
       name: "Gigabyte EAGLE OC",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -2215,7 +2215,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 181,
-      image: "assets/gpu/Asus ROG STRIX WHITE OC.jpg",
+      image: "assets/gpu/Asus ROG STRIX WHITE OC.png",
       name: "Asus ROG STRIX WHITE OC",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -2227,7 +2227,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 182,
-      image: "assets/gpu/MSI VENTUS 2X OC.jpg",
+      image: "assets/gpu/MSI VENTUS 2X OC.png",
       name: "MSI VENTUS 2X OC",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2239,7 +2239,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 183,
-      image: "assets/gpu/Zotac GAMING Twin Fan.jpg",
+      image: "assets/gpu/Zotac GAMING Twin Fan.png",
       name: "Zotac GAMING Twin Fan",
       chipset: "GeForce GTX 1660",
       memory: "6GB",
@@ -2251,7 +2251,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 184,
-      image: "assets/gpu/Gigabyte AORUS ELITE.jpg",
+      image: "assets/gpu/Gigabyte AORUS ELITE.png",
       name: "Gigabyte AORUS ELITE",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -2263,7 +2263,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 185,
-      image: "assets/gpu/Asus DUAL OC.jpg",
+      image: "assets/gpu/Asus DUAL OC.png",
       name: "Asus DUAL OC",
       chipset: "GeForce RTX 3060 Ti",
       memory: "8GB",
@@ -2275,7 +2275,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 186,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6800",
       memory: "16GB",
@@ -2287,7 +2287,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 187,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -2299,7 +2299,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 188,
-      image: "assets/gpu/XFX GTR XXX.jpg",
+      image: "assets/gpu/XFX GTR XXX.png",
       name: "XFX GTR XXX",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -2311,7 +2311,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 189,
-      image: "assets/gpu/Sapphire PULSE.jpg",
+      image: "assets/gpu/Sapphire PULSE.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -2323,7 +2323,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 190,
-      image: "assets/gpu/Gigabyte AORUS MASTER.jpg",
+      image: "assets/gpu/Gigabyte AORUS MASTER.png",
       name: "Gigabyte AORUS MASTER",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2335,7 +2335,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 191,
-      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.jpg",
+      image: "assets/gpu/Asus ROG STRIX GAMING OC V2.png",
       name: "Asus ROG STRIX GAMING OC V2",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -2347,7 +2347,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 192,
-      image: "assets/gpu/ASRock Challenger D.jpg",
+      image: "assets/gpu/ASRock Challenger D.png",
       name: "ASRock Challenger D",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -2359,7 +2359,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 193,
-      image: "assets/gpu/Sapphire NITRO+.jpg",
+      image: "assets/gpu/Sapphire NITRO+.png",
       name: "Sapphire NITRO+",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -2371,7 +2371,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 194,
-      image: "assets/gpu/Palit GamingPro.jpg",
+      image: "assets/gpu/Palit GamingPro.png",
       name: "Palit GamingPro",
       chipset: "GeForce RTX 3080 10GB",
       memory: "10GB",
@@ -2383,7 +2383,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 195,
-      image: "assets/gpu/PowerColor Fighter OC.jpg",
+      image: "assets/gpu/PowerColor Fighter OC.png",
       name: "PowerColor Fighter OC",
       chipset: "Radeon RX 6500 XT",
       memory: "4GB",
@@ -2395,7 +2395,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 196,
-      image: "assets/gpu/Zotac GAMING.jpg",
+      image: "assets/gpu/Zotac GAMING.png",
       name: "Zotac GAMING",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -2407,7 +2407,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 197,
-      image: "assets/gpu/MSI D6 VENTUS XS OC.jpg",
+      image: "assets/gpu/MSI D6 VENTUS XS OC.png",
       name: "MSI D6 VENTUS XS OC",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -2419,7 +2419,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 198,
-      image: "assets/gpu/PowerColor Red Devil Ultimate.jpg",
+      image: "assets/gpu/PowerColor Red Devil Ultimate.png",
       name: "PowerColor Red Devil Ultimate",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -2431,7 +2431,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 199,
-      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 ULTRA GAMING.png",
       name: "EVGA FTW3 ULTRA GAMING",
       chipset: "GeForce RTX 2080 Ti",
       memory: "11GB",
@@ -2443,7 +2443,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 200,
-      image: "assets/gpu/MSI SUPRIM X.jpg",
+      image: "assets/gpu/MSI SUPRIM X.png",
       name: "MSI SUPRIM X",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -2455,7 +2455,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 201,
-      image: "assets/gpu/Asus DUAL OC V2.jpg",
+      image: "assets/gpu/Asus DUAL OC V2.png",
       name: "Asus DUAL OC V2",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -2467,7 +2467,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 202,
-      image: "assets/gpu/Zotac GAMING AMP.jpg",
+      image: "assets/gpu/Zotac GAMING AMP.png",
       name: "Zotac GAMING AMP",
       chipset: "GeForce RTX 2080",
       memory: "8GB",
@@ -2479,7 +2479,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 203,
-      image: "assets/gpu/Zotac GAMING Trinity OC.jpg",
+      image: "assets/gpu/Zotac GAMING Trinity OC.png",
       name: "Zotac GAMING Trinity",
       chipset: "GeForce RTX 3090",
       memory: "24GB",
@@ -2491,7 +2491,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 204,
-      image: "assets/gpu/PowerColor Hellhound.jpg",
+      image: "assets/gpu/PowerColor Hellhound.png",
       name: "PowerColor Hellhound",
       chipset: "Radeon RX 6600",
       memory: "8GB",
@@ -2503,7 +2503,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 205,
-      image: "assets/gpu/Palit GamingPro.jpg",
+      image: "assets/gpu/Palit GamingPro.png",
       name: "Palit GamingPro",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -2515,7 +2515,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 206,
-      image: "assets/gpu/Gigabyte EAGLE.jpg",
+      image: "assets/gpu/Gigabyte EAGLE.png",
       name: "Gigabyte EAGLE",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -2527,7 +2527,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 207,
-      image: "assets/gpu/Gigabyte OC Low Profile.jpg",
+      image: "assets/gpu/Gigabyte OC Low Profile.png",
       name: "Gigabyte OC Low Profile",
       chipset: "GeForce GTX 1650 G5",
       memory: "4GB",
@@ -2539,7 +2539,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 208,
-      image: "assets/gpu/EVGA XC3 BLACK GAMING.jpg",
+      image: "assets/gpu/EVGA XC3 BLACK GAMING.png",
       name: "EVGA XC3 BLACK GAMING",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2551,7 +2551,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 209,
-      image: "assets/gpu/Asus DUAL.jpg",
+      image: "assets/gpu/Asus DUAL.png",
       name: "Asus DUAL",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -2563,7 +2563,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 210,
-      image: "assets/gpu/Gigabyte GAMING OC PRO Rev 3.0.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC PRO Rev 3.0.png",
       name: "Gigabyte GAMING OC PRO Rev 3.0",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -2575,7 +2575,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 211,
-      image: "assets/gpu/EVGA FTW GAMING ACX 3.0.jpg",
+      image: "assets/gpu/EVGA FTW GAMING ACX 3.0.png",
       name: "EVGA FTW GAMING ACX 3.0",
       chipset: "GeForce GTX 1070",
       memory: "8GB",
@@ -2587,7 +2587,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 212,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "GeForce GTX 1050",
       memory: "2GB",
@@ -2599,7 +2599,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 213,
-      image: "assets/gpu/PNY XLR8 Gaming Overclocked Edition.jpg",
+      image: "assets/gpu/PNY XLR8 Gaming Overclocked Edition.png",
       name: "PNY XLR8 Gaming Overclocked Edition",
       chipset: "GeForce GTX 1060 6GB",
       memory: "6GB",
@@ -2611,7 +2611,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 214,
-      image: "assets/gpu/Gigabyte GAMING.jpg",
+      image: "assets/gpu/Gigabyte GAMING.png",
       name: "Gigabyte GAMING",
       chipset: "GeForce GTX 1050",
       memory: "2GB",
@@ -2623,7 +2623,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 215,
-      image: "assets/gpu/Asus KO Gaming OC.jpg",
+      image: "assets/gpu/Asus KO Gaming OC.png",
       name: "Asus KO Gaming OC",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2635,7 +2635,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 216,
-      image: "assets/gpu/Palit Dual.jpg",
+      image: "assets/gpu/Palit Dual.png",
       name: "Palit Dual",
       chipset: "GeForce RTX 3050",
       memory: "8GB",
@@ -2647,7 +2647,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 217,
-      image: "assets/gpu/Zotac MINI.jpg",
+      image: "assets/gpu/Zotac MINI.png",
       name: "Zotac MINI",
       chipset: "GeForce RTX 2060 SUPER",
       memory: "8GB",
@@ -2659,7 +2659,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 218,
-      image: "assets/gpu/Gigabyte GAMING OC PRO.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC PRO.png",
       name: "Gigabyte GAMING OC PRO",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -2671,7 +2671,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 219,
-      image: "assets/gpu/XFX GTS.jpg",
+      image: "assets/gpu/XFX GTS.png",
       name: "XFX GTS",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -2683,7 +2683,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 220,
-      image: "assets/gpu/Asus Phoenix OC.jpg",
+      image: "assets/gpu/Asus Phoenix OC.png",
       name: "Asus Phoenix OC",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -2695,7 +2695,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 221,
-      image: "assets/gpu/EVGA Black.jpg",
+      image: "assets/gpu/EVGA Black.png",
       name: "EVGA Black",
       chipset: "GeForce RTX 2070",
       memory: "8GB",
@@ -2707,7 +2707,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 222,
-      image: "assets/gpu/Asus ROG STRIX.jpg",
+      image: "assets/gpu/Asus ROG STRIX.png",
       name: "Asus ROG STRIX",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -2719,7 +2719,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 223,
-      image: "assets/gpu/Sapphire PULSE.jpg",
+      image: "assets/gpu/Sapphire PULSE.png",
       name: "Sapphire PULSE",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -2731,7 +2731,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 224,
-      image: "assets/gpu/Gigabyte AORUS XTREME.jpg",
+      image: "assets/gpu/Gigabyte AORUS XTREME.png",
       name: "Gigabyte AORUS XTREME",
       chipset: "GeForce RTX 3080 Ti",
       memory: "12GB",
@@ -2743,7 +2743,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 225,
-      image: "assets/gpu/Gigabyte AORUS XTREME WATERFORCE.jpg",
+      image: "assets/gpu/Gigabyte AORUS XTREME WATERFORCE.png",
       name: "Gigabyte AORUS XTREME WATERFORCE",
       chipset: "GeForce RTX 3080",
       memory: "10GB",
@@ -2755,7 +2755,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 226,
-      image: "assets/gpu/Zotac Twin Edge OC.jpg",
+      image: "assets/gpu/Zotac Twin Edge OC.png",
       name: "Zotac Twin Edge OC",
       chipset: "GeForce RTX 3070",
       memory: "8GB",
@@ -2767,7 +2767,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 227,
-      image: "assets/gpu/Gigabyte GAMING OC.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC.png",
       name: "Gigabyte GAMING OC",
       chipset: "Radeon RX 6600 XT",
       memory: "8GB",
@@ -2779,7 +2779,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 228,
-      image: "assets/gpu/ASRock Phantom Gaming D.jpg",
+      image: "assets/gpu/ASRock Phantom Gaming D.png",
       name: "ASRock Phantom Gaming D",
       chipset: "Radeon RX 570",
       memory: "4GB",
@@ -2791,7 +2791,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 229,
-      image: "assets/gpu/Gigabyte GAMING.jpg",
+      image: "assets/gpu/Gigabyte GAMING.png",
       name: "Gigabyte GAMING",
       chipset: "Radeon RX 580",
       memory: "8GB",
@@ -2803,7 +2803,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 230,
-      image: "assets/gpu/Asus CERBERUS.jpg",
+      image: "assets/gpu/Asus CERBERUS.png",
       name: "Asus CERBERUS",
       chipset: "GeForce GTX 1050 Ti",
       memory: "4GB",
@@ -2815,7 +2815,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 231,
-      image: "assets/gpu/Sapphire NITRO+.jpg",
+      image: "assets/gpu/Sapphire NITRO+.png",
       name: "Sapphire NITRO+",
       chipset: "Radeon RX 6800 XT",
       memory: "16GB",
@@ -2827,7 +2827,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 232,
-      image: "assets/gpu/AMD 100-506115.jpg",
+      image: "assets/gpu/AMD 100-506115.png",
       name: "AMD 100-506115",
       chipset: "Radeon Pro WX 3200",
       memory: "4GB",
@@ -2839,7 +2839,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 233,
-      image: "assets/gpu/MSI DUKE.jpg",
+      image: "assets/gpu/MSI DUKE.png",
       name: "MSI DUKE",
       chipset: "GeForce RTX 2070",
       memory: "8GB",
@@ -2851,7 +2851,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 234,
-      image: "assets/gpu/Gigabyte GAMING OC 3X.jpg",
+      image: "assets/gpu/Gigabyte GAMING OC 3X.png",
       name: "Gigabyte GAMING OC 3X",
       chipset: "GeForce RTX 2070 SUPER",
       memory: "8GB",
@@ -2863,7 +2863,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 235,
-      image: "assets/gpu/Gigabyte WINDFORCE OC.jpg",
+      image: "assets/gpu/Gigabyte WINDFORCE OC.png",
       name: "Gigabyte WINDFORCE OC",
       chipset: "GeForce GTX 1650 SUPER",
       memory: "4GB",
@@ -2875,7 +2875,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 236,
-      image: "assets/gpu/Asus Phoenix.jpg",
+      image: "assets/gpu/Asus Phoenix.png",
       name: "Asus Phoenix",
       chipset: "GeForce RTX 3060",
       memory: "12GB",
@@ -2887,7 +2887,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 237,
-      image: "assets/gpu/Palit GamingPro OC.jpg",
+      image: "assets/gpu/Palit GamingPro OC.png",
       name: "Palit GamingPro OC",
       chipset: "GeForce RTX 3070 LHR",
       memory: "8GB",
@@ -2899,7 +2899,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 238,
-      image: "assets/gpu/AMD RADEON PRO WX 4100.jpg",
+      image: "assets/gpu/AMD RADEON PRO WX 4100.png",
       name: "AMD RADEON PRO WX 4100",
       chipset: "Radeon Pro WX 4100",
       memory: "4GB",
@@ -2911,7 +2911,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 239,
-      image: "assets/gpu/Gigabyte AORUS ELITE.jpg",
+      image: "assets/gpu/Gigabyte AORUS ELITE.png",
       name: "Gigabyte AORUS ELITE",
       chipset: "Radeon RX 6700 XT",
       memory: "12GB",
@@ -2923,7 +2923,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 240,
-      image: "assets/gpu/MSI VENTUS XS OC.jpg",
+      image: "assets/gpu/MSI VENTUS XS OC.png",
       name: "MSI VENTUS XS OC",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -2935,7 +2935,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 241,
-      image: "assets/gpu/MSI VENTUS 2X V1.jpg",
+      image: "assets/gpu/MSI VENTUS 2X V1.png",
       name: "MSI VENTUS 2X V1",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -2947,7 +2947,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 242,
-      image: "assets/gpu/XFX Speedster MERC 319 Ultra.jpg",
+      image: "assets/gpu/XFX Speedster MERC 319 Ultra.png",
       name: "XFX Speedster MERC 319 Ultra",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -2959,7 +2959,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 243,
-      image: "assets/gpu/EVGA XC ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA XC ULTRA GAMING.png",
       name: "EVGA XC ULTRA GAMING",
       chipset: "GeForce RTX 2080 Ti",
       memory: "11GB",
@@ -2971,7 +2971,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 244,
-      image: "assets/gpu/PowerColor Red Dragon.jpg",
+      image: "assets/gpu/PowerColor Red Dragon.png",
       name: "PowerColor Red Dragon",
       chipset: "Radeon RX 550 - 512",
       memory: "4GB",
@@ -2983,7 +2983,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 245,
-      image: "assets/gpu/MSI VENTUS.jpg",
+      image: "assets/gpu/MSI VENTUS.png",
       name: "MSI VENTUS",
       chipset: "GeForce RTX 2080",
       memory: "8GB",
@@ -2995,7 +2995,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 246,
-      image: "assets/gpu/Sapphire Toxic Extreme Edition.jpg",
+      image: "assets/gpu/Sapphire Toxic Extreme Edition.png",
       name: "Sapphire Toxic Extreme Edition",
       chipset: "Radeon RX 6900 XT",
       memory: "16GB",
@@ -3007,7 +3007,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 247,
-      image: "assets/gpu/Asus STRIX GAMING Advanced.jpg",
+      image: "assets/gpu/Asus STRIX GAMING Advanced.png",
       name: "Asus STRIX GAMING Advanced",
       chipset: "GeForce RTX 2080 SUPER",
       memory: "8GB",
@@ -3019,7 +3019,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 248,
-      image: "assets/gpu/MSI GAMING X.jpg",
+      image: "assets/gpu/MSI GAMING X.png",
       name: "MSI GAMING X",
       chipset: "GeForce GTX 1660 SUPER",
       memory: "6GB",
@@ -3031,7 +3031,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 249,
-      image: "assets/gpu/Asus DUAL.jpg",
+      image: "assets/gpu/Asus DUAL.png",
       name: "Asus DUAL",
       chipset: "Radeon RX 580",
       memory: "4GB",
@@ -3043,7 +3043,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 250,
-      image: "assets/gpu/VisionTek 901315.jpg",
+      image: "assets/gpu/VisionTek 901315.png",
       name: "VisionTek 901315",
       chipset: "Radeon RX 5500 XT",
       memory: "4 GB",
@@ -3055,7 +3055,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 251,
-      image: "assets/gpu/PNY T-Series.jpg",
+      image: "assets/gpu/PNY T-Series.png",
       name: "PNY T-Series",
       chipset: "T600",
       memory: "4GB",
@@ -3067,7 +3067,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 252,
-      image: "assets/gpu/Asus DUAL EVO TOP.jpg",
+      image: "assets/gpu/Asus DUAL EVO TOP.png",
       name: "Asus DUAL EVO TOP",
       chipset: "Radeon RX 5600 XT",
       memory: "6GB",
@@ -3079,7 +3079,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 253,
-      image: "assets/gpu/MSI D6 GAMING X.jpg",
+      image: "assets/gpu/MSI D6 GAMING X.png",
       name: "MSI D6 GAMING X",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -3091,7 +3091,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 254,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce RTX 3050",
       memory: "8GB",
@@ -3103,7 +3103,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 255,
-      image: "assets/gpu/Zotac AMP Core.jpg",
+      image: "assets/gpu/Zotac AMP Core.png",
       name: "Zotac AMP Core",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -3115,7 +3115,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 256,
-      image: "assets/gpu/Gigabyte WINDFORCE.jpg",
+      image: "assets/gpu/Gigabyte WINDFORCE.png",
       name: "Gigabyte WINDFORCE",
       chipset: "GeForce GTX 760",
       memory: "4GB",
@@ -3127,7 +3127,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 257,
-      image: "assets/gpu/PNY T-Series.jpg",
+      image: "assets/gpu/PNY T-Series.png",
       name: "PNY T-Series",
       chipset: "T400",
       memory: "4GB",
@@ -3139,7 +3139,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 258,
-      image: "assets/gpu/XFX Speedster SWFT 210 Core.jpg",
+      image: "assets/gpu/XFX Speedster SWFT 210 Core.png",
       name: "XFX Speedster SWFT 210 Core",
       chipset: "Radeon RX 6650 XT",
       memory: "8GB",
@@ -3151,7 +3151,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 259,
-      image: "assets/gpu/EVGA XC GAMING.jpg",
+      image: "assets/gpu/EVGA XC GAMING.png",
       name: "EVGA XC GAMING",
       chipset: "GeForce RTX 2070",
       memory: "4GB",
@@ -3163,7 +3163,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 260,
-      image: "assets/gpu/AMD 100-505999.jpg",
+      image: "assets/gpu/AMD 100-505999.png",
       name: "AMD 100-505999",
       chipset: "Radeon Pro WX 3100",
       memory: "4GB",
@@ -3175,7 +3175,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 261,
-      image: "assets/gpu/Asus Phoenix OC.jpg",
+      image: "assets/gpu/Asus Phoenix OC.png",
       name: "Asus Phoenix OC",
       chipset: "GeForce GTX 1660",
       memory: "6GB",
@@ -3187,7 +3187,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 262,
-      image: "assets/gpu/Asus TUF GAMING V2.jpg",
+      image: "assets/gpu/Asus TUF GAMING V2.png",
       name: "Asus TUF GAMING V2",
       chipset: "GeForce RTX 3060 Ti LHR",
       memory: "8GB",
@@ -3199,7 +3199,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 263,
-      image: "assets/gpu/EVGA SC GAMING.jpg",
+      image: "assets/gpu/EVGA SC GAMING.png",
       name: "EVGA SC GAMING",
       chipset: "GeForce GTX 1630",
       memory: "4GB",
@@ -3211,7 +3211,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 264,
-      image: "assets/gpu/MSI Radeon RX 570 ARMOR 8G.jpg",
+      image: "assets/gpu/MSI Radeon RX 570 ARMOR 8G.png",
       name: "MSI Radeon RX 570 ARMOR 8G",
       chipset: "Radeon RX 570",
       memory: "8GB",
@@ -3223,7 +3223,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 265,
-      image: "assets/gpu/Asus TUF GAMING.jpg",
+      image: "assets/gpu/Asus TUF GAMING.png",
       name: "Asus TUF GAMING",
       chipset: "GeForce GTX 1650 SUPER",
       memory: "4GB",
@@ -3235,7 +3235,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 266,
-      image: "assets/gpu/Inno3D Twin X2 OC.jpg",
+      image: "assets/gpu/Inno3D Twin X2 OC.png",
       name: "Inno3D Twin X2 OC",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",
@@ -3247,7 +3247,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 267,
-      image: "assets/gpu/EVGA FTW3 HYBRID GAMING.jpg",
+      image: "assets/gpu/EVGA FTW3 HYBRID GAMING.png",
       name: "EVGA FTW3 HYBRID GAMING",
       chipset: "GeForce RTX 2080 SUPER",
       memory: "8GB",
@@ -3259,7 +3259,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 268,
-      image: "assets/gpu/Zotac GAMING OC.jpg",
+      image: "assets/gpu/Zotac GAMING OC.png",
       name: "Zotac GAMING OC",
       chipset: "GeForce GTX 1650 G5",
       memory: "4GB",
@@ -3271,7 +3271,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 269,
-      image: "assets/gpu/Asus TUF GAMING OC.jpg",
+      image: "assets/gpu/Asus TUF GAMING OC.png",
       name: "Asus TUF GAMING OC",
       chipset: "GeForce GTX 1630",
       memory: "4GB",
@@ -3283,7 +3283,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 270,
-      image: "assets/gpu/EVGA XC BLACK GAMING.jpg",
+      image: "assets/gpu/EVGA XC BLACK GAMING.png",
       name: "EVGA XC BLACK GAMING",
       chipset: "GeForce RTX 2060",
       memory: "6GB",
@@ -3295,7 +3295,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 271,
-      image: "assets/gpu/PNY T-Series.jpg",
+      image: "assets/gpu/PNY T-Series.png",
       name: "PNY T-Series",
       chipset: "T1000",
       memory: "4GB",
@@ -3307,7 +3307,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 272,
-      image: "assets/gpu/EVGA FTW GAMING ACX 3.0.jpg",
+      image: "assets/gpu/EVGA FTW GAMING ACX 3.0.png",
       name: "EVGA FTW GAMING ACX 3.0",
       chipset: "GeForce GTX 1050 Ti",
       memory: "4GB",
@@ -3319,7 +3319,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 273,
-      image: "assets/gpu/XFX Speedster QICK 319 BLACK.jpg",
+      image: "assets/gpu/XFX Speedster QICK 319 BLACK.png",
       name: "XFX Speedster QICK 319 BLACK",
       chipset: "Radeon RX 6800",
       memory: "16GB",
@@ -3331,7 +3331,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 274,
-      image: "assets/gpu/PNY XLR8 Gaming Overclocked Edition.jpg",
+      image: "assets/gpu/PNY XLR8 Gaming Overclocked Edition.png",
       name: "PNY XLR8 Gaming Overclocked Edition",
       chipset: "GeForce GTX 1650 SUPER",
       memory: "4GB",
@@ -3343,7 +3343,7 @@ List<ListGraphicsCard> graphicsCard = [
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 275,
-      image: "assets/gpu/EVGA SC ULTRA GAMING.jpg",
+      image: "assets/gpu/EVGA SC ULTRA GAMING.png",
       name: "EVGA SC ULTRA GAMING",
       chipset: "GeForce GTX 1650 G6",
       memory: "4GB",

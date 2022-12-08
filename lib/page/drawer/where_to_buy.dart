@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:test1/data/shops.dart';
 import 'package:test1/details_shop/itemcard_shops.dart';
 import 'package:test1/widget/drawer_menu_widget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class WhereToBuy extends StatelessWidget {
+class WhereToBuy extends StatefulWidget {
   final VoidCallback openDrawer;
 
   const WhereToBuy({
@@ -12,11 +13,26 @@ class WhereToBuy extends StatelessWidget {
   }) : super(key: key);
 
   @override
+  State<WhereToBuy> createState() => _WhereToBuyState();
+}
+
+class _WhereToBuyState extends State<WhereToBuy> {
+  Future<void> launchURL(String url) async {
+    final Uri uri = Uri.parse(url);
+    if (!await launchUrl(
+      uri,
+      mode: LaunchMode.inAppWebView,
+    )) {
+      throw "nothing";
+    }
+  }
+
+  @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           leading: DrawerMenuWidget(
-            onClicked: openDrawer,
+            onClicked: widget.openDrawer,
           ),
           backgroundColor: Theme.of(context).primaryColorLight,
           title: const Text(''),
@@ -25,9 +41,9 @@ class WhereToBuy extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("assets/BGShop.png"),
+                image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .4),
+                opacity: .7),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -42,7 +58,7 @@ class WhereToBuy extends StatelessWidget {
                   child: RichText(
                     textAlign: TextAlign.center,
                     text: TextSpan(
-                        text: 'WHERE TO BUY',
+                        text: 'WHERE CAN BUY',
                         style: TextStyle(
                             fontSize: 33,
                             fontWeight: FontWeight.bold,
@@ -76,8 +92,9 @@ class WhereToBuy extends StatelessWidget {
                             childAspectRatio: 1,
                             mainAxisSpacing: 50,
                             crossAxisSpacing: 50),
-                    itemBuilder: (context, index) =>
-                        ShopsItemCard(shops: shops[index]),
+                    itemBuilder: (context, index) => ShopsItemCard(
+                      shops: shops[index],
+                    ),
                   ),
                 ),
               ),

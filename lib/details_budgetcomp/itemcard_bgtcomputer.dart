@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_budget.dart';
 
 class BgtComputer extends StatefulWidget {
@@ -14,6 +15,8 @@ class BgtComputer extends StatefulWidget {
   State<BgtComputer> createState() => _ItemCardState();
 }
 
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
+
 class _ItemCardState extends State<BgtComputer> {
   @override
   Widget build(BuildContext context) {
@@ -28,11 +31,11 @@ class _ItemCardState extends State<BgtComputer> {
               children: [
                 Positioned(
                   bottom: 30,
-                  left: 20,
+                  left: 6,
                   child: Center(
                     child: Image.asset(
-                      "assets/builds/platform.png",
-                      scale: 1.5,
+                      "assets/animated/Platform1.png",
+                      scale: 9,
                     ),
                   ),
                 ),
@@ -42,35 +45,46 @@ class _ItemCardState extends State<BgtComputer> {
                     scale: 2.5,
                   ),
                 ),
-                Positioned(
-                    bottom: 0,
-                    left: 5,
+                Padding(
+                  padding: const EdgeInsets.only(top: 200),
+                  child: Center(
                     child: Container(
+                      width: 200,
+                      height: 60,
                       decoration: BoxDecoration(
                           color: Colors.white,
                           border: Border.all(
-                              color: const Color.fromARGB(255, 220, 49, 250)),
+                              color: const Color.fromARGB(255, 13, 46, 87)),
                           borderRadius:
                               const BorderRadius.all(Radius.circular(10))),
-                      child: RichText(
-                        textAlign: TextAlign.center,
-                        text: TextSpan(
-                            text: "Build: ${widget.bgcomputer.processor}",
-                            style: const TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold),
-                            children: [
-                              TextSpan(
-                                  text:
-                                      "\nPrice: \u20B1${widget.bgcomputer.price}",
-                                  style: const TextStyle(
-                                      fontSize: 17,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.red))
-                            ]),
-                        overflow: TextOverflow.ellipsis,
+                      child: Column(
+                        children: [
+                          RichText(
+                            textAlign: TextAlign.center,
+                            text: TextSpan(
+                                text: "Build: ${widget.bgcomputer.processor}",
+                                style: const TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold),
+                                children: const []),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          RichText(
+                            textAlign: TextAlign.center,
+                            text: TextSpan(
+                                text:
+                                    "\nPrice: \u20B1${myFormat.format(widget.bgcomputer.price)}",
+                                style: const TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.red)),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ],
                       ),
-                    )),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),

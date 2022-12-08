@@ -24,14 +24,17 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysCase(widget.systemcase.name, widget.systemcase.image2D,
-              widget.systemcase.image, widget.systemcase.name);
+          setSysCase(
+              widget.systemcase.name,
+              widget.systemcase.image2D,
+              widget.systemcase.image,
+              widget.systemcase.name,
+              widget.systemcase.price);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
-            ..pop()
             ..pop()
             ..pop();
         },
@@ -49,11 +52,13 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
     );
   }
 
-  Future<void> setSysCase(caseValue, imageValue, imageOrig, name) async {
+  Future<void> setSysCase(caseValue, imageValue, imageOrig, name, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('sysCase', caseValue);
     pref.setString('image', imageValue);
     pref.setString('imageOrig', imageOrig);
     pref.setString('sysCaseName', name);
+    pref.setDouble('sysCase_price',
+        price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
   }
 }

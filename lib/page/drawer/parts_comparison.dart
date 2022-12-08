@@ -42,7 +42,7 @@ class _PartsComparisonState extends State<PartsComparison> {
 
   @override
   void initState() {
-    removeStore();
+    // removeStore();
     super.initState();
   }
 
@@ -55,9 +55,9 @@ class _PartsComparisonState extends State<PartsComparison> {
           height: MediaQuery.of(context).size.height,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("assets/BGcompare.jpg"),
+                image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .5),
+                opacity: .7),
           ),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -81,8 +81,14 @@ class _PartsComparisonState extends State<PartsComparison> {
                         width: 180,
                         height: 180,
                         decoration: BoxDecoration(
-                            color: Colors.red[200],
+                            // color: Colors.red[200],
+                            image: const DecorationImage(
+                                image: AssetImage(
+                                    "assets/animated/ItemCardBG2.jpg"),
+                                fit: BoxFit.none,
+                                scale: 10),
                             border: Border.all(
+                              width: 2,
                               color: const Color.fromARGB(255, 15, 59, 112),
                             ),
                             borderRadius:
@@ -94,9 +100,12 @@ class _PartsComparisonState extends State<PartsComparison> {
                                     "assets/animated/screen_no_parts.png",
                                     fit: BoxFit.fill,
                                   )
-                                : Image.asset(
-                                    compareImage!,
-                                    fit: BoxFit.fill,
+                                : Center(
+                                    child: Image.asset(
+                                      compareImage!,
+                                      fit: BoxFit.fill,
+                                      scale: 1.5,
+                                    ),
                                   )
                           ],
                         ))),
@@ -121,8 +130,14 @@ class _PartsComparisonState extends State<PartsComparison> {
                     width: 180,
                     height: 180,
                     decoration: BoxDecoration(
-                        color: Colors.blue[200],
+                        // color: Colors.blue[200],
+                        image: const DecorationImage(
+                            image:
+                                AssetImage("assets/animated/ItemCardBG2.jpg"),
+                            fit: BoxFit.none,
+                            scale: 10),
                         border: Border.all(
+                          width: 2,
                           color: const Color.fromARGB(255, 15, 59, 112),
                         ),
                         borderRadius:
@@ -134,9 +149,12 @@ class _PartsComparisonState extends State<PartsComparison> {
                                 "assets/animated/screen_no_parts.png",
                                 fit: BoxFit.fill,
                               )
-                            : Image.asset(
-                                compareImage2!,
-                                fit: BoxFit.fill,
+                            : Center(
+                                child: Image.asset(
+                                  compareImage2!,
+                                  fit: BoxFit.fill,
+                                  scale: 1.5,
+                                ),
                               )
                       ],
                     ),
@@ -158,16 +176,22 @@ class _PartsComparisonState extends State<PartsComparison> {
                           width: 300,
                           height: 300,
                           decoration: BoxDecoration(
-                              color: Colors.red[200],
+                              // color: Colors.red[200],
+                              image: const DecorationImage(
+                                  image: AssetImage(
+                                      "assets/animated/BlueInfo.jpg"),
+                                  fit: BoxFit.none,
+                                  scale: 2.5),
                               border: Border.all(
-                                color: const Color.fromARGB(255, 15, 59, 112),
+                                width: 2,
+                                color: const Color.fromARGB(255, 15, 37, 38),
                               ),
                               borderRadius:
                                   const BorderRadius.all(Radius.circular(20))),
                           child: RichText(
                               textAlign: TextAlign.center,
                               text: TextSpan(
-                                text: "PC Part 1\n\n",
+                                text: "PC PART 1\n\n",
                                 style: const TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 17,
@@ -191,16 +215,22 @@ class _PartsComparisonState extends State<PartsComparison> {
                         width: 300,
                         height: 300,
                         decoration: BoxDecoration(
-                            color: Colors.blue[200],
+                            // color: Colors.blue[200],
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage("assets/animated/BlueInfo.jpg"),
+                                fit: BoxFit.none,
+                                scale: 2.5),
                             border: Border.all(
-                              color: const Color.fromARGB(255, 15, 59, 112),
+                              width: 2,
+                              color: const Color.fromARGB(255, 15, 37, 38),
                             ),
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(20))),
                         child: RichText(
                             textAlign: TextAlign.center,
                             text: TextSpan(
-                              text: "PC Part 2\n\n",
+                              text: "PC PART 2\n\n",
                               style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 17,

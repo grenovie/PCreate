@@ -18,6 +18,20 @@ class BudgetComputer extends StatefulWidget {
 }
 
 class _BudgetComputerState extends State<BudgetComputer> {
+  static List<ListBudget> searched = budgetcomputer;
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  void updateList(String value) {
+    setState(() {
+      searched = budgetcomputer
+          .where((element) => element.price.toString().contains(value))
+          .toList();
+    });
+  }
+
   @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: Colors.transparent,
@@ -32,9 +46,9 @@ class _BudgetComputerState extends State<BudgetComputer> {
           width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("assets/BGbcomp.jpg"),
+                image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .2),
+                opacity: .7),
           ),
           child: Column(
               // mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -44,7 +58,7 @@ class _BudgetComputerState extends State<BudgetComputer> {
                     margin: const EdgeInsets.only(top: 20, bottom: 30),
                     width: MediaQuery.of(context).size.width * .7,
                     decoration: const BoxDecoration(
-                        color: Color.fromRGBO(50, 130, 184, .4),
+                        color: Color.fromARGB(102, 75, 75, 75),
                         borderRadius: BorderRadius.all(Radius.circular(20))),
                     child: RichText(
                       textAlign: TextAlign.center,
@@ -70,27 +84,47 @@ class _BudgetComputerState extends State<BudgetComputer> {
                     ),
                   ),
                 ),
+                TextField(
+                  autofocus: false,
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                      filled: true,
+                      fillColor: Colors.grey,
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(8.0),
+                          borderSide: BorderSide.none),
+                      hintText: "Input Price",
+                      prefixIcon: const Icon(Icons.search),
+                      prefixIconColor: Colors.black),
+                  onChanged: (value) => updateList(value),
+                ),
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 50),
-                    child: GridView.builder(
-                      itemCount: budgetcomputer.length,
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 1,
-                              childAspectRatio: 1,
-                              mainAxisSpacing: 50,
-                              crossAxisSpacing: 50),
-                      itemBuilder: (context, index) => BgtComputer(
-                        bgcomputer: budgetcomputer[index],
-                        press: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => BudgetDetails(
-                                      bdgtcomputer: budgetcomputer[index],
-                                    ))),
-                      ),
-                    ),
+                    child: searched.isEmpty
+                        ? const Center(
+                            child: Text(
+                                "Sorry No result found, developers will input more of this items",
+                                style: TextStyle(
+                                    fontSize: 22, fontWeight: FontWeight.bold)))
+                        : GridView.builder(
+                            itemCount: searched.length,
+                            gridDelegate:
+                                const SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 1,
+                                    childAspectRatio: 1,
+                                    mainAxisSpacing: 50,
+                                    crossAxisSpacing: 50),
+                            itemBuilder: (context, index) => BgtComputer(
+                              bgcomputer: searched[index],
+                              press: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => BudgetDetails(
+                                            bdgtcomputer: searched[index],
+                                          ))),
+                            ),
+                          ),
                   ),
                 )
               ]),

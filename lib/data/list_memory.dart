@@ -22,98 +22,98 @@ class ListMemory {
 }
 
 List<ListMemory> memory = [
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 1,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
-    name: "Corsair Vengeance LPX 16 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 2,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
-    name: "Corsair Vengeance RGB Pro 32 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 3,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
-    name: "Corsair Vengeance RGB Pro 16 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 4,
-    image: "assets/memory/G.Skill Ripjaws V 32 GB.jpg",
-    name: "G.Skill Ripjaws V 32 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 5,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
-    name: "Corsair Vengeance LPX 32 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 6,
-    image: "assets/memory/Corsair Vengeance 32 GB.jpg",
-    name: "Corsair Vengeance 32 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 7,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
-    name: "G.Skill Ripjaws V 16 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
-  ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
-    id: 8,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
-    name: "Corsair Vengeance RGB Pro 32 GB",
-    speed: "DDR4-3200",
-    modules: "2 x 8GB",
-    firstWordLatency: "10 ns",
-    casLatency: "16",
-    price: "3,500",
-  ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 1,
+  //   image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
+  //   name: "Corsair Vengeance LPX 16 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 2,
+  //   image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
+  //   name: "Corsair Vengeance RGB Pro 32 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 3,
+  //   image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
+  //   name: "Corsair Vengeance RGB Pro 16 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 4,
+  //   image: "assets/memory/G.Skill Ripjaws V 32 GB.png",
+  //   name: "G.Skill Ripjaws V 32 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 5,
+  //   image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
+  //   name: "Corsair Vengeance LPX 32 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 6,
+  //   image: "assets/memory/Corsair Vengeance 32 GB.png",
+  //   name: "Corsair Vengeance 32 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 7,
+  //   image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
+  //   name: "G.Skill Ripjaws V 16 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
+  // ListMemory(
+  //   image2D: "assets/animated/Ram_2x.png",
+  //   id: 8,
+  //   image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
+  //   name: "Corsair Vengeance RGB Pro 32 GB",
+  //   speed: "DDR4-3200",
+  //   modules: "2 x 8GB",
+  //   firstWordLatency: "10 ns",
+  //   casLatency: "16",
+  //   price: "3,500",
+  // ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 9,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -124,7 +124,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 10,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.png",
     name: "Corsair Vengeance RGB Pro SL 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -135,7 +135,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 11,
-    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.png",
     name: "G.Skill Trident Z5 RGB 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -146,7 +146,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 12,
-    image: "assets/memory/Silicon Power GAMING 16 GB.jpg",
+    image: "assets/memory/Silicon Power GAMING 16 GB.png",
     name: "Silicon Power GAMING 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -157,7 +157,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 13,
-    image: "assets/memory/Corsair Dominator Platinum 128 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum 128 GB.png",
     name: "Corsair Dominator Platinum 128 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -166,9 +166,9 @@ List<ListMemory> memory = [
     price: "236031.93",
   ),
   ListMemory(
-    image2D: "assets/animated/Ram_2x.png",
+    image2D: "assets/animated/Ram_Ven.png",
     id: 14,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -179,7 +179,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 15,
-    image: "assets/memory/G.Skill Trident Z RGB 16 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 16 GB.png",
     name: "G.Skill Trident Z RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -190,7 +190,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 16,
-    image: "assets/memory/G.Skill Trident Z5 RGB 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 RGB 64 GB.png",
     name: "G.Skill Trident Z5 RGB 64 GB",
     speed: "DDR5-6000",
     modules: "2 x 32GB",
@@ -201,7 +201,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 17,
-    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.png",
     name: "Corsair Dominator Platinum RGB 32 GB",
     speed: "DDR5-6200",
     modules: "2 x 16GB",
@@ -212,7 +212,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 18,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -223,7 +223,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 19,
-    image: "assets/memory/Corsair Vengeance 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance 32 GB.png",
     name: "Corsair Vengeance 32 GB",
     speed: "DDR5-4800",
     modules: "2 x 16GB",
@@ -234,7 +234,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 20,
-    image: "assets/memory/G.Skill Trident Z RGB 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 64 GB.png",
     name: "G.Skill Trident Z RGB 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -245,7 +245,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 21,
-    image: "assets/memory/Kingston FURY Beast 16 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 16 GB.png",
     name: "Kingston FURY Beast 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -256,7 +256,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 22,
-    image: "assets/memory/Corsair Vengeance 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance 64 GB.png",
     name: "Corsair Vengeance 64 GB",
     speed: "DDR5-5200",
     modules: "2 x 32GB",
@@ -267,7 +267,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 23,
-    image: "assets/memory/G.Skill Trident Z Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 32 GB.png",
     name: "G.Skill Trident Z Neo 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -278,7 +278,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 24,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -289,7 +289,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 25,
-    image: "assets/memory/Corsair Vengeance RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB 32 GB.png",
     name: "Corsair Vengeance RGB 32 GB",
     speed: "DDR5-6600",
     modules: "2 x 16GB",
@@ -300,7 +300,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 26,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -311,7 +311,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 27,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -322,7 +322,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 28,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -333,7 +333,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 29,
-    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.png",
     name: "Corsair Dominator Platinum RGB 64 GB",
     speed: "	DDR5-5200",
     modules: "2 x 32GB",
@@ -344,7 +344,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 30,
-    image: "assets/memory/Silicon Power XPOWER Turbine 16 GB.jpg",
+    image: "assets/memory/Silicon Power XPOWER Turbine 16 GB.png",
     name: "Silicon Power XPOWER Turbine 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -355,7 +355,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 31,
-    image: "assets/memory/Corsair Vengeance LPX 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 64 GB.png",
     name: "Corsair Vengeance LPX 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -366,7 +366,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 32,
-    image: "assets/memory/Corsair Vengeance RGB RT 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RT 32 GB.png",
     name: "Corsair Vengeance RGB RT 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -377,7 +377,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 33,
-    image: "assets/memory/G.Skill Ripjaws V 32 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 32 GB.png",
     name: "G.Skill Ripjaws V 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -388,7 +388,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 34,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 16 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 16 GB	",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -399,7 +399,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 35,
-    image: "assets/memory/Silicon Power GAMING 32 GB.jpg",
+    image: "assets/memory/Silicon Power GAMING 32 GB.png",
     name: "Silicon Power GAMING 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -410,7 +410,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 36,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 32 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -421,7 +421,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 37,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -432,7 +432,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 38,
-    image: "assets/memory/TEAMGROUP T-Force Dark Za 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Dark Za 16 GB.png",
     name: "TEAMGROUP T-Force Dark Za 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -443,7 +443,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 39,
-    image: "assets/memory/Corsair Vengeance LPX 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 8 GB.png",
     name: "Corsair Vengeance LPX 8 GB",
     speed: "DDR4-2400",
     modules: "1 x 8GB",
@@ -454,7 +454,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 39,
-    image: "assets/memory/G.Skill Aegis 16 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 16 GB.png",
     name: "G.Skill Aegis 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -465,7 +465,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 40,
-    image: "assets/memory/G.Skill Trident Z RGB 128 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 128 GB.png",
     name: "G.Skill Trident Z RGB 128 GB",
     speed: "DDR4-4000",
     modules: "4 x 32GB",
@@ -476,7 +476,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 41,
-    image: "assets/memory/Crucial Ballistix 16 GB.jpg",
+    image: "assets/memory/Crucial Ballistix 16 GB.png",
     name: "Crucial Ballistix 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -487,7 +487,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 42,
-    image: "assets/memory/Corsair Vengeance RGB Pro 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 64 GB.png",
     name: "Corsair Vengeance RGB Pro 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -498,7 +498,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 42,
-    image: "assets/memory/G.Skill Trident Z Royal 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 32 GB.png",
     name: "G.Skill Trident Z Royal 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -509,7 +509,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 43,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -520,7 +520,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 44,
-    image: "assets/memory/Crucial CT25664AA667 2 GB.jpg",
+    image: "assets/memory/Crucial CT25664AA667 2 GB.png",
     name: "Crucial 2 GB",
     speed: "DDR2-667",
     modules: "1 x 2GB",
@@ -531,7 +531,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 45,
-    image: "assets/memory/Kingston FURY Beast RGB 16 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast RGB 16 GB.png",
     name: "Kingston FURY Beast RGB 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -542,7 +542,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 46,
-    image: "assets/memory/Kingston FURY Beast 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 32 GB.png",
     name: "Kingston FURY Beast 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -553,7 +553,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 47,
-    image: "assets/memory/Patriot Viper Steel 8 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 8 GB.png",
     name: "Patriot Viper Steel 8 GB",
     speed: "DDR4-3200",
     modules: "2 x 4GB",
@@ -564,7 +564,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 48,
-    image: "assets/memory/OLOy MD4U0836180BHKDA 16 GB.jpg",
+    image: "assets/memory/OLOy MD4U0836180BHKDA 16 GB.png",
     name: "OLOy 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -575,7 +575,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 49,
-    image: "assets/memory/Kingston FURY Renegade 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Renegade 32 GB.png",
     name: "Kingston FURY Renegade 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -586,7 +586,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 50,
-    image: "assets/memory/G.Skill Trident Z Neo 16 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 16 GB.png",
     name: "G.Skill Trident Z Neo 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -597,7 +597,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 51,
-    image: "assets/memory/G.Skill Ripjaws V 32 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 32 GB.png",
     name: "G.Skill Ripjaws V 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -608,7 +608,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 52,
-    image: "assets/memory/TEAMGROUP T-Create Expert 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Create Expert 32 GB.png",
     name: "TEAMGROUP T-Create Expert 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -619,7 +619,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 53,
-    image: "assets/memory/Corsair Vengeance RGB RT 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RT 64 GB.png",
     name: "Corsair Vengeance RGB RT 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -630,7 +630,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 54,
-    image: "assets/memory/Silicon Power XPOWER Turbine RGB 32 GB.jpg",
+    image: "assets/memory/Silicon Power XPOWER Turbine RGB 32 GB.png",
     name: "Silicon Power XPOWER Turbine 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -641,7 +641,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 55,
-    image: "assets/memory/Crucial Ballistix 32 GB.jpg",
+    image: "assets/memory/Crucial Ballistix 32 GB.png",
     name: "Crucial Ballistix 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -652,7 +652,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 56,
-    image: "assets/memory/Patriot Viper Steel 16 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 16 GB.png",
     name: "Patriot Viper Steel 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -663,7 +663,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 57,
-    image: "assets/memory/Silicon Power SP016GXLZU320BDAAD 16 GB.jpg",
+    image: "assets/memory/Silicon Power SP016GXLZU320BDAAD 16 GB.png",
     name: "Silicon Power  16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -674,7 +674,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 58,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 16 GB.png",
     name: "Corsair Vengeance RGB Pro SL 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -685,7 +685,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 59,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan 32 GB.png",
     name: "TEAMGROUP T-Force Vulcan 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -696,7 +696,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 60,
-    image: "assets/memory/G.Skill Flare X5 32 GB.jpg",
+    image: "assets/memory/G.Skill Flare X5 32 GB.png",
     name: "G.Skill Flare X5 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -707,7 +707,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 61,
-    image: "assets/memory/Crucial CT8G4DFS824A 8 GB.jpg",
+    image: "assets/memory/Crucial CT8G4DFS824A 8 GB.png",
     name: "Crucial 8 GB",
     speed: "DDR5-2400",
     modules: "1 x 8GB",
@@ -718,7 +718,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 62,
-    image: "assets/memory/Kingston KVR1333D3N9 4G 4 GB.jpg",
+    image: "assets/memory/Kingston KVR1333D3N9 4G 4 GB.png",
     name: "Kingston 4G 4 GB",
     speed: "DDR3-1333",
     modules: "1 x 4GB",
@@ -729,7 +729,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 63,
-    image: "assets/memory/Corsair Vengeance 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance 64 GB.png",
     name: "Corsair Vengeance 64 GB",
     speed: "DDR5-5200",
     modules: "2 x 32GB",
@@ -740,7 +740,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 64,
-    image: "assets/memory/G.Skill F5-5600J2834F32GX2-TZ5RK 64 GB.jpg",
+    image: "assets/memory/G.Skill F5-5600J2834F32GX2-TZ5RK 64 GB.png",
     name: "G.Skill 64 GB",
     speed: "DDR5-5600",
     modules: "2 x 32GB",
@@ -751,7 +751,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 65,
-    image: "assets/memory/PNY XLR8 16 GB.jpg",
+    image: "assets/memory/PNY XLR8 16 GB.png",
     name: "PNY XLR8 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -762,7 +762,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 66,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.png",
     name: "Corsair Vengeance RGB Pro SL 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -773,7 +773,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 67,
-    image: "assets/memory/Patriot Signature Premium 16 GB.jpg",
+    image: "assets/memory/Patriot Signature Premium 16 GB.png",
     name: "Patriot Signature Premium 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -784,7 +784,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 68,
-    image: "assets/memory/TEAMGROUP T-Force Xtreem ARGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Xtreem ARGB 32 GB.png",
     name: "TEAMGROUP T-Force Xtreem ARGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -795,7 +795,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 69,
-    image: "assets/memory/G.Skill Aegis 8 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 8 GB.png",
     name: "G.Skill Aegis 8 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -806,7 +806,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 70,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -817,7 +817,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 71,
-    image: "assets/memory/Corsair Vengeance RGB RS 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RS 16 GB.png",
     name: "Corsair Vengeance RGB RS 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -828,7 +828,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 72,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3200",
     modules: "1 x 16GB",
@@ -839,7 +839,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 73,
-    image: "assets/memory/Patriot Viper 4 Blackout 16 GB.jpg",
+    image: "assets/memory/Patriot Viper 4 Blackout 16 GB.png",
     name: "Patriot Viper 4 Blackout 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -850,7 +850,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 74,
-    image: "assets/memory/Corsair Vengeance RGB RS 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RS 16 GB.png",
     name: "Corsair Vengeance RGB RS 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -861,7 +861,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 75,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-3600",
     modules: "4 x 8GB",
@@ -872,7 +872,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 76,
-    image: "assets/memory/Patriot Viper 4 Blackout 64 GB.jpg",
+    image: "assets/memory/Patriot Viper 4 Blackout 64 GB.png",
     name: "Patriot Viper 4 Blackout 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -883,7 +883,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 77,
-    image: "assets/memory/Silicon Power XPOWER Turbine RGB 32 GB.jpg",
+    image: "assets/memory/Silicon Power XPOWER Turbine RGB 32 GB.png",
     name: "Silicon Power XPOWER Turbine RGB 32 GB",
     speed: "DDR4-3200",
     modules: "4 x 8GB",
@@ -894,7 +894,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 78,
-    image: "assets/memory/Kingston FURY Beast 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 32 GB.png",
     name: "Kingston FURY Beast 32 GB",
     speed: "DDR5-5600",
     modules: "2 x 16GB",
@@ -905,7 +905,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 79,
-    image: "assets/memory/G.Skill Trident Z Royal 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 32 GB.png",
     name: "G.Skill Trident Z Royal 32 GB",
     speed: "DDR4-4000",
     modules: "2 x 16GB",
@@ -916,7 +916,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 80,
-    image: "assets/memory/Patriot Viper Steel 64 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 64 GB.png",
     name: "Patriot Viper Steel 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -927,7 +927,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 81,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-4000",
     modules: "2 x 16GB",
@@ -938,7 +938,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 82,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3200",
     modules: "1 x 16GB",
@@ -949,7 +949,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 83,
-    image: "assets/memory/Kingston FURY Beast RGB 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast RGB 32 GB.png",
     name: "Kingston FURY Beast RGB 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -960,7 +960,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 84,
-    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.png",
     name: "Corsair Dominator Platinum RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -971,7 +971,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 85,
-    image: "assets/memory/G.Skill Ripjaws V 128 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 128 GB.png",
     name: "G.Skill Ripjaws V 128 GB",
     speed: "DDR4-2666",
     modules: "4 x 32GB",
@@ -982,7 +982,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 86,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -993,7 +993,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 87,
-    image: "assets/memory/Patriot Viper Steel 16 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 16 GB.png",
     name: "Patriot Viper Steel 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1004,7 +1004,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 88,
-    image: "assets/memory/OLOy MD4U083216BJDA 16 GB.jpg",
+    image: "assets/memory/OLOy MD4U083216BJDA 16 GB.png",
     name: "OLOy 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1015,7 +1015,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 89,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 32 GB",
     speed: "DDR5-6400",
     modules: "2 x 16GB",
@@ -1026,7 +1026,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 90,
-    image: "assets/memory/Patriot Viper Steel 16 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 16 GB.png",
     name: "Patriot Viper Steel 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -1037,7 +1037,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 91,
-    image: "assets/memory/G.Skill Ripjaws X 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws X 16 GB.png",
     name: "G.Skill Ripjaws X 16 GB",
     speed: "DDR3-1600",
     modules: "2 x 8GB",
@@ -1048,7 +1048,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 92,
-    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.png",
     name: "Corsair Dominator Platinum RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1059,7 +1059,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 93,
-    image: "assets/memory/Kingston ValueRAM 4 GB.jpg",
+    image: "assets/memory/Kingston ValueRAM 4 GB.png",
     name: "Kingston ValueRAM 4 GB",
     speed: "DDR2-800",
     modules: "2 x 2GB",
@@ -1070,7 +1070,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 94,
-    image: "assets/memory/G.Skill Aegis 8 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 8 GB.png",
     name: "G.Skill Aegis 8 GB",
     speed: "DDR4-2400",
     modules: "2 x 4GB",
@@ -1081,7 +1081,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 95,
-    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.jpg",
+    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.png",
     name: "Kingston Fury Renegade RGB 32 GB",
     speed: "DDR5-6400",
     modules: "2 x 16GB",
@@ -1092,7 +1092,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 96,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1103,7 +1103,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 97,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 8 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 8 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 8 GB",
     speed: "DDR4-3200",
     modules: "1 x 8GB",
@@ -1114,7 +1114,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 98,
-    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.png",
     name: "Corsair Dominator Platinum RGB 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -1125,7 +1125,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 99,
-    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.jpg",
+    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.png",
     name: "PNY XLR8 Gaming EPIC-X RGB 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1136,7 +1136,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 100,
-    image: "assets/memory/Kingston FURY Beast 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 32 GB.png",
     name: "Kingston FURY Beast 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1147,7 +1147,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 101,
-    image: "assets/memory/Crucial Ballistix MAX 16 GB.jpg",
+    image: "assets/memory/Crucial Ballistix MAX 16 GB.png",
     name: "Crucial Ballistix MAX 16 GB",
     speed: "DDR4-5100",
     modules: "2 x 8GB",
@@ -1158,7 +1158,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 102,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1169,7 +1169,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 103,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3200",
     modules: "4 x 16GB",
@@ -1180,7 +1180,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 104,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -1191,7 +1191,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 105,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1202,7 +1202,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 106,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-2400",
     modules: "1 x 8GB",
@@ -1213,7 +1213,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 107,
-    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.jpg",
+    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.png",
     name: "PNY XLR8 Gaming EPIC-X RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1224,7 +1224,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 108,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 32 GB",
     speed: "DDR4-3000",
     modules: "2 x 16GB",
@@ -1235,7 +1235,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 109,
-    image: "assets/memory/G.Skill Trident Z Royal 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 32 GB.png",
     name: "G.Skill Trident Z Royal 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1246,7 +1246,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 110,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.png",
     name: "Corsair Vengeance RGB Pro SL 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1257,7 +1257,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 111,
-    image: "assets/memory/TEAMGROUP T-Force Dark Za 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Dark Za 16 GB.png",
     name: "TEAMGROUP T-Force Dark Za 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -1268,7 +1268,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 112,
-    image: "assets/memory/Corsair Vengeance RGB RT 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RT 64 GB.png",
     name: "Corsair Vengeance RGB RT 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -1279,7 +1279,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 113,
-    image: "assets/memory/G.Skill Aegis 16 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 16 GB.png",
     name: "G.Skill Aegis 16 GB",
     speed: "DDR4-2133",
     modules: "1 x 16GB",
@@ -1290,7 +1290,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 114,
-    image: "assets/memory/Corsair Vengeance LPX 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 8 GB.png",
     name: "Corsair Vengeance LPX 8 GB",
     speed: "DDR4-2400",
     modules: "2 x 46GB",
@@ -1301,7 +1301,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 115,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-2400",
     modules: "2 x 8GB",
@@ -1312,7 +1312,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 116,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 64 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 64 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -1323,7 +1323,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 117,
-    image: "assets/memory/OLOy Blade RGB 32 GB.jpg",
+    image: "assets/memory/OLOy Blade RGB 32 GB.png",
     name: "OLOy Blade RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1334,7 +1334,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 118,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-2400",
     modules: "2 x 4GB",
@@ -1345,7 +1345,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 119,
-    image: "assets/memory/G.Skill Trident Z Royal 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 64 GB.png",
     name: "G.Skill Trident Z Royal 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -1356,7 +1356,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 120,
-    image: "assets/memory/OLOy Blade RGB 16 GB.jpg",
+    image: "assets/memory/OLOy Blade RGB 16 GB.png",
     name: "OLOy Blade RGB 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1367,7 +1367,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 121,
-    image: "assets/memory/Klevv BOLT X 32 GB.jpg",
+    image: "assets/memory/Klevv BOLT X 32 GB.png",
     name: "Klevv BOLT X 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1378,7 +1378,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 122,
-    image: "assets/memory/Kingston FURY Beast RGB 8 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast RGB 8 GB.png",
     name: "Kingston FURY Beast RGB 8 GB",
     speed: "DDR4-3200",
     modules: "1 x 8GB",
@@ -1389,7 +1389,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 123,
-    image: "assets/memory/G.Skill Trident Z Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 32 GB.png",
     name: "G.Skill Trident Z Neo 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1400,7 +1400,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 124,
-    image: "assets/memory/Kingston ValueRAM 1 GB.jpg",
+    image: "assets/memory/Kingston ValueRAM 1 GB.png",
     name: "Kingston ValueRAM 1 GB",
     speed: "DDR2-667",
     modules: "1 x 1GB",
@@ -1411,7 +1411,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 125,
-    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.png",
     name: "Corsair Dominator Platinum RGB 32 GB",
     speed: "DDR5-5600",
     modules: "2 x 16GB",
@@ -1422,7 +1422,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 126,
-    image: "assets/memory/G.Skill Trident Z RGB 16 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 16 GB.png",
     name: "G.Skill Trident Z RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1433,7 +1433,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 127,
-    image: "assets/memory/Crucial CT2K4G4DFS824A 8 GB.jpg",
+    image: "assets/memory/Crucial CT2K4G4DFS824A 8 GB.png",
     name: "Crucial 8 GB",
     speed: "DDR4-2400",
     modules: "2 x 4GB",
@@ -1444,7 +1444,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 128,
-    image: "assets/memory/Crucial Ballistix 32 GB.jpg",
+    image: "assets/memory/Crucial Ballistix 32 GB.png",
     name: "Crucial Ballistix 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1455,7 +1455,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 129,
-    image: "assets/memory/Corsair Vengeance RGB RT 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RT 16 GB.png",
     name: "Corsair Vengeance RGB RT 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1466,7 +1466,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 130,
-    image: "assets/memory/G.Skill Trident Z Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 32 GB.png",
     name: "G.Skill Trident Z Neo 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1477,7 +1477,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 131,
-    image: "assets/memory/G.Skill Aegis 32 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 32 GB.png",
     name: "G.Skill Aegis 32 GB",
     speed: "DDR4-3200",
     modules: "4 x 8GB",
@@ -1488,7 +1488,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 132,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-2400",
     modules: "2 x 4GB",
@@ -1499,7 +1499,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 133,
-    image: "assets/memory/G.Skill Trident Z Royal 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 64 GB.png",
     name: "G.Skill Trident Z Royal 64 GB",
     speed: "DDR4-2400",
     modules: "2 x 32GB",
@@ -1510,7 +1510,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 134,
-    image: "assets/memory/OLOy Blade RGB 16 GB.jpg",
+    image: "assets/memory/OLOy Blade RGB 16 GB.png",
     name: "OLOy Blade RGB 16 GB",
     speed: "DDR4-2400",
     modules: "2 x 8GB",
@@ -1521,7 +1521,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 135,
-    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 16 GB.png",
     name: "Corsair Dominator Platinum RGB 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1532,7 +1532,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 136,
-    image: "assets/memory/Corsair Vengeance LPX 4 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 4 GB.png",
     name: "Corsair Vengeance LPX 4 GB",
     speed: "DDR4-2400",
     modules: "1 x 4GB",
@@ -1543,7 +1543,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 137,
-    image: "assets/memory/OLOy MD4U083016BGDA 16 GB.jpg",
+    image: "assets/memory/OLOy MD4U083016BGDA 16 GB.png",
     name: "OLOy 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -1554,7 +1554,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 138,
-    image: "assets/memory/Patriot Viper 3 16 GB.jpg",
+    image: "assets/memory/Patriot Viper 3 16 GB.png",
     name: "Patriot Viper 3 16 GB",
     speed: "DDR3-1600",
     modules: "2 x 8GB",
@@ -1565,7 +1565,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 139,
-    image: "assets/memory/Corsair Vengeance LPX 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 64 GB.png",
     name: "Corsair Vengeance LPX 64 GB",
     speed: "DDR4-2400",
     modules: "4 x 16GB",
@@ -1576,7 +1576,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 140,
-    image: "assets/memory/G.Skill Trident Z Neo 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 64 GB.png",
     name: "G.Skill Trident Z Neo 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1587,7 +1587,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 141,
-    image: "assets/memory/G.Skill Aegis 4 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 4 GB.png",
     name: "G.Skill Aegis 4 GB",
     speed: "DDR4-2133",
     modules: "1 x 4GB",
@@ -1598,7 +1598,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 142,
-    image: "assets/memory/Patriot Viper 3 8 GB.jpg",
+    image: "assets/memory/Patriot Viper 3 8 GB.png",
     name: "Patriot Viper 3 8 GB",
     speed: "DDR3-1600",
     modules: "2 x 64GB",
@@ -1609,7 +1609,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 143,
-    image: "assets/memory/ADATA XPG LANCER RGB 32 GB.jpg",
+    image: "assets/memory/ADATA XPG LANCER RGB 32 GB.png",
     name: "ADATA XPG LANCER RGB 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -1620,7 +1620,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 144,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -1631,7 +1631,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 145,
-    image: "assets/memory/G.Skill Trident Z5 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 32 GB.png",
     name: "G.Skill Trident Z5 32 GB",
     speed: "DDR5-5600",
     modules: "2 x 16GB",
@@ -1642,7 +1642,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 146,
-    image: "assets/memory/Klevv CRAS X RGB 16 GB.jpg",
+    image: "assets/memory/Klevv CRAS X RGB 16 GB.png",
     name: "Klevv CRAS X RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1653,7 +1653,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 147,
-    image: "assets/memory/Thermaltake TOUGHRAM RGB 16 GB.jpg",
+    image: "assets/memory/Thermaltake TOUGHRAM RGB 16 GB.png",
     name: "Thermaltake TOUGHRAM RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1664,7 +1664,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 148,
-    image: "assets/memory/TEAMGROUP Elite 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP Elite 32 GB.png",
     name: "TEAMGROUP Elite 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1675,7 +1675,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 149,
-    image: "assets/memory/OLOy WarHawk RGB 16 GB.jpg",
+    image: "assets/memory/OLOy WarHawk RGB 16 GB.png",
     name: "OLOy WarHawk RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1687,7 +1687,7 @@ List<ListMemory> memory = [
     image2D: "assets/animated/Ram_2x.png",
     id: 150,
     image:
-        "assets/memory/Corsair CORSAIR Vengeance LPX 64GB (2 x 32GB) 288-Pin DDR4 SDRAM DDR4 4000 (PC4 32000) Desktop Memory Model CMK64GX4M2Z4000C18 64 GB.jpg",
+        "assets/memory/Corsair CORSAIR Vengeance LPX 64GB (2 x 32GB) 288-Pin DDR4 SDRAM DDR4 4000 (PC4 32000) Desktop Memory Model CMK64GX4M2Z4000C18 64 GB.png",
     name: "Corsair CORSAIR Vengeance LPX 64GB",
     speed: "DDR4-4000",
     modules: "2 x 32GB",
@@ -1698,7 +1698,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 151,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2666",
     modules: "4 x 4GB",
@@ -1709,7 +1709,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 152,
-    image: "assets/memory/TEAMGROUP T-Force Xtreem ARGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Xtreem ARGB 32 GB.png",
     name: "TEAMGROUP T-Force Xtreem ARGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1720,7 +1720,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 153,
-    image: "assets/memory/G.Skill Ripjaws X 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws X 16 GB.png",
     name: "G.Skill Ripjaws X 16 GB",
     speed: "DDR3-1600",
     modules: "2 x 8GB",
@@ -1731,7 +1731,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 154,
-    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.png",
     name: "Corsair Dominator Platinum RGB 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -1742,7 +1742,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 155,
-    image: "assets/memory/G.Skill Ripjaws V 32 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 32 GB.png",
     name: "G.Skill Ripjaws V 32 GB",
     speed: "DDR4-3600",
     modules: "4 x 8GB",
@@ -1753,7 +1753,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 156,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-3000",
     modules: "2 x 16GB",
@@ -1764,7 +1764,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 157,
-    image: "assets/memory/Patriot Viper Steel 16 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 16 GB.png",
     name: "Patriot Viper Steel 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -1775,7 +1775,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 158,
-    image: "assets/memory/Crucial CT2K16G4RFD4213 32 GB.jpg",
+    image: "assets/memory/Crucial CT2K16G4RFD4213 32 GB.png",
     name: "Crucial 32 GB",
     speed: "DDR4-2113",
     modules: "2 x 16GB",
@@ -1786,7 +1786,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 159,
-    image: "assets/memory/Kingston FURY Beast 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 32 GB.png",
     name: "Kingston FURY Beast 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1797,7 +1797,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 160,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1808,7 +1808,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 161,
-    image: "assets/memory/Kingston FURY Renegade 32 GB.jpg",
+    image: "assets/memory/Kingston FURY Renegade 32 GB.png",
     name: "Kingston FURY Renegade 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -1819,7 +1819,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 162,
-    image: "assets/memory/Crucial Ballistix MAX 16 GB.jpg",
+    image: "assets/memory/Crucial Ballistix MAX 16 GB.png",
     name: "Crucial Ballistix MAX 16 GB",
     speed: "DDR4-5100",
     modules: "2 x 8GB",
@@ -1830,7 +1830,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 163,
-    image: "assets/memory/G.Skill Trident Z5 Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 Neo 32 GB.png",
     name: "G.Skill Trident Z5 Neo 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -1841,7 +1841,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 164,
-    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.png",
     name: "G.Skill Trident Z5 RGB 32 GB",
     speed: "DDR5-5600",
     modules: "12.857 ns",
@@ -1852,7 +1852,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 165,
-    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 64 GB.png",
     name: "Corsair Dominator Platinum RGB 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -1863,7 +1863,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 166,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -1874,7 +1874,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 167,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -1885,7 +1885,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 168,
-    image: "assets/memory/G.Skill Trident Z5 Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 Neo 32 GB.png",
     name: "G.Skill Trident Z5 Neo 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -1896,7 +1896,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 169,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-2400",
     modules: "1 x 8GB",
@@ -1907,7 +1907,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 170,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -1918,7 +1918,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 171,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -1929,7 +1929,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 172,
-    image: "assets/memory/Gigabyte AORUS 32 GB.jpg",
+    image: "assets/memory/Gigabyte AORUS 32 GB.png",
     name: "Gigabyte AORUS 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -1940,7 +1940,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 173,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 32 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -1951,7 +1951,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 174,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3200",
     modules: "4 x 16GB",
@@ -1962,7 +1962,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 175,
-    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.png",
     name: "Corsair Dominator Platinum RGB 32 GB",
     speed: "DDR5-5200",
     modules: "2 x 16GB",
@@ -1973,7 +1973,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 176,
-    image: "assets/memory/Kingston FURY Beast 64 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast 64 GB.png",
     name: "Kingston FURY Beast 64 GB",
     speed: "DDR5-4800",
     modules: "2 x 32GB",
@@ -1984,7 +1984,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 177,
-    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.png",
     name: "Corsair Dominator Platinum RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -1995,7 +1995,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 178,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-4600",
     modules: "2 x 32GB",
@@ -2006,7 +2006,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 179,
-    image: "assets/memory/TEAMGROUP T-Force Delta RGB 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Delta RGB 16 GB.png",
     name: "TEAMGROUP T-Force Delta RGB 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2017,7 +2017,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 180,
-    image: "assets/memory/Samsung M386A4G40DM0-CPB 32 GB.jpg",
+    image: "assets/memory/Samsung M386A4G40DM0-CPB 32 GB.png",
     name: "Samsung 32 GB",
     speed: "DDR4-2133",
     modules: "1 x 32GB",
@@ -2028,7 +2028,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 181,
-    image: "assets/memory/TEAMGROUP T-Force Zeus 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Zeus 16 GB.png",
     name: "TEAMGROUP T-Force Zeus 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2039,7 +2039,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 182,
-    image: "assets/memory/G.Skill Trident Z Neo 16 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 16 GB.png",
     name: "G.Skill Trident Z Neo 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2050,7 +2050,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 183,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -2061,7 +2061,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 184,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 16 GB.png",
     name: "Corsair Vengeance RGB Pro SL 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2072,7 +2072,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 185,
-    image: "assets/memory/G.Skill Trident Z Neo 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 32 GB.png",
     name: "G.Skill Trident Z Neo 32 GB",
     speed: "DDR4-4000",
     modules: "2 x 16GB",
@@ -2083,7 +2083,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 186,
-    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Dominator Platinum RGB 32 GB.png",
     name: "Corsair Dominator Platinum RGB 32 GB",
     speed: "DDR4-4800",
     modules: "2 x 16GB",
@@ -2094,7 +2094,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 187,
-    image: "assets/memory/Patriot Viper Black 32 GB.jpg",
+    image: "assets/memory/Patriot Viper Black 32 GB.png",
     name: "Patriot Viper Black 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -2105,7 +2105,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 188,
-    image: "assets/memory/Corsair Vengeance RGB 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB 32 GB.png",
     name: "Corsair Vengeance RGB 32 GB",
     speed: "DDR5-6200",
     modules: "2 x 16GB",
@@ -2116,7 +2116,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 189,
-    image: "assets/memory/G.Skill Trident Z5 RGB 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 RGB 64 GB.png",
     name: "G.Skill Trident Z5 RGB 64 GB",
     speed: "DDR5-6000",
     modules: "2 x 32GB",
@@ -2127,7 +2127,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 190,
-    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.jpg",
+    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.png",
     name: "Kingston Fury Renegade RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -2138,7 +2138,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 191,
-    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro SL 32 GB.png",
     name: "Corsair Vengeance RGB Pro SL 32 GB",
     speed: "DDR4-3200",
     modules: "4 x 8GB",
@@ -2149,7 +2149,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 192,
-    image: "assets/memory/Corsair Vengeance RGB Pro 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 64 GB.png",
     name: "Corsair Vengeance RGB Pro 64 GB",
     speed: "DDR4-3600",
     modules: "2 x 32GB",
@@ -2160,7 +2160,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 193,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-3000",
     modules: "2 x 16GB",
@@ -2171,7 +2171,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 194,
-    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.jpg",
+    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.png",
     name: "Kingston Fury Renegade RGB 32 GB",
     speed: "DDR4-3600",
     modules: "2 x 16GB",
@@ -2182,7 +2182,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 195,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -2193,7 +2193,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 196,
-    image: "assets/memory/Kingston FURY Beast RGB 64 GB.jpg",
+    image: "assets/memory/Kingston FURY Beast RGB 64 GB.png",
     name: "Kingston FURY Beast RGB 64 GB",
     speed: "DDR5-4800",
     modules: "2 x 32GB",
@@ -2204,7 +2204,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 197,
-    image: "assets/memory/Silicon Power XPOWER Zenith RGB Gaming 32 GB.jpg",
+    image: "assets/memory/Silicon Power XPOWER Zenith RGB Gaming 32 GB.png",
     name: "Silicon Power XPOWER Zenith RGB Gaming 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2215,7 +2215,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 198,
-    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.jpg",
+    image: "assets/memory/PNY XLR8 Gaming EPIC-X RGB 16 GB.png",
     name: "PNY XLR8 Gaming EPIC-X RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2226,7 +2226,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 199,
-    image: "assets/memory/G.Skill Ripjaws V 128 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 128 GB.png",
     name: "G.Skill Ripjaws V 128 GB",
     speed: "DDR4-3200",
     modules: "4 x 32GB",
@@ -2237,7 +2237,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 200,
-    image: "assets/memory/G.Skill Aegis 32 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 32 GB.png",
     name: "G.Skill Aegis 32 GB",
     speed: "DDR4-3000",
     modules: "2 x 16GB",
@@ -2248,7 +2248,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 201,
-    image: "assets/memory/G.Skill Flare X 16 GB.jpg",
+    image: "assets/memory/G.Skill Flare X 16 GB.png",
     name: "G.Skill Flare X 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2259,7 +2259,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 202,
-    image: "assets/memory/Crucial Ballistix 16 GB.jpg",
+    image: "assets/memory/Crucial Ballistix 16 GB.png",
     name: "Crucial Ballistix 16 GB",
     speed: "DDR4-800",
     modules: "2 x 16GB",
@@ -2270,7 +2270,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 203,
-    image: "assets/memory/G.Skill Trident Z 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z 32 GB.png",
     name: "G.Skill Trident Z 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -2281,7 +2281,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 204,
-    image: "assets/memory/Corsair Vengeance LPX 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 8 GB.png",
     name: "Corsair Vengeance LPX 8 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -2292,7 +2292,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 205,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3600",
     modules: "1 x 16GB",
@@ -2303,7 +2303,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 206,
-    image: "assets/memory/Patriot Viper Black 32 GB.jpg",
+    image: "assets/memory/Patriot Viper Black 32 GB.png",
     name: "Patriot Viper Black 16 GB",
     speed: "DDR5-5600",
     modules: "2 x 8GB",
@@ -2314,7 +2314,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 207,
-    image: "assets/memory/Corsair Vengeance 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance 8 GB.png",
     name: "Corsair Vengeance 8 GB",
     speed: "DDR3-1600",
     modules: "2 x 4GB",
@@ -2325,7 +2325,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 208,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2336,7 +2336,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 209,
-    image: "assets/memory/Samsung M378B5173DB0-CK0 4 GB.jpg",
+    image: "assets/memory/Samsung M378B5173DB0-CK0 4 GB.png",
     name: "Samsung 4 GB",
     speed: "DDR3-1600",
     modules: "1 x 4GB",
@@ -2348,7 +2348,7 @@ List<ListMemory> memory = [
     image2D: "assets/animated/Ram_2x.png",
     id: 210,
     image:
-        "assets/memory/TEAMGROUP T-Force Vulcan TUF Gaming Alliance 16 GB.jpg",
+        "assets/memory/TEAMGROUP T-Force Vulcan TUF Gaming Alliance 16 GB.png",
     name: "TEAMGROUP T-Force Vulcan TUF Gaming Alliance 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2359,7 +2359,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 211,
-    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z5 RGB 32 GB.png",
     name: "G.Skill Trident Z5 RGB 32 GB",
     speed: "DDR5-6000",
     modules: "2 x 16GB",
@@ -2370,7 +2370,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 212,
-    image: "assets/memory/Silicon Power XPOWER Zenith RGB Gaming 16 GB.jpg",
+    image: "assets/memory/Silicon Power XPOWER Zenith RGB Gaming 16 GB.png",
     name: "Silicon Power XPOWER Zenith RGB Gaming 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2381,7 +2381,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 213,
-    image: "assets/memory/Corsair Vengeance RGB RS 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RS 32 GB.png",
     name: "Corsair Vengeance RGB RS 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2392,7 +2392,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 214,
-    image: "assets/memory/Patriot Viper Steel 8 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 8 GB.png",
     name: "Patriot Viper Steel 8 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2403,7 +2403,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 215,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -2414,7 +2414,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 216,
-    image: "assets/memory/G.Skill Trident Z RGB 128 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 128 GB.png",
     name: "G.Skill Trident Z RGB 128 GB",
     speed: "DDR4-3600",
     modules: "4 x 32GB",
@@ -2425,7 +2425,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 217,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2436,7 +2436,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 218,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2447,7 +2447,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 219,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -2458,7 +2458,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 220,
-    image: "assets/memory/Crucial CT25664BA160B 2 GB.jpg",
+    image: "assets/memory/Crucial CT25664BA160B 2 GB.png",
     name: "Crucial 2 GB",
     speed: "DDR4-1600",
     modules: "1 x 2GB",
@@ -2469,7 +2469,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 221,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 128 GB",
     speed: "DDR4-3200",
     modules: "4 x 32GB",
@@ -2480,7 +2480,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 222,
-    image: "assets/memory/G.Skill Aegis 8 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 8 GB.png",
     name: "G.Skill Aegis 8 GB",
     speed: "DDR4-2133",
     modules: "1 x 8GB",
@@ -2491,7 +2491,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 223,
-    image: "assets/memory/G.Skill Trident Z RGB 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 32 GB.png",
     name: "G.Skill Trident Z RGB 32 GB",
     speed: "DDR4-4000",
     modules: "2 x 16GB",
@@ -2502,7 +2502,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 224,
-    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.jpg",
+    image: "assets/memory/Kingston Fury Renegade RGB 32 GB.png",
     name: "Kingston Fury Renegade RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2513,7 +2513,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 225,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2524,7 +2524,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 226,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 32 GB",
     speed: "DDR4-3000",
     modules: "2 x 16GB",
@@ -2535,7 +2535,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 227,
-    image: "assets/memory/Corsair Vengeance LPX 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 8 GB.png",
     name: "Corsair Vengeance LPX 8 GB",
     speed: "DDR4-3000",
     modules: "1 x 8GB",
@@ -2546,7 +2546,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 228,
-    image: "assets/memory/Kingston Renegade Silver 32 GB.jpg",
+    image: "assets/memory/Kingston Renegade Silver 32 GB.png",
     name: "Kingston Renegade Silver 32 GB",
     speed: "DDR5-6400",
     modules: "2 x 16GB",
@@ -2557,7 +2557,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 229,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -2568,7 +2568,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 230,
-    image: "assets/memory/G.Skill Trident Z Royal 128 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 128 GB.png",
     name: "G.Skill Trident Z Royal 128 GB",
     speed: "DDR4-4000",
     modules: "4 x 32GB",
@@ -2579,7 +2579,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 231,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2666",
     modules: "1 x 16GB",
@@ -2590,7 +2590,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 232,
-    image: "assets/memory/Corsair Vengeance RGB RS 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB RS 64 GB.png",
     name: "Corsair Vengeance RGB RS 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -2601,7 +2601,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 233,
-    image: "assets/memory/Corsair Vengeance LPX 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 8 GB.png",
     name: "Corsair Vengeance LPX 8 GB",
     speed: "DDR4-2666",
     modules: "1 x 8GB",
@@ -2612,7 +2612,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 234,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2400",
     modules: "2 x 8GB",
@@ -2623,7 +2623,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 235,
-    image: "assets/memory/G.Skill Aegis 8 GB.jpg",
+    image: "assets/memory/G.Skill Aegis 8 GB.png",
     name: "G.Skill Aegis 8 GB",
     speed: "DDR4-2400",
     modules: "1 x 8GB",
@@ -2634,7 +2634,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 236,
-    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
     name: "Corsair Vengeance RGB Pro 32 GB",
     speed: "DDR4-2666",
     modules: "2 x 16GB",
@@ -2645,7 +2645,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 237,
-    image: "assets/memory/ADATA XPG GAMMIX D10 32 GB.jpg",
+    image: "assets/memory/ADATA XPG GAMMIX D10 32 GB.png",
     name: "ADATA XPG GAMMIX D10 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2656,7 +2656,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 238,
-    image: "assets/memory/G.Skill Ripjaws V 64 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 64 GB.png",
     name: "G.Skill Ripjaws V 64 GB",
     speed: "DDR4-3600",
     modules: "4 x 16GB",
@@ -2667,7 +2667,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 239,
-    image: "assets/memory/Neo Forza FAYE 16 GB.jpg",
+    image: "assets/memory/Neo Forza FAYE 16 GB.png",
     name: "Neo Forza FAYE 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2678,7 +2678,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 240,
-    image: "assets/memory/Corsair Vengeance LPX 64 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 64 GB.png",
     name: "Corsair Vengeance LPX 64 GB",
     speed: "DDR4-2666",
     modules: "4 x 16GB",
@@ -2689,7 +2689,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 241,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -2700,7 +2700,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 242,
-    image: "assets/memory/Patriot Viper Steel 16 GB.jpg",
+    image: "assets/memory/Patriot Viper Steel 16 GB.png",
     name: "Patriot Viper Steel 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -2711,7 +2711,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 243,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-3200",
     modules: "2 x 4GB",
@@ -2722,7 +2722,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 244,
-    image: "assets/memory/Corsair ValueSelect 8 GB.jpg",
+    image: "assets/memory/Corsair ValueSelect 8 GB.png",
     name: "Corsair ValueSelect 8 GB",
     speed: "DDR4-2666",
     modules: "1 x 8GB",
@@ -2733,7 +2733,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 245,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2993",
     modules: "2 x 8GB",
@@ -2744,7 +2744,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 246,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 16 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2755,7 +2755,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 247,
-    image: "assets/memory/G.Skill Ripjaws V 8 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 8 GB.png",
     name: "G.Skill Ripjaws V 8 GB",
     speed: "DDR4-2133",
     modules: "2 x 4GB",
@@ -2766,7 +2766,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 248,
-    image: "assets/memory/G.Skill Ripjaws X 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws X 16 GB.png",
     name: "G.Skill Ripjaws X 16 GB",
     speed: "DDR3-1600",
     modules: "4 x 4GB",
@@ -2777,7 +2777,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 249,
-    image: "assets/memory/Thermaltake TOUGHRAM RGB 16 GB.jpg",
+    image: "assets/memory/Thermaltake TOUGHRAM RGB 16 GB.png",
     name: "Thermaltake TOUGHRAM RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2788,7 +2788,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 250,
-    image: "assets/memory/G.Skill Trident Z 16 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z 16 GB.png",
     name: "G.Skill Trident Z 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2799,7 +2799,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 251,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-2400",
     modules: "2 x 16GB",
@@ -2810,7 +2810,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 252,
-    image: "assets/memory/PNY XLR8 16 GB.jpg",
+    image: "assets/memory/PNY XLR8 16 GB.png",
     name: "PNY XLR8 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -2821,7 +2821,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 253,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -2832,7 +2832,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 254,
-    image: "assets/memory/G.Skill Trident Z RGB 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z RGB 64 GB.png",
     name: "G.Skill Trident Z RGB 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -2843,7 +2843,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 255,
-    image: "assets/memory/Corsair CMV8GX4M1A2133C15 8 GB.jpg",
+    image: "assets/memory/Corsair CMV8GX4M1A2133C15 8 GB.png",
     name: "Corsair 8 GB",
     speed: "DDR4-2133",
     modules: "1 x 8GB",
@@ -2854,7 +2854,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 255,
-    image: "assets/memory/Kingston KVR16N11 8 8 GB.jpg",
+    image: "assets/memory/Kingston KVR16N11 8 8 GB.png",
     name: "Kingston 8 GB",
     speed: "DDR3-1600",
     modules: "1 x 8GB",
@@ -2865,7 +2865,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 256,
-    image: "assets/memory/G.Skill Ripjaws V 16 GB.jpg",
+    image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
     name: "G.Skill Ripjaws V 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -2876,7 +2876,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 257,
-    image: "assets/memory/G.Skill Trident Z Neo 64 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Neo 64 GB.png",
     name: "G.Skill Trident Z Neo 64 GB",
     speed: "DDR4-3200",
     modules: "2 x 32GB",
@@ -2887,7 +2887,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 258,
-    image: "assets/memory/Gigabyte AORUS RGB 16 GB.jpg",
+    image: "assets/memory/Gigabyte AORUS RGB 16 GB.png",
     name: "Gigabyte AORUS RGB 16 GB",
     speed: "DDR4-3600",
     modules: "2 x 8GB",
@@ -2898,7 +2898,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 259,
-    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 32 GB.jpg",
+    image: "assets/memory/TEAMGROUP T-Force Vulcan Z 32 GB.png",
     name: "TEAMGROUP T-Force Vulcan Z 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2909,7 +2909,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 260,
-    image: "assets/memory/G.Skill Trident Z Royal 128 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 128 GB.png",
     name: "G.Skill Trident Z Royal 128 GB",
     speed: "DDR4-3600",
     modules: "4 x 32GB",
@@ -2920,7 +2920,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 261,
-    image: "assets/memory/G.Skill Trident Z 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z 32 GB.png",
     name: "G.Skill Trident Z 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2931,7 +2931,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 262,
-    image: "assets/memory/Corsair Vengeance 8 GB.jpg",
+    image: "assets/memory/Corsair Vengeance 8 GB.png",
     name: "Corsair Vengeance 8 GB",
     speed: "DDR3-1600",
     modules: "2 x 4GB",
@@ -2942,7 +2942,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 263,
-    image: "assets/memory/G.Skill Trident Z Royal 32 GB.jpg",
+    image: "assets/memory/G.Skill Trident Z Royal 32 GB.png",
     name: "G.Skill Trident Z Royal 32 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2953,7 +2953,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 264,
-    image: "assets/memory/Crucial Ballistix MAX 16 GB.jpg",
+    image: "assets/memory/Crucial Ballistix MAX 16 GB.png",
     name: "Crucial Ballistix MAX 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -2964,7 +2964,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 265,
-    image: "assets/memory/TEAMGROUP Dark Pro 16 GB.jpg",
+    image: "assets/memory/TEAMGROUP Dark Pro 16 GB.png",
     name: "TEAMGROUP Dark Pro 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 16GB",
@@ -2975,7 +2975,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 266,
-    image: "assets/memory/Crucial CT2K8G4DFS8266 16 GB.jpg",
+    image: "assets/memory/Crucial CT2K8G4DFS8266 16 GB.png",
     name: "Crucial 16 GB",
     speed: "DDR4-2666",
     modules: "2 x 8GB",
@@ -2986,7 +2986,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 267,
-    image: "assets/memory/Crucial CT2K8G4DFS832A 16 GB.jpg",
+    image: "assets/memory/Crucial CT2K8G4DFS832A 16 GB.png",
     name: "Crucial 16 GB",
     speed: "DDR4-3200",
     modules: "2 x 8GB",
@@ -2997,7 +2997,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 268,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-4000",
     modules: "2 x 8GB",
@@ -3008,7 +3008,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 269,
-    image: "assets/memory/Corsair Vengeance LPX 32 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
     name: "Corsair Vengeance LPX 32 GB",
     speed: "DDR4-3200",
     modules: "4 x 8GB",
@@ -3019,7 +3019,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 270,
-    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
     name: "Corsair Vengeance RGB Pro 16 GB",
     speed: "DDR4-3000",
     modules: "2 x 8GB",
@@ -3030,7 +3030,7 @@ List<ListMemory> memory = [
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 271,
-    image: "assets/memory/Corsair Vengeance LPX 16 GB.jpg",
+    image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
     name: "Corsair Vengeance LPX 16 GB",
     speed: "DDR4-2400",
     modules: "1 x 16GB",

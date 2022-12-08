@@ -63,10 +63,10 @@ class _DetailsSystemCaseState extends State<DetailsProcessor> {
     pref.setString("compare_info1P2", "Name: $caseName");
     pref.setString("compare_pcImage_part2", imageValue);
     pref.setString("compare_info2P2", "Socket: $socketOF");
-    pref.setString("compare_info3P2", "Core Count: $socketOF");
-    pref.setString("compare_info4P2", "Core Clock: $socketOF");
-    pref.setString("compare_info5P2", "TDP: $socketOF");
-    pref.setString("compare_info6P2", "Graphics: $socketOF");
-    pref.setString("compare_info7P2", "Price: \u20B1$socketOF");
+    pref.setString("compare_info3P2", "Core Count: $coreCount");
+    pref.setString("compare_info4P2", "Core Clock: $coreClock");
+    pref.setString("compare_info5P2", "TDP: $tdp");
+    pref.setString("compare_info6P2", "Graphics: $integGraphics");
+    pref.setString("compare_info7P2", "Price: \u20B1$price");
   }
 }

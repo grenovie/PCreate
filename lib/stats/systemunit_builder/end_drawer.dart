@@ -18,7 +18,6 @@ class _EndDrawerState extends State<EndDrawer> {
   @override
   void initState() {
     super.initState();
-    getSysCase();
   }
 
   @override
@@ -31,17 +30,11 @@ class _EndDrawerState extends State<EndDrawer> {
           child: Container(
             height: 150,
             decoration: BoxDecoration(color: Colors.red[100]),
-            child: sysImg == null
-                ? Image.asset(
-                    "assets/image_default.png",
-                    scale: 1.5,
-                  )
-                : Image.asset(sysImg!),
           ),
         ),
         sysId == null
             ? const Text(
-                ("Select Items in Computer Parts"),
+                ("Reset"),
                 style: TextStyle(color: Colors.black),
               )
             : Text(
@@ -51,14 +44,28 @@ class _EndDrawerState extends State<EndDrawer> {
         TextButton(
           onPressed: () async {
             SharedPreferences pref = await SharedPreferences.getInstance();
-            pref.remove('sysCase');
+            pref.remove('sysCaseName');
             pref.remove('image');
             pref.remove('mobo_image');
+            pref.remove('mobo');
             pref.remove('cpu_image');
+            pref.remove('cpu');
             pref.remove('gpu_image');
+            pref.remove('gpu');
             pref.remove('psu_image');
+            pref.remove('psu');
             pref.remove('ram_image');
+            pref.remove('ram');
             pref.remove('rom_image');
+            pref.remove('rom');
+            pref.remove('sysCpu_price');
+            pref.remove('sysMobo_price');
+            pref.remove('sysRam_price');
+            pref.remove('sysRom_price');
+            pref.remove('sysPsu_price');
+            pref.remove('sysGpu_price');
+            pref.remove('sysCase_price');
+            pref.remove('compatible_socket');
 
             if (!mounted) return;
             Navigator.of(context).pop();
@@ -70,12 +77,5 @@ class _EndDrawerState extends State<EndDrawer> {
         ),
       ],
     );
-  }
-
-  void getSysCase() async {
-    final SharedPreferences pref = await SharedPreferences.getInstance();
-    sysId = pref.getString('sysCase');
-    sysImg = pref.getString('image');
-    setState(() {});
   }
 }

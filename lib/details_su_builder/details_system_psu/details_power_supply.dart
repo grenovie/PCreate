@@ -25,13 +25,15 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setSysPsu(
-              widget.systemPowerSupply.name, widget.systemPowerSupply.image2D);
+          setSysPsu(widget.systemPowerSupply.name,
+              widget.systemPowerSupply.image2D, widget.systemPowerSupply.price);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
-          Navigator.of(context).pop();
+          Navigator.of(context)
+            ..pop
+            ..pop();
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -47,9 +49,11 @@ class _DetailsSystemCaseState extends State<DetailPowerSupply> {
     );
   }
 
-  Future<void> setSysPsu(caseValue, imageValue) async {
+  Future<void> setSysPsu(caseValue, imageValue, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('psu', caseValue);
     pref.setString('psu_image', imageValue);
+    pref.setDouble('sysPsu_price',
+        price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
   }
 }

@@ -681,6 +681,12 @@ class _TroubleshootingState extends State<Troubleshooting> {
         "Power Outlet\n\t-a device to which a piece of electrical equipment can be connected in order to provide it with electricity.");
   }
 
+  Future<void> setVirusScanner() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "Virus Scanner\n\t-a device to which a piece of electrical equipment can be connected in order to provide it with electricity.");
+  }
+
   Future<void> setSurgeProtector() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString("meaning",
