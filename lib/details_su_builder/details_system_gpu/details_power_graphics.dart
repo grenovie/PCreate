@@ -26,14 +26,14 @@ class _DetailsSystemCaseState extends State<DetailGraphics> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysGpu(widget.systemGraphics.name, widget.systemGraphics.image2D,
-              widget.systemGraphics.price);
+              widget.systemGraphics.price, true, widget.systemGraphics.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
-            ..pop()
-            ..pop();
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -49,11 +49,14 @@ class _DetailsSystemCaseState extends State<DetailGraphics> {
     );
   }
 
-  Future<void> setSysGpu(caseValue, imageValue, price) async {
+  Future<void> setSysGpu(
+      caseValue, imageValue, price, isDone, imageOrig) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('gpu', caseValue);
     pref.setString('gpu_image', imageValue);
     pref.setDouble('sysGpu_price',
         price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
+    pref.setBool("isDoneGpu", isDone);
+    pref.setString("gpuOrig", imageOrig);
   }
 }

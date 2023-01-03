@@ -78,7 +78,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                     child: ListView(
                       children: [
                         //--> this area for frequently PC errors
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 350,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -145,7 +147,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //->2
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -181,7 +185,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //3
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -217,7 +223,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //4
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 250,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -291,7 +299,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //5
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 500,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -332,7 +342,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //6
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 550,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -373,7 +385,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //7
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -409,7 +423,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //8
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 250,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -440,7 +456,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //9
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -476,7 +494,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //10
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 500,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -522,7 +542,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //11
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -553,7 +575,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //12
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 450,
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -594,7 +618,9 @@ class _TroubleshootingState extends State<Troubleshooting> {
                           ),
                         ),
                         //13
+
                         Container(
+                          margin: EdgeInsets.only(top: 20),
                           height: 300,
                           decoration: BoxDecoration(
                               color: Colors.white,

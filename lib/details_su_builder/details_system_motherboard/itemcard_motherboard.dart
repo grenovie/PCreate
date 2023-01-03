@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_motherboard.dart';
 
 class MoboItemCard extends StatefulWidget {
@@ -13,6 +14,8 @@ class MoboItemCard extends StatefulWidget {
   @override
   State<MoboItemCard> createState() => _ItemCardState();
 }
+
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
 class _ItemCardState extends State<MoboItemCard> {
   @override
@@ -64,7 +67,7 @@ class _ItemCardState extends State<MoboItemCard> {
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemMotherboard.price}",
+                        "\u20B1${myFormat.format(widget.systemMotherboard.price)}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],

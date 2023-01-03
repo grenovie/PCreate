@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_gpu.dart';
 
 class GraphicsItemCard extends StatefulWidget {
@@ -13,6 +14,8 @@ class GraphicsItemCard extends StatefulWidget {
   @override
   State<GraphicsItemCard> createState() => _ItemCardState();
 }
+
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
 class _ItemCardState extends State<GraphicsItemCard> {
   @override
@@ -64,7 +67,7 @@ class _ItemCardState extends State<GraphicsItemCard> {
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemGraphics.price}",
+                        "\u20B1${myFormat.format(widget.systemGraphics.price)}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],

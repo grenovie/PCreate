@@ -1,6 +1,7 @@
 class ListSystemCase {
-  final String image, name, type, color, sidepannel, price, image2D;
+  final String image, name, type, color, sidepannel, image2D;
   final int id;
+  final double price;
   ListSystemCase({
     required this.image2D,
     required this.id,
@@ -22,7 +23,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "6114.41",
+    price: 6114.41,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_blackwhite.png",
@@ -32,7 +33,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -42,7 +43,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -52,7 +53,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nGray",
     sidepannel: "Tempered Glass",
-    price: "10768.21",
+    price: 9474.21,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -62,7 +63,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tinted Tempered Glass",
-    price: "5677.62",
+    price: 5677.62,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -72,7 +73,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6987.98",
+    price: 6987.98,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -82,7 +83,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "10249.31",
+    price: 10249.31,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -92,7 +93,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8735.12",
+    price: 8735.12,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -102,7 +103,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -112,7 +113,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Blackr",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -122,7 +123,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "	Tempered Glass",
-    price: "9608.69",
+    price: 9608.69,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -132,7 +133,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "13394.16",
+    price: 13394.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -142,7 +143,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "6987.98",
+    price: 6987.98,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -152,7 +153,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "6637.97",
+    price: 6637.97,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -162,7 +163,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "tempered Glass",
-    price: "7570.36",
+    price: 7570.36,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -172,7 +173,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6987.98",
+    price: 6987.98,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -182,7 +183,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "8441.60",
+    price: 8441.60,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -192,18 +193,8 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "8735.12",
+    price: 8735.12,
   ),
-  // ListSystemCase(
-  //   image2D: "assets/animated/SystemCase_White1.png",
-  //   id: 19,
-  //   image: "assets/system_case/HYTE Y60.png",
-  //   name: "HYTE Y60",
-  //   type: "ATX Mid Tower",
-  //   color: "White/\nBlack",
-  //   sidepannel: "Tempered Glass",
-  //   price: "11647.02",
-  // ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
     id: 20,
@@ -212,7 +203,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Acrylic",
-    price: "3202.51",
+    price: 3202.51,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -222,7 +213,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6400.36",
+    price: 6400.36,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -232,7 +223,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "9382.14",
+    price: 9382.14,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -242,7 +233,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6987.98",
+    price: 6987.98,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -252,7 +243,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "9317.50",
+    price: 9317.50,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -262,7 +253,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "9317.50",
+    price: 9317.50,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -272,7 +263,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6694.46",
+    price: 6694.46,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -282,7 +273,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5823.22",
+    price: 5823.22,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -292,7 +283,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "11647.02",
+    price: 11647.02,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -302,7 +293,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "18134.73",
+    price: 18134.73,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -312,7 +303,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "4075.50",
+    price: 4075.50,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -322,7 +313,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "19721.13",
+    price: 19721.13,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -332,7 +323,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "12811.78",
+    price: 12811.78,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -342,7 +333,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "19721.13",
+    price: 19721.13,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -352,7 +343,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8443.93",
+    price: 8443.93,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -362,7 +353,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6400.36",
+    price: 6400.36,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -372,7 +363,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5589.68",
+    price: 5589.68,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -382,7 +373,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "31369.32",
+    price: 31369.32,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -392,7 +383,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8735.12",
+    price: 8735.12,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -402,7 +393,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "9782.82",
+    price: 9782.82,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -412,7 +403,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "7279.17",
+    price: 7279.17,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -422,7 +413,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6346.78",
+    price: 6346.78,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -433,7 +424,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "7279.17",
+    price: 7279.17,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -443,7 +434,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "4657.88",
+    price: 4657.88,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -453,7 +444,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nGray",
     sidepannel: "Tempered Glass",
-    price: "9259.26",
+    price: 9259.26,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -463,7 +454,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "10934.18	",
+    price: 10934.18,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -473,7 +464,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "12054.10",
+    price: 12054.10,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -483,7 +474,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "3493.70",
+    price: 3493.70,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -493,7 +484,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "12811.78",
+    price: 12811.78,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -504,7 +495,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "7566.86",
+    price: 7566.86,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -514,7 +505,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8729.88",
+    price: 8729.88,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -524,7 +515,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "14383.62",
+    price: 14383.62,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -534,7 +525,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6405.60",
+    price: 6405.60,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -544,7 +535,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "52413.62",
+    price: 52413.62,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -554,7 +545,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6405.60",
+    price: 6405.60,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -564,7 +555,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "none",
-    price: "8150.41",
+    price: 8150.41,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -574,7 +565,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nGray",
     sidepannel: "Tempered Glass",
-    price: "7958.81",
+    price: 7958.81,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -584,7 +575,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "	Acrylic",
-    price: "8152.74	",
+    price: 8152.74,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -594,7 +585,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "10831.10",
+    price: 10831.10,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -604,7 +595,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "None",
-    price: "2794.84",
+    price: 2794.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -614,7 +605,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5823.22",
+    price: 5823.22,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -624,7 +615,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "10482.26",
+    price: 10482.26,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -634,7 +625,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: " --- ",
     sidepannel: "Tempered Glass",
-    price: "11647.02",
+    price: 11647.02,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -644,7 +635,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6871.50",
+    price: 6871.50,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -654,7 +645,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5080.10",
+    price: 5080.10,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -664,7 +655,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5183.18",
+    price: 5183.18,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -674,7 +665,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5823.22",
+    price: 5823.22,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -684,7 +675,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black/\nWhite",
     sidepannel: "Tempered Glass",
-    price: "6637.97",
+    price: 6637.97,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -694,7 +685,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "none",
-    price: "8152.16",
+    price: 8152.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -704,7 +695,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "12811.78",
+    price: 12811.78,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -714,7 +705,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -724,7 +715,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8735.12",
+    price: 8735.12,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -734,7 +725,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "10306.96",
+    price: 10306.96,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -744,7 +735,7 @@ List<ListSystemCase> systemcase = [
     type: "MicroATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "4356.20",
+    price: 4356.20,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -754,7 +745,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "6400.36",
+    price: 6400.36,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -764,7 +755,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "17325.81",
+    price: 17325.81,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -774,7 +765,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "9608.69",
+    price: 9608.69,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -784,7 +775,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5706.16",
+    price: 5706.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -794,7 +785,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Acrylic",
-    price: "3202.51",
+    price: 3202.51,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -804,7 +795,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "5240.84",
+    price: 5240.84,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -814,7 +805,7 @@ List<ListSystemCase> systemcase = [
     type: "MicroATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "6987.40",
+    price: 6987.40,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -824,7 +815,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6114.41",
+    price: 6114.41,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -835,7 +826,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tinted Tempered Glass",
-    price: "8385.11",
+    price: 8385.11,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -845,7 +836,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "4367.27",
+    price: 4367.27,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -855,7 +846,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "13976.54",
+    price: 13976.54,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -865,7 +856,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black/\nGray",
     sidepannel: "Tempered Glass",
-    price: "12346.46",
+    price: 12346.46,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -875,7 +866,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5706.16",
+    price: 5706.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -885,7 +876,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "7570.36",
+    price: 7570.36,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -895,7 +886,7 @@ List<ListSystemCase> systemcase = [
     type: "MicroATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "3493.70",
+    price: 3493.70,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -905,7 +896,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "169.99",
+    price: 169.99,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -915,7 +906,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5420.00",
+    price: 5420.00,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -925,7 +916,7 @@ List<ListSystemCase> systemcase = [
     type: "MicroATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5823.22",
+    price: 5823.22,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -935,7 +926,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "10477.02",
+    price: 10477.02,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -945,7 +936,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5706.16",
+    price: 5706.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -955,7 +946,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "5706.16",
+    price: 5706.16,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -965,7 +956,7 @@ List<ListSystemCase> systemcase = [
     type: "MicroATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "4367.27",
+    price: 4367.27,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -975,7 +966,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "11064.64",
+    price: 11064.64,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -985,7 +976,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "11864.25",
+    price: 11864.25,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -995,7 +986,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "18985.59",
+    price: 18985.59,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -1006,7 +997,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "8210.39",
+    price: 8210.39,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -1016,7 +1007,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "7220.35	",
+    price: 7220.35,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -1026,7 +1017,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White/\nBlack",
     sidepannel: "Tempered Glass",
-    price: "10239.99",
+    price: 10239.99,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -1036,7 +1027,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Acrylic",
-    price: "2908.41",
+    price: 2908.41,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -1046,7 +1037,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Full Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "12228.82",
+    price: 12228.82,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",
@@ -1056,7 +1047,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: "5589.68",
+    price: 5589.68,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_Black3.png",
@@ -1066,6 +1057,6 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "Black",
     sidepannel: "Tempered Glass",
-    price: "6533.72",
+    price: 6533.72,
   ),
 ];

@@ -32,8 +32,9 @@ class _DetailsSystemCaseState extends State<DetailsMemory> {
             widget.systemMemory.price,
           );
           var snackBar = SnackBar(
+              duration: Duration(milliseconds: 300),
               backgroundColor: Colors.green[400],
-              content: const Text('Succesfully added to Inventory'));
+              content: const Text('Done'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
             ..pop(true)
@@ -63,5 +64,9 @@ class _DetailsSystemCaseState extends State<DetailsMemory> {
     pref.setString('compare_info3P2', "FirstWordLatency: $latency");
     pref.setString('compare_info4P2', "CasLatency: $casLatency");
     pref.setString('compare_info5P2', "Price: \u20B1$price");
+    pref.setString('compare_info6P2', " ");
+    pref.setString('compare_info7P2', " ");
+    pref.setString('compare_info8P2', " ");
+    pref.setString('compare_info9P2', " ");
   }
 }

@@ -24,7 +24,7 @@ List<ListShops> shops = [
       id: 3,
       image: "assets/shops/pcoptions.png",
       shopName: "PC Options",
-      link: "http://www.pcoptionsph.com"),
+      link: "https://www.pcoptionsph.com"),
   ListShops(
       id: 4,
       image: "assets/shops/guilmore.jpg",

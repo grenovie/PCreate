@@ -105,7 +105,7 @@ class _BudgetDetailsState extends State<BudgetDetails> {
                                         "6.${widget.bdgtcomputer.chasis}\n\n"),
                                 TextSpan(
                                     text:
-                                        "7.Price: \u20B1 ${myFormat.format(widget.bdgtcomputer.price)}"),
+                                        "7.Price: \u20B1 ${widget.bdgtcomputer.price}"),
                               ]),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 30,

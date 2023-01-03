@@ -1,22 +1,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test1">
+  <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Provide required visibility configuration for API level 30 and above -->
-<queries>
-  <!-- If your app checks for SMS support -->
-  <intent>
-    <action android:name="android.intent.action.VIEW" />
-    <data android:scheme="https" />
-  </intent>
-  <!-- If your app checks for call support -->
-  <intent>
-    <action android:name="android.intent.action.VIEW" />
-    <data android:scheme="http" />
-  </intent>
-</queries>
+  <queries>
+    <!-- If your app checks for SMS support -->
+    <intent>
+      <action android:name="android.intent.action.VIEW" />
+      <data android:scheme="https" />
+    </intent>
+    <!-- If your app checks for call support -->
+    <intent>
+      <action android:name="android.intent.action.VIEW" />
+      <data android:scheme="http" />
+    </intent>
+  </queries>
    <application
         android:label="PCreate"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icons">
+        android:icon="@mipmap/launcher_icons"
+        android:usesCleartextTraffic="true"
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true"

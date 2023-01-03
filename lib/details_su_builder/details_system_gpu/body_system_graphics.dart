@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_gpu.dart';
 
 import 'case_title_with_graphics.dart';
@@ -11,6 +12,7 @@ class BodyGraphics extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(children: [
@@ -24,9 +26,10 @@ class BodyGraphics extends StatelessWidget {
                     top: size.height * 0.12, left: 20, right: 20),
                 // height: 500,
                 decoration: const BoxDecoration(
+                  color: Colors.white12,
                   image: DecorationImage(
                       image: AssetImage("assets/animated/details.jpg"),
-                      opacity: .8),
+                      opacity: .4),
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(24),
                     topRight: Radius.circular(24),
@@ -62,7 +65,7 @@ class BodyGraphics extends StatelessWidget {
                                         "Memory: ${systemGraphics.memory}\n\n"),
                                 TextSpan(
                                     text:
-                                        "Price: \u20B1${systemGraphics.price}\n\n"),
+                                        "Price: \u20B1${myFormat.format(systemGraphics.price)}\n\n"),
                               ]))
                     ],
                   ),

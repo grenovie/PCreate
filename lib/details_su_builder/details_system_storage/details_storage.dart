@@ -26,14 +26,14 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setSysRom(widget.systemStorage.name, widget.systemStorage.image2D,
-              widget.systemStorage.price);
+              widget.systemStorage.price, true, widget.systemStorage.image);
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
-            ..pop()
-            ..pop();
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -49,11 +49,14 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
     );
   }
 
-  Future<void> setSysRom(caseValue, imageValue, price) async {
+  Future<void> setSysRom(
+      caseValue, imageValue, price, isDone, imageOrig) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('rom', caseValue);
     pref.setString('rom_image', imageValue);
     pref.setDouble('sysRom_price',
         price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
+    pref.setBool("isDoneRom", isDone);
+    pref.setString("romOrig", imageOrig);
   }
 }

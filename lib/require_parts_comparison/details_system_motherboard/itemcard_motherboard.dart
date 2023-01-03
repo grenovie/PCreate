@@ -29,20 +29,14 @@ class _ItemCardState extends State<MoboItemCard> {
                   padding: const EdgeInsets.all(20),
                   height: 180,
                   width: 180,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 247, 247, 247),
-                    borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/animated/ItemCardBG2.jpg"),
+                        fit: BoxFit.none,
+                        scale: 11),
+                    borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(16),
                         topRight: Radius.circular(16)),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color.fromARGB(255, 15, 15, 15)
-                            .withOpacity(0.8),
-                        offset: const Offset(10, 10),
-                        blurRadius: 8,
-                        spreadRadius: 2,
-                      )
-                    ],
                   ),
                   child: Image.asset(
                     widget.systemMotherboard.image,
@@ -51,21 +45,12 @@ class _ItemCardState extends State<MoboItemCard> {
                 Container(
                   height: 50,
                   width: 180,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 255, 255),
-                    borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                    color: Color.fromARGB(255, 121, 121, 121),
+                    borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(16),
                       bottomRight: Radius.circular(16),
                     ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color.fromARGB(255, 15, 15, 15)
-                            .withOpacity(0.8),
-                        offset: const Offset(10, 10),
-                        blurRadius: 8,
-                        spreadRadius: 2,
-                      )
-                    ],
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_storage.dart';
 
 class StorageItemCard extends StatefulWidget {
@@ -13,6 +14,8 @@ class StorageItemCard extends StatefulWidget {
   @override
   State<StorageItemCard> createState() => _ItemCardState();
 }
+
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
 class _ItemCardState extends State<StorageItemCard> {
   @override
@@ -64,7 +67,7 @@ class _ItemCardState extends State<StorageItemCard> {
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemStorage.price}",
+                        "\u20B1${myFormat.format(widget.systemStorage.price)}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],

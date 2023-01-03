@@ -5,9 +5,9 @@ class ListMemory {
       modules,
       firstWordLatency,
       casLatency,
-      price,
       image2D;
   final int id;
+  final double price;
   ListMemory({
     required this.image2D,
     required this.id,
@@ -22,94 +22,6 @@ class ListMemory {
 }
 
 List<ListMemory> memory = [
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 1,
-  //   image: "assets/memory/Corsair Vengeance LPX 16 GB.png",
-  //   name: "Corsair Vengeance LPX 16 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 2,
-  //   image: "assets/memory/Corsair Vengeance RGB Pro 32 GB.png",
-  //   name: "Corsair Vengeance RGB Pro 32 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 3,
-  //   image: "assets/memory/Corsair Vengeance RGB Pro 16 GB.png",
-  //   name: "Corsair Vengeance RGB Pro 16 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 4,
-  //   image: "assets/memory/G.Skill Ripjaws V 32 GB.png",
-  //   name: "G.Skill Ripjaws V 32 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 5,
-  //   image: "assets/memory/Corsair Vengeance LPX 32 GB.png",
-  //   name: "Corsair Vengeance LPX 32 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 6,
-  //   image: "assets/memory/Corsair Vengeance 32 GB.png",
-  //   name: "Corsair Vengeance 32 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 7,
-  //   image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
-  //   name: "G.Skill Ripjaws V 16 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
-  // ListMemory(
-  //   image2D: "assets/animated/Ram_2x.png",
-  //   id: 8,
-  //   image: "assets/memory/G.Skill Ripjaws V 16 GB.png",
-  //   name: "Corsair Vengeance RGB Pro 32 GB",
-  //   speed: "DDR4-3200",
-  //   modules: "2 x 8GB",
-  //   firstWordLatency: "10 ns",
-  //   casLatency: "16",
-  //   price: "3,500",
-  // ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
     id: 9,
@@ -119,7 +31,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "4132.03",
+    price: 4132.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -130,7 +42,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "6198.35",
+    price: 6198.35,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -141,7 +53,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12 ns",
     casLatency: "36",
-    price: "12397.28",
+    price: 12397.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -152,7 +64,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2654.92",
+    price: 2654.92,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -163,7 +75,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "236031.93",
+    price: 8028.82,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_Ven.png",
@@ -174,7 +86,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5548.93",
+    price: 5548.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -185,7 +97,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4722.41",
+    price: 4722.41,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -196,7 +108,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "30",
-    price: "36922.05",
+    price: 36922.05,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -207,7 +119,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "11.613 ns",
     casLatency: "36",
-    price: "20072.16",
+    price: 20072.16,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -218,7 +130,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2892.25",
+    price: 2892.25,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -229,7 +141,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "	16.667 ns",
     casLatency: "40",
-    price: "8264.66",
+    price: 8264.66,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -240,7 +152,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "	10 ns",
     casLatency: "18",
-    price: "13400.92",
+    price: 13400.92,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -251,7 +163,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "	10 ns",
     casLatency: "16",
-    price: "3541.66",
+    price: 3541.66,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -262,7 +174,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "	15.385 ns",
     casLatency: "40",
-    price: "16529.91",
+    price: 16529.91,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -273,7 +185,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "	8.889 ns",
     casLatency: "16",
-    price: "9740.60",
+    price: 9740.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -284,7 +196,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "	8.889 ns",
     casLatency: "16",
-    price: "4131.44",
+    price: 4131.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -295,7 +207,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "	9.697 ns",
     casLatency: "32",
-    price: "22728.85",
+    price: 22728.85,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -306,7 +218,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "	10 ns",
     casLatency: "16",
-    price: "3364.55",
+    price: 3364.55,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -317,7 +229,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "	8.889 ns",
     casLatency: "16",
-    price: "9445.41",
+    price: 9445.41,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -328,7 +240,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "	10 ns",
     casLatency: "16",
-    price: "8855.03",
+    price: 8855.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -339,7 +251,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "	15.385 ns",
     casLatency: "40",
-    price: "18301.03",
+    price: 18301.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -350,7 +262,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "2654.92",
+    price: 2654.92,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -361,7 +273,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "11511.72",
+    price: 11511.72,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -372,7 +284,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 8.889  ns",
     casLatency: "16",
-    price: "7674.28",
+    price: 7674.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -383,7 +295,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "7674.28",
+    price: 7674.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -394,7 +306,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "18",
-    price: "3836.85",
+    price: 3836.85,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -405,7 +317,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "4367.00",
+    price: 4367.00,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -416,7 +328,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "4721.82",
+    price: 4721.82,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -427,7 +339,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "8855.03",
+    price: 8855.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -438,7 +350,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "18",
-    price: "2656.10",
+    price: 2656.10,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -449,7 +361,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: " 13.333 ns",
     casLatency: "16",
-    price: "1770.53",
+    price: 1770.53,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -460,7 +372,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "2951.28",
+    price: 2951.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -471,7 +383,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: " 9 ns",
     casLatency: "18",
-    price: "33355.60",
+    price: 33355.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -482,7 +394,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "4485.67",
+    price: 4485.67,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -493,7 +405,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: " 10 ns",
     casLatency: "18",
-    price: "14463.60",
+    price: 14463.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -504,7 +416,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 10.556 ns",
     casLatency: "19",
-    price: "8855.03",
+    price: 8855.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -515,7 +427,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 10 ns",
     casLatency: "18",
-    price: "5903.16",
+    price: 5903.16,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -526,7 +438,7 @@ List<ListMemory> memory = [
     modules: "1 x 2GB",
     firstWordLatency: " 14.993 ns",
     casLatency: "5",
-    price: "649.41",
+    price: 649.41,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -537,7 +449,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "3954.92",
+    price: 3954.92,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -548,7 +460,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: " 15.385 ns",
     casLatency: "40",
-    price: "9523.34",
+    price: 9523.34,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -559,7 +471,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: " 10 ns",
     casLatency: "16",
-    price: "1888.61",
+    price: 1888.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -570,7 +482,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: " 10 ns",
     casLatency: "18",
-    price: "2833.21",
+    price: 2833.21,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -581,7 +493,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "8128.87",
+    price: 8128.87,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -592,7 +504,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "6198.35",
+    price: 6198.35,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -603,7 +515,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "5903.16",
+    price: 5903.16,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -614,7 +526,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "5371.82",
+    price: 5371.82,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -625,7 +537,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "18 ns",
     casLatency: "18",
-    price: "79949.17",
+    price: 79949.17,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -636,7 +548,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "4426.04",
+    price: 4426.04,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -647,7 +559,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "8205.62",
+    price: 8205.62,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -658,7 +570,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3128.40",
+    price: 3128.40,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -669,7 +581,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2684.44",
+    price: 2684.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -680,7 +592,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4483.73",
+    price: 4483.73,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -691,7 +603,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40",
-    price: "67426.17",
+    price: 67426.17,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -702,7 +614,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "32",
-    price: "12895.88",
+    price: 12895.88,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -713,7 +625,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "14.167 ns",
     casLatency: "17",
-    price: "1707.75",
+    price: 1707.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -724,7 +636,7 @@ List<ListMemory> memory = [
     modules: "1 x 4GB",
     firstWordLatency: "13.503 ns",
     casLatency: "9",
-    price: "1251.96",
+    price: 1251.96,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -735,7 +647,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40",
-    price: "17665.81",
+    price: 17665.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -746,7 +658,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "28",
-    price: "26499.01",
+    price: 26499.01,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -757,7 +669,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2943.81",
+    price: 2943.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -768,7 +680,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "6477.09",
+    price: 6477.09,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -779,7 +691,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "14.254 ns",
     casLatency: "19",
-    price: "2708.26",
+    price: 2708.26,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -790,7 +702,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "8243.73",
+    price: 8243.73,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -801,7 +713,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "1611.18",
+    price: 1611.18,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -812,7 +724,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3238.25",
+    price: 3238.25,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -823,7 +735,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4297.65",
+    price: 4297.65,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -834,7 +746,7 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3120.48",
+    price: 3120.48,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -845,7 +757,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3120.48",
+    price: 3120.48,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -856,7 +768,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "4297.65",
+    price: 4297.65,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -867,7 +779,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18	",
-    price: "9421.49",
+    price: 9421.49,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -878,7 +790,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18	",
-    price: "10717.03",
+    price: 10717.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -889,7 +801,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "16 ns",
     casLatency: "18	",
-    price: "5150.93",
+    price: 5150.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -900,7 +812,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.857 ns",
     casLatency: "36",
-    price: "11759.34",
+    price: 11759.34,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -911,7 +823,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "9 ns ",
     casLatency: "18	",
-    price: "10010.37",
+    price: 10010.37,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -922,7 +834,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18	",
-    price: "11188.13",
+    price: 11188.13,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -933,7 +845,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "8832.61",
+    price: 8832.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -944,7 +856,7 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3120.48",
+    price: 3120.48,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -955,7 +867,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16	",
-    price: "7293.28",
+    price: 7293.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -966,7 +878,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18	",
-    price: "6477.09",
+    price: 6477.09,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -977,7 +889,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "13.503 ns",
     casLatency: "18	",
-    price: "18843.57",
+    price: 18843.57,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -988,7 +900,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.75 ns",
     casLatency: "14	",
-    price: "12365.89",
+    price: 12365.89,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -999,7 +911,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9.444 ns",
     casLatency: "17	",
-    price: "3356.03",
+    price: 3356.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1010,7 +922,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16	",
-    price: "2943.81",
+    price: 2943.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1021,7 +933,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.5 ns",
     casLatency: "40	",
-    price: "17370.19",
+    price: 17370.19,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1032,7 +944,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8 ns",
     casLatency: "17	",
-    price: "6182.65",
+    price: 6182.65,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1043,7 +955,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "10",
-    price: "3233.54",
+    price: 3233.54,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1054,7 +966,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18	",
-    price: "6477.09",
+    price: 6477.09,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1065,7 +977,7 @@ List<ListMemory> memory = [
     modules: "2 x 2GB",
     firstWordLatency: "15 ns",
     casLatency: "6	",
-    price: "1634.14",
+    price: 1634.14,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1076,7 +988,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "14.167 ns",
     casLatency: "17	",
-    price: "1766.05",
+    price: 1766.05,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1087,7 +999,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "32",
-    price: "22259.08",
+    price: 22259.08,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1098,7 +1010,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5888.21",
+    price: 5888.21,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1109,7 +1021,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "1594.10",
+    price: 1594.10,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1120,7 +1032,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "19432.45",
+    price: 19432.45,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1131,7 +1043,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "4003.80",
+    price: 4003.80,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1142,7 +1054,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "7483.49",
+    price: 7483.49,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1153,7 +1065,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "7.451 ns",
     casLatency: "19",
-    price: "17665.81",
+    price: 17665.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1164,7 +1076,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2943.81",
+    price: 2943.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1175,7 +1087,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "11777.01",
+    price: 11777.01,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1186,7 +1098,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "68.99",
+    price: 68.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1197,7 +1109,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3532.69",
+    price: 3532.69,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1208,7 +1120,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "3532.69",
+    price: 3532.69,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1219,7 +1131,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "3944.91",
+    price: 3944.91,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1230,7 +1142,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "5299.69",
+    price: 5299.69,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1241,7 +1153,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "8067,62",
+    price: 8067.62,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1252,7 +1164,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "6477.53",
+    price: 6477.53,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1263,7 +1175,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9 ns",
     casLatency: "16",
-    price: "4121.26",
+    price: 4121.26,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1274,7 +1186,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "12661.19",
+    price: 12661.19,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1285,7 +1197,7 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "2649.55",
+    price: 2649.55,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1296,7 +1208,7 @@ List<ListMemory> memory = [
     modules: "2 x 46GB",
     firstWordLatency: "13.333 ns",
     casLatency: "16",
-    price: "2649.55",
+    price: 2649.55,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1307,7 +1219,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "3061.80",
+    price: 3061.80,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1318,7 +1230,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "10894.43",
+    price: 10894.43,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1329,7 +1241,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "5770.83",
+    price: 5770.83,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1340,7 +1252,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "2060.63",
+    price: 2060.63,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1351,7 +1263,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "14722.41",
+    price: 14722.41,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1362,7 +1274,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3532.93",
+    price: 3532.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1373,7 +1285,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5910,99",
+    price: 5910.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1384,7 +1296,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2291.49",
+    price: 2291.49,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1395,7 +1307,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "12366.73",
+    price: 12366.73,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1406,7 +1318,7 @@ List<ListMemory> memory = [
     modules: "1 x 1GB",
     firstWordLatency: "14.993 ns",
     casLatency: "5",
-    price: "706.70",
+    price: 706.70,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1417,7 +1329,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.857 ns",
     casLatency: "36",
-    price: "23497.91",
+    price: 23497.91,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1428,7 +1340,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4592.40",
+    price: 4592.40,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1439,7 +1351,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "14.167 ns",
     casLatency: "17",
-    price: "1942.26",
+    price: 1942.26,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1450,7 +1362,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "11895.60",
+    price: 11895.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1461,7 +1373,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4592.99",
+    price: 4592.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1472,7 +1384,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "7360.91",
+    price: 7360.91,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1483,7 +1395,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "8825,56",
+    price: 8825.56,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1494,7 +1406,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "2060.63",
+    price: 2060.63,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1505,7 +1417,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "14722.413",
+    price: 14722.413,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1516,7 +1428,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3532.93",
+    price: 3532.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1527,7 +1439,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5888.61",
+    price: 5888.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1538,7 +1450,7 @@ List<ListMemory> memory = [
     modules: "1 x 4GB",
     firstWordLatency: "13.333 ns",
     casLatency: "16",
-    price: "1471,71",
+    price: 1471.71,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1549,7 +1461,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "2767.34",
+    price: 2767.34,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1560,7 +1472,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "2590.66",
+    price: 2590.66,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1571,7 +1483,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "11.667 ns",
     casLatency: "14",
-    price: "10541.08",
+    price: 10541.08,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1582,7 +1494,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "18",
-    price: "41123.69",
+    price: 41123.69,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1593,7 +1505,7 @@ List<ListMemory> memory = [
     modules: "1 x 4GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "1059.47",
+    price: 1059.47,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1604,7 +1516,7 @@ List<ListMemory> memory = [
     modules: "2 x 64GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "1766.17",
+    price: 1766.17,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1615,7 +1527,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "14.615 ns",
     casLatency: "38",
-    price: "12225.39",
+    price: 12225.39,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1626,7 +1538,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "4004.07",
+    price: 4004.07,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1637,7 +1549,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.857 ns",
     casLatency: "36",
-    price: "20389.59",
+    price: 20389.59,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1648,7 +1560,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4239.05",
+    price: 4239.05,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1659,7 +1571,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "7655.37",
+    price: 7655.37,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1670,7 +1582,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "13.75 ns",
     casLatency: "22",
-    price: "4415.72",
+    price: 4415.72,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1681,7 +1593,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "3709.61",
+    price: 3709.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1693,7 +1605,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "26206.35",
+    price: 26206.35,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1704,7 +1616,7 @@ List<ListMemory> memory = [
     modules: "4 x 4GB",
     firstWordLatency: "11.253 ns",
     casLatency: "15",
-    price: "4946.34",
+    price: 4946.34,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1715,7 +1627,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "7.778 ns",
     casLatency: "14",
-    price: "15311.33",
+    price: 15311.33,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1726,7 +1638,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "3449.30",
+    price: 3449.30,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1737,7 +1649,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "19969.10",
+    price: 19969.10,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1748,7 +1660,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "9952.75",
+    price: 9952.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1759,7 +1671,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "6477.53",
+    price: 6477.53,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1770,7 +1682,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9.5 ns",
     casLatency: "19",
-    price: "5770.83",
+    price: 5770.83,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1781,7 +1693,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "6400.38",
+    price: 6400.38,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1792,7 +1704,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "7621.35",
+    price: 7621.35,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1803,7 +1715,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2941.56",
+    price: 2941.56,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1814,7 +1726,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "4606.23",
+    price: 4606.23,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1825,7 +1737,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "7.451 ns",
     casLatency: "19",
-    price: "17652.31",
+    price: 17652.31,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1836,7 +1748,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12 ns",
     casLatency: "36",
-    price: "12297.60",
+    price: 12297.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1847,7 +1759,7 @@ List<ListMemory> memory = [
     modules: "12.857 ns",
     firstWordLatency: "12 ns",
     casLatency: "36",
-    price: "10591.15",
+    price: 10591.15,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1858,7 +1770,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "19417.60",
+    price: 19417.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1869,7 +1781,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "13982.86",
+    price: 13982.86,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1880,7 +1792,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "4059.58",
+    price: 4059.58,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1891,7 +1803,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12 ns",
     casLatency: "36",
-    price: "12297.60",
+    price: 12297.60,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1902,7 +1814,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "3529.99",
+    price: 3529.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1913,7 +1825,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3529.99",
+    price: 3529.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1924,7 +1836,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40",
-    price: "9708.51",
+    price: 9708.51,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1935,7 +1847,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40	",
-    price: "10002.72",
+    price: 10002.72,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1946,7 +1858,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40	",
-    price: "10591.15",
+    price: 10591.15,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1957,7 +1869,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "11768.01",
+    price: 11768.01,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1968,7 +1880,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "15.385 ns",
     casLatency: "40	",
-    price: "12062.23",
+    price: 12062.23,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1979,7 +1891,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "15.833 ns",
     casLatency: "38	",
-    price: "16856.75",
+    price: 16856.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -1990,7 +1902,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "9296.61",
+    price: 9296.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2001,7 +1913,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "8.696 ns",
     casLatency: "20",
-    price: "32363.06",
+    price: 32363.06,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2012,7 +1924,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3625.32",
+    price: 3625.32,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2023,7 +1935,7 @@ List<ListMemory> memory = [
     modules: "1 x 32GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15	",
-    price: "3073.96",
+    price: 3073.96,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2034,7 +1946,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "20",
-    price: "2588.50",
+    price: 2588.50,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2045,7 +1957,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "5118.75",
+    price: 5118.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2056,7 +1968,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.189 ns",
     casLatency: "13",
-    price: "5471.81",
+    price: 5471.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2067,7 +1979,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "5295.28",
+    price: 5295.28,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2078,7 +1990,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "8825.86",
+    price: 8825.86,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2089,7 +2001,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "16.667 ns",
     casLatency: "40",
-    price: "10591.15",
+    price: 10591.15,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2100,7 +2012,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12 ns",
     casLatency: "36",
-    price: "10591.15",
+    price: 10591.15,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2111,7 +2023,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "11.613 ns",
     casLatency: "36",
-    price: "16769.67",
+    price: 16769.67,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2122,7 +2034,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10.667 ns",
     casLatency: "32",
-    price: "26478.76",
+    price: 26478.76,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2133,7 +2045,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "8633.44",
+    price: 8633.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2144,7 +2056,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "7943.22",
+    price: 7943.22,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2155,7 +2067,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "26479.35",
+    price: 26479.35,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2166,7 +2078,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "5648.34",
+    price: 5648.34,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2177,7 +2089,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "8633.44",
+    price: 8633.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2188,7 +2100,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "5942.55",
+    price: 5942.55,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2199,7 +2111,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "15.833 ns",
     casLatency: "38",
-    price: "19674.16",
+    price: 19674.16,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2210,7 +2122,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5236.44",
+    price: 5236.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2221,7 +2133,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "3704.17",
+    price: 3704.17,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2232,7 +2144,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "8.75 ns",
     casLatency: "14",
-    price: "53488.29",
+    price: 53488.29,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2243,7 +2155,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "5118.75",
+    price: 5118.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2254,7 +2166,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8.75 ns",
     casLatency: "14",
-    price: "5883.71",
+    price: 5883.71,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2265,7 +2177,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "5883.71",
+    price: 5883.71,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2276,7 +2188,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "30",
-    price: "14710.16",
+    price: 14710.16,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2287,7 +2199,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "2823.88",
+    price: 2823.88,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2298,7 +2210,7 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "3647.68",
+    price: 3647.68,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2309,7 +2221,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "14.286 ns",
     casLatency: "40",
-    price: "10002.72",
+    price: 10002.72,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2320,7 +2232,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "3235.78",
+    price: 3235.78,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2331,7 +2243,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "4765.11",
+    price: 4765.11,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2342,7 +2254,7 @@ List<ListMemory> memory = [
     modules: "1 x 4GB",
     firstWordLatency: "13.75 ns",
     casLatency: "11",
-    price: "940.31",
+    price: 940.31,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2354,7 +2266,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2941.56",
+    price: 2941.56,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2365,7 +2277,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "32",
-    price: "13533.30",
+    price: 13533.30,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2376,7 +2288,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3528.81",
+    price: 3528.81,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2387,7 +2299,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "6177.93",
+    price: 6177.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2398,7 +2310,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "1647.02",
+    price: 1647.02,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2409,7 +2321,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "11532.64",
+    price: 11532.64,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2420,7 +2332,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "26478.76",
+    price: 26478.76,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2431,7 +2343,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3529.99",
+    price: 3529.99,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2442,7 +2354,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.556 ns",
     casLatency: "19",
-    price: "3235.78",
+    price: 3235.78,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2453,7 +2365,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "11532.64",
+    price: 11532.64,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2464,7 +2376,7 @@ List<ListMemory> memory = [
     modules: "1 x 2GB",
     firstWordLatency: "13.75 ns",
     casLatency: "11",
-    price: "588.43",
+    price: 588.43,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2475,7 +2387,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "24125.04",
+    price: 24125.04,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2486,7 +2398,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "1481.67",
+    price: 1481.67,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2497,7 +2409,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8 ns",
     casLatency: "16",
-    price: "15298.59",
+    price: 15298.59,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2508,7 +2420,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "5684.82",
+    price: 5684.82,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2519,7 +2431,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3235.78",
+    price: 3235.78,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2530,7 +2442,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "5766.03",
+    price: 5766.03,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2541,7 +2453,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "1764.70",
+    price: 1764.70,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2552,7 +2464,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "32",
-    price: "21535.95",
+    price: 21535.95,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2563,7 +2475,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "11768.01",
+    price: 11768.01,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2574,7 +2486,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "40142.11",
+    price: 40142.11,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2585,7 +2497,7 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "3172.51",
+    price: 3172.51,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2596,7 +2508,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "12574.27",
+    price: 12574.27,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2607,7 +2519,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "1762.24",
+    price: 1762.24,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2618,7 +2530,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "11.667 ns",
     casLatency: "14",
-    price: "3348.79",
+    price: 3348.79,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2629,7 +2541,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "12.5 ns",
     casLatency: "15",
-    price: "1578.32",
+    price: 1578.32,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2640,7 +2552,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "6756.93",
+    price: 6756.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2651,7 +2563,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "9058.01",
+    price: 9058.01,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2662,7 +2574,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "8.889 ns",
     casLatency: "16",
-    price: "26971.30",
+    price: 26971.30,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2673,7 +2585,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "3113.75",
+    price: 3113.75,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2684,7 +2596,7 @@ List<ListMemory> memory = [
     modules: "4 x 16GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "10693.91",
+    price: 10693.91,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2695,7 +2607,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "3466.31",
+    price: 3466.31,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2706,7 +2618,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "3054.98",
+    price: 3054.98,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2717,7 +2629,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "2408.61",
+    price: 2408.61,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2728,7 +2640,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "13.503 ns",
     casLatency: "18",
-    price: "1762.24",
+    price: 1762.24,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2739,7 +2651,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.91 ns",
     casLatency: "16",
-    price: "3466.31",
+    price: 3466.31,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2750,7 +2662,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "3231.27",
+    price: 3231.27,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2761,7 +2673,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "1879.76",
+    price: 1879.76,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2772,7 +2684,7 @@ List<ListMemory> memory = [
     modules: "4 x 4GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "4362.42",
+    price: 4362.42,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2783,7 +2695,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "6263.33",
+    price: 6263.33,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2794,7 +2706,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "4082.71",
+    price: 4082.71,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2805,7 +2717,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "11.667 ns",
     casLatency: "14",
-    price: "6286.84",
+    price: 6286.84,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2816,7 +2728,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "3380.52",
+    price: 3380.52,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2827,7 +2739,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "12.003 ns",
     casLatency: "16",
-    price: "3407.55",
+    price: 3407.55,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2838,7 +2750,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "13514.44",
+    price: 13514.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2849,7 +2761,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "14.065 ns",
     casLatency: "15",
-    price: "1821.00",
+    price: 1821.00,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2860,7 +2772,7 @@ List<ListMemory> memory = [
     modules: "1 x 8GB",
     firstWordLatency: "13.75 ns",
     casLatency: "11",
-    price: "2082.49",
+    price: 2082.49,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2871,7 +2783,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10.667 ns",
     casLatency: "16",
-    price: "3172.51",
+    price: 3172.51,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2882,7 +2794,7 @@ List<ListMemory> memory = [
     modules: "2 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "13514.44",
+    price: 13514.44,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2893,7 +2805,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "16394.32",
+    price: 16394.32,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2904,7 +2816,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "6322.68",
+    price: 6322.68,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2915,7 +2827,7 @@ List<ListMemory> memory = [
     modules: "4 x 32GB",
     firstWordLatency: "10 ns",
     casLatency: "18",
-    price: "28204.69",
+    price: 28204.69,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2926,7 +2838,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "9582.74",
+    price: 9582.74,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2937,7 +2849,7 @@ List<ListMemory> memory = [
     modules: "2 x 4GB",
     firstWordLatency: "11.25 ns",
     casLatency: "9",
-    price: "2937.46",
+    price: 2937.46,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2948,7 +2860,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "8402.24",
+    price: 8402.24,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2959,7 +2871,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9 ns",
     casLatency: "18",
-    price: "9225.48",
+    price: 9225.48,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2970,7 +2882,7 @@ List<ListMemory> memory = [
     modules: "2 x 16GB",
     firstWordLatency: "8.75 ns",
     casLatency: "14",
-    price: "6874.45",
+    price: 6874.45,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2981,7 +2893,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "14.254 ns",
     casLatency: "19",
-    price: "3756.00",
+    price: 3756.00,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -2992,7 +2904,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "13.75 ns",
     casLatency: "22",
-    price: "4436.46",
+    price: 4436.46,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -3003,7 +2915,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "9.5 ns",
     casLatency: "19",
-    price: "5875.51",
+    price: 5875.51,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -3014,7 +2926,7 @@ List<ListMemory> memory = [
     modules: "4 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "16",
-    price: "6756.93",
+    price: 6756.93,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -3025,7 +2937,7 @@ List<ListMemory> memory = [
     modules: "2 x 8GB",
     firstWordLatency: "10 ns",
     casLatency: "15",
-    price: "4406.49",
+    price: 4406.49,
   ),
   ListMemory(
     image2D: "assets/animated/Ram_2x.png",
@@ -3036,6 +2948,6 @@ List<ListMemory> memory = [
     modules: "1 x 16GB",
     firstWordLatency: "11.667 ns",
     casLatency: "14",
-    price: "3172.51",
+    price: 3172.51,
   ),
 ];

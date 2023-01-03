@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_motherboard.dart';
 import 'package:test1/details_su_builder/details_system_motherboard/case_title_with_motherboard.dart';
 
@@ -10,6 +11,7 @@ class BodySystemMobo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(children: [
@@ -23,9 +25,10 @@ class BodySystemMobo extends StatelessWidget {
                     top: size.height * 0.12, left: 20, right: 20),
                 // height: 500,
                 decoration: const BoxDecoration(
+                  color: Colors.white12,
                   image: DecorationImage(
                       image: AssetImage("assets/animated/details.jpg"),
-                      opacity: .8),
+                      opacity: .4),
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(24),
                     topRight: Radius.circular(24),
@@ -59,7 +62,7 @@ class BodySystemMobo extends StatelessWidget {
                                         "Memory Slot: ${systemMotherboard.memorySlot}\n\n"),
                                 TextSpan(
                                     text:
-                                        "Price: \u20B1${systemMotherboard.price}\n\n"),
+                                        "Price: \u20B1${myFormat.format(systemMotherboard.price)}\n\n"),
                               ]))
                     ],
                   ),

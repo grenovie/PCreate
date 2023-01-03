@@ -24,6 +24,7 @@ class TypesOfItemsCompare2 extends StatelessWidget {
             image: DecorationImage(
               alignment: Alignment(-.5, -3),
               image: AssetImage("assets/testBGcase.png"),
+              opacity: .4,
               fit: BoxFit.none,
             )),
         child: Padding(

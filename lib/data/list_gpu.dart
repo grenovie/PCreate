@@ -7,9 +7,10 @@ class ListGraphicsCard {
       coreClock,
       boostClock,
       color,
-      length,
-      price;
+      length;
+
   final int id;
+  final double price;
   ListGraphicsCard({
     required this.image2D,
     required this.id,
@@ -37,7 +38,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1777MHz",
       color: "Black",
       length: "235mm",
-      price: "21564.42"),
+      price: 21564.42),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 2,
@@ -49,7 +50,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1860MHz",
       color: "Black",
       length: "300mm",
-      price: "40121.45"),
+      price: 40121.45),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 3,
@@ -61,7 +62,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1837MHz",
       color: "Black",
       length: "276mm",
-      price: "22184.54"),
+      price: 22184.54),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 4,
@@ -73,7 +74,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1920MHz",
       color: "Black",
       length: "300mm",
-      price: "94404.21"),
+      price: 94404.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 5,
@@ -85,7 +86,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1860MHz",
       color: "Silver/\nBlack",
       length: "313mm",
-      price: "64902.71"),
+      price: 64902.71),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 6,
@@ -97,7 +98,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1882MHz",
       color: "Black",
       length: "202mm",
-      price: "28284.86"),
+      price: 28284.86),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 7,
@@ -109,7 +110,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755MHz",
       color: "Black",
       length: "202mm",
-      price: "15871.22"),
+      price: 15871.22),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 8,
@@ -121,7 +122,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2640 MHz",
       color: "Black",
       length: "358 mm",
-      price: "59.374"),
+      price: 59.374),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 9,
@@ -133,7 +134,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black/\nSilver",
       length: "320 mm",
-      price: "51529.94"),
+      price: 51529.94),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 10,
@@ -145,7 +146,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "324 mm",
-      price: "68825.25"),
+      price: 68825.25),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 11,
@@ -157,7 +158,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491 MHz",
       color: "Black",
       length: "241 mm",
-      price: "14807.03"),
+      price: 14807.03),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 12,
@@ -169,7 +170,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "300 mm",
-      price: "63968.35"),
+      price: 63968.35),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 13,
@@ -181,7 +182,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black",
       length: "202 mm",
-      price: "13622.42"),
+      price: 13622.42),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 14,
@@ -193,7 +194,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1882 MHz",
       color: "Black",
       length: "202 mm",
-      price: "126534.67"),
+      price: 126534.67),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 15,
@@ -205,7 +206,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491 MHz",
       color: "Black/\nSilver",
       length: "235 mm",
-      price: "15695.49"),
+      price: 15695.49),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 16,
@@ -217,7 +218,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2581 MHz",
       color: "Black",
       length: "269 mm",
-      price: "23099.30"),
+      price: 23099.30),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 17,
@@ -229,7 +230,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491 MHz",
       color: "Black/\nSilver",
       length: "282 mm",
-      price: "14214.73"),
+      price: 14214.73),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 18,
@@ -241,7 +242,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "300 mm",
-      price: "96261.41"),
+      price: 96261.41),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 19,
@@ -253,7 +254,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1920 MHz",
       color: "Black",
       length: "325 mm",
-      price: "94170.57"),
+      price: 94170.57),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 20,
@@ -265,7 +266,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1807 MHz",
       color: "Black",
       length: "316 mm",
-      price: "22507.00"),
+      price: 22507.00),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 21,
@@ -277,7 +278,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black",
       length: "286 mm",
-      price: "32576.18"),
+      price: 32576.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 22,
@@ -289,7 +290,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1950 MHz",
       color: "Black",
       length: "326 mm",
-      price: "88845.16"),
+      price: 88845.16),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 23,
@@ -301,7 +302,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "235 mm",
-      price: "16880.10"),
+      price: 16880.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 24,
@@ -313,7 +314,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "39091.54"),
+      price: 39091.54),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 25,
@@ -325,7 +326,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nGray",
       length: "235 mm",
-      price: "26653.13"),
+      price: 26653.13),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 26,
@@ -337,7 +338,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1890 MHz",
       color: "Black/\nSilver",
       length: "318 mm",
-      price: "58483.01"),
+      price: 58483.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 27,
@@ -349,7 +350,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2602 MHz",
       color: "Black/\nSilver",
       length: "235 mm",
-      price: "18953.17"),
+      price: 18953.17),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 28,
@@ -361,7 +362,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1455 MHz",
       color: "Black/\nWhite",
       length: "215 mm",
-      price: "8291.68"),
+      price: 8291.68),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 29,
@@ -373,7 +374,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "59229.91"),
+      price: 59229.91),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 30,
@@ -385,7 +386,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1965 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "128467.78"),
+      price: 128467.78),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 31,
@@ -397,7 +398,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black/\nSilver",
       length: "323 mm",
-      price: "32280.03"),
+      price: 32280.03),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 32,
@@ -409,7 +410,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black",
       length: "318 mm",
-      price: "58159.02"),
+      price: 58159.02),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 33,
@@ -421,7 +422,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1890 MHz",
       color: "Black/\nWhite",
       length: "318 mm",
-      price: "91155.74"),
+      price: 91155.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 34,
@@ -433,7 +434,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black",
       length: "222 mm",
-      price: "26060.83"),
+      price: 26060.83),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 35,
@@ -445,7 +446,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2340 MHz",
       color: "Black/\nSilver",
       length: "324 mm",
-      price: "49575.93"),
+      price: 49575.93),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 36,
@@ -457,7 +458,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "286 mm",
-      price: "39678.51"),
+      price: 39678.51),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 37,
@@ -469,7 +470,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black/\nSilver",
       length: "285 mm",
-      price: "40157.69"),
+      price: 40157.69),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 38,
@@ -481,7 +482,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nGray",
       length: "323 mm",
-      price: "45606.89"),
+      price: 45606.89),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 39,
@@ -493,7 +494,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2285 MHz",
       color: "Black/\nSilver",
       length: "286 mm",
-      price: "31793.26"),
+      price: 31793.26),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 40,
@@ -505,7 +506,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1740 MHz",
       color: "Black",
       length: "282 mm",
-      price: "27083.06"),
+      price: 27083.06),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 41,
@@ -517,7 +518,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black/\nSilver",
       length: "247 mm",
-      price: "25316.74"),
+      price: 25316.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 42,
@@ -529,7 +530,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "247 mm",
-      price: "85371.79"),
+      price: 85371.79),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 43,
@@ -541,7 +542,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "267 mm",
-      price: "55933.63"),
+      price: 55933.63),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 44,
@@ -553,7 +554,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "204 mm",
-      price: "14130.01"),
+      price: 14130.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 45,
@@ -565,7 +566,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2694 MHz",
       color: "Black/\nGray",
       length: "282 mm",
-      price: "15896.34"),
+      price: 15896.34),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 46,
@@ -577,7 +578,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black/\nSilver",
       length: "316 mm",
-      price: "35914.69"),
+      price: 35914.69),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 47,
@@ -589,7 +590,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2340 MHz",
       color: "Black",
       length: "310 mm",
-      price: "52989.16"),
+      price: 52989.16),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 48,
@@ -601,7 +602,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----",
       color: "Black/\nSilver",
       length: "330 mm",
-      price: "32382.04"),
+      price: 32382.04),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 49,
@@ -613,7 +614,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2635 MHz",
       color: "Black/\nSilver",
       length: "282 mm",
-      price: "16485.11"),
+      price: 16485.11),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 50,
@@ -625,7 +626,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2340 MHz",
       color: "Black/\nSilver",
       length: "330 mm",
-      price: "39447.34"),
+      price: 39447.34),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 51,
@@ -637,7 +638,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black",
       length: "285 mm",
-      price: "41155.37"),
+      price: 41155.37),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 52,
@@ -649,7 +650,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2825 MHz",
       color: "Black/\nSilver",
       length: "172 mm",
-      price: "9890.83"),
+      price: 9890.83),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 53,
@@ -661,7 +662,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2310 MHz",
       color: "Black/\nSilver",
       length: "324 mm",
-      price: "35325.91"),
+      price: 35325.91),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 54,
@@ -673,7 +674,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2581 MHz",
       color: "Black",
       length: "304 mm",
-      price: "24727.96"),
+      price: 24727.96),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 55,
@@ -685,7 +686,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----",
       color: "Black",
       length: "300 mm",
-      price: "72312.76"),
+      price: 72312.76),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 56,
@@ -697,7 +698,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1807 MHz",
       color: "Black",
       length: "224 mm",
-      price: "20411.06"),
+      price: 20411.06),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 57,
@@ -709,7 +710,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Silver/\nWhite",
       length: "286 mm",
-      price: "32382.04"),
+      price: 32382.04),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 58,
@@ -721,7 +722,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black",
       length: "242 mm",
-      price: "18469.87"),
+      price: 18469.87),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 59,
@@ -733,7 +734,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nSilver",
       length: "323 mm",
-      price: "36503.46"),
+      price: 36503.46),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 60,
@@ -745,7 +746,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491 MHz",
       color: "Black/\nRed",
       length: "193 mm",
-      price: "14130.01"),
+      price: 14130.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 61,
@@ -757,7 +758,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1890 MHz",
       color: "Black",
       length: "318 mm",
-      price: "104801.36"),
+      price: 104801.36),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 62,
@@ -769,7 +770,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1380 MHz",
       color: "Black",
       length: "348 mm",
-      price: "153080.32"),
+      price: 153080.32),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 63,
@@ -781,7 +782,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nSilver",
       length: "318 mm",
-      price: "47101.41"),
+      price: 47101.41),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 64,
@@ -793,7 +794,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nSilver",
       length: "202 mm",
-      price: "11186.14"),
+      price: 11186.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 65,
@@ -805,7 +806,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "White/\nSilver",
       length: "320 mm",
-      price: "48192.41"),
+      price: 48192.41),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 66,
@@ -817,7 +818,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2340 MHz",
       color: "Black",
       length: "320 mm",
-      price: "61762.50"),
+      price: 61762.50),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 67,
@@ -829,7 +830,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black",
       length: "242 mm",
-      price: "22372.86"),
+      price: 22372.86),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 68,
@@ -841,7 +842,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Silver/\nWhite",
       length: "281 mm",
-      price: "27083.06"),
+      price: 27083.06),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 68,
@@ -853,7 +854,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Gray/\nBlack",
       length: "231 mm",
-      price: "16190.72"),
+      price: 16190.72),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 69,
@@ -865,7 +866,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black",
       length: "323 mm",
-      price: "44746.31"),
+      price: 44746.31),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 70,
@@ -877,7 +878,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black/\nRed",
       length: "303 mm",
-      price: "30026.94"),
+      price: 30026.94),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 71,
@@ -889,7 +890,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black",
       length: "300 mm",
-      price: "54167.30"),
+      price: 54167.30),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 72,
@@ -901,7 +902,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black",
       length: "301 mm",
-      price: "31727.91"),
+      price: 31727.91),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 73,
@@ -913,7 +914,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2622 MHz",
       color: "Black",
       length: "320 mm",
-      price: "25316.74"),
+      price: 25316.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 74,
@@ -925,7 +926,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1867 MHz",
       color: "Black",
       length: "200 mm",
-      price: "24139.19"),
+      price: 24139.19),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 75,
@@ -937,7 +938,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "280 mm",
-      price: "191056.90"),
+      price: 191056.90),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 76,
@@ -949,7 +950,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1792 MHz",
       color: "Black",
       length: "213 mm",
-      price: "17015.01"),
+      price: 17015.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 77,
@@ -961,7 +962,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black",
       length: "202 mm",
-      price: "11716.62"),
+      price: 11716.62),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 78,
@@ -973,7 +974,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "340 mm",
-      price: "11716.62"),
+      price: 11716.62),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 79,
@@ -985,7 +986,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black/\nWhite",
       length: "267 mm",
-      price: "288440.87"),
+      price: 288440.87),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 80,
@@ -997,7 +998,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black",
       length: "300 mm",
-      price: "33559.59"),
+      price: 33559.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 81,
@@ -1009,7 +1010,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491 MHz",
       color: "Black",
       length: "200 mm",
-      price: "13779.10"),
+      price: 13779.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 82,
@@ -1021,7 +1022,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1867 MHz",
       color: "WHITE",
       length: "232 mm",
-      price: "24727.96"),
+      price: 24727.96),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 83,
@@ -1033,7 +1034,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2250 MHz",
       color: "Black/\nSilver",
       length: "340 mm",
-      price: "35325.91"),
+      price: 35325.91),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 84,
@@ -1045,7 +1046,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1620 MHz",
       color: "Black/\nGray",
       length: "151 mm",
-      price: "10008.59"),
+      price: 10008.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 85,
@@ -1057,7 +1058,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black",
       length: "296 mm",
-      price: "17073.89"),
+      price: 17073.89),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 86,
@@ -1069,7 +1070,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "269 mm",
-      price: "36668.32"),
+      price: 36668.32),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 87,
@@ -1081,7 +1082,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1890 MHz",
       color: "Black",
       length: "356 mm",
-      price: "91254.24"),
+      price: 91254.24),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 88,
@@ -1093,7 +1094,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1837 MHz",
       color: "Silver/\nWhite",
       length: "280 mm",
-      price: "31734.38"),
+      price: 31734.38),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 89,
@@ -1105,7 +1106,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2694 MHz",
       color: "Silver/\nBlack",
       length: "278 mm",
-      price: "18840.21"),
+      price: 18840.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 90,
@@ -1117,7 +1118,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2589 MHz",
       color: "Black",
       length: "241 mm",
-      price: "19959.47"),
+      price: 19959.47),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 91,
@@ -1129,7 +1130,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "58746.20"),
+      price: 58746.20),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 92,
@@ -1141,7 +1142,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1665 MHz",
       color: "Black/\nSilver",
       length: "232 mm",
-      price: "18251.44"),
+      price: 18251.44),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 93,
@@ -1153,7 +1154,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "300 mm",
-      price: "70884.39"),
+      price: 70884.39),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 94,
@@ -1165,7 +1166,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2535 MHz",
       color: "Black/\nSilver",
       length: "356 mm",
-      price: "131277.40"),
+      price: 131277.40),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 95,
@@ -1177,7 +1178,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1740 MHz",
       color: "Black",
       length: "305 mm",
-      price: "43451.01"),
+      price: 43451.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 96,
@@ -1189,7 +1190,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2365 MHz",
       color: "Black/\nSilver",
       length: "340 mm",
-      price: "41213.66"),
+      price: 41213.66),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 97,
@@ -1201,7 +1202,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2454 MHz",
       color: "Black/\nSilver",
       length: "325 mm",
-      price: "51222.84"),
+      price: 51222.84),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 98,
@@ -1213,7 +1214,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2250 MHz",
       color: "Black",
       length: "340 mm",
-      price: "40036.11"),
+      price: 40036.11),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 99,
@@ -1225,7 +1226,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "282 mm",
-      price: "18840.21"),
+      price: 18840.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 100,
@@ -1237,7 +1238,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "282 mm",
-      price: "31157.38"),
+      price: 31157.38),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 101,
@@ -1249,7 +1250,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2435 MHz",
       color: "Black",
       length: "320 mm",
-      price: "46720.22"),
+      price: 46720.22),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 102,
@@ -1261,7 +1262,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black",
       length: "173 mm",
-      price: "12556.22"),
+      price: 12556.22),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 103,
@@ -1273,7 +1274,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "58809.22"),
+      price: 58809.22),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 104,
@@ -1285,7 +1286,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black",
       length: "247 mm",
-      price: "15475.68"),
+      price: 15475.68),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 105,
@@ -1297,7 +1298,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nSilver",
       length: "316 mm",
-      price: "27447.89"),
+      price: 27447.89),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 106,
@@ -1309,7 +1310,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2310 MHz",
       color: "Black",
       length: "310 mm",
-      price: "33409.46"),
+      price: 33409.46),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 107,
@@ -1323,7 +1324,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2825 MHz",
       color: "Black/\nGray",
       length: "232 mm",
-      price: "10511.60"),
+      price: 10511.60),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 108,
@@ -1335,7 +1336,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black/\nGray",
       length: "226 mm",
-      price: "17520.30"),
+      price: 17520.30),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 109,
@@ -1347,7 +1348,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2622 MHz",
       color: "Black",
       length: "323 mm",
-      price: "25695.86"),
+      price: 25695.86),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 109,
@@ -1359,7 +1360,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nSilver",
       length: "305 mm",
-      price: "63072.50"),
+      price: 63072.50),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 110,
@@ -1371,7 +1372,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2581 MHz",
       color: "Black",
       length: "260 mm",
-      price: "27155.88"),
+      price: 27155.88),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 111,
@@ -1383,7 +1384,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "White/\nSilver",
       length: "320 mm",
-      price: "57811.15"),
+      price: 57811.15),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 112,
@@ -1395,7 +1396,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "45377.58"),
+      price: 45377.58),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 113,
@@ -1407,7 +1408,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black/\nSilver",
       length: "320 mm",
-      price: "44384.18"),
+      price: 44384.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 114,
@@ -1419,7 +1420,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black",
       length: "232 mm",
-      price: "29199.92"),
+      price: 29199.92),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 115,
@@ -1431,7 +1432,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1890 MHz",
       color: "Black/\nSilver",
       length: "218 mm",
-      price: "33287.99"),
+      price: 33287.99),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 116,
@@ -1443,7 +1444,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1875 MHz",
       color: "Black",
       length: "234 mm",
-      price: "40375.53"),
+      price: 40375.53),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 117,
@@ -1455,7 +1456,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "300 mm",
-      price: "42866.33"),
+      price: 42866.33),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 118,
@@ -1467,7 +1468,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2694 MHz",
       color: "Black/\nSilver",
       length: "278 mm",
-      price: "18687.74"),
+      price: 18687.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 119,
@@ -1479,7 +1480,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1725 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "78840.77"),
+      price: 78840.77),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 120,
@@ -1491,7 +1492,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1912 MHz",
       color: "Black/\nSilver",
       length: "300 mm",
-      price: "30660.53"),
+      price: 30660.53),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 121,
@@ -1503,7 +1504,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2550 MHz",
       color: "Black",
       length: "348 mm",
-      price: "139519.99"),
+      price: 139519.99),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 122,
@@ -1515,7 +1516,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2623 MHz",
       color: "Black/\nGray",
       length: "281 mm",
-      price: "27155.88"),
+      price: 27155.88),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 123,
@@ -1527,7 +1528,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "337 mm",
-      price: "146001.33"),
+      price: 146001.33),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 124,
@@ -1539,7 +1540,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1740 MHz",
       color: "Black/\nWhite",
       length: "170 mm",
-      price: "10219.59"),
+      price: 10219.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 125,
@@ -1551,7 +1552,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black/\nSilver",
       length: "318 mm",
-      price: "108684.26"),
+      price: 108684.26),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 126,
@@ -1563,7 +1564,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1882 MHz MHz",
       color: "Black",
       length: "301 mm",
-      price: "26455.07"),
+      price: 26455.07),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 127,
@@ -1575,7 +1576,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black/\nSilver",
       length: "294 mm",
-      price: "40880.12"),
+      price: 40880.12),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 128,
@@ -1587,7 +1588,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2825 MHz",
       color: "Black/\nGray",
       length: "282 mm",
-      price: "9927.59"),
+      price: 9927.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 129,
@@ -1599,7 +1600,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MH MHz",
       color: "Black",
       length: "285 mm",
-      price: "33694.46"),
+      price: 33694.46),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 130,
@@ -1611,7 +1612,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1935 MHz",
       color: "White",
       length: "318 mm",
-      price: "84623.05"),
+      price: 84623.05),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 131,
@@ -1623,7 +1624,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "300 mm",
-      price: "34456.01"),
+      price: 34456.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 132,
@@ -1635,7 +1636,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black",
       length: "285 mm",
-      price: "55478.03"),
+      price: 55478.03),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 133,
@@ -1647,7 +1648,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "--- MHz",
       color: "Black",
       length: "146 mm",
-      price: "2726.16"),
+      price: 2726.16),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 134,
@@ -1659,7 +1660,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1777 MHz",
       color: "Black",
       length: "224 mm",
-      price: "23418.80"),
+      price: 23418.80),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 135,
@@ -1671,7 +1672,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1875 MHz",
       color: "Black/\nSilver",
       length: "335 mm",
-      price: "47066.53"),
+      price: 47066.53),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 136,
@@ -1683,7 +1684,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "--- MHz",
       color: "Black/\nGreen",
       length: "114 mm",
-      price: "3445.07"),
+      price: 3445.07),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 137,
@@ -1695,7 +1696,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2365 MHz",
       color: "Black/\nWhite",
       length: "310 mm",
-      price: "49427.10"),
+      price: 49427.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 138,
@@ -1707,7 +1708,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2105 MHz",
       color: "Black",
       length: "340 mm",
-      price: "30951.95"),
+      price: 30951.95),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 139,
@@ -1719,7 +1720,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1807 MHz",
       color: "Blackr",
       length: "177 mm",
-      price: "22775.81"),
+      price: 22775.81),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 140,
@@ -1731,7 +1732,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "300 mm",
-      price: "63656.51"),
+      price: 63656.51),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 141,
@@ -1743,7 +1744,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1725 MHz",
       color: "Black",
       length: "318 mm",
-      price: "46342.95"),
+      price: 46342.95),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 142,
@@ -1755,7 +1756,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nSilver",
       length: "226 mm",
-      price: "18687.74"),
+      price: 18687.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 143,
@@ -1767,7 +1768,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2190 MHz",
       color: "Black",
       length: "310 mm",
-      price: "30367.94"),
+      price: 30367.94),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 144,
@@ -1779,7 +1780,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1905 MHz",
       color: "Black",
       length: "331 mm",
-      price: "87091.08"),
+      price: 87091.08),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 145,
@@ -1791,7 +1792,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "206 mm",
-      price: "14016.24"),
+      price: 14016.24),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 146,
@@ -1803,7 +1804,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2580 MHz",
       color: "Black/\nSilver",
       length: "356 mm",
-      price: "145944.10"),
+      price: 145944.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 147,
@@ -1815,7 +1816,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1531 MHz",
       color: "Black/\nBlue",
       length: "184 mm",
-      price: "7754.48"),
+      price: 7754.48),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 148,
@@ -1827,7 +1828,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2635 MHz",
       color: "Black/\nSilver",
       length: "241 mm",
-      price: "17519.72"),
+      price: 17519.72),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 149,
@@ -1839,7 +1840,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1875 MHz",
       color: "Silver",
       length: "336 mm",
-      price: "104479.39"),
+      price: 104479.39),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 150,
@@ -1851,7 +1852,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "White",
       length: "232 mm",
-      price: "28031.90"),
+      price: 28031.90),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 151,
@@ -1863,7 +1864,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "202 mm",
-      price: "19350.18"),
+      price: 19350.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 152,
@@ -1875,7 +1876,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2698 MHz",
       color: "White",
       length: "220 mm",
-      price: "19866.13"),
+      price: 19866.13),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 153,
@@ -1887,7 +1888,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1680 MHz",
       color: "Gray/\nBlack",
       length: "202 mm",
-      price: "18697.50"),
+      price: 18697.50),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 154,
@@ -1899,7 +1900,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2607 MHz",
       color: "Black/\nSilver",
       length: "240 mm",
-      price: "21034.76"),
+      price: 21034.76),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 155,
@@ -1911,7 +1912,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "318 mm",
-      price: "34409.73"),
+      price: 34409.73),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 156,
@@ -1923,7 +1924,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black/\nSilver",
       length: "318 mm",
-      price: "57443.42"),
+      price: 57443.42),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 157,
@@ -1935,7 +1936,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black/\nGray",
       length: "278 mm",
-      price: "28623.84"),
+      price: 28623.84),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 158,
@@ -1947,7 +1948,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2425 MHz",
       color: "Black",
       length: "304 mm",
-      price: "20450.44"),
+      price: 20450.44),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 159,
@@ -1959,7 +1960,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "170 mm",
-      price: "22203.39"),
+      price: 22203.39),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 160,
@@ -1971,7 +1972,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2495 MHz",
       color: "Black/\nRed",
       length: "260 mm",
-      price: "19866.13"),
+      price: 19866.13),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 161,
@@ -1983,7 +1984,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1725 MHz",
       color: "Silver/\nBlack",
       length: "294 mm",
-      price: "32136.74"),
+      price: 32136.74),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 162,
@@ -1995,7 +1996,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1935 MHz",
       color: "White",
       length: "318 mm",
-      price: "61936.81"),
+      price: 61936.81),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 163,
@@ -2007,7 +2008,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "155 mm",
-      price: "8764.14"),
+      price: 8764.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 164,
@@ -2019,7 +2020,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black",
       length: "305 mm",
-      price: "33831.84"),
+      price: 33831.84),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 165,
@@ -2031,7 +2032,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1777 MHz",
       color: "Black",
       length: "202 mm",
-      price: "24423.78"),
+      price: 24423.78),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 166,
@@ -2043,7 +2044,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1860 MHz",
       color: "Black",
       length: "202 mm",
-      price: "12796.50"),
+      price: 12796.50),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 167,
@@ -2055,7 +2056,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1493 MHz",
       color: "Black/\nRed,",
       length: "229 mm",
-      price: "16302.39"),
+      price: 16302.39),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 168,
@@ -2067,7 +2068,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1392 MHz",
       color: "Black/\nWhi,te",
       length: "192 mm",
-      price: "10804.57"),
+      price: 10804.57),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 169,
@@ -2079,7 +2080,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black/\nGra,y",
       length: "320 mm",
-      price: "74786.48"),
+      price: 74786.48),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 170,
@@ -2091,7 +2092,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "303 mm",
-      price: "16944.55"),
+      price: 16944.55),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 171,
@@ -2103,7 +2104,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2689 MHz",
       color: "Black/\nSil,ver",
       length: "274 mm",
-      price: "18753.59"),
+      price: 18753.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 172,
@@ -2115,7 +2116,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2475 MHz",
       color: "Silver/\nBl,ack",
       length: "332 mm",
-      price: "42070.10"),
+      price: 42070.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 173,
@@ -2127,7 +2128,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black",
       length: "202 mm",
-      price: "34527.76"),
+      price: 34527.76),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 174,
@@ -2139,7 +2140,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nSil,ver",
       length: "317 mm",
-      price: "37916.20"),
+      price: 37916.20),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 175,
@@ -2151,7 +2152,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815 MHz",
       color: "Silver",
       length: "286 mm",
-      price: "44349.51"),
+      price: 44349.51),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 176,
@@ -2163,7 +2164,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black/\nSil,ver",
       length: "320 mm",
-      price: "57204.44"),
+      price: 57204.44),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 177,
@@ -2175,7 +2176,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2285 MHz",
       color: "Black/\nSil,ver",
       length: "286 mm",
-      price: "53626.09"),
+      price: 53626.09),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 178,
@@ -2187,7 +2188,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nSil,ver",
       length: "323 mm",
-      price: "45401.28"),
+      price: 45401.28),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 179,
@@ -2199,7 +2200,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nGra,y",
       length: "205 mm",
-      price: "23411.16"),
+      price: 23411.16),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 180,
@@ -2211,7 +2212,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "320 mm",
-      price: "69065.45"),
+      price: 69065.45),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 181,
@@ -2223,7 +2224,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1935 MHz",
       color: "White",
       length: "318 mm",
-      price: "84667.24"),
+      price: 84667.24),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 182,
@@ -2235,7 +2236,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black/\nSil,ver",
       length: "232",
-      price: "58895.45"),
+      price: 58895.45),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 183,
@@ -2247,7 +2248,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black",
       length: "216",
-      price: "13610.45"),
+      price: 13610.45),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 184,
@@ -2259,7 +2260,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1867 MHz",
       color: "Black",
       length: "296",
-      price: "52529.92"),
+      price: 52529.92),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 185,
@@ -2271,7 +2272,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1740 MHz",
       color: "Black/\nSilver",
       length: "269",
-      price: "37390.32"),
+      price: 37390.32),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 186,
@@ -2283,7 +2284,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2155 MHz",
       color: "Silver/\nBl,ack",
       length: "286",
-      price: "35642.63"),
+      price: 35642.63),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 187,
@@ -2295,7 +2296,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1800 MHz",
       color: "Black",
       length: "285",
-      price: "32604.19"),
+      price: 32604.19),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 188,
@@ -2307,7 +2308,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1386 MHz",
       color: "Black/\nRed",
       length: "270",
-      price: "8764.14"),
+      price: 8764.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 189,
@@ -2319,7 +2320,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black/\nRed,",
       length: "313",
-      price: "40901.47"),
+      price: 40901.47),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 190,
@@ -2331,7 +2332,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "290",
-      price: "43180.88"),
+      price: 43180.88),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 191,
@@ -2343,7 +2344,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1935 MHz",
       color: "Black/\nSil,ver",
       length: "318",
-      price: "37395.58"),
+      price: 37395.58),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 192,
@@ -2355,7 +2356,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "---- MHz",
       color: "Black",
       length: "269",
-      price: "37395.72"),
+      price: 37395.72),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 193,
@@ -2367,7 +2368,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2285 MHz",
       color: "Black/\nSil,ver",
       length: "310",
-      price: "81803.52"),
+      price: 81803.52),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 194,
@@ -2379,7 +2380,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710	 MHz",
       color: "Black/\nSil,ver",
       length: "294",
-      price: "50739.58"),
+      price: 50739.58),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 195,
@@ -2391,7 +2392,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----	 MHz",
       color: "Black",
       length: "191",
-      price: "10517.09"),
+      price: 10517.09),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 196,
@@ -2403,7 +2404,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1680	 MHz",
       color: "Black",
       length: "210",
-      price: "17528.87"),
+      price: 17528.87),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 197,
@@ -2415,7 +2416,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1620	 MHz",
       color: "Black/\nSilver",
       length: "178",
-      price: "10517.09"),
+      price: 10517.09),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 198,
@@ -2427,7 +2428,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2425	 MHz",
       color: "Black",
       length: "320",
-      price: "57905.03"),
+      price: 57905.03),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 199,
@@ -2439,7 +2440,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755	 MHz",
       color: "Clear/\nBlack",
       length: "302",
-      price: "153616.41"),
+      price: 153616.41),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 200,
@@ -2451,7 +2452,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845	 MHz",
       color: "Black/\nSilver",
       length: "336",
-      price: "89501.28"),
+      price: 89501.28),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 201,
@@ -2463,7 +2464,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1740	 MHz",
       color: "Black/\nSilver",
       length: "269",
-      price: "27462.22"),
+      price: 27462.22),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 202,
@@ -2475,7 +2476,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----MHz",
       color: "Black",
       length: "308",
-      price: "47151.45"),
+      price: 47151.45),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 203,
@@ -2487,7 +2488,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695	 MHz",
       color: "Black",
       length: "318",
-      price: "158851.39"),
+      price: 158851.39),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 204,
@@ -2499,7 +2500,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2491	 MHz",
       color: "Black",
       length: "220",
-      price: "16146.26"),
+      price: 16146.26),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 205,
@@ -2511,7 +2512,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1725	 MHz",
       color: "Black/\nSilver",
       length: "294",
-      price: "37254.92"),
+      price: 37254.92),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 206,
@@ -2523,7 +2524,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770	 MHz",
       color: "Black",
       length: "320",
-      price: "76036.47"),
+      price: 76036.47),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 207,
@@ -2535,7 +2536,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695	 MHz",
       color: "Black",
       length: "167",
-      price: "13684.21"),
+      price: 13684.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 208,
@@ -2547,7 +2548,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1725	 MHz",
       color: "Black/\nSilver",
       length: "285",
-      price: "59352.65"),
+      price: 59352.65),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 209,
@@ -2559,7 +2560,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1380	 MHz",
       color: "Black/\nSilver",
       length: "242",
-      price: "29147.90"),
+      price: 29147.90),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 210,
@@ -2571,7 +2572,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770	 MHz",
       color: "Black",
       length: "281",
-      price: "35365.21"),
+      price: 35365.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 211,
@@ -2583,7 +2584,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1797	 MHz",
       color: "Black/\nGray",
       length: "267",
-      price: "77672.14"),
+      price: 77672.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 212,
@@ -2595,7 +2596,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1556	 MHz",
       color: "Black/\nRed",
       length: "229",
-      price: "12672.16"),
+      price: 12672.16),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 213,
@@ -2607,7 +2608,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1797	MHz",
       color: "Black/\nRed",
       length: "173",
-      price: "20393.10"),
+      price: 20393.10),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 214,
@@ -2619,7 +2620,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1556	 MHz",
       color: "Black/\nOrange",
       length: "219",
-      price: "13556.89"),
+      price: 13556.89),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 215,
@@ -2631,7 +2632,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845	 MHz",
       color: "Black/\nSilver",
       length: "275",
-      price: "45091.40"),
+      price: 45091.40),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 216,
@@ -2643,7 +2644,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1777 MHz",
       color: "Black",
       length: "245",
-      price: "22898.77"),
+      price: 22898.77),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 217,
@@ -2655,7 +2656,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1650	 MHz",
       color: "Black/\nSilver",
       length: "210",
-      price: "27564.69"),
+      price: 27564.69),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 218,
@@ -2667,7 +2668,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2607	 MHz",
       color: "Black/\nSilver",
       length: "282",
-      price: "32477.00"),
+      price: 32477.00),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 219,
@@ -2679,7 +2680,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1405	 MHz",
       color: "Black/\nRed",
       length: "270",
-      price: "35486.63"),
+      price: 35486.63),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 220,
@@ -2691,7 +2692,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1665 MHz",
       color: "Black",
       length: "178",
-      price: "11140.23"),
+      price: 11140.23),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 221,
@@ -2703,7 +2704,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1620	 MHz",
       color: "Black/\nClear",
       length: "269",
-      price: "64188.93"),
+      price: 64188.93),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 222,
@@ -2715,7 +2716,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1380	 MHz",
       color: "Black",
       length: "298",
-      price: "47095.46"),
+      price: 47095.46),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 223,
@@ -2727,7 +2728,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2593	 MHz",
       color: "Black/\nRed",
       length: "240",
-      price: "29232.19"),
+      price: 29232.19),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 224,
@@ -2739,7 +2740,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "320",
-      price: "100585.64"),
+      price: 100585.64),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 225,
@@ -2751,7 +2752,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845	 MHz",
       color: "Black/\nSilver",
       length: "252",
-      price: "147355.14"),
+      price: 147355.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 226,
@@ -2763,7 +2764,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755	 MHz",
       color: "White",
       length: "232",
-      price: "106563.05"),
+      price: 106563.05),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 227,
@@ -2775,7 +2776,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2593	 MHz",
       color: "Black/\nSilver",
       length: "282",
-      price: "32123.35"),
+      price: 32123.35),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 228,
@@ -2787,7 +2788,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1244	 MHz",
       color: "Black",
       length: "236",
-      price: "22987.18"),
+      price: 22987.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 229,
@@ -2799,7 +2800,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1355	 MHz",
       color: "Black/\nOrange",
       length: "232",
-      price: "56997.88"),
+      price: 56997.88),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 230,
@@ -2811,7 +2812,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1442	 MHz",
       color: "Black/\nRed",
       length: "203",
-      price: "15708.90"),
+      price: 15708.90),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 231,
@@ -2823,7 +2824,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----	 MHz",
       color: "Black/\nSilver",
       length: "310",
-      price: "78928.80"),
+      price: 78928.80),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 232,
@@ -2835,7 +2836,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1290	 MHz",
       color: "Black/\nBlue",
       length: "168",
-      price: "13309.92"),
+      price: 13309.92),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 233,
@@ -2847,7 +2848,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755	 MHz",
       color: "Black/\nSilver",
       length: "314",
-      price: "35365.80"),
+      price: 35365.80),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 234,
@@ -2859,7 +2860,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1815	 MHz",
       color: "Black",
       length: "286",
-      price: "95468.80"),
+      price: 95468.80),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 235,
@@ -2871,7 +2872,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1775 MHz",
       color: "Black/\nSilver",
       length: "225",
-      price: "40670.08"),
+      price: 40670.08),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 236,
@@ -2883,7 +2884,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1807	 MHz",
       color: "Black",
       length: "177",
-      price: "29465.61"),
+      price: 29465.61),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 237,
@@ -2895,7 +2896,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black/\nSilver",
       length: "294",
-      price: "37247.26"),
+      price: 37247.26),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 238,
@@ -2907,7 +2908,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "975	 MHz",
       color: "Blue",
       length: "168",
-      price: "20570.52"),
+      price: 20570.52),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 239,
@@ -2919,7 +2920,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "----	 MHz",
       color: "Black",
       length: "296",
-      price: "58937.11"),
+      price: 58937.11),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 240,
@@ -2931,7 +2932,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710	 MHz",
       color: "Black/\nSilver",
       length: "205",
-      price: "35306.86"),
+      price: 35306.86),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 241,
@@ -2943,7 +2944,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1665	 MHz",
       color: "Black/\nGray",
       length: "235",
-      price: "29412.56"),
+      price: 29412.56),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 242,
@@ -2955,7 +2956,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2340	 MHz",
       color: "Black",
       length: "340",
-      price: "87456.68"),
+      price: 87456.68),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 243,
@@ -2967,7 +2968,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1650	 MHz",
       color: "Black/\nClear",
       length: "270",
-      price: "117885.41"),
+      price: 117885.41),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 244,
@@ -2979,7 +2980,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1071	 MHz",
       color: "Black/\nRed",
       length: "152",
-      price: "17565.01"),
+      price: 17565.01),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 245,
@@ -2991,7 +2992,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710	 MHz",
       color: "Black/\nSilver",
       length: "265",
-      price: "58940.05"),
+      price: 58940.05),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 246,
@@ -3003,7 +3004,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2525	MHz",
       color: "Black",
       length: "270",
-      price: "131618.54"),
+      price: 131618.54),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 247,
@@ -3015,7 +3016,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1860	 MHz",
       color: "Black",
       length: "300",
-      price: "141890.54"),
+      price: 141890.54),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 248,
@@ -3027,7 +3028,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830	 MHz",
       color: "Black/\nSilver",
       length: "247",
-      price: "20648.32"),
+      price: 20648.32),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 249,
@@ -3039,7 +3040,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1380	 MHz",
       color: "Black/\nWhite",
       length: "242",
-      price: "29470.91"),
+      price: 29470.91),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 250,
@@ -3051,7 +3052,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845	 MHz",
       color: "Black",
       length: "178",
-      price: "25875.98"),
+      price: 25875.98),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 251,
@@ -3063,7 +3064,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1335	 MHz",
       color: "Black/\nGray",
       length: "156",
-      price: "17623.96"),
+      price: 17623.96),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 252,
@@ -3075,7 +3076,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1770 MHz",
       color: "Black",
       length: "283",
-      price: "32949.14"),
+      price: 32949.14),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 253,
@@ -3087,7 +3088,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710	 MHz",
       color: "Black",
       length: "245",
-      price: "13556.30"),
+      price: 13556.30),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 254,
@@ -3099,7 +3100,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1875	 MHz",
       color: "Black",
       length: "272",
-      price: "22987.18"),
+      price: 22987.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 255,
@@ -3111,7 +3112,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1650 MHz",
       color: "Gray",
       length: "162",
-      price: "10019.72"),
+      price: 10019.72),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 256,
@@ -3123,7 +3124,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1150 MHz",
       color: "Black/\nSilver",
       length: "292",
-      price: "105802.69"),
+      price: 105802.69),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 257,
@@ -3135,7 +3136,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1425 MHz",
       color: "Black/\nGray",
       length: "156",
-      price: "10550.21"),
+      price: 10550.21),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 258,
@@ -3147,7 +3148,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2635 MHz",
       color: "Black",
       length: "241",
-      price: "18861.17"),
+      price: 18861.17),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 259,
@@ -3159,7 +3160,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black/\nClear",
       length: "269",
-      price: "83729.71"),
+      price: 83729.71),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 260,
@@ -3171,7 +3172,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1219 MHz",
       color: "Blue",
       length: "145",
-      price: "11768.56"),
+      price: 11768.56),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 261,
@@ -3183,7 +3184,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1830 MHz",
       color: "Black/\nWhite",
       length: "174",
-      price: "17093.47"),
+      price: 17093.47),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 262,
@@ -3195,7 +3196,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black",
       length: "301",
-      price: "37717.63"),
+      price: 37717.63),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 263,
@@ -3207,7 +3208,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1785 MHz",
       color: "Black/\nSilver",
       length: "202",
-      price: "10019.72"),
+      price: 10019.72),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 264,
@@ -3219,7 +3220,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1244 MHz",
       color: "Black/\nTransparent",
       length: "246",
-      price: "34715.66"),
+      price: 34715.66),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 265,
@@ -3231,7 +3232,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1755 MHz",
       color: "Black",
       length: "206",
-      price: "21098.06"),
+      price: 21098.06),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 266,
@@ -3243,7 +3244,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1620 MHz",
       color: "Black",
       length: "196",
-      price: "11041.79"),
+      price: 11041.79),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 267,
@@ -3255,7 +3256,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Transparent/\nBlack",
       length: "291",
-      price: "64542.59"),
+      price: 64542.59),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 268,
@@ -3267,7 +3268,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1695 MHz",
       color: "Black/\nSilver",
       length: "151",
-      price: "23511.18"),
+      price: 23511.18),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 269,
@@ -3279,7 +3280,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1845 MHz",
       color: "Black",
       length: "204",
-      price: "11198.58"),
+      price: 11198.58),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 270,
@@ -3291,7 +3292,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1680 MHz",
       color: "Black",
       length: "190",
-      price: "31533.92"),
+      price: 31533.92),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 271,
@@ -3303,7 +3304,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1395 MHz",
       color: "Black/\nGray",
       length: "156",
-      price: "18549.36"),
+      price: 18549.36),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 272,
@@ -3315,7 +3316,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1493 MHz",
       color: "Black",
       length: "257",
-      price: "18549.36"),
+      price: 18549.36),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 273,
@@ -3327,7 +3328,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "2190 MHz",
       color: "Black",
       length: "340",
-      price: "63295.94"),
+      price: 63295.94),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 274,
@@ -3339,7 +3340,7 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1750 MHz",
       color: "Black",
       length: "168",
-      price: "16103.23"),
+      price: 16103.23),
   ListGraphicsCard(
       image2D: "assets/animated/GpuD1.png",
       id: 275,
@@ -3351,5 +3352,5 @@ List<ListGraphicsCard> graphicsCard = [
       boostClock: "1710 MHz",
       color: "Black",
       length: "202",
-      price: "16503.45"),
+      price: 16503.45),
 ];

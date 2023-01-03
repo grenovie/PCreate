@@ -43,7 +43,7 @@ class _WhereToBuyState extends State<WhereToBuy> {
             image: DecorationImage(
                 image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .7),
+                opacity: .4),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,

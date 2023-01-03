@@ -23,9 +23,10 @@ class BodyProcessor extends StatelessWidget {
                     top: size.height * 0.12, left: 20, right: 20),
                 // height: 500,
                 decoration: const BoxDecoration(
+                  color: Colors.white12,
                   image: DecorationImage(
                       image: AssetImage("assets/animated/details.jpg"),
-                      opacity: .8),
+                      opacity: .4),
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(24),
                     topRight: Radius.circular(24),

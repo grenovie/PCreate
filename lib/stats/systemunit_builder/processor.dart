@@ -1,7 +1,5 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+
 import 'package:test1/data/list_cpu.dart';
 import 'package:test1/details_su_builder/details_system_cpu/details_processor.dart';
 import 'package:test1/details_su_builder/details_system_cpu/itemcard_processor.dart';
@@ -19,17 +17,17 @@ class _ProcessorState extends State<Processor> {
   @override
   void initState() {
     super.initState();
-    getSocket();
+    // getSocket();
   }
 
-  void updateList(String value) {
-    setState(() {
-      searched = processor
-          .where((element) =>
-              element.socket.toLowerCase().contains(value.toLowerCase()))
-          .toList();
-    });
-  }
+  // void updateList(String value) {
+  //   setState(() {
+  //     searched = processor
+  //         .where((element) =>
+  //             element.socket.toLowerCase().contains(value.toLowerCase()))
+  //         .toList();
+  //   });
+  // }
 
   void updateListSearch(String value) {
     setState(() {
@@ -40,21 +38,30 @@ class _ProcessorState extends State<Processor> {
     });
   }
 
+  void updateListSearchNew() {
+    searched = processor.where((element) => element.price > 0.0).toList();
+    setState(() {
+      searched = searched..sort((a, b) => a.price.compareTo(b.price));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
-        backgroundColor: Theme.of(context).primaryColorLight,
-        title: const Text("Processors"),
-        actions: <Widget>[
+        actions: [
           IconButton(
               onPressed: () {
-                log(socket == null ? "no_parts" : socket!);
-                updateList(socket!);
+                updateListSearchNew();
               },
-              icon: Icon(Icons.filter))
+              icon: Icon(
+                Icons.sort,
+                color: Colors.white,
+              ))
         ],
+        backgroundColor: Theme.of(context).primaryColorLight,
+        title: const Text("Processors"),
       ),
       body: Container(
         color: const Color.fromARGB(255, 31, 31, 31),
@@ -106,15 +113,15 @@ class _ProcessorState extends State<Processor> {
     );
   }
 
-  void getSocket() async {
-    final SharedPreferences pref = await SharedPreferences.getInstance();
-    socket = pref.getString('compatible_socket');
-    setState(() {
-      updateList(socket == null ? "" : socket!);
-    });
+  // void getSocket() async {
+  //   final SharedPreferences pref = await SharedPreferences.getInstance();
+  //   socket = pref.getString('compatible_socket');
+  //   setState(() {
+  //     updateList(socket == null ? "" : socket!);
+  //   });
 
-    setState(() {});
-  }
+  //   setState(() {});
+  // }
 
   void getFilter() async {}
 }

@@ -73,7 +73,7 @@ class _ItemCardState extends State<BgtComputer> {
                             textAlign: TextAlign.center,
                             text: TextSpan(
                                 text:
-                                    "\nPrice: \u20B1${myFormat.format(widget.bgcomputer.price)}",
+                                    "\nPrice: \u20B1${widget.bgcomputer.price}",
                                 style: const TextStyle(
                                     fontSize: 17,
                                     fontWeight: FontWeight.bold,

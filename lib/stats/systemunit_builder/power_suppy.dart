@@ -26,11 +26,28 @@ class _PowerSupplyState extends State<PowerSupply> {
     });
   }
 
+  void updateListSearchNew() {
+    searched = powerSupply.where((element) => element.price > 0.0).toList();
+    setState(() {
+      searched = searched..sort((a, b) => a.price.compareTo(b.price));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                updateListSearchNew();
+              },
+              icon: Icon(
+                Icons.sort,
+                color: Colors.white,
+              ))
+        ],
         backgroundColor: Theme.of(context).primaryColorLight,
         title: const Text("Power Supply"),
       ),

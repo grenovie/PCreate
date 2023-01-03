@@ -25,9 +25,10 @@ class _BudgetComputerState extends State<BudgetComputer> {
   }
 
   void updateList(String value) {
+    // var val = int.parse(value);
     setState(() {
       searched = budgetcomputer
-          .where((element) => element.price.toString().contains(value))
+          .where((element) => element.setter.toString().contains(value))
           .toList();
     });
   }
@@ -48,7 +49,7 @@ class _BudgetComputerState extends State<BudgetComputer> {
             image: DecorationImage(
                 image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .7),
+                opacity: .4),
           ),
           child: Column(
               // mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -93,7 +94,7 @@ class _BudgetComputerState extends State<BudgetComputer> {
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8.0),
                           borderSide: BorderSide.none),
-                      hintText: "Input Price",
+                      hintText: 'Input Price ex. "20" for 20K ',
                       prefixIcon: const Icon(Icons.search),
                       prefixIconColor: Colors.black),
                   onChanged: (value) => updateList(value),

@@ -42,7 +42,7 @@ class _PartsComparisonState extends State<PartsComparison> {
 
   @override
   void initState() {
-    // removeStore();
+    removeStore();
     super.initState();
   }
 
@@ -57,7 +57,7 @@ class _PartsComparisonState extends State<PartsComparison> {
             image: DecorationImage(
                 image: AssetImage("assets/BGbudget.jpg"),
                 fit: BoxFit.cover,
-                opacity: .7),
+                opacity: .2),
           ),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -97,7 +97,7 @@ class _PartsComparisonState extends State<PartsComparison> {
                           children: [
                             compareImage == null
                                 ? Image.asset(
-                                    "assets/animated/screen_no_parts.png",
+                                    "assets/partscomparison.png",
                                     fit: BoxFit.fill,
                                   )
                                 : Center(
@@ -146,7 +146,7 @@ class _PartsComparisonState extends State<PartsComparison> {
                       children: [
                         compareImage2 == null
                             ? Image.asset(
-                                "assets/animated/screen_no_parts.png",
+                                "assets/partscomparison.png",
                                 fit: BoxFit.fill,
                               )
                             : Center(
@@ -173,28 +173,30 @@ class _PartsComparisonState extends State<PartsComparison> {
                         padding: const EdgeInsets.only(right: 20),
                         //-> red container
                         child: Container(
+                          padding: const EdgeInsets.all(10),
                           width: 300,
                           height: 300,
                           decoration: BoxDecoration(
-                              // color: Colors.red[200],
+                              color: Colors.black45,
                               image: const DecorationImage(
                                   image: AssetImage(
                                       "assets/animated/BlueInfo.jpg"),
                                   fit: BoxFit.none,
+                                  opacity: .4,
                                   scale: 2.5),
                               border: Border.all(
                                 width: 2,
-                                color: const Color.fromARGB(255, 15, 37, 38),
+                                color: Color.fromARGB(255, 11, 46, 75),
                               ),
                               borderRadius:
                                   const BorderRadius.all(Radius.circular(20))),
                           child: RichText(
-                              textAlign: TextAlign.center,
+                              textAlign: TextAlign.right,
                               text: TextSpan(
                                 text: "PC PART 1\n\n",
                                 style: const TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 17,
+                                    fontSize: 15,
                                     backgroundColor: Colors.white12),
                                 children: [
                                   TextSpan(text: "$info1P1\n\n"),
@@ -212,28 +214,29 @@ class _PartsComparisonState extends State<PartsComparison> {
                       ),
                       //-> blue container
                       Container(
+                        padding: const EdgeInsets.all(10),
                         width: 300,
                         height: 300,
                         decoration: BoxDecoration(
-                            // color: Colors.blue[200],
+                            color: Colors.black45,
                             image: const DecorationImage(
                                 image:
                                     AssetImage("assets/animated/BlueInfo.jpg"),
                                 fit: BoxFit.none,
+                                opacity: .4,
                                 scale: 2.5),
                             border: Border.all(
-                              width: 2,
-                              color: const Color.fromARGB(255, 15, 37, 38),
-                            ),
+                                width: 2,
+                                color: Color.fromARGB(255, 11, 46, 75)),
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(20))),
                         child: RichText(
-                            textAlign: TextAlign.center,
+                            textAlign: TextAlign.left,
                             text: TextSpan(
                               text: "PC PART 2\n\n",
                               style: const TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 17,
+                                  fontSize: 15,
                                   backgroundColor: Colors.white12),
                               children: [
                                 TextSpan(text: "$info1P2\n\n"),

@@ -12,9 +12,11 @@ class ListBudget {
       image3,
       image4,
       image5,
-      image6;
+      image6,
+      setter,
+      price;
 
-  final int id, price;
+  final int id;
 
   ListBudget({
     required this.id,
@@ -32,12 +34,14 @@ class ListBudget {
     required this.image4,
     required this.image5,
     required this.image6,
+    required this.setter,
     required this.price,
   });
 }
 
 List<ListBudget> budgetcomputer = [
   ListBudget(
+    setter: "40",
     image1: "assets/builds/PC1/1.png",
     image2: "assets/builds/PC1/2.png",
     image3: "assets/builds/PC1/3.png",
@@ -46,7 +50,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/PC1/6.png",
     id: 1,
     image: "assets/builds/Pc1.png",
-    price: 40700,
+    price: "40,700",
     processor: "Ryzen 5 5500 4.2ghz 6core/12threads",
     mobo: "Gigabyte Aorus B450M",
     ram: "Microfrom Aurora 16gb ddr4 3200hz RGB (8x2stick)",
@@ -56,6 +60,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "PC Cooler LM200 White",
   ),
   ListBudget(
+    setter: "40",
     image1: "assets/builds/PC2/1.png",
     image2: "assets/builds/PC2/2.png",
     image3: "assets/builds/PC2/3.png",
@@ -64,7 +69,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/PC2/6.png",
     id: 2,
     image: "assets/builds/Pc2.png",
-    price: 40000,
+    price: "40,000",
     processor: "Ryzen 5 3600",
     mobo: "MSI MAG B550 Gaming Edge Wifi",
     ram: "4x8gb (32gb) T-force Delta 3200mhz",
@@ -74,6 +79,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "NZXT H510",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -82,7 +88,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 3,
     image: "assets/builds/Pc3.png",
-    price: 55500,
+    price: "55,500",
     processor: "Ryzen 5 5600X Box Type",
     mobo: "Msi B550M A Pro",
     ram: "Kingston 16gb ddr4 3200hz (8x2 stick)",
@@ -92,6 +98,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Msi MAG Vampiric 100R Black",
   ),
   ListBudget(
+    setter: "20",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -100,7 +107,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 4,
     image: "assets/builds/Pc4.png",
-    price: 26000,
+    price: "26,000",
     processor: "Ryzen 5 5600G Box Type",
     mobo: "Gigabyte Aorus B450M",
     ram: "Kingston 16gb ddr4 3200hz (8x2 stick)",
@@ -110,6 +117,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "YGT B702 Black",
   ),
   ListBudget(
+    setter: "40",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -118,7 +126,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 5,
     image: "assets/builds/Pc5.png",
-    price: 46500,
+    price: "46,500",
     processor: "Ryzen 5 3600 Bnew Tray Type Processor",
     mobo: "Gigabyte B450 Aorus M",
     ram: "T-Force Dark ZA 16gb ddr4 3200hz 8x2",
@@ -128,6 +136,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "KYGT B702 Black",
   ),
   ListBudget(
+    setter: "20",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -136,8 +145,8 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 6,
     image: "assets/builds/Pc6.png",
-    price: 27500,
-    processor: "Ryzen 5 3400G bnew Tray type",
+    price: "27,500",
+    processor: "Ryzen 5 3400G",
     mobo: "Gigabyte B450M S2H",
     ram: "Ovation 16gb ddr4 2666",
     storage: "SSD: Ovation 128GB/HDD: Seagate Barracuda 500gb",
@@ -146,6 +155,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Acer B700 Tempered Glass with 4pcs Led Fans",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -154,7 +164,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 7,
     image: "assets/builds/Pc7.png",
-    price: 36800,
+    price: "36,800",
     processor: "Ryzen 5 5500",
     mobo: "Msi A520M-Pro",
     ram: "Microfrom Aurora 16gb ddr4 3200hz 8x2 (RGB)",
@@ -164,6 +174,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "PC Cooler LM200 White Hinges Type (RGB) ",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -172,7 +183,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 8,
     image: "assets/builds/Pc1.png",
-    price: 30000,
+    price: "30,000",
     processor: "Intel i5 9400f",
     mobo: "MSI B360M Bazooka Arsenal Gaming ",
     ram: "32GB 2x16GB DDR4",
@@ -182,6 +193,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Cougar Gaming Case with 3 LED fan and 1 non-rgb fan ",
   ),
   ListBudget(
+    setter: "20",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -190,7 +202,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 9,
     image: "assets/builds/Pc9.png",
-    price: 27000,
+    price: "27,000",
     processor: " Ryzen 5 3500",
     mobo: "MSI B450m Mortar Max",
     ram: "Hyper X 2x8gb 2666mhz",
@@ -200,6 +212,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Tecware Nexus M",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -208,7 +221,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 10,
     image: "assets/builds/Pc10.png",
-    price: 53000,
+    price: "53,000",
     processor: "AMD RYZEN 5 3600",
     mobo: "ASUS B550M PRIME-A WIFI AM4 5TH GEN READY",
     ram: "G. SKILL TRIDENT Z NEO RGB 8X2GB SILVER  3200MHZ (16GB) ",
@@ -218,6 +231,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "AITC RAPIDEZ AF918 RED ",
   ),
   ListBudget(
+    setter: "20",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -226,7 +240,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 11,
     image: "assets/builds/Pc11.png",
-    price: 27000,
+    price: "27,000",
     processor: "INTEL CORE I5 10400",
     mobo: "ASUS PRME H510M-K LGA 1200 H510 CHIP INTEL 10TH GEN - 11TH GEN ",
     ram: "OVATION CYCLONE WHITE DDR4 8GB 3200MHZ (TWO SETS) (16GB)",
@@ -237,6 +251,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "PC COOLER LM200 MATX WHITE",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -245,7 +260,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 12,
     image: "assets/builds/Pc12.png",
-    price: 53000,
+    price: "53,000",
     processor: "AMD Ryzen 5 3600 6 Core Processor",
     mobo: "MSI MAG TOMAHAWK B550 ATX RGB",
     ram: "Vcolor 2x8 3200hz 16gb w/RGB Demo KIT ",
@@ -255,6 +270,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Deepcool Macube 310 Tempered Glass",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -263,7 +279,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 13,
     image: "assets/builds/Pc13.png",
-    price: 53000,
+    price: "53,000",
     processor: "Ryzen 5 3600 6Core 12Threads ",
     mobo: "Aorus Gigabyte X570 ",
     ram: "Aorus RGB 3200mhz 16gb 8x2 w/ dummy kit",
@@ -273,6 +289,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "NZXT ELITE H510 Premium Tempered Blck Non RGB ",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -281,7 +298,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 14,
     image: "assets/builds/Pc14.png",
-    price: 55000,
+    price: "55,000",
     processor: "AMD Ryzen 5 3600 6 Core Processor",
     mobo: "MSI MAG TOMAHAWK B550 ATX RGB",
     ram: "Vcolor 2x8 3200hz 16gb w/RGB Demo KIT  ",
@@ -291,6 +308,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Deepcool Macube 310 Tempered Glass",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -299,7 +317,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 15,
     image: "assets/builds/Pc15.png",
-    price: 53000,
+    price: "53,000",
     processor: "Intel core i5-10400 ",
     mobo: "asrock b460m steel legend",
     ram: "Skihotar 8GB 2666MHz DDR4 ",
@@ -309,6 +327,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Raidmax F03 ARGB TG Casing",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -317,7 +336,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 16,
     image: "assets/builds/Pc16.png",
-    price: 30000,
+    price: "30,000",
     processor: "Intel Core i7-8700 8th Gen  @3.20 GHz, 12MB cache, 6 cores",
     mobo: "MSI B365 LGA 1151 M.2 Support",
     ram: "Kingston HyperX Fury 1x16 Single Stick @2666hz ",
@@ -327,6 +346,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "YGT B708 Tempered Glass M-ATX Case with 3 fans",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -335,7 +355,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 17,
     image: "assets/builds/Pc17.png",
-    price: 34700,
+    price: "34,700",
     processor: "INTEL CORE I3 10100 ",
     mobo: "MSI H510M PRO E",
     ram: "16GB HYPERX FURY 3200MHZ ",
@@ -345,6 +365,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "INPLAY METEOR 06 WHITE",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -353,7 +374,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 18,
     image: "assets/builds/Pc18.png",
-    price: 36400,
+    price: "36,400",
     processor: "RYZEN 5 4600G ",
     mobo: "ASUS PRIME A320M K",
     ram: "16GB HYPERX FURY 3200MHZ",
@@ -363,6 +384,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "DARKFLASH DK351 WHITE",
   ),
   ListBudget(
+    setter: "30",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -371,7 +393,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 19,
     image: "assets/builds/Pc19.png",
-    price: 36400,
+    price: "36,400",
     processor: "RYZEN 5 4650G ",
     mobo: "ASUS PRIME A320M K",
     ram: "16GB HYPERX FURY 3200MHZ ",
@@ -381,6 +403,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "DARKFLASH DK351 BLACK",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -389,7 +412,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 20,
     image: "assets/builds/Pc20.png",
-    price: 53000,
+    price: "53,000",
     processor:
         "Ryzen 7 2700 ( 8 Core, 16 Thread , 4.1 GHz Max Boost, 3.2 GHz Base )",
     mobo: "AMD Colorful x570 Gaming Pro",
@@ -400,6 +423,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Corsair 220T Tempered Case with 4 Corsair RGB Fan",
   ),
   ListBudget(
+    setter: "90",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -408,7 +432,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 21,
     image: "assets/builds/Pc1.png",
-    price: 95665,
+    price: "95,665",
     processor: "INTEL CORE i5 12TH GEN i5-12600KF LGA1700 20MB",
     mobo: "ASUS Prime Z690-A Motherboard",
     ram: " Trident Z5 RGB 32GB DDR5 (162) Silver 3600 Mhz",
@@ -418,6 +442,7 @@ List<ListBudget> budgetcomputer = [
     chasis: " Lian LI o11 Dynamic Mini [White]",
   ),
   ListBudget(
+    setter: "50",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -426,7 +451,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 22,
     image: "assets/builds/Pc1.png",
-    price: 57160,
+    price: "57,160",
     processor: "AMD Ryzen 5 5600X 6 Core Processor",
     mobo: "ASUS Prime B550M-A WIFI II",
     ram: "KINGSTON FURY 16GB (2X8GB) RGB DDR4 3200M",
@@ -436,6 +461,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Asus Prime Case AP201  Black",
   ),
   ListBudget(
+    setter: "80",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -444,7 +470,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 23,
     image: "assets/builds/Pc1.png",
-    price: 85799,
+    price: "85,799",
     processor: "Intel Core i5 12th GEN i5-12600KF LGA1700 20MB",
     mobo: "MSI MAG B660 Tomahawk EVA E-Project",
     ram:
@@ -455,6 +481,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "MSI MAG GUNGNIR 100R EVA E-Project Gaming Case",
   ),
   ListBudget(
+    setter: "A",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -463,7 +490,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 24,
     image: "assets/builds/Pc1.png",
-    price: 18995,
+    price: "18,995",
     processor: " Intel Core i3 10TH Gen i3-10105",
     mobo: "ASUS Prime H510M-K",
     ram: " Crucial Ballistix 16GB 3200mhz DDR4 (2x8GB)",
@@ -473,6 +500,7 @@ List<ListBudget> budgetcomputer = [
     chasis: "Corsair 220T Tempered Case with 4 Corsair RGB Fan",
   ),
   ListBudget(
+    setter: "A",
     image1: "assets/builds/noavailable.png",
     image2: "assets/builds/noavailable.png",
     image3: "assets/builds/noavailable.png",
@@ -481,7 +509,7 @@ List<ListBudget> budgetcomputer = [
     image6: "assets/builds/noavailable.png",
     id: 24,
     image: "assets/builds/Pc1.png",
-    price: 0,
+    price: "0",
     processor: " Intel Core i3 10TH Gen i3-10105",
     mobo: "ASUS Prime H510M-K",
     ram: " Crucial Ballistix 16GB 3200mhz DDR4 (2x8GB)",

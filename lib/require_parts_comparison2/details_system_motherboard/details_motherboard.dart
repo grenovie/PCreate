@@ -35,8 +35,9 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
             widget.systemMotherboard.price,
           );
           var snackBar = SnackBar(
+              duration: Duration(milliseconds: 300),
               backgroundColor: Colors.green[400],
-              content: const Text('Succesfully added to Inventory'));
+              content: const Text('Done'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
             ..pop(true)
@@ -60,12 +61,15 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
   Future<void> setSysMobo(caseValue, imageValue, socket, formOf, maxMemory,
       memorySlot, price) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.setString('comapare_info1P2', "Name: $caseValue");
+    pref.setString('compare_info1P2', "Name: $caseValue");
     pref.setString('compare_pcImage_part2', imageValue);
-    pref.setString('comapare_info2P2', "Socket: $socket");
-    pref.setString('comapare_info3P2', "Form: $formOf");
-    pref.setString('comapare_info4P2', "MaxMemory: $maxMemory");
-    pref.setString('comapare_info5P2', "Memory Slot: $memorySlot");
-    pref.setString('comapare_info6P2', "Price: \u20B1$price");
+    pref.setString('compare_info2P2', "Socket: $socket");
+    pref.setString('compare_info3P2', "Form: $formOf");
+    pref.setString('compare_info4P2', "MaxMemory: $maxMemory");
+    pref.setString('compare_info5P2', "Memory Slot: $memorySlot");
+    pref.setString('compare_info6P2', "Price: \u20B1$price");
+    pref.setString('compare_info7P2', " ");
+    pref.setString('compare_info8P2', " ");
+    pref.setString('compare_info9P2', " ");
   }
 }

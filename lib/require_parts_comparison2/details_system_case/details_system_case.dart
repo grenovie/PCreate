@@ -34,7 +34,9 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
               widget.systemcase.sidepannel,
               widget.systemcase.price);
           var snackBar = SnackBar(
-              backgroundColor: Colors.green[400], content: const Text('Done'));
+              duration: Duration(milliseconds: 300),
+              backgroundColor: Colors.green[400],
+              content: const Text('Done'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
             ..pop(true)
@@ -70,5 +72,9 @@ class _DetailsSystemCaseState extends State<DetailsSystemCase> {
     pref.setString('compare_info3P2', "Color: $colorOf");
     pref.setString('compare_info4P2', "SidePannel: $sidepannel");
     pref.setString('compare_info5P2', "Price: \u20B1$price");
+    pref.setString('compare_info6P2', " ");
+    pref.setString('compare_info7P2', " ");
+    pref.setString('compare_info8P2', " ");
+    pref.setString('compare_info9P2', " ");
   }
 }

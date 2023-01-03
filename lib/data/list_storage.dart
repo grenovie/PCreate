@@ -1,6 +1,7 @@
 class ListStorage {
-  final String image, name, capacity, type, formFactor, price, image2D;
+  final String image, name, capacity, type, formFactor, image2D;
   final int id;
+  final double price;
   ListStorage({
     required this.image2D,
     required this.id,
@@ -22,7 +23,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "2949.56"),
+      price: 949.56),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 2,
@@ -31,7 +32,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "1858.00"),
+      price: 858.00),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 3,
@@ -40,7 +41,7 @@ List<ListStorage> storage = [
       capacity: "240 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "1178.88"),
+      price: 178.88),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 4,
@@ -49,7 +50,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "4483.05"),
+      price: 483.05),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 5,
@@ -58,7 +59,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "2353.63"),
+      price: 353.63),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 6,
@@ -67,16 +68,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "2942.00"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 7,
-  //     image: "assets/storage/Samsung 870 Evo.png",
-  //     name: "Samsung 870 Evo",
-  //     capacity: "500 GB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "3421.58"),
+      price: 942.00),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 8,
@@ -85,52 +77,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "8,142.30"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 9,
-  //     image: "assets/storage/Samsung 970 Evo.png",
-  //     name: "Samsung 970 Evo",
-  //     capacity: "1 TB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "12,839.93"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 10,
-  //     image: "assets/storage/Samsung 970 Evo Plus.png",
-  //     name: "Samsung 970 Evo Plus",
-  //     capacity: "500 GB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "4,279.00"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 11,
-  //     image: "assets/storage/Samsung 970 Evo 500GB.png",
-  //     name: "Samsung 970 Evo 500GB",
-  //     capacity: "500 GB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "7,023.00"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 12,
-  //     image: "assets/storage/Samsung 970 Evo Plus 2TB.png",
-  //     name: "Samsung 970 Evo Plus 2TB",
-  //     capacity: "2 TB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "11,139.59"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 13,
-  //     image: "assets/storage/Samsung 850 Evo.png",
-  //     name: "Samsung 850 Evo",
-  //     capacity: "250 GB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "6,382.00"),
+      price: 812.30),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 14,
@@ -139,7 +86,7 @@ List<ListStorage> storage = [
       capacity: "256 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "9,667.91"),
+      price: 9667.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 15,
@@ -148,16 +95,7 @@ List<ListStorage> storage = [
       capacity: "256 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "9,667.91"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 16,
-  //     image: "assets/storage/Samsung 850 Evo 500GB.png",
-  //     name: "Samsung 850 Evo 500GB",
-  //     capacity: "500 GB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "9,690"),
+      price: 9667.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 17,
@@ -166,16 +104,7 @@ List<ListStorage> storage = [
       capacity: "256 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "14,071.80"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 18,
-  //     image: "assets/storage/Samsung 970 Evo Plus 1TB.png",
-  //     name: "Samsung 970 Evo Plus 1TB",
-  //     capacity: "1 TB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "6,320.00"),
+      price: 14071.80),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 19,
@@ -184,25 +113,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "6,949.71"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 20,
-  //     image: "assets/storage/Samsung 860 Evo.png",
-  //     name: "Samsung 860 Evo",
-  //     capacity: "1 TB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "8,207.96"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 21,
-  //     image: "assets/storage/Samsung 960 Evo.png",
-  //     name: "Samsung 960 Evo",
-  //     capacity: "250 GB",
-  //     type: "SSD",
-  //     formFactor: 'M.2-2280"',
-  //     price: "3,897.30"),
+      price: 6949.71),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 22,
@@ -211,7 +122,7 @@ List<ListStorage> storage = [
       capacity: "120 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "4,190"),
+      price: 4190),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 23,
@@ -220,7 +131,7 @@ List<ListStorage> storage = [
       capacity: "512 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "12,898.56"),
+      price: 12898.56),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 24,
@@ -229,7 +140,7 @@ List<ListStorage> storage = [
       capacity: "128 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "10,312.87"),
+      price: 10312.87),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 25,
@@ -238,7 +149,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "5,569.50"),
+      price: 5569.50),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 26,
@@ -247,7 +158,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "12,815.19"),
+      price: 12815.19),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 27,
@@ -256,7 +167,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,484.35"),
+      price: 4484.35),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 28,
@@ -265,7 +176,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "2,329.56"),
+      price: 2329.56),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 29,
@@ -274,7 +185,7 @@ List<ListStorage> storage = [
       capacity: "15.3 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "192,235.97"),
+      price: 192235.97),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 30,
@@ -283,7 +194,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,659.11"),
+      price: 4659.11),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 31,
@@ -292,7 +203,7 @@ List<ListStorage> storage = [
       capacity: "8 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "87,379.67"),
+      price: 87379.67),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 32,
@@ -301,7 +212,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "5,777.58"),
+      price: 5777.58),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 33,
@@ -310,7 +221,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "2,323.73"),
+      price: 2323.73),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 34,
@@ -319,7 +230,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "3,785.31"),
+      price: 3785.31),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 35,
@@ -328,16 +239,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "3,450.94"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 36,
-  //     image: "assets/storage/Samsung 870 Evo.png",
-  //     name: "Samsung 870 Evo",
-  //     capacity: "4 TB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "22,333.23"),
+      price: 3450.94),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 37,
@@ -346,7 +248,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "10,485.05"),
+      price: 10485.05),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 38,
@@ -355,7 +257,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "12,815.19"),
+      price: 12815.19),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 39,
@@ -364,7 +266,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "8609.28"),
+      price: 609.28),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 40,
@@ -373,7 +275,7 @@ List<ListStorage> storage = [
       capacity: "512 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "1950.91"),
+      price: 950.91),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 41,
@@ -382,7 +284,7 @@ List<ListStorage> storage = [
       capacity: "22 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "34,888.60"),
+      price: 34888.60),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 42,
@@ -391,7 +293,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "5,820.69"),
+      price: 5820.69),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 43,
@@ -400,7 +302,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "8,737.44"),
+      price: 8737.44),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 44,
@@ -409,7 +311,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "40,487.93"),
+      price: 40487.93),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 45,
@@ -418,7 +320,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "6,116.03"),
+      price: 6116.03),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 46,
@@ -427,7 +329,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "2,912.09"),
+      price: 2912.09),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 47,
@@ -436,7 +338,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "28,834.90"),
+      price: 28834.90),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 48,
@@ -445,7 +347,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "13,397.72"),
+      price: 13397.72),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 49,
@@ -454,7 +356,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "32,038.84"),
+      price: 32038.84),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 50,
@@ -463,7 +365,7 @@ List<ListStorage> storage = [
       capacity: "20 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "27,320.89"),
+      price: 27320.89),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 51,
@@ -472,7 +374,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "15,145.33"),
+      price: 15145.33),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 52,
@@ -481,7 +383,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "12,290.91"),
+      price: 12290.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 53,
@@ -490,7 +392,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "10,193.78"),
+      price: 10193.78),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 54,
@@ -499,7 +401,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "7,281.10"),
+      price: 7281.10),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 56,
@@ -508,7 +410,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "3,960.66"),
+      price: 3960.66),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 57,
@@ -517,7 +419,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,077.16"),
+      price: 4077.16),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 58,
@@ -526,7 +428,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "7,281.10"),
+      price: 7281.10),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 59,
@@ -535,7 +437,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "7,572.37"),
+      price: 7572.37),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 60,
@@ -544,7 +446,7 @@ List<ListStorage> storage = [
       capacity: "1.2 TB",
       type: "SSD",
       formFactor: 'PCIe"',
-      price: "144,985.39"),
+      price: 144985.39),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 61,
@@ -553,7 +455,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "6,989.84"),
+      price: 6989.84),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 62,
@@ -562,7 +464,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "13,397.72"),
+      price: 13397.72),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 63,
@@ -571,7 +473,7 @@ List<ListStorage> storage = [
       capacity: "512 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "1,950.91"),
+      price: 1950.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 64,
@@ -580,7 +482,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "13,980.26"),
+      price: 13980.26),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 65,
@@ -589,7 +491,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "3,785.89"),
+      price: 3785.89),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 66,
@@ -598,7 +500,7 @@ List<ListStorage> storage = [
       capacity: "8 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "8,154.91"),
+      price: 8154.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 67,
@@ -607,7 +509,7 @@ List<ListStorage> storage = [
       capacity: "480 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "1,747.02"),
+      price: 1747.02),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 68,
@@ -616,7 +518,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "3,319.87"),
+      price: 3319.87),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 69,
@@ -625,7 +527,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "34,951.52"),
+      price: 34951.52),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 70,
@@ -634,7 +536,7 @@ List<ListStorage> storage = [
       capacity: "1.024 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "6,174.29"),
+      price: 6174.29),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 71,
@@ -643,7 +545,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "2,762.96"),
+      price: 2762.96),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 72,
@@ -652,7 +554,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,892.71"),
+      price: 4892.71),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 73,
@@ -661,7 +563,7 @@ List<ListStorage> storage = [
       capacity: "1.02 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,076.58"),
+      price: 4076.58),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 74,
@@ -670,7 +572,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,076.58"),
+      price: 4076.58),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 75,
@@ -679,7 +581,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "7,863.64"),
+      price: 7863.64),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 76,
@@ -688,7 +590,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "7,572.37"),
+      price: 7572.37),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 77,
@@ -697,7 +599,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "2,795.59"),
+      price: 2795.59),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 78,
@@ -706,7 +608,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "HDD",
       formFactor: '3.5"',
-      price: "3,494.63"),
+      price: 3494.63),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 79,
@@ -715,7 +617,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "5,824.77"),
+      price: 5824.77),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 80,
@@ -724,7 +626,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "10,485.05"),
+      price: 10485.05),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 81,
@@ -733,7 +635,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "5,139.71"),
+      price: 5139.71),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 82,
@@ -742,7 +644,7 @@ List<ListStorage> storage = [
       capacity: "2.048 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "11,941.38"),
+      price: 11941.38),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 83,
@@ -751,7 +653,7 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,077.16"),
+      price: 4077.16),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 84,
@@ -760,7 +662,7 @@ List<ListStorage> storage = [
       capacity: "250 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "2,038.29"),
+      price: 2038.29),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 85,
@@ -769,7 +671,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,367.85"),
+      price: 4367.85),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 86,
@@ -778,7 +680,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,309.59"),
+      price: 4309.59),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 87,
@@ -787,7 +689,7 @@ List<ListStorage> storage = [
       capacity: "512 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "1688.77"),
+      price: 688.77),
   ListStorage(
       image2D: "assets/animated/HDD.png",
       id: 88,
@@ -796,7 +698,7 @@ List<ListStorage> storage = [
       capacity: "320 GB",
       type: "HDD",
       formFactor: '2.5"',
-      price: "7,56.13"),
+      price: 56.13),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 89,
@@ -805,7 +707,7 @@ List<ListStorage> storage = [
       capacity: "250 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,659.70"),
+      price: 4659.70),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 90,
@@ -814,7 +716,7 @@ List<ListStorage> storage = [
       capacity: "4 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "40,776.87"),
+      price: 40776.87),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 91,
@@ -823,7 +725,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "6,989.84"),
+      price: 6989.84),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 92,
@@ -832,7 +734,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "8,271.41"),
+      price: 8271.41),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 93,
@@ -841,7 +743,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "9,523.86"),
+      price: 9523.86),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 94,
@@ -850,7 +752,7 @@ List<ListStorage> storage = [
       capacity: "2 TB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "10,915.54"),
+      price: 10915.54),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 95,
@@ -859,16 +761,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "8,154.91"),
-  // ListStorage(
-  //     image2D: "assets/animated/SSD.png",
-  //     id: 96,
-  //     image: "assets/storage/Samsung 860 Evo-500GB.png",
-  //     name: "Samsung 860 Evo-500GB",
-  //     capacity: "500 GB",
-  //     type: "SSD",
-  //     formFactor: '2.5"',
-  //     price: "4,367.85"),
+      price: 8154.91),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 97,
@@ -877,7 +770,7 @@ List<ListStorage> storage = [
       capacity: "120 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "1,105.65"),
+      price: 1105.65),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 98,
@@ -886,7 +779,7 @@ List<ListStorage> storage = [
       capacity: "64 GB",
       type: "SSD",
       formFactor: '2.5"',
-      price: "698.46"),
+      price: 698.46),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 99,
@@ -895,7 +788,7 @@ List<ListStorage> storage = [
       capacity: "1 TB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "5,242.23"),
+      price: 5242.23),
   ListStorage(
       image2D: "assets/animated/SSD.png",
       id: 100,
@@ -904,5 +797,5 @@ List<ListStorage> storage = [
       capacity: "500 GB",
       type: "SSD",
       formFactor: 'M.2-2280"',
-      price: "4,246.10"),
+      price: 4246.10),
 ];

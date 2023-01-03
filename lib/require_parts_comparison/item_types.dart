@@ -22,10 +22,10 @@ class TypesOfItemsCompare extends StatelessWidget {
         decoration: const BoxDecoration(
             color: Color.fromRGBO(45, 53, 61, 1),
             image: DecorationImage(
-              alignment: Alignment(-.5, -3),
-              image: AssetImage("assets/testBGcase.png"),
-              fit: BoxFit.none,
-            )),
+                alignment: Alignment(-.5, -3),
+                image: AssetImage("assets/testBGcase.png"),
+                fit: BoxFit.none,
+                opacity: .4)),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(0, 70, 0, 50),
           child: Column(

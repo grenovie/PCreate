@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_cpu.dart';
 
 class ProcessorItemCard extends StatefulWidget {
@@ -13,6 +14,8 @@ class ProcessorItemCard extends StatefulWidget {
   @override
   State<ProcessorItemCard> createState() => _ItemCardState();
 }
+
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
 class _ItemCardState extends State<ProcessorItemCard> {
   @override
@@ -64,7 +67,7 @@ class _ItemCardState extends State<ProcessorItemCard> {
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemProcessor.price}",
+                        "\u20B1${myFormat.format(widget.systemProcessor.price)}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],

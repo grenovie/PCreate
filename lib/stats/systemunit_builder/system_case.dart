@@ -26,6 +26,13 @@ class _SystemCaseState extends State<SystemCase> {
     });
   }
 
+  void updateListSearchNew() {
+    searched = systemcase.where((element) => element.price > 0.0).toList();
+    setState(() {
+      searched = searched..sort((a, b) => a.price.compareTo(b.price));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,6 +90,16 @@ class _SystemCaseState extends State<SystemCase> {
 
   AppBar appBar(BuildContext context) {
     return AppBar(
+      actions: [
+        IconButton(
+            onPressed: () {
+              updateListSearchNew();
+            },
+            icon: Icon(
+              Icons.sort,
+              color: Colors.white,
+            ))
+      ],
       backgroundColor: Theme.of(context).primaryColorLight,
       title: const Text("System Case"),
     );

@@ -72,11 +72,12 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: Theme.of(context).primaryColor,
         body: Container(
+          // color: Color.fromARGB(255, 16, 35, 49),
           decoration: const BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/BGdrawer3.jpg"),
                   fit: BoxFit.cover,
-                  opacity: .5)),
+                  opacity: .2)),
           child: Stack(
             children: [
               buildDrawer(),

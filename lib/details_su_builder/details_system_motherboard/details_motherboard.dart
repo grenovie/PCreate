@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:test1/data/list_motherboard.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test1/details_su_builder/details_system_motherboard/body_system_motherboard.dart';
@@ -31,14 +32,16 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
             widget.systemMotherboard.price,
             widget.systemMotherboard.socket,
             widget.systemMotherboard.ddr,
+            true,
+            widget.systemMotherboard.image,
           );
           var snackBar = SnackBar(
               backgroundColor: Colors.green[400],
               content: const Text('Succesfully added to Inventory'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
-            ..pop()
-            ..pop();
+            ..pop(true)
+            ..pop(true);
         },
         backgroundColor: Colors.blue,
         child: const Icon(Icons.add),
@@ -54,13 +57,16 @@ class _DetailsSystemCaseState extends State<DetailsSystemMotherboard> {
     );
   }
 
-  Future<void> setSysMobo(caseValue, imageValue, price, socket, ddr) async {
+  Future<void> setSysMobo(
+      caseValue, imageValue, price, socket, ddr, isDone, imageOrig) async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString('mobo', caseValue);
     pref.setString('mobo_image', imageValue);
-    pref.setString('compatible_socket', socket);
+    // pref.setString('compatible_socket', socket);
     pref.setString('compatible_ddr', ddr);
+    pref.setString('moboOrig', imageOrig);
     pref.setDouble('sysMobo_price',
         price = double.parse(price.toString().replaceAll(RegExp(r','), "")));
+    pref.setBool("isDoneMotherboard", isDone);
   }
 }

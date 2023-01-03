@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test1/data/list_motherboard.dart';
 import 'package:test1/details_su_builder/details_system_motherboard/details_motherboard.dart';
 import 'package:test1/details_su_builder/details_system_motherboard/itemcard_motherboard.dart';
@@ -11,11 +12,21 @@ class Motherboard extends StatefulWidget {
 }
 
 class _MotherboardState extends State<Motherboard> {
-  String? socket;
   static List<ListMotherboard> searched = motherboard;
+  String? socket;
   @override
   void initState() {
     super.initState();
+    getSocket();
+  }
+
+  void updateListNew(String value) {
+    setState(() {
+      searched = motherboard
+          .where((element) =>
+              element.socket.toLowerCase().contains(value.toLowerCase()))
+          .toList();
+    });
   }
 
   void updateList(String value) {
@@ -27,11 +38,28 @@ class _MotherboardState extends State<Motherboard> {
     });
   }
 
+  void updateListSearchNew() {
+    searched = motherboard.where((element) => element.price > 0.0).toList();
+    setState(() {
+      searched = searched..sort((a, b) => a.price.compareTo(b.price));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                updateListSearchNew();
+              },
+              icon: Icon(
+                Icons.sort,
+                color: Colors.white,
+              ))
+        ],
         backgroundColor: Theme.of(context).primaryColorLight,
         title: const Text("Motherboards"),
       ),
@@ -83,5 +111,15 @@ class _MotherboardState extends State<Motherboard> {
         ),
       ),
     );
+  }
+
+  void getSocket() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    socket = pref.getString('compatible_socket');
+    setState(() {
+      updateListNew(socket == null ? "" : socket!);
+    });
+
+    setState(() {});
   }
 }

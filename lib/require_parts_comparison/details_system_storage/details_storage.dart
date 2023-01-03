@@ -33,8 +33,9 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
             widget.systemStorage.price,
           );
           var snackBar = SnackBar(
+              duration: Duration(milliseconds: 300),
               backgroundColor: Colors.green[400],
-              content: const Text('Succesfully added to Inventory'));
+              content: const Text('Done'));
           ScaffoldMessenger.of(context).showSnackBar(snackBar);
           Navigator.of(context)
             ..pop(true)
@@ -64,5 +65,9 @@ class _DetailsSystemCaseState extends State<DetailStorage> {
     pref.setString('compare_info3P1', "Type: $typeOf");
     pref.setString('compare_info4P1', "FormFactor: $formFactor");
     pref.setString('compare_info5P1', "Price: \u20B1$price");
+    pref.setString('compare_info6P1', " ");
+    pref.setString('compare_info7P1', " ");
+    pref.setString('compare_info8P1', " ");
+    pref.setString('compare_info9P1', " ");
   }
 }

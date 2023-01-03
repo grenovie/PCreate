@@ -59,12 +59,12 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   String? infoGPU = "";
   String? infoRAM = "";
 
-  double? priceSyscase;
-  double? priceMobo;
-  double? priceCpu;
-  double? priceRam;
-  double? priceRom;
-  double? pricePsu;
+  double? priceSyscase = 0;
+  double? priceMobo = 0;
+  double? priceCpu = 0;
+  double? priceRam = 0;
+  double? priceRom = 0;
+  double? pricePsu = 0;
   double? priceGpu;
 
   double? p1;
@@ -78,9 +78,10 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   bool reverse = false;
   @override
   void initState() {
+    getSysGpu();
     super.initState();
     resetAll();
-    getSysCase();
+
     // --> animation Controllers
     caseController = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 600));
@@ -131,7 +132,16 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
         key: _scaffoldKey,
         backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
-          actions: [Container()],
+          actions: [
+            IconButton(
+                onPressed: () {
+                  tutorialModal(context);
+                },
+                icon: Icon(
+                  Icons.question_mark,
+                  color: Colors.white,
+                ))
+          ],
           leading: DrawerMenuWidget(
             onClicked: widget.openDrawer,
           ),
@@ -696,7 +706,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                       Icons.shopping_cart,
                     ),
                     label: const Text(
-                      "Reset",
+                      "Inventory",
                       style:
                           TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                     ),
@@ -711,24 +721,23 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                         image: AssetImage(
                           "assets/animated/BlueInfo.jpg",
                         ),
-                        opacity: 1,
+                        opacity: .3,
                         fit: BoxFit.cover),
-                    color: Colors.white,
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(10),
                       topLeft: Radius.circular(10),
                     )),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: ListView(
+                    // mainAxisAlignment: MainAxisAlignment.start,
+                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
                         width: MediaQuery.of(context).size.width,
                         color: Colors.white60,
                         child: const Text(
-                          "SYSTEM UNIT INFORMATION",
+                          "SYSTEM UNIT PARTS",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 20,
@@ -738,79 +747,83 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          child: RichText(
-                              textAlign: TextAlign.left,
-                              text: TextSpan(
-                                children: [
+                        child: RichText(
+                            textAlign: TextAlign.left,
+                            text: TextSpan(
+                              children: [
+                                TextSpan(text: "System Unit Case: ", children: [
                                   TextSpan(
-                                      text: "System Unit Case: ",
-                                      children: [
-                                        TextSpan(
-                                          text: "$systemUnitCase\n",
-                                          style: const TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 17,
-                                              backgroundColor: Colors.white12),
-                                        )
-                                      ]),
-                                  TextSpan(text: "Motherboard: ", children: [
-                                    TextSpan(
-                                      text: "$infoMotherboard\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                  TextSpan(text: "Processor: ", children: [
-                                    TextSpan(
-                                      text: "$infoProcessor\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                  TextSpan(text: "Memory: ", children: [
-                                    TextSpan(
-                                      text: "$infoRAM\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                  TextSpan(text: "Storage: ", children: [
-                                    TextSpan(
-                                      text: "$infoStorage\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                  TextSpan(text: "Power Supply: ", children: [
-                                    TextSpan(
-                                      text: "$infoPSU\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                  TextSpan(text: "Graphics Card: ", children: [
-                                    TextSpan(
-                                      text: "$infoGPU\n",
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 17,
-                                          backgroundColor: Colors.white12),
-                                    )
-                                  ]),
-                                ],
-                              )),
-                        ),
+                                    text: systemUnitCase == null
+                                        ? "\n"
+                                        : "$systemUnitCase\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Motherboard: ", children: [
+                                  TextSpan(
+                                    text: infoMotherboard == null
+                                        ? "\n"
+                                        : "$infoMotherboard\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Processor: ", children: [
+                                  TextSpan(
+                                    text: infoProcessor == null
+                                        ? "\n"
+                                        : "$infoProcessor\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Memory: ", children: [
+                                  TextSpan(
+                                    text: infoRAM == null ? "\n" : "$infoRAM\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Storage: ", children: [
+                                  TextSpan(
+                                    text: infoStorage == null
+                                        ? "\n"
+                                        : "$infoStorage\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Power Supply: ", children: [
+                                  TextSpan(
+                                    text: infoPSU == null ? "\n" : "$infoPSU\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                                TextSpan(text: "Graphics Card: ", children: [
+                                  TextSpan(
+                                    text: infoGPU == null ? "\n" : "$infoGPU\n",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                        backgroundColor: Colors.white12),
+                                  )
+                                ]),
+                              ],
+                            )),
                       ),
                       Center(
                         child: RichText(
@@ -837,7 +850,10 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                       Center(
                         child: InkWell(
                           onTap: () {
-                            if (color6 == Colors.greenAccent) {
+                            if (color5 == Colors.greenAccent) {
+                              priceGpu == null
+                                  ? priceGpu = 0.0
+                                  : priceGpu = priceGpu;
                               totalPrice();
                             } else {
                               return;
@@ -873,13 +889,150 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
           ],
         ),
         endDrawer: const Drawer(
-          backgroundColor: Colors.white,
-          width: 200,
+          backgroundColor: Color.fromARGB(255, 255, 255, 255),
+          width: 300,
           child: SafeArea(
             child: EndDrawer(),
           ),
         ),
       );
+//modal area here for the tutorial
+  Future<void> tutorialModal(BuildContext context) {
+    return showModalBottomSheet<void>(
+      barrierColor: Colors.transparent,
+      backgroundColor: Colors.transparent,
+      context: context,
+      builder: (BuildContext context) {
+        return Container(
+          height: 500,
+          decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.all(Radius.circular(20))),
+          child: ListView(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            children: [
+              Container(
+                margin: const EdgeInsets.only(bottom: 20),
+                color: Colors.greenAccent,
+                height: 30,
+                width: 50,
+                child: Text(
+                  "How it Works!",
+                  style: TextStyle(color: Colors.black, fontSize: 20),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                    color: Colors.greenAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                height: MediaQuery.of(context).size.height * .2,
+                width: MediaQuery.of(context).size.width * .5,
+                child: Row(
+                  children: [
+                    Expanded(
+                        child:
+                            Image.asset("assets/animated/computerparts.png")),
+                    Expanded(
+                        child: Text(
+                      'To Select Computer Parts press Button "Computer Parts"',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.black),
+                    )),
+                  ],
+                ),
+              ),
+              //for transition
+              Container(
+                margin: const EdgeInsets.only(top: 20),
+                decoration: BoxDecoration(
+                    color: Colors.greenAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                height: MediaQuery.of(context).size.height * .2,
+                width: MediaQuery.of(context).size.width * .5,
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Image.asset("assets/animated/itembuttons.png")),
+                    Expanded(
+                        child: Text(
+                      'After selecting Computer Parts, these are the buttons to play the item transitions.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.black),
+                    )),
+                  ],
+                ),
+              ),
+              //active transition
+              Container(
+                margin: const EdgeInsets.only(top: 20),
+                decoration: BoxDecoration(
+                    color: Colors.greenAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                height: MediaQuery.of(context).size.height * .2,
+                width: MediaQuery.of(context).size.width * .5,
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Image.asset("assets/animated/itembuttons2.png")),
+                    Expanded(
+                        child: Text(
+                      'When you tap the button once, it will turn green, indicating that it is active and the item transition will play.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.black),
+                    )),
+                  ],
+                ),
+              ),
+              //reverse transition
+              Container(
+                margin: const EdgeInsets.only(top: 20),
+                decoration: BoxDecoration(
+                    color: Colors.greenAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                height: MediaQuery.of(context).size.height * .2,
+                width: MediaQuery.of(context).size.width * .5,
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Image.asset("assets/animated/itembuttons2.png")),
+                    Expanded(
+                        child: Text(
+                      'And press and hold the button to reverse the transition, and it will back to color white',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.black),
+                    )),
+                  ],
+                ),
+              ),
+              //inventory
+              Container(
+                margin: const EdgeInsets.only(top: 20),
+                decoration: BoxDecoration(
+                    color: Colors.greenAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                height: MediaQuery.of(context).size.height * .2,
+                width: MediaQuery.of(context).size.width * .5,
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Image.asset("assets/animated/inventory.png")),
+                    Expanded(
+                        child: Text(
+                      'Inventory will open the side drawer and display all of the computer parts you selected.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.black),
+                    )),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
   void resetAll() {
     setState(() {
       priceSyscase = 0.0;
@@ -934,7 +1087,9 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     sysGpu = pref.getString('gpu_image');
     infoGPU = pref.getString('gpu');
     setState(() {
-      priceGpu = pref.getDouble('sysGpu_price');
+      priceGpu == null
+          ? priceGpu = 0.0
+          : priceGpu = pref.getDouble('sysGpu_price');
     });
   }
 

@@ -6,10 +6,12 @@ class ListProcessor {
       coreCount,
       coreClock,
       tdp,
-      integrateGraphics,
-      price;
+      integrateGraphics;
+
   final int id;
-  final double x1, x2;
+  final double x1, x2, price;
+
+  var length;
 
   ListProcessor({
     required this.image2D,
@@ -41,7 +43,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -55,7 +57,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -64,12 +66,12 @@ List<ListProcessor> processor = [
     id: 3,
     image: "assets/cpu/Intel Core i7-12700K.png",
     name: "Intel Core i7-12700K",
-    socket: "LGA 1700",
+    socket: "LGA1700",
     coreCount: "12",
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -83,7 +85,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -92,12 +94,12 @@ List<ListProcessor> processor = [
     id: 5,
     image: "assets/cpu/Intel Core i5-12600K.png",
     name: "Intel Core i5-12600K",
-    socket: "LGA 1700",
+    socket: "LGA1700",
     coreCount: "10",
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -106,12 +108,12 @@ List<ListProcessor> processor = [
     id: 6,
     image: "assets/cpu/Intel Core i5-12400F.png",
     name: "Intel Core i5-12400F",
-    socket: "AM4",
+    socket: "LGA1700",
     coreCount: "6",
     coreClock: "2.5 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -120,12 +122,12 @@ List<ListProcessor> processor = [
     id: 7,
     image: "assets/cpu/Intel Core i9-12900K.png",
     name: "Intel Core i9-12900K",
-    socket: "AM4",
+    socket: "LGA1700",
     coreCount: "16",
     coreClock: "3.2 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "11,970",
+    price: 11970.00,
   ),
   ListProcessor(
     x1: 90,
@@ -139,7 +141,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "65 w",
     integrateGraphics: "none",
-    price: "8,524.61",
+    price: 8524.61,
   ),
   ListProcessor(
     x1: 90,
@@ -153,7 +155,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "105 w",
     integrateGraphics: "none",
-    price: "23,517.21",
+    price: 23517.21,
   ),
   ListProcessor(
     x1: 90,
@@ -167,7 +169,7 @@ List<ListProcessor> processor = [
     coreClock: "4.5 GHz",
     tdp: "170 w",
     integrateGraphics: "Radeon",
-    price: "41,097.36",
+    price: 41097.36,
   ),
   ListProcessor(
     x1: 90,
@@ -181,7 +183,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 7",
-    price: "8,650.43",
+    price: 8650.43,
   ),
   ListProcessor(
     x1: 90,
@@ -195,7 +197,7 @@ List<ListProcessor> processor = [
     coreClock: "4.5 GHz",
     tdp: "105 w",
     integrateGraphics: "Radeon",
-    price: "23,459.01",
+    price: 23459.01,
   ),
   ListProcessor(
     x1: 90,
@@ -209,7 +211,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "7,995.46",
+    price: 7995.46,
   ),
   ListProcessor(
     x1: 90,
@@ -223,7 +225,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "13,286.97",
+    price: 13286.97,
   ),
   ListProcessor(
     x1: 90,
@@ -237,7 +239,7 @@ List<ListProcessor> processor = [
     coreClock: "4.7 GHz",
     tdp: "105 w",
     integrateGraphics: "Radeon",
-    price: "17,579.56",
+    price: 17579.56,
   ),
   ListProcessor(
     x1: 90,
@@ -251,7 +253,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "58 w",
     integrateGraphics: "None",
-    price: "6,231.04",
+    price: 6231.04,
   ),
   ListProcessor(
     x1: 90,
@@ -265,7 +267,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "38,803.78",
+    price: 38803.78,
   ),
   ListProcessor(
     x1: 90,
@@ -279,7 +281,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "32,277.59",
+    price: 32277.59,
   ),
   ListProcessor(
     x1: 90,
@@ -293,7 +295,7 @@ List<ListProcessor> processor = [
     coreClock: "4.7 GHz",
     tdp: "170 w",
     integrateGraphics: "Radeon",
-    price: "32,278.18",
+    price: 32278.18,
   ),
   ListProcessor(
     x1: 90,
@@ -307,7 +309,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "7,114.13",
+    price: 7114.13,
   ),
   ListProcessor(
     x1: 90,
@@ -321,7 +323,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "7,583.31",
+    price: 7583.31,
   ),
   ListProcessor(
     x1: 90,
@@ -335,7 +337,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "25,868.99",
+    price: 25868.99,
   ),
   ListProcessor(
     x1: 90,
@@ -349,7 +351,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "19,401.60",
+    price: 19401.60,
   ),
   ListProcessor(
     x1: 90,
@@ -363,7 +365,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "4,644.18",
+    price: 4644.18,
   ),
   ListProcessor(
     x1: 90,
@@ -377,7 +379,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 8",
-    price: "13,815.53",
+    price: 13815.53,
   ),
   ListProcessor(
     x1: 90,
@@ -391,7 +393,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 750",
-    price: "17,825.32",
+    price: 17825.32,
   ),
   ListProcessor(
     x1: 90,
@@ -405,7 +407,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "7,842.89",
+    price: 7842.89,
   ),
   ListProcessor(
     x1: 90,
@@ -419,7 +421,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "5,308.03",
+    price: 5308.03,
   ),
   ListProcessor(
     x1: 90,
@@ -433,7 +435,7 @@ List<ListProcessor> processor = [
     coreClock: "2.5 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 730",
-    price: "11,403.19",
+    price: 11403.19,
   ),
   ListProcessor(
     x1: 90,
@@ -447,7 +449,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "6,493.85",
+    price: 6493.85,
   ),
   ListProcessor(
     x1: 90,
@@ -461,7 +463,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "150 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "38,144.70",
+    price: 38144.70,
   ),
   ListProcessor(
     x1: 90,
@@ -475,7 +477,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "14,992.60",
+    price: 14992.60,
   ),
   ListProcessor(
     x1: 90,
@@ -489,7 +491,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "21,635.79",
+    price: 21635.79,
   ),
   ListProcessor(
     x1: 90,
@@ -503,7 +505,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "280 w",
     integrateGraphics: "None",
-    price: "486,054.13",
+    price: 486054.13,
   ),
   ListProcessor(
     x1: 90,
@@ -517,7 +519,7 @@ List<ListProcessor> processor = [
     coreClock: "2.1 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "19,401.60",
+    price: 19401.60,
   ),
   ListProcessor(
     x1: 90,
@@ -531,7 +533,7 @@ List<ListProcessor> processor = [
     coreClock: "2.1 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "19,401.60",
+    price: 19401.60,
   ),
   ListProcessor(
     x1: 90,
@@ -545,7 +547,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "18,225.71",
+    price: 18225.71,
   ),
   ListProcessor(
     x1: 90,
@@ -559,7 +561,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "15638.75",
+    price: 15638.75,
   ),
   ListProcessor(
     x1: 90,
@@ -573,7 +575,7 @@ List<ListProcessor> processor = [
     coreClock: "2.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "9,935.68",
+    price: 9935.68,
   ),
   ListProcessor(
     x1: 90,
@@ -587,7 +589,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 750",
-    price: "20,872.05",
+    price: 20872.05,
   ),
   ListProcessor(
     x1: 90,
@@ -601,7 +603,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 750",
-    price: "11,170.37",
+    price: 11170.37,
   ),
   ListProcessor(
     x1: 90,
@@ -615,7 +617,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "20,284.10",
+    price: 20284.10,
   ),
   ListProcessor(
     x1: 90,
@@ -629,7 +631,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "60 w",
     integrateGraphics: "Intel UHD Graphics 730",
-    price: "7525.11",
+    price: 7525.11,
   ),
   ListProcessor(
     x1: 90,
@@ -643,7 +645,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "20,401.10",
+    price: 20401.10,
   ),
   ListProcessor(
     x1: 90,
@@ -657,7 +659,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "37,039.95",
+    price: 37039.95,
   ),
   ListProcessor(
     x1: 90,
@@ -671,7 +673,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "25,281.64",
+    price: 25281.64,
   ),
   ListProcessor(
     x1: 90,
@@ -685,7 +687,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "12,346.85",
+    price: 12346.85,
   ),
   ListProcessor(
     x1: 90,
@@ -699,7 +701,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "12,346.85",
+    price: 12346.85,
   ),
   ListProcessor(
     x1: 90,
@@ -713,7 +715,7 @@ List<ListProcessor> processor = [
     coreClock: "5.2 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "29,458.98",
+    price: 29458.98,
   ),
   ListProcessor(
     x1: 90,
@@ -727,7 +729,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "4,702.38",
+    price: 4702.38,
   ),
   ListProcessor(
     x1: 90,
@@ -741,7 +743,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 8",
-    price: "7,172.348",
+    price: 7172.34,
   ),
   ListProcessor(
     x1: 90,
@@ -755,7 +757,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "31,749.03",
+    price: 31749.03,
   ),
   ListProcessor(
     x1: 90,
@@ -769,7 +771,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "8,583.41",
+    price: 8583.41,
   ),
   ListProcessor(
     x1: 90,
@@ -783,7 +785,7 @@ List<ListProcessor> processor = [
     coreClock: "2.1 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "21,694.58",
+    price: 21694.58,
   ),
   ListProcessor(
     x1: 90,
@@ -797,7 +799,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "95 w",
     integrateGraphics: "None",
-    price: "14,404.65",
+    price: 14404.65,
   ),
   ListProcessor(
     x1: 90,
@@ -811,7 +813,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "24,860.08",
+    price: 24860.08,
   ),
   ListProcessor(
     x1: 90,
@@ -825,7 +827,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "13,934.30",
+    price: 13934.30,
   ),
   ListProcessor(
     x1: 90,
@@ -839,7 +841,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "6,893.07",
+    price: 6893.07,
   ),
   ListProcessor(
     x1: 90,
@@ -853,7 +855,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "14,933.80",
+    price: 14933.80,
   ),
   ListProcessor(
     x1: 90,
@@ -867,7 +869,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 7",
-    price: "8,128.93",
+    price: 8128.93,
   ),
   ListProcessor(
     x1: 90,
@@ -881,7 +883,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "14,933.80",
+    price: 14933.80,
   ),
   ListProcessor(
     x1: 90,
@@ -895,7 +897,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "19,402.19",
+    price: 19402.19,
   ),
   ListProcessor(
     x1: 90,
@@ -909,7 +911,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "15,579.95",
+    price: 15579.95,
   ),
   ListProcessor(
     x1: 90,
@@ -923,7 +925,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "7,795.56",
+    price: 7795.56,
   ),
   ListProcessor(
     x1: 90,
@@ -937,7 +939,7 @@ List<ListProcessor> processor = [
     coreClock: "4.2 GHz",
     tdp: "91 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "21,459.99",
+    price: 21459.99,
   ),
   ListProcessor(
     x1: 90,
@@ -951,7 +953,7 @@ List<ListProcessor> processor = [
     coreClock: "4 GHz",
     tdp: "91 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "14,698.63",
+    price: 14698.63,
   ),
   ListProcessor(
     x1: 90,
@@ -965,7 +967,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "15,093.72",
+    price: 15093.72,
   ),
   ListProcessor(
     x1: 90,
@@ -979,21 +981,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "5,872.98",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 68,
-    image: "assets/cpu/Intel Celeron E1400.png",
-    name: "Intel Celeron E1400",
-    socket: "LGA775",
-    coreCount: "2",
-    coreClock: "2 GHz",
-    tdp: "65 w",
-    integrateGraphics: "None",
-    price: "823.12",
+    price: 5872.98,
   ),
   ListProcessor(
     x1: 90,
@@ -1007,7 +995,7 @@ List<ListProcessor> processor = [
     coreClock: "2.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 730",
-    price: "10817.60",
+    price: 10817.60,
   ),
   ListProcessor(
     x1: 90,
@@ -1021,7 +1009,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "95 w",
     integrateGraphics: "None",
-    price: "13,522.74",
+    price: 13522.74,
   ),
   ListProcessor(
     x1: 90,
@@ -1035,7 +1023,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "13,522.74",
+    price: 13522.74,
   ),
   ListProcessor(
     x1: 90,
@@ -1049,7 +1037,7 @@ List<ListProcessor> processor = [
     coreClock: "4.1 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "12,228.67",
+    price: 12228.67,
   ),
   ListProcessor(
     x1: 90,
@@ -1063,7 +1051,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "14,698.04",
+    price: 14698.04,
   ),
   ListProcessor(
     x1: 90,
@@ -1077,7 +1065,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "9,406.53",
+    price: 9406.53,
   ),
   ListProcessor(
     x1: 90,
@@ -1091,7 +1079,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "21,753.38",
+    price: 21753.38,
   ),
   ListProcessor(
     x1: 90,
@@ -1105,7 +1093,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "105 w",
     integrateGraphics: "None",
-    price: "32,706.20",
+    price: 32706.20,
   ),
   ListProcessor(
     x1: 90,
@@ -1119,7 +1107,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "280 w",
     integrateGraphics: "None",
-    price: "202,841.03",
+    price: 202841.03,
   ),
   ListProcessor(
     x1: 90,
@@ -1133,7 +1121,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "17,048.05",
+    price: 17048.05,
   ),
   ListProcessor(
     x1: 90,
@@ -1147,7 +1135,7 @@ List<ListProcessor> processor = [
     coreClock: "4.1 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "11,758.31",
+    price: 11758.31,
   ),
   ListProcessor(
     x1: 90,
@@ -1161,21 +1149,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 11",
-    price: "12,228.67",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 81,
-    image: "assets/cpu/Intel Celeron G5900.png",
-    name: "Intel Celeron G5900",
-    socket: "LGA1200",
-    coreCount: "2",
-    coreClock: "3.4 GHz",
-    tdp: "58 w",
-    integrateGraphics: "Intel UHD Graphics 610",
-    price: "12,92.89",
+    price: 12228.67,
   ),
   ListProcessor(
     x1: 90,
@@ -1189,7 +1163,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "125 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "19,983.66",
+    price: 19983.66,
   ),
   ListProcessor(
     x1: 90,
@@ -1203,7 +1177,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "18,814.24",
+    price: 18814.24,
   ),
   ListProcessor(
     x1: 90,
@@ -1217,7 +1191,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "250 w",
     integrateGraphics: "None",
-    price: "175,795.56",
+    price: 175795.56,
   ),
   ListProcessor(
     x1: 90,
@@ -1231,7 +1205,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630.png",
-    price: "11,464.93",
+    price: 11464.93,
   ),
   ListProcessor(
     x1: 90,
@@ -1245,7 +1219,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "91 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "9,407.12",
+    price: 9407.12,
   ),
   ListProcessor(
     x1: 90,
@@ -1259,7 +1233,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "15,055.51",
+    price: 15055.51,
   ),
   ListProcessor(
     x1: 90,
@@ -1273,7 +1247,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "280 w",
     integrateGraphics: "None",
-    price: "118,182.82",
+    price: 118182.82,
   ),
   ListProcessor(
     x1: 90,
@@ -1287,7 +1261,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "13,609.75",
+    price: 13609.75,
   ),
   ListProcessor(
     x1: 90,
@@ -1301,7 +1275,7 @@ List<ListProcessor> processor = [
     coreClock: "2.4 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 770",
-    price: "29,396.66",
+    price: 29396.66,
   ),
   ListProcessor(
     x1: 90,
@@ -1315,21 +1289,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "125 w",
     integrateGraphics: "None",
-    price: "22,274.88",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 92,
-    image: "assets/cpu/Intel Celeron G6900.png",
-    name: "Intel Celeron G6900",
-    socket: "LGA1700",
-    coreCount: "2",
-    coreClock: "3.4 GHz",
-    tdp: "46 w",
-    integrateGraphics: "Intel UHD Graphics 710.png",
-    price: "3,350.70",
+    price: 22274.88,
   ),
   ListProcessor(
     x1: 90,
@@ -1343,7 +1303,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "35 w",
     integrateGraphics: "Radeon Vega 3",
-    price: "6,464.46",
+    price: 6464.46,
   ),
   ListProcessor(
     x1: 90,
@@ -1357,7 +1317,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "15,815.13",
+    price: 15815.13,
   ),
   ListProcessor(
     x1: 90,
@@ -1371,7 +1331,7 @@ List<ListProcessor> processor = [
     coreClock: "2.5 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "16,226.69",
+    price: 16226.69,
   ),
   ListProcessor(
     x1: 90,
@@ -1385,7 +1345,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "11,170.96",
+    price: 11170.96,
   ),
   ListProcessor(
     x1: 90,
@@ -1399,7 +1359,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "65 w",
     integrateGraphics: "Radeon Vega 8",
-    price: "10,583.01",
+    price: 10583.01,
   ),
   ListProcessor(
     x1: 90,
@@ -1413,7 +1373,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "16,286.08",
+    price: 16286.08,
   ),
   ListProcessor(
     x1: 90,
@@ -1427,7 +1387,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "15,286.57",
+    price: 15286.57,
   ),
   ListProcessor(
     x1: 90,
@@ -1441,7 +1401,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "75 w",
     integrateGraphics: "Intel HD Graphics 4000",
-    price: "7,937.26",
+    price: 7937.26,
   ),
   ListProcessor(
     x1: 90,
@@ -1455,7 +1415,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630.png",
-    price: "6,937.16",
+    price: 6937.16,
   ),
   ListProcessor(
     x1: 90,
@@ -1469,7 +1429,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "6,682.08",
+    price: 6682.08,
   ),
   ListProcessor(
     x1: 90,
@@ -1483,7 +1443,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630.png",
-    price: "9,877.85",
+    price: 9877.85,
   ),
   ListProcessor(
     x1: 90,
@@ -1497,7 +1457,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 2000.png",
-    price: "2,847.14",
+    price: 2847.14,
   ),
   ListProcessor(
     x1: 90,
@@ -1511,7 +1471,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "51 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "6,682.08",
+    price: 6682.08,
   ),
   ListProcessor(
     x1: 90,
@@ -1525,7 +1485,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "9,296.80",
+    price: 9296.80,
   ),
   ListProcessor(
     x1: 90,
@@ -1539,7 +1499,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "51 w",
     integrateGraphics: "Intel HD Graphics 630.png",
-    price: "6,682.08",
+    price: 6682.08,
   ),
   ListProcessor(
     x1: 90,
@@ -1553,7 +1513,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "73 w",
     integrateGraphics: "Intel HD Graphics",
-    price: "10,067.85",
+    price: 10067.85,
   ),
   ListProcessor(
     x1: 90,
@@ -1567,7 +1527,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 4400",
-    price: "4,482.22",
+    price: 4482.22,
   ),
   ListProcessor(
     x1: 90,
@@ -1581,7 +1541,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 4400",
-    price: "4,482.22",
+    price: 4482.22,
   ),
   ListProcessor(
     x1: 90,
@@ -1595,7 +1555,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "9,380.69",
+    price: 9380.69,
   ),
   ListProcessor(
     x1: 90,
@@ -1609,7 +1569,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "8,208.03",
+    price: 8208.03,
   ),
   ListProcessor(
     x1: 90,
@@ -1623,7 +1583,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 4400",
-    price: "5,109.28",
+    price: 5109.28,
   ),
   ListProcessor(
     x1: 90,
@@ -1637,7 +1597,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "51 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "5,278.73",
+    price: 5278.73,
   ),
   ListProcessor(
     x1: 90,
@@ -1651,7 +1611,7 @@ List<ListProcessor> processor = [
     coreClock: "4 GHz",
     tdp: "91 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "8,505.89",
+    price: 8505.89,
   ),
   ListProcessor(
     x1: 90,
@@ -1665,7 +1625,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "55 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "6,841.88",
+    price: 6841.88,
   ),
   ListProcessor(
     x1: 90,
@@ -1679,7 +1639,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "4,716.44",
+    price: 4716.44,
   ),
   ListProcessor(
     x1: 90,
@@ -1693,7 +1653,7 @@ List<ListProcessor> processor = [
     coreClock: "4.2 GHz",
     tdp: "60 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "7,445.80",
+    price: 7445.80,
   ),
   ListProcessor(
     x1: 90,
@@ -1707,7 +1667,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "55 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "4,104.31",
+    price: 4104.31,
   ),
   ListProcessor(
     x1: 90,
@@ -1721,7 +1681,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "8,794.36",
+    price: 8794.36,
   ),
   ListProcessor(
     x1: 90,
@@ -1735,7 +1695,7 @@ List<ListProcessor> processor = [
     coreClock: "4.1 GHz",
     tdp: "51 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "5,745.45",
+    price: 5745.45,
   ),
   ListProcessor(
     x1: 90,
@@ -1749,7 +1709,7 @@ List<ListProcessor> processor = [
     coreClock: "2.6 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "4,397.48",
+    price: 4397.48,
   ),
   ListProcessor(
     x1: 90,
@@ -1763,7 +1723,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "62 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "14,951.42",
+    price: 14951.42,
   ),
   ListProcessor(
     x1: 90,
@@ -1777,7 +1737,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "5,278.73",
+    price: 5278.73,
   ),
   ListProcessor(
     x1: 90,
@@ -1791,7 +1751,7 @@ List<ListProcessor> processor = [
     coreClock: "3.06 GHz",
     tdp: "73 w",
     integrateGraphics: "Intel HD Graphics",
-    price: "10,862.94",
+    price: 10862.94,
   ),
   ListProcessor(
     x1: 90,
@@ -1805,7 +1765,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 510",
-    price: "4,786.21",
+    price: 4786.21,
   ),
   ListProcessor(
     x1: 90,
@@ -1819,7 +1779,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 4400",
-    price: "7,329.13",
+    price: 7329.13,
   ),
   ListProcessor(
     x1: 90,
@@ -1833,7 +1793,7 @@ List<ListProcessor> processor = [
     coreClock: "3.9 GHz",
     tdp: "51 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "6,097.83",
+    price: 6097.83,
   ),
   ListProcessor(
     x1: 90,
@@ -1847,7 +1807,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "17,000.64",
+    price: 17000.64,
   ),
   ListProcessor(
     x1: 90,
@@ -1861,7 +1821,7 @@ List<ListProcessor> processor = [
     coreClock: "3.6 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "11,490.31",
+    price: 11490.31,
   ),
   ListProcessor(
     x1: 90,
@@ -1875,7 +1835,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "54 w",
     integrateGraphics: "Intel HD Graphics 400",
-    price: "19,055.14",
+    price: 19055.14,
   ),
   ListProcessor(
     x1: 90,
@@ -1889,7 +1849,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 3000",
-    price: "4,397.48",
+    price: 4397.48,
   ),
   ListProcessor(
     x1: 90,
@@ -1903,7 +1863,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "55 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "14,658.25",
+    price: 14658.25,
   ),
   ListProcessor(
     x1: 90,
@@ -1917,7 +1877,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "11,667.97",
+    price: 11667.97,
   ),
   ListProcessor(
     x1: 90,
@@ -1931,7 +1891,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "9,138.54",
+    price: 9138.54,
   ),
   ListProcessor(
     x1: 90,
@@ -1945,7 +1905,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "55 w",
     integrateGraphics: "Intel HD Graphics 4000",
-    price: "2,931.06",
+    price: 2931.06,
   ),
   ListProcessor(
     x1: 90,
@@ -1959,7 +1919,7 @@ List<ListProcessor> processor = [
     coreClock: "3.333 GHz",
     tdp: "73 w",
     integrateGraphics: "Intel HD Graphics",
-    price: "11,137.34",
+    price: 11137.34,
   ),
   ListProcessor(
     x1: 90,
@@ -1973,7 +1933,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 3000",
-    price: "8,912.22",
+    price: 8912.22,
   ),
   ListProcessor(
     x1: 90,
@@ -1987,7 +1947,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 3000",
-    price: "8,912.22",
+    price: 8912.22,
   ),
   ListProcessor(
     x1: 90,
@@ -2001,7 +1961,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "7,608.77",
+    price: 7608.77,
   ),
   ListProcessor(
     x1: 90,
@@ -2015,7 +1975,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "4,224.62",
+    price: 4224.62,
   ),
   ListProcessor(
     x1: 90,
@@ -2029,7 +1989,7 @@ List<ListProcessor> processor = [
     coreClock: "3.8 GHz",
     tdp: "91 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "10,535.22",
+    price: 10535.22,
   ),
   ListProcessor(
     x1: 90,
@@ -2043,7 +2003,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "88 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "7,901.42",
+    price: 7901.42,
   ),
   ListProcessor(
     x1: 90,
@@ -2057,7 +2017,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "8,779.35",
+    price: 8779.35,
   ),
   ListProcessor(
     x1: 90,
@@ -2071,7 +2031,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "5,852.90",
+    price: 5852.90,
   ),
   ListProcessor(
     x1: 90,
@@ -2085,7 +2045,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "9,949.93",
+    price: 9949.93,
   ),
   ListProcessor(
     x1: 90,
@@ -2099,7 +2059,7 @@ List<ListProcessor> processor = [
     coreClock: "3.7 GHz",
     tdp: "95 w",
     integrateGraphics: "None",
-    price: "10,418.16",
+    price: 10418.16,
   ),
   ListProcessor(
     x1: 90,
@@ -2113,7 +2073,7 @@ List<ListProcessor> processor = [
     coreClock: "3.2 GHz",
     tdp: "77 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "9,364.05",
+    price: 9364.05,
   ),
   ListProcessor(
     x1: 90,
@@ -2127,7 +2087,7 @@ List<ListProcessor> processor = [
     coreClock: "2.7 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 750",
-    price: "11,413.16",
+    price: 11413.16,
   ),
   ListProcessor(
     x1: 90,
@@ -2141,7 +2101,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "77 w",
     integrateGraphics: "Intel HD Graphics 4000",
-    price: "6,046.05",
+    price: 6046.05,
   ),
   ListProcessor(
     x1: 90,
@@ -2155,7 +2115,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "5651.59",
+    price: 5651.59,
   ),
   ListProcessor(
     x1: 90,
@@ -2169,7 +2129,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "12,832.02",
+    price: 12832.02,
   ),
   ListProcessor(
     x1: 90,
@@ -2183,7 +2143,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "11,896.40",
+    price: 11896.40,
   ),
   ListProcessor(
     x1: 90,
@@ -2197,7 +2157,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 750",
-    price: "13,940.87",
+    price: 13940.87,
   ),
   ListProcessor(
     x1: 90,
@@ -2211,7 +2171,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "15,457.45",
+    price: 15457.45,
   ),
   ListProcessor(
     x1: 90,
@@ -2225,7 +2185,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel HD Graphics 3000",
-    price: "13,649.22",
+    price: 13649.22,
   ),
   ListProcessor(
     x1: 90,
@@ -2239,7 +2199,7 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "8,093.87",
+    price: 8093.87,
   ),
   ListProcessor(
     x1: 90,
@@ -2253,7 +2213,7 @@ List<ListProcessor> processor = [
     coreClock: "3.4 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "4,608.65",
+    price: 4608.65,
   ),
   ListProcessor(
     x1: 90,
@@ -2267,7 +2227,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel IHD Graphics 630",
-    price: "15,632.44",
+    price: 15632.44,
   ),
   ListProcessor(
     x1: 90,
@@ -2281,7 +2241,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel IHD Graphics 630",
-    price: "15,632.44",
+    price: 15632.44,
   ),
   ListProcessor(
     x1: 90,
@@ -2295,7 +2255,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel IHD Graphics 630",
-    price: "17,656.49",
+    price: 17656.49,
   ),
   ListProcessor(
     x1: 90,
@@ -2309,7 +2269,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "84 w",
     integrateGraphics: "Intel IHD Graphics 4600",
-    price: "10,791.05",
+    price: 10791.05,
   ),
   ListProcessor(
     x1: 90,
@@ -2323,7 +2283,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel IHD Graphics 630",
-    price: "16,332.40",
+    price: 16332.40,
   ),
   ListProcessor(
     x1: 90,
@@ -2337,7 +2297,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "65 w",
     integrateGraphics: "None",
-    price: "11,079.78",
+    price: 11079.78,
   ),
   ListProcessor(
     x1: 90,
@@ -2351,7 +2311,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "5,185.54",
+    price: 5185.54,
   ),
   ListProcessor(
     x1: 90,
@@ -2365,7 +2325,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 510",
-    price: "7291.25",
+    price: 7291.25,
   ),
   ListProcessor(
     x1: 90,
@@ -2379,7 +2339,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "77 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "14,310.10",
+    price: 14310.10,
   ),
   ListProcessor(
     x1: 90,
@@ -2393,7 +2353,7 @@ List<ListProcessor> processor = [
     coreClock: "2.4 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "7,807.47",
+    price: 7807.47,
   ),
   ListProcessor(
     x1: 90,
@@ -2407,7 +2367,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel UHD Graphics 630",
-    price: "14,632.66",
+    price: 14632.66,
   ),
   ListProcessor(
     x1: 90,
@@ -2421,7 +2381,7 @@ List<ListProcessor> processor = [
     coreClock: "3.3 GHz",
     tdp: "77 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "19,558.63",
+    price: 19558.63,
   ),
   ListProcessor(
     x1: 90,
@@ -2435,7 +2395,7 @@ List<ListProcessor> processor = [
     coreClock: "3 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "14,579.58",
+    price: 14579.58,
   ),
   ListProcessor(
     x1: 90,
@@ -2449,7 +2409,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "95 w",
     integrateGraphics: "None",
-    price: "8,401.27",
+    price: 8401.27,
   ),
   ListProcessor(
     x1: 90,
@@ -2463,7 +2423,7 @@ List<ListProcessor> processor = [
     coreClock: "2.5 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "5,833.00",
+    price: 5833.00,
   ),
   ListProcessor(
     x1: 90,
@@ -2477,7 +2437,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 4600",
-    price: "7,867.55",
+    price: 7867.55,
   ),
   ListProcessor(
     x1: 90,
@@ -2491,7 +2451,7 @@ List<ListProcessor> processor = [
     coreClock: "2.9 GHz",
     tdp: "95 w",
     integrateGraphics: "Intel HD Graphics 2000",
-    price: "5,249.12",
+    price: 5249.12,
   ),
   ListProcessor(
     x1: 90,
@@ -2505,7 +2465,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "65 w",
     integrateGraphics: "Intel HD Graphics 2500",
-    price: "5,541.35",
+    price: 5541.35,
   ),
   ListProcessor(
     x1: 90,
@@ -2519,7 +2479,7 @@ List<ListProcessor> processor = [
     coreClock: "2.8 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "8,627.59",
+    price: 8627.59,
   ),
   ListProcessor(
     x1: 90,
@@ -2533,7 +2493,7 @@ List<ListProcessor> processor = [
     coreClock: "4 GHz",
     tdp: "112 w",
     integrateGraphics: "None",
-    price: "15,749.10",
+    price: 15749.10,
   ),
   ListProcessor(
     x1: 90,
@@ -2547,7 +2507,7 @@ List<ListProcessor> processor = [
     coreClock: "2.7 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 630",
-    price: "11,550.51",
+    price: 11550.51,
   ),
   ListProcessor(
     x1: 90,
@@ -2561,7 +2521,7 @@ List<ListProcessor> processor = [
     coreClock: "3.1 GHz",
     tdp: "95 w",
     integrateGraphics: "None",
-    price: "5,833.00",
+    price: 5833.00,
   ),
   ListProcessor(
     x1: 90,
@@ -2575,90 +2535,6 @@ List<ListProcessor> processor = [
     coreClock: "3.5 GHz",
     tdp: "35 w",
     integrateGraphics: "Intel HD Graphics 530",
-    price: "16,912.78",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 181,
-    image: "assets/cpu/Intel Core i5-660.png",
-    name: "Intel Core i5-660",
-    socket: "LGA1151",
-    coreCount: "2",
-    coreClock: "3.3 GHz",
-    tdp: "73 w",
-    integrateGraphics: "Intel HD Graphics",
-    price: "14,891.07",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 182,
-    image: "assets/cpu/Intel Core i5-750.png",
-    name: "Intel Core i5-750",
-    socket: "LGA1156",
-    coreCount: "4",
-    coreClock: "3.66 GHz",
-    tdp: "95 w",
-    integrateGraphics: "None",
-    price: "23,215.34",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 183,
-    image: "assets/cpu/Intel Core i5-3340.png",
-    name: "Intel Core i5-3340",
-    socket: "LGA1155",
-    coreCount: "4",
-    coreClock: "3.1 GHz",
-    tdp: "77 w",
-    integrateGraphics: "Intel HD Graphics 2500",
-    price: "16,216.91",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 184,
-    image: "assets/cpu/Intel Core i5-3330S.png",
-    name: "Intel Core i5-3330S",
-    socket: "LGA1155",
-    coreCount: "4",
-    coreClock: "2.7 GHz",
-    tdp: "65 w",
-    integrateGraphics: "Intel HD Graphics 2500",
-    price: "13,709.30",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 185,
-    image: "assets/cpu/Intel Core i5-4670S.png",
-    name: "Intel Core i5-4670S",
-    socket: "LGA1150",
-    coreCount: "4",
-    coreClock: "3.1 GHz",
-    tdp: "65 w",
-    integrateGraphics: "Intel HD Graphics 4600",
-    price: "35,814.62",
-  ),
-  ListProcessor(
-    x1: 90,
-    x2: 170,
-    image2D: "assets/animated/Cpu_Intel.png",
-    id: 186,
-    image: "assets/cpu/Intel Core i5-4670S.png",
-    name: "Intel Core i5-4670S",
-    socket: "LGA1150",
-    coreCount: "4",
-    coreClock: "3.1 GHz",
-    tdp: "65 w",
-    integrateGraphics: "Intel HD Graphics 4600",
-    price: "35,814.62",
+    price: 16912.78,
   ),
 ];

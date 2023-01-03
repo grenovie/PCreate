@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:test1/data/list_system_case.dart';
 
 class ItemCard extends StatefulWidget {
@@ -13,6 +14,8 @@ class ItemCard extends StatefulWidget {
   @override
   State<ItemCard> createState() => _ItemCardState();
 }
+
+NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
 class _ItemCardState extends State<ItemCard> {
   @override
@@ -64,7 +67,7 @@ class _ItemCardState extends State<ItemCard> {
                             color: Colors.black),
                       ),
                       Text(
-                        "\u20B1${widget.systemCase.price}",
+                        "\u20B1${myFormat.format(widget.systemCase.price)}",
                         style: const TextStyle(color: Colors.black),
                       ),
                     ],
