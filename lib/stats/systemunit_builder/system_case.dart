@@ -91,14 +91,19 @@ class _SystemCaseState extends State<SystemCase> {
   AppBar appBar(BuildContext context) {
     return AppBar(
       actions: [
-        IconButton(
-            onPressed: () {
-              updateListSearchNew();
-            },
-            icon: Icon(
-              Icons.sort,
-              color: Colors.white,
-            ))
+        Row(
+          children: [
+            TextButton(
+              onPressed: () {
+                updateListSearchNew();
+              },
+              child: Text(
+                "Low to High\nPrice",
+                style: TextStyle(fontSize: 12),
+              ),
+            ),
+          ],
+        )
       ],
       backgroundColor: Theme.of(context).primaryColorLight,
       title: const Text("System Case"),

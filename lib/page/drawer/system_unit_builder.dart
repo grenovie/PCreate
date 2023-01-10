@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:test1/stats/items_options/item_types.dart';
 import 'package:test1/widget/drawer_menu_widget.dart';
 
@@ -42,7 +43,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   Color color4 = Colors.white;
   Color color5 = Colors.white;
   Color color6 = Colors.white;
-  Color finalBtn = Colors.red;
+  Color finalBtn = Colors.redAccent;
   String? sysImg;
   String? sysProcessor;
   String? sysMemory;
@@ -70,7 +71,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
   double? p1;
   double? p2;
 
-  String? totalT = "";
+  double? totalT = 0.0;
   //! different vars below
   double? cpuX1 = 0;
   double? cpuX2 = 0;
@@ -127,26 +128,34 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
     setState(() {});
   }
 
+  final controller = PageController();
+  bool isLastPage = false;
+
   @override
   Widget build(BuildContext context) => Scaffold(
         key: _scaffoldKey,
         backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
           actions: [
-            IconButton(
-                onPressed: () {
-                  tutorialModal(context);
-                },
-                icon: Icon(
-                  Icons.question_mark,
-                  color: Colors.white,
-                ))
+            Row(
+              children: [
+                TextButton(
+                  onPressed: () {
+                    tutorialModal2(context);
+                  },
+                  child: Text(
+                    "How to use?",
+                    style: TextStyle(fontSize: 12),
+                  ),
+                ),
+              ],
+            )
           ],
           leading: DrawerMenuWidget(
             onClicked: widget.openDrawer,
           ),
           backgroundColor: Theme.of(context).primaryColorLight,
-          title: const Text('System Unit Builder'),
+          title: const Text('Computer Builder'),
         ),
         body: Column(
           children: [
@@ -750,6 +759,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                         child: RichText(
                             textAlign: TextAlign.left,
                             text: TextSpan(
+                              style: TextStyle(fontWeight: FontWeight.bold),
                               children: [
                                 TextSpan(text: "System Unit Case: ", children: [
                                   TextSpan(
@@ -757,9 +767,9 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                                         ? "\n"
                                         : "$systemUnitCase\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Motherboard: ", children: [
@@ -768,9 +778,9 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                                         ? "\n"
                                         : "$infoMotherboard\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Processor: ", children: [
@@ -779,18 +789,18 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                                         ? "\n"
                                         : "$infoProcessor\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Memory: ", children: [
                                   TextSpan(
                                     text: infoRAM == null ? "\n" : "$infoRAM\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Storage: ", children: [
@@ -799,27 +809,27 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                                         ? "\n"
                                         : "$infoStorage\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Power Supply: ", children: [
                                   TextSpan(
                                     text: infoPSU == null ? "\n" : "$infoPSU\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                                 TextSpan(text: "Graphics Card: ", children: [
                                   TextSpan(
                                     text: infoGPU == null ? "\n" : "$infoGPU\n",
                                     style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 14,
-                                        backgroundColor: Colors.white12),
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ]),
                               ],
@@ -832,16 +842,16 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                               const TextSpan(
                                 text: "Build Price: \u20B1",
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 17,
-                                    backgroundColor: Colors.white12),
+                                  fontWeight: FontWeight.normal,
+                                  fontSize: 17,
+                                ),
                               ),
                               TextSpan(
-                                text: "$totalT",
+                                text: "${myFormat.format(totalT)}",
                                 style: const TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 17,
-                                    backgroundColor: Colors.white12),
+                                  fontWeight: FontWeight.normal,
+                                  fontSize: 17,
+                                ),
                               ),
                             ],
                           ),
@@ -860,7 +870,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                             }
                           },
                           child: Container(
-                              width: 150,
+                              width: 120,
                               height: 50,
                               decoration: BoxDecoration(
                                   color: finalBtn,
@@ -871,13 +881,18 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
                                   ),
                                   borderRadius: const BorderRadius.all(
                                       Radius.circular(20))),
-                              child: const Center(
-                                  child: Text(
-                                "View Price",
-                                style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 17,
-                                    backgroundColor: Colors.white12),
+                              child: Center(
+                                  child: Row(
+                                children: [
+                                  Icon(size: 30, Icons.price_change),
+                                  Text(
+                                    "View Price",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 17,
+                                    ),
+                                  ),
+                                ],
                               ))),
                         ),
                       ),
@@ -888,150 +903,153 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
             ),
           ],
         ),
-        endDrawer: const Drawer(
-          backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        //END DRAWER HERE!
+        endDrawer: Drawer(
+          backgroundColor: Colors.blueGrey,
           width: 300,
           child: SafeArea(
-            child: EndDrawer(),
+            child: Container(
+                decoration: const BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("assets/BGbudget.jpg"),
+                      fit: BoxFit.cover,
+                      opacity: .4),
+                ),
+                child: EndDrawer()),
           ),
         ),
       );
 //modal area here for the tutorial
-  Future<void> tutorialModal(BuildContext context) {
+  Future<void> tutorialModal2(BuildContext context) {
     return showModalBottomSheet<void>(
+      isScrollControlled: true,
       barrierColor: Colors.transparent,
       backgroundColor: Colors.transparent,
       context: context,
       builder: (BuildContext context) {
-        return Container(
-          height: 500,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(20))),
-          child: ListView(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            children: [
-              Container(
-                margin: const EdgeInsets.only(bottom: 20),
-                color: Colors.greenAccent,
-                height: 30,
-                width: 50,
-                child: Text(
-                  "How it Works!",
-                  style: TextStyle(color: Colors.black, fontSize: 20),
-                  textAlign: TextAlign.center,
+        return Scaffold(
+          body: Container(
+            padding: const EdgeInsets.only(bottom: 80),
+            child: PageView(
+              controller: controller,
+              onPageChanged: (index) {
+                setState(() => isLastPage = index == 1);
+              },
+              children: [
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step1.png',
+                  title: 'STEP 1',
+                  subtitle: 'To select Computer Parts',
                 ),
-              ),
-              Container(
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
-                height: MediaQuery.of(context).size.height * .2,
-                width: MediaQuery.of(context).size.width * .5,
-                child: Row(
-                  children: [
-                    Expanded(
-                        child:
-                            Image.asset("assets/animated/computerparts.png")),
-                    Expanded(
-                        child: Text(
-                      'To Select Computer Parts press Button "Computer Parts"',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.black),
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step2.png',
+                  title: 'STEP 2',
+                  subtitle: 'Go to processor',
+                ),
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step3.png',
+                  title: 'STEP 3',
+                  subtitle: 'Select a processor',
+                ),
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step 4.png',
+                  title: 'STEP 4',
+                  subtitle: 'Tap the add button',
+                ),
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step4.png',
+                  title: 'STEP 5',
+                  subtitle:
+                      'After selecting item buttons will turn green, indicates you are done selecting items',
+                ),
+                buildpage(
+                  color: Color.fromARGB(255, 178, 190, 203),
+                  urlImage: 'assets/animated/step 5.png',
+                  title: 'STEP 6',
+                  subtitle:
+                      'Tap item button to play animation and to reverse animation just press and hold the item button',
+                ),
+              ],
+            ),
+          ),
+          bottomSheet: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            height: 80,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                TextButton(
+                    onPressed: () => controller.nextPage(
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeInOut),
+                    child: Text(
+                      "NEXT",
                     )),
-                  ],
+                Center(
+                  child: SmoothPageIndicator(
+                    controller: controller,
+                    count: 6,
+                  ),
                 ),
-              ),
-              //for transition
-              Container(
-                margin: const EdgeInsets.only(top: 20),
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
-                height: MediaQuery.of(context).size.height * .2,
-                width: MediaQuery.of(context).size.width * .5,
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: Image.asset("assets/animated/itembuttons.png")),
-                    Expanded(
-                        child: Text(
-                      'After selecting Computer Parts, these are the buttons to play the item transitions.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.black),
+                TextButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Text(
+                      "CLOSE",
                     )),
-                  ],
-                ),
-              ),
-              //active transition
-              Container(
-                margin: const EdgeInsets.only(top: 20),
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
-                height: MediaQuery.of(context).size.height * .2,
-                width: MediaQuery.of(context).size.width * .5,
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: Image.asset("assets/animated/itembuttons2.png")),
-                    Expanded(
-                        child: Text(
-                      'When you tap the button once, it will turn green, indicating that it is active and the item transition will play.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.black),
-                    )),
-                  ],
-                ),
-              ),
-              //reverse transition
-              Container(
-                margin: const EdgeInsets.only(top: 20),
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
-                height: MediaQuery.of(context).size.height * .2,
-                width: MediaQuery.of(context).size.width * .5,
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: Image.asset("assets/animated/itembuttons2.png")),
-                    Expanded(
-                        child: Text(
-                      'And press and hold the button to reverse the transition, and it will back to color white',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.black),
-                    )),
-                  ],
-                ),
-              ),
-              //inventory
-              Container(
-                margin: const EdgeInsets.only(top: 20),
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent,
-                    borderRadius: BorderRadius.all(Radius.circular(20))),
-                height: MediaQuery.of(context).size.height * .2,
-                width: MediaQuery.of(context).size.width * .5,
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: Image.asset("assets/animated/inventory.png")),
-                    Expanded(
-                        child: Text(
-                      'Inventory will open the side drawer and display all of the computer parts you selected.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.black),
-                    )),
-                  ],
-                ),
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },
     );
   }
+
+  Widget buildpage({
+    required Color color,
+    required String urlImage,
+    required String title,
+    required String subtitle,
+  }) =>
+      Container(
+        color: color,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              urlImage,
+              fit: BoxFit.contain,
+              height: MediaQuery.of(context).size.height * .50,
+              width: double.infinity,
+            ),
+            const SizedBox(height: 64),
+            Text(
+              title,
+              style: TextStyle(
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 24,
+            ),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Text(
+                subtitle,
+                style: const TextStyle(color: Colors.black, fontSize: 18),
+                textAlign: TextAlign.justify,
+              ),
+            ),
+          ],
+        ),
+      );
 
   void resetAll() {
     setState(() {
@@ -1056,7 +1074,7 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
       total = total + item;
     }
     setState(() {
-      totalT = total.toStringAsFixed(2);
+      totalT = total;
     });
   }
 

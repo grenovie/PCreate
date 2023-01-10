@@ -896,7 +896,7 @@ List<ListSystemCase> systemcase = [
     type: "ATX Mid Tower",
     color: "White",
     sidepannel: "Tempered Glass",
-    price: 169.99,
+    price: 7435.99,
   ),
   ListSystemCase(
     image2D: "assets/animated/SystemCase_White1.png",

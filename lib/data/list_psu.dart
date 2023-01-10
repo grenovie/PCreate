@@ -303,7 +303,7 @@ List<ListPowerSupply> powerSupply = [
     wattage: "750 W",
     modular: "Full",
     color: "White / Black",
-    price: 144.99,
+    price: 8113.57,
   ),
   ListPowerSupply(
     image2D: "assets/animated/Psu_Black.png",
@@ -519,7 +519,7 @@ List<ListPowerSupply> powerSupply = [
     wattage: "750 W",
     modular: "Full",
     color: "Black",
-    price: 119.98,
+    price: 6195.98,
   ),
   ListPowerSupply(
     image2D: "assets/animated/Psu_Black.png",

@@ -39,14 +39,19 @@ class _PowerSupplyState extends State<PowerSupply> {
       backgroundColor: Colors.transparent,
       appBar: AppBar(
         actions: [
-          IconButton(
-              onPressed: () {
-                updateListSearchNew();
-              },
-              icon: Icon(
-                Icons.sort,
-                color: Colors.white,
-              ))
+          Row(
+            children: [
+              TextButton(
+                onPressed: () {
+                  updateListSearchNew();
+                },
+                child: Text(
+                  "Low to High\nPrice",
+                  style: TextStyle(fontSize: 12),
+                ),
+              ),
+            ],
+          )
         ],
         backgroundColor: Theme.of(context).primaryColorLight,
         title: const Text("Power Supply"),

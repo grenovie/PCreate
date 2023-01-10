@@ -253,7 +253,10 @@ class _TroubleshootingState extends State<Troubleshooting> {
                                   //!Virus Scanner
                                   TextSpan(
                                       recognizer: TapGestureRecognizer()
-                                        ..onTap = () {},
+                                        ..onTap = () {
+                                          setVirusScanner();
+                                          getVirusScanner();
+                                        },
                                       text: "virus scanner",
                                       style: const TextStyle(
                                           fontWeight: FontWeight.normal,
@@ -265,7 +268,10 @@ class _TroubleshootingState extends State<Troubleshooting> {
                                   //!Malware
                                   TextSpan(
                                       recognizer: TapGestureRecognizer()
-                                        ..onTap = () {},
+                                        ..onTap = () {
+                                          setMalware();
+                                          getMalware();
+                                        },
                                       text: "malware ",
                                       style: const TextStyle(
                                           fontWeight: FontWeight.normal,
@@ -283,7 +289,10 @@ class _TroubleshootingState extends State<Troubleshooting> {
                                   //!Harddrive
                                   TextSpan(
                                       recognizer: TapGestureRecognizer()
-                                        ..onTap = () {},
+                                        ..onTap = () {
+                                          setHardDrive();
+                                          getHardDrive();
+                                        },
                                       text: "hard drive ",
                                       style: const TextStyle(
                                           fontWeight: FontWeight.normal,
@@ -400,16 +409,32 @@ class _TroubleshootingState extends State<Troubleshooting> {
                             padding: const EdgeInsets.all(8.0),
                             child: RichText(
                               textAlign: TextAlign.justify,
-                              text: const TextSpan(
+                              text: TextSpan(
                                 text: "PC keeps disconnecting from Wi-Fit\n",
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold),
                                 children: [
+                                  //!Network Card
                                   TextSpan(
                                       text:
-                                          "If your Wi-Fi is working fine but your PC keeps disconnecting from it, then your PC’s network card may not be receiving full power. Windows has a built-in power saver option that gives less power to the network card. You need to disable this feature:\n\n",
+                                          "If your Wi-Fi is working fine but your PC keeps disconnecting from it, then your PC’s ",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.normal)),
+                                  TextSpan(
+                                      recognizer: TapGestureRecognizer()
+                                        ..onTap = () {
+                                          setNetworkCard();
+                                          getNetworkCard();
+                                        },
+                                      text: "network card ",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.blue)),
+                                  TextSpan(
+                                      text:
+                                          "may not be receiving full power. Windows has a built-in power saver option that gives less power to the network card. You need to disable this feature:\n\n",
                                       style: TextStyle(
                                           fontWeight: FontWeight.normal)),
                                   TextSpan(
@@ -471,7 +496,7 @@ class _TroubleshootingState extends State<Troubleshooting> {
                             padding: const EdgeInsets.all(8.0),
                             child: RichText(
                               textAlign: TextAlign.justify,
-                              text: const TextSpan(
+                              text: TextSpan(
                                 text: "PC crashes before loading the OS\n",
                                 style: TextStyle(
                                     color: Colors.black,
@@ -480,7 +505,36 @@ class _TroubleshootingState extends State<Troubleshooting> {
                                 children: [
                                   TextSpan(
                                       text:
-                                          "If your PC only shows manufacturer logo and then crashes right before it was supposed to load the operating system, then it’s a problem with RAM or hard disk. As the OS is unable to load, then either the RAM is corrupted and can’t hold the boot loader or the hard drive is damaged and can’t load data inside it.\n\n",
+                                          "If your PC only shows manufacturer logo and then crashes right before it was supposed to load the operating system, then it’s a problem with ",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.normal)),
+                                  TextSpan(
+                                      recognizer: TapGestureRecognizer()
+                                        ..onTap = () {
+                                          setRAM();
+                                          getRAM();
+                                        },
+                                      text: "hard drive ",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.blue)),
+                                  TextSpan(
+                                      text: " or hard disk. As the ",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.normal)),
+                                  TextSpan(
+                                      recognizer: TapGestureRecognizer()
+                                        ..onTap = () {
+                                          setOS();
+                                          getOS();
+                                        },
+                                      text: "OS ",
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.blue)),
+                                  TextSpan(
+                                      text:
+                                          "is unable to load, then either the RAM is corrupted and can’t hold the boot loader or the hard drive is damaged and can’t load data inside it.\n\n",
                                       style: TextStyle(
                                           fontWeight: FontWeight.normal)),
                                   TextSpan(
@@ -541,40 +595,8 @@ class _TroubleshootingState extends State<Troubleshooting> {
                             ),
                           ),
                         ),
-                        //11
 
-                        Container(
-                          margin: EdgeInsets.only(top: 20),
-                          height: 300,
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              border: Border.all(
-                                color: const Color.fromARGB(255, 15, 59, 112),
-                              ),
-                              borderRadius:
-                                  const BorderRadius.all(Radius.circular(20))),
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: RichText(
-                              textAlign: TextAlign.justify,
-                              text: const TextSpan(
-                                text: "Blue Screen of Death\n",
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold),
-                                children: [
-                                  TextSpan(
-                                      text:
-                                          "The dreaded Blue Screen of Death (BSOD) can occur due to both software and hardware problems, but usually, it’s a hardware problem. Whatever the cause, BSOD requires immediate attention as it’s a sign of a big problem.\n\n",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.normal)),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                        //12
+                        //11
 
                         Container(
                           margin: EdgeInsets.only(top: 20),
@@ -631,27 +653,31 @@ class _TroubleshootingState extends State<Troubleshooting> {
                                   const BorderRadius.all(Radius.circular(20))),
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: RichText(
-                              textAlign: TextAlign.justify,
-                              text: const TextSpan(
-                                text: "Blank monitor\n",
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold),
-                                children: [
-                                  TextSpan(
-                                      text:
-                                          "If your monitor isn’t showing anything, then this could be a problem with the monitor itself or the graphics card. You should connect the monitor to another PC to see whether the problem is with the PC or the monitor.\n\n",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.normal)),
-                                  TextSpan(
-                                      text:
-                                          "If the monitor isn’t powering on at all, then replace the power cable with a working one and see if it helps. Here is a good article on how to fix a monitor that isn’t showing anything.\n\n",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.normal)),
-                                ],
-                              ),
+                            child: Column(
+                              children: [
+                                RichText(
+                                  textAlign: TextAlign.justify,
+                                  text: const TextSpan(
+                                    text: "Blank monitor\n",
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold),
+                                    children: [
+                                      TextSpan(
+                                          text:
+                                              "If your monitor isn’t showing anything, then this could be a problem with the monitor itself or the graphics card. You should connect the monitor to another PC to see whether the problem is with the PC or the monitor.\n\n",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.normal)),
+                                      TextSpan(
+                                          text:
+                                              "If the monitor isn’t powering on at all, then replace the power cable with a working one and see if it helps.\n\n",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.normal)),
+                                    ],
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -675,7 +701,6 @@ class _TroubleshootingState extends State<Troubleshooting> {
                       padding: const EdgeInsets.all(8.0),
                       child: RichText(
                           text: TextSpan(
-                              text: "Meaning: \n",
                               style: const TextStyle(
                                   color: Colors.black, fontSize: 17),
                               children: [TextSpan(text: meaning)])),
@@ -710,7 +735,7 @@ class _TroubleshootingState extends State<Troubleshooting> {
   Future<void> setVirusScanner() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setString("meaning",
-        "Virus Scanner\n\t-a device to which a piece of electrical equipment can be connected in order to provide it with electricity.");
+        "Virus Scanner\n\t- You'll find most antivirus software guards against malware. This can include threats like viruses and worms, as well as, spyware, Trojans, ransomware, and adware.");
   }
 
   Future<void> setSurgeProtector() async {
@@ -719,7 +744,61 @@ class _TroubleshootingState extends State<Troubleshooting> {
         "Surge Protector\n\t-A surge protector is an appliance or device intended to protect electrical devices from voltage spikes in alternating current (AC) circuits.");
   }
 
+  Future<void> setMalware() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "Malware\n\t-Malware is a catch-all term for any type of malicious software designed to harm or exploit any programmable device, service or network.");
+  }
+
+  Future<void> setHardDrive() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "HardDrive\n\t-A computer hard drive (or a hard disk or HDD) is one kind of technology that stores the operating system, applications, and data files such a documents.");
+  }
+
+  Future<void> setNetworkCard() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "Network Card\n\t-A network interface controller is a computer hardware component that connects a computer to a computer network..");
+  }
+
+  Future<void> setRAM() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "Random Access Memory\n\t-RAM allows your computer to perform many of its everyday tasks, such as loading applications, browsing the internet, editing a spreadsheet, or experiencing the latest game.");
+  }
+
+  Future<void> setOS() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    pref.setString("meaning",
+        "Operating System\n\t-An operating system is system software that manages computer hardware, software resources, and provides common services for computer programs.");
+  }
+
   //-->Meaning_getter this area.
+  void getOS() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
+  void getRAM() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
+  void getNetworkCard() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
+  void getHardDrive() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
   void getPowerOutlet() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     meaning = pref.getString('meaning');
@@ -727,6 +806,18 @@ class _TroubleshootingState extends State<Troubleshooting> {
   }
 
   void getSurgeProtector() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
+  void getVirusScanner() async {
+    final SharedPreferences pref = await SharedPreferences.getInstance();
+    meaning = pref.getString('meaning');
+    setState(() {});
+  }
+
+  void getMalware() async {
     final SharedPreferences pref = await SharedPreferences.getInstance();
     meaning = pref.getString('meaning');
     setState(() {});

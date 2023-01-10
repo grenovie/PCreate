@@ -17,17 +17,7 @@ class _ProcessorState extends State<Processor> {
   @override
   void initState() {
     super.initState();
-    // getSocket();
   }
-
-  // void updateList(String value) {
-  //   setState(() {
-  //     searched = processor
-  //         .where((element) =>
-  //             element.socket.toLowerCase().contains(value.toLowerCase()))
-  //         .toList();
-  //   });
-  // }
 
   void updateListSearch(String value) {
     setState(() {
@@ -51,14 +41,19 @@ class _ProcessorState extends State<Processor> {
       backgroundColor: Colors.transparent,
       appBar: AppBar(
         actions: [
-          IconButton(
-              onPressed: () {
-                updateListSearchNew();
-              },
-              icon: Icon(
-                Icons.sort,
-                color: Colors.white,
-              ))
+          Row(
+            children: [
+              TextButton(
+                onPressed: () {
+                  updateListSearchNew();
+                },
+                child: Text(
+                  "Low to High\nPrice",
+                  style: TextStyle(fontSize: 12),
+                ),
+              ),
+            ],
+          )
         ],
         backgroundColor: Theme.of(context).primaryColorLight,
         title: const Text("Processors"),
@@ -112,16 +107,6 @@ class _ProcessorState extends State<Processor> {
       ),
     );
   }
-
-  // void getSocket() async {
-  //   final SharedPreferences pref = await SharedPreferences.getInstance();
-  //   socket = pref.getString('compatible_socket');
-  //   setState(() {
-  //     updateList(socket == null ? "" : socket!);
-  //   });
-
-  //   setState(() {});
-  // }
 
   void getFilter() async {}
 }

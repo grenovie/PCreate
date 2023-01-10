@@ -47,7 +47,7 @@ class BodyPowerSupply extends StatelessWidget {
                               style: const TextStyle(
                                   backgroundColor: Colors.white12,
                                   color: Colors.white,
-                                  fontSize: 20),
+                                  fontSize: 18),
                               children: [
                                 TextSpan(
                                     text:

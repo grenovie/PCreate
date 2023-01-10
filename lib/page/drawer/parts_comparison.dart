@@ -20,25 +20,25 @@ class _PartsComparisonState extends State<PartsComparison> {
   String? compareImage;
   String? compareImage2;
   //infoStrings
-  String? info1P1 = ".";
-  String? info2P1 = ".";
-  String? info3P1 = ".";
-  String? info4P1 = ".";
-  String? info5P1 = ".";
-  String? info6P1 = ".";
-  String? info7P1 = ".";
-  String? info8P1 = ".";
-  String? info9P1 = ".";
+  String? info1P1 = "";
+  String? info2P1 = "";
+  String? info3P1 = "";
+  String? info4P1 = "";
+  String? info5P1 = "";
+  String? info6P1 = "";
+  String? info7P1 = "";
+  String? info8P1 = "";
+  String? info9P1 = "";
   //infoStringsPart2
-  String? info1P2 = ".";
-  String? info2P2 = ".";
-  String? info3P2 = ".";
-  String? info4P2 = ".";
-  String? info5P2 = ".";
-  String? info6P2 = ".";
-  String? info7P2 = ".";
-  String? info8P2 = ".";
-  String? info9P2 = ".";
+  String? info1P2 = "";
+  String? info2P2 = "";
+  String? info3P2 = "";
+  String? info4P2 = "";
+  String? info5P2 = "";
+  String? info6P2 = "";
+  String? info7P2 = "";
+  String? info8P2 = "";
+  String? info9P2 = "";
 
   @override
   void initState() {
@@ -280,7 +280,7 @@ class _PartsComparisonState extends State<PartsComparison> {
                             ]),
                         children: const [
                           TextSpan(
-                              text: "\n---------",
+                              text: "",
                               style: TextStyle(
                                   fontSize: 20,
                                   fontStyle: FontStyle.italic,

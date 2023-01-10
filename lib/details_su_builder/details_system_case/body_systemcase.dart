@@ -46,7 +46,7 @@ class BodySystemCase extends StatelessWidget {
                               style: const TextStyle(
                                   backgroundColor: Colors.white12,
                                   color: Colors.white,
-                                  fontSize: 23),
+                                  fontSize: 18),
                               children: [
                                 TextSpan(text: "Type: ${systemcase.type}\n\n"),
                                 TextSpan(
