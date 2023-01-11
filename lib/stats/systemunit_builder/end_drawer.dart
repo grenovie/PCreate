@@ -553,7 +553,7 @@ class _EndDrawerState extends State<EndDrawer> {
                       children: [
                         Icon(
                             color: Color.fromARGB(255, 255, 255, 255),
-                            Icons.restore_outlined),
+                            Icons.restart_alt),
                         const Text('Reset Items'),
                       ],
                     ),
@@ -586,7 +586,7 @@ class _EndDrawerState extends State<EndDrawer> {
                       children: [
                         Icon(
                             color: Color.fromARGB(255, 255, 255, 255),
-                            Icons.remove_circle_outline),
+                            Icons.clear),
                         const Text('Remove GPU'),
                       ],
                     ),

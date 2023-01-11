@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                           text:
                               "Building a computer is also a skill that you will take with you wherever you go. Building a PC allows you to handpick every component that goes into your machine. When you have total control over your computer's internal components, the final product can have a better overall build quality",
                           style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.bold),
+                              fontSize: 18, fontWeight: FontWeight.normal),
                           children: [
                             TextSpan(text: '', style: TextStyle(fontSize: 40)),
                           ]),
@@ -299,14 +299,14 @@ class _HomePageState extends State<HomePage> {
               },
               children: [
                 buildpage(
-                  color: Colors.blue.shade100,
+                  color: Colors.blueGrey,
                   urlImage: 'assets/animated/1.png',
                   title: 'To Access MENU',
                   subtitle:
                       'Click on the Icon in the upper right corner to open the MENU drawer.',
                 ),
                 buildpage(
-                  color: Colors.blue.shade100,
+                  color: Colors.blueGrey,
                   urlImage: 'assets/animated/2.png',
                   title: 'Features',
                   subtitle:
@@ -366,42 +366,38 @@ class _HomePageState extends State<HomePage> {
               },
               children: [
                 buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step1.png',
-                  title: 'STEP 1',
-                  subtitle: 'To select Computer Parts',
-                ),
-                buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step2.png',
-                  title: 'STEP 2',
-                  subtitle: 'Go to processor',
-                ),
-                buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step3.png',
-                  title: 'STEP 3',
-                  subtitle: 'Select a processor',
-                ),
-                buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step 4.png',
-                  title: 'STEP 4',
-                  subtitle: 'Tap the add button',
-                ),
-                buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step4.png',
-                  title: 'STEP 5',
+                  color: Colors.blueGrey,
+                  urlImage: 'assets/animated/manual1.png',
+                  title: '',
                   subtitle:
-                      'After selecting item buttons will turn green, indicates you are done selecting items',
+                      '1. To play the item animation.\n2. To access manual instructions.\n3. To access Computer Parts.\n4. To view Inventory.\n5. To view total price of computer.',
                 ),
                 buildpage(
-                  color: Color.fromARGB(255, 178, 190, 203),
-                  urlImage: 'assets/animated/step 5.png',
-                  title: 'STEP 6',
+                  color: Colors.blueGrey,
+                  urlImage: 'assets/animated/manual2.png',
+                  title: '',
                   subtitle:
-                      'Tap item button to play animation and to reverse animation just press and hold the item button',
+                      '6. To access the list of processors, all buttons in this area has same function.',
+                ),
+                buildpage(
+                  color: Colors.blueGrey,
+                  urlImage: 'assets/animated/manual3.png',
+                  title: '',
+                  subtitle:
+                      '7. To sort from Low to High price.\n8. Search bar.\n9. Item card of computer parts. Note: Clickable.',
+                ),
+                buildpage(
+                  color: Colors.blueGrey,
+                  urlImage: 'assets/animated/manual4.png',
+                  title: '',
+                  subtitle: '10. To add computer parts in Inventory.',
+                ),
+                buildpage(
+                  color: Colors.blueGrey,
+                  urlImage: 'assets/animated/manual5.png',
+                  title: '',
+                  subtitle:
+                      '11. To reset all items in Inventory.\n12. To remove the Graphics Card if you picked one.',
                 ),
               ],
             ),
@@ -447,7 +443,13 @@ class _HomePageState extends State<HomePage> {
     required String subtitle,
   }) =>
       Container(
-        color: color,
+        decoration: BoxDecoration(
+          color: color,
+          image: DecorationImage(
+              image: AssetImage("assets/BGbudget.jpg"),
+              fit: BoxFit.cover,
+              opacity: .4),
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -472,8 +474,9 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Text(
                 subtitle,
-                style: const TextStyle(color: Colors.black, fontSize: 18),
-                textAlign: TextAlign.justify,
+                style: const TextStyle(
+                    color: Color.fromARGB(255, 255, 255, 255), fontSize: 18),
+                textAlign: TextAlign.start,
               ),
             ),
           ],
