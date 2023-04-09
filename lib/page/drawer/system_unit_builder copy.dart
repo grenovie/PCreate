@@ -3,25 +3,21 @@ import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:test1/stats/items_options/item_types.dart';
-import 'package:test1/widget/drawer_menu_widget.dart';
 
 import '../../stats/systemunit_builder/end_drawer.dart';
 
-class SystemUnitBuilder extends StatefulWidget {
-  final VoidCallback openDrawer;
-
-  const SystemUnitBuilder({
+class SystemUnitBuilder2 extends StatefulWidget {
+  const SystemUnitBuilder2({
     Key? key,
-    required this.openDrawer,
   }) : super(key: key);
 
   @override
-  State<SystemUnitBuilder> createState() => _SystemUnitBuilderState();
+  State<SystemUnitBuilder2> createState() => _SystemUnitBuilder2State();
 }
 
 NumberFormat myFormat = NumberFormat.decimalPattern('en_us');
 
-class _SystemUnitBuilderState extends State<SystemUnitBuilder>
+class _SystemUnitBuilder2State extends State<SystemUnitBuilder2>
     with TickerProviderStateMixin {
   late final AnimationController caseController,
       cpuController,
@@ -151,9 +147,6 @@ class _SystemUnitBuilderState extends State<SystemUnitBuilder>
               ],
             )
           ],
-          leading: DrawerMenuWidget(
-            onClicked: widget.openDrawer,
-          ),
           backgroundColor: Theme.of(context).primaryColorLight,
           title: const Text('Computer Builder'),
         ),

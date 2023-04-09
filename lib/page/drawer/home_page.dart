@@ -1,6 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:test1/page/drawer/budget_computer%20copy.dart';
+import 'package:test1/page/drawer/system_unit_builder%20copy.dart';
+import 'package:test1/page/drawer/where_to_buy%20copy.dart';
 import 'package:test1/widget/drawer_menu_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,6 +19,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  late double xOffset;
+  late double yOffset;
+  late double scaleFactor;
+  late bool isDrawerOpen;
+
   final controller = PageController();
   bool isLastPage = false;
 
@@ -25,6 +33,12 @@ class _HomePageState extends State<HomePage> {
 
     super.dispose();
   }
+
+  void openDrawer() => setState(() {
+        xOffset = 230;
+        yOffset = 150;
+        scaleFactor = 0.6;
+      });
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -37,7 +51,6 @@ class _HomePageState extends State<HomePage> {
           title: const Text(''),
         ),
         body: Container(
-          width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage("assets/BGdev.jpg"),
@@ -61,7 +74,7 @@ class _HomePageState extends State<HomePage> {
                           TextSpan(
                               text: 'REATE', style: TextStyle(fontSize: 40)),
                           TextSpan(
-                              text: "\nABOUT APP",
+                              text: "\nHOMEPAGE",
                               style: TextStyle(
                                   fontSize: 20,
                                   fontStyle: FontStyle.italic,
@@ -114,6 +127,132 @@ class _HomePageState extends State<HomePage> {
                                   decoration: TextDecoration.underline)),
                         ]),
                   ),
+                ),
+                Container(
+                  margin: const EdgeInsets.only(bottom: 10),
+                  child: Center(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: const TextSpan(
+                          text: "SHORTCUT BUTTONS",
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
+                          children: [
+                            TextSpan(text: '', style: TextStyle(fontSize: 40)),
+                          ]),
+                    ),
+                  ),
+                ),
+                Column(
+                  children: [
+                    SizedBox(
+                      width: 200,
+                      height: 60,
+                      child: TextButton(
+                        style: TextButton.styleFrom(
+                          side: BorderSide(color: Colors.blue, width: 3),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20)),
+                          foregroundColor: Color.fromARGB(255, 255, 255, 255),
+                          backgroundColor: Color.fromARGB(255, 31, 91, 121),
+                          padding: const EdgeInsets.all(5.0),
+                          textStyle: const TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SystemUnitBuilder2()));
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                Icons.computer),
+                            const Text(
+                              'System Unit Builder',
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    SizedBox(
+                      width: 200,
+                      height: 60,
+                      child: TextButton(
+                        style: TextButton.styleFrom(
+                          side: BorderSide(color: Colors.blue, width: 3),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20)),
+                          foregroundColor: Color.fromARGB(255, 255, 255, 255),
+                          backgroundColor: Color.fromARGB(255, 31, 91, 121),
+                          padding: const EdgeInsets.all(5.0),
+                          textStyle: const TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) =>
+                                      const BudgetComputer2()));
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                Icons.computer),
+                            const Text(
+                              'Budget Computer',
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    SizedBox(
+                      width: 200,
+                      height: 60,
+                      child: TextButton(
+                        style: TextButton.styleFrom(
+                          side: BorderSide(color: Colors.blue, width: 3),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20)),
+                          foregroundColor: Color.fromARGB(255, 255, 255, 255),
+                          backgroundColor: Color.fromARGB(255, 31, 91, 121),
+                          padding: const EdgeInsets.all(5.0),
+                          textStyle: const TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const WhereToBuy2()));
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                Icons.computer),
+                            const Text(
+                              'Computer Store',
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 50,
                 ),
                 Container(
                   margin: const EdgeInsets.only(bottom: 10),
@@ -377,27 +516,27 @@ class _HomePageState extends State<HomePage> {
                   urlImage: 'assets/animated/manual2.png',
                   title: '',
                   subtitle:
-                      '6. To access the list of processors, all buttons in this area has same function.',
+                      '1. To access the list of processors, all buttons in this area has same function.',
                 ),
                 buildpage(
                   color: Colors.blueGrey,
                   urlImage: 'assets/animated/manual3.png',
                   title: '',
                   subtitle:
-                      '7. To sort from Low to High price.\n8. Search bar.\n9. Item card of computer parts. Note: Clickable.',
+                      '1. To sort from Low to High price.\n2. Search bar.\n3. Item card of computer parts. Note: Clickable.',
                 ),
                 buildpage(
                   color: Colors.blueGrey,
                   urlImage: 'assets/animated/manual4.png',
                   title: '',
-                  subtitle: '10. To add computer parts in Inventory.',
+                  subtitle: '1. To add computer parts in Inventory.',
                 ),
                 buildpage(
                   color: Colors.blueGrey,
                   urlImage: 'assets/animated/manual5.png',
                   title: '',
                   subtitle:
-                      '11. To reset all items in Inventory.\n12. To remove the Graphics Card if you picked one.',
+                      '1. To reset all items in Inventory.\n2. To remove the Graphics Card if you picked one.',
                 ),
               ],
             ),
